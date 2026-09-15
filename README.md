@@ -41,6 +41,16 @@ npm run check
 
 O artefato de produção é gerado em `dist/`. Não há `typecheck` separado porque o projeto usa JavaScript sem TypeScript; a sintaxe e os principais contratos de dados são cobertos pelo lint e pelos testes.
 
+## Importação das áreas de conhecimento
+
+As perguntas das sessões 1 a 15 podem ser atualizadas a partir dos arquivos `Gabarito*.txt` do material de origem:
+
+```powershell
+npm run import:knowledge -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8\1. Fundamentos de gerenciamento de projetos e entrega de valor"
+```
+
+O importador valida a quantidade declarada, as alternativas e o gabarito antes de substituir as sessões. Sessões posteriores são preservadas.
+
 ## Autenticação e variáveis de ambiente
 
 Esta versão é uma aplicação local estática e não possui backend de autenticação. A tela inicial oferece apenas acesso local ao painel e não deve ser apresentada como uma barreira de segurança.
@@ -62,11 +72,13 @@ Qualquer falha encerra o job com erro.
 
 ## Deploy
 
-O workflow `.github/workflows/deploy.yml` publica em GitHub Pages somente quando o workflow `CI` termina com sucesso para um `push` na branch `main`. O deploy faz checkout exato do commit validado, instala dependências sem cache privilegiado, refaz o build e publica `dist/`.
+O workflow `.github/workflows/deploy.yml` publica em GitHub Pages somente quando a variável de repositório `ENABLE_GITHUB_PAGES` é `true` e o workflow `CI` termina com sucesso para um `push` na branch `main`. O deploy faz checkout exato do commit validado, instala dependências sem cache privilegiado, refaz o build e publica `dist/`.
 
 Não são necessários secrets. O workflow usa apenas o `GITHUB_TOKEN` efêmero com permissões mínimas de Pages e OIDC.
 
-Antes do primeiro deploy, configure o repositório no GitHub em **Settings > Pages > Build and deployment > Source > GitHub Actions**. Depois do primeiro push para `main`, o deploy é automático. Para repetir manualmente um deploy, abra a execução concluída do workflow **Deploy** no GitHub Actions e selecione **Re-run jobs**; isso reutiliza um commit cujo CI já passou.
+Antes do primeiro deploy, configure o repositório no GitHub em **Settings > Pages > Build and deployment > Source > GitHub Actions** e crie `ENABLE_GITHUB_PAGES=true` em **Settings > Secrets and variables > Actions > Variables**. Depois de configurado, cada CI aprovado em `main` inicia o deploy automaticamente. Para repetir manualmente um deploy, abra a execução concluída do workflow **Deploy** no GitHub Actions e selecione **Re-run jobs**; isso reutiliza um commit cujo CI já passou.
+
+O plano atual da conta não permite GitHub Pages enquanto este repositório for privado. Até que o plano seja alterado, outro provedor seja escolhido ou a visibilidade seja modificada com autorização explícita, mantenha `ENABLE_GITHUB_PAGES` ausente; o job de deploy ficará marcado como ignorado e nenhuma publicação será simulada.
 
 ## Publicação
 

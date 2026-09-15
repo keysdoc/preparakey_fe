@@ -53,6 +53,16 @@ test("service worker armazena apenas recursos existentes", async () => {
   }
 });
 
+test("versão do aplicativo invalida o cache da PWA", async () => {
+  const packageMetadata = JSON.parse(await read("package.json"));
+  const configContext = { window: {} };
+  vm.runInNewContext(await read("js/config.js"), configContext);
+  const serviceWorker = await read("sw.js");
+
+  assert.equal(configContext.window.PREPARAKEY_CONFIG.version, packageMetadata.version);
+  assert.ok(serviceWorker.includes(`const CACHE='preparakey-v${packageMetadata.version}'`));
+});
+
 test("banco de questões possui IDs e respostas consistentes", async () => {
   const context = { window: {} };
   vm.runInNewContext(await read("js/questions.js"), context);
@@ -84,6 +94,27 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
     assert.ok(question.answer.every((answer) => optionIds.has(answer)), question.id);
     assert.equal(question.required, question.answer.length, question.id);
   }
+});
+
+test("sessões 1 a 15 contêm todas as perguntas do material de origem", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const sessions = context.window.PREPARAKEY_QUESTIONS.areas[0].sessions;
+  const expectedCounts = [9, 8, 9, 8, 8, 8, 8, 9, 9, 8, 8, 9, 8, 8, 7];
+
+  for (const [index, expectedCount] of expectedCounts.entries()) {
+    const sessionNumber = index + 1;
+    const session = sessions.find((item) => item.number === sessionNumber);
+    assert.ok(session, `sessão ${sessionNumber} ausente`);
+    assert.equal(session.questions.length, expectedCount, `sessão ${sessionNumber}`);
+    assert.deepEqual(
+      Array.from(session.questions, (question) => question.number),
+      Array.from({ length: expectedCount }, (_, questionIndex) => questionIndex + 1),
+      `numeração da sessão ${sessionNumber}`
+    );
+  }
+
+  assert.equal(expectedCounts.reduce((total, count) => total + count, 0), 124);
 });
 
 test("página inicial não contém credenciais embutidas", async () => {

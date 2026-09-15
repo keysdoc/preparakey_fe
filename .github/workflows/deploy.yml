@@ -20,6 +20,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     if: >-
+      vars.ENABLE_GITHUB_PAGES == 'true' &&
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.event == 'push' &&
       github.event.workflow_run.head_branch == 'main'
