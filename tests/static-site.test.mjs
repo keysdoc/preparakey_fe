@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
@@ -96,25 +97,33 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
   }
 });
 
-test("sessões 1 a 15 contêm todas as perguntas do material de origem", async () => {
+test("somente a nova base autorizada é carregada", async () => {
   const context = { window: {} };
   vm.runInNewContext(await read("js/questions.js"), context);
-  const sessions = context.window.PREPARAKEY_QUESTIONS.areas[0].sessions;
-  const expectedCounts = [9, 8, 9, 8, 8, 8, 8, 9, 9, 8, 8, 9, 8, 8, 7];
+  const data = context.window.PREPARAKEY_QUESTIONS;
+  const sessions = data.areas[0].sessions;
+  const questions = sessions[0].questions;
 
-  for (const [index, expectedCount] of expectedCounts.entries()) {
-    const sessionNumber = index + 1;
-    const session = sessions.find((item) => item.number === sessionNumber);
-    assert.ok(session, `sessão ${sessionNumber} ausente`);
-    assert.equal(session.questions.length, expectedCount, `sessão ${sessionNumber}`);
-    assert.deepEqual(
-      Array.from(session.questions, (question) => question.number),
-      Array.from({ length: expectedCount }, (_, questionIndex) => questionIndex + 1),
-      `numeração da sessão ${sessionNumber}`
-    );
-  }
+  assert.equal(data.simulados.length, 0, "simulados legados ainda presentes");
+  assert.equal(data.areas.length, 1);
+  assert.equal(sessions.length, 1, "sessões legadas ainda presentes");
+  assert.equal(questions.length, 9, "a nova base atual contém 9 questões");
+  assert.deepEqual(Array.from(questions, (question) => question.number), [1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  assert.deepEqual(Array.from(questions, (question) => question.id), [
+    "fund-s1-q1", "fund-s1-q2", "fund-s1-q3", "fund-s1-q4", "fund-s1-q5",
+    "fund-s1-q6", "fund-s1-q7", "fund-s1-q8", "fund-s1-q9"
+  ]);
+  assert.ok(questions.every((question) => question.number <= 15));
+});
 
-  assert.equal(expectedCounts.reduce((total, count) => total + count, 0), 124);
+test("Questão 1 pronta permanece inalterada", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const question = context.window.PREPARAKEY_QUESTIONS.areas[0].sessions[0].questions[0];
+  const fingerprint = createHash("sha256").update(JSON.stringify(question)).digest("hex");
+
+  assert.equal(fingerprint, "e790ab4ece0b622b735ae7ab14a41b3b21116bbddd580735302bfcb552657f76");
+  assert.deepEqual(Array.from(question.answer), ["D"]);
 });
 
 test("página inicial não contém credenciais embutidas", async () => {

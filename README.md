@@ -41,15 +41,19 @@ npm run check
 
 O artefato de produção é gerado em `dist/`. Não há `typecheck` separado porque o projeto usa JavaScript sem TypeScript; a sintaxe e os principais contratos de dados são cobertos pelo lint e pelos testes.
 
-## Importação das áreas de conhecimento
+## Importação da área de conhecimento
 
-As perguntas das sessões 1 a 15 podem ser atualizadas a partir dos arquivos `Gabarito*.txt` do material de origem:
+A fonte exclusiva das perguntas é `BASE\Area de Conhecimento`. A primeira base é importada do arquivo `Gabarito.txt` localizado em:
+
+`BASE\Area de Conhecimento\1. Fundamentos de gerenciamento de projetos e entrega de valor\1`
+
+Para reaplicar essa base:
 
 ```powershell
-npm run import:knowledge -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8\1. Fundamentos de gerenciamento de projetos e entrega de valor"
+npm run import:knowledge -- --source "C:\Users\adm\Documents\KEYPROJETOS\PRODUTOS\PREPARATORIO\BASE\Area de Conhecimento\1. Fundamentos de gerenciamento de projetos e entrega de valor\1"
 ```
 
-O importador valida a quantidade declarada, as alternativas e o gabarito antes de substituir as sessões. Sessões posteriores são preservadas.
+O importador aceita somente Questões 1–15, preserva a Questão 1 pronta quando ela corresponde à fonte e remove simulados, sessões e perguntas legadas. A base disponível atualmente contém Questões 1–9; não existem dados para as Questões 10–15 e o importador não inventa conteúdo ausente.
 
 ## Autenticação e variáveis de ambiente
 
