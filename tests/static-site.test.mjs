@@ -102,18 +102,47 @@ test("somente a nova base autorizada é carregada", async () => {
   vm.runInNewContext(await read("js/questions.js"), context);
   const data = context.window.PREPARAKEY_QUESTIONS;
   const sessions = data.areas[0].sessions;
-  const questions = sessions[0].questions;
+  const expectedCounts = [9, 8, 9, 8, 8, 8, 8, 9, 9, 8, 8, 9, 8, 8, 7, 9];
+  const questions = sessions.flatMap((session) => session.questions);
 
   assert.equal(data.simulados.length, 0, "simulados legados ainda presentes");
   assert.equal(data.areas.length, 1);
-  assert.equal(sessions.length, 1, "sessões legadas ainda presentes");
-  assert.equal(questions.length, 9, "a nova base atual contém 9 questões");
-  assert.deepEqual(Array.from(questions, (question) => question.number), [1, 2, 3, 4, 5, 6, 7, 8, 9]);
-  assert.deepEqual(Array.from(questions, (question) => question.id), [
-    "fund-s1-q1", "fund-s1-q2", "fund-s1-q3", "fund-s1-q4", "fund-s1-q5",
-    "fund-s1-q6", "fund-s1-q7", "fund-s1-q8", "fund-s1-q9"
+  assert.equal(sessions.length, 16, "a nova base deve conter somente as sessões 1–16");
+
+  for (const [index, expectedCount] of expectedCounts.entries()) {
+    const sessionNumber = index + 1;
+    const session = sessions[index];
+    assert.equal(session.number, sessionNumber, `ordem da sessão ${sessionNumber}`);
+    assert.equal(session.questions.length, expectedCount, `quantidade da sessão ${sessionNumber}`);
+    assert.deepEqual(
+      Array.from(session.questions, (question) => question.number),
+      Array.from({ length: expectedCount }, (_, questionIndex) => questionIndex + 1),
+      `numeração da sessão ${sessionNumber}`
+    );
+    assert.ok(
+      session.questions.every((question) => question.id === `fund-s${sessionNumber}-q${question.number}`),
+      `IDs da sessão ${sessionNumber}`
+    );
+  }
+
+  assert.equal(questions.length, 133);
+  assert.equal(new Set(questions.map((question) => question.id)).size, 133);
+  assert.ok(questions.every((question) => question.session >= 1 && question.session <= 16));
+});
+
+test("questão de associação da sessão 16 usa somente os pares da fonte", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const question = context.window.PREPARAKEY_QUESTIONS.areas[0].sessions[15].questions[4];
+
+  assert.equal(question.id, "fund-s16-q5");
+  assert.equal(question.type, "matching");
+  assert.deepEqual(Array.from(question.pairs, (pair) => `${pair.left}=${pair.right}`), [
+    "Ágil=Valor para o cliente por meio de entregas e feedback frequentes",
+    "Iterativa=Correção da solução",
+    "Incremental=Velocidade",
+    "Preditiva=Gerenciamento do custo"
   ]);
-  assert.ok(questions.every((question) => question.number <= 15));
 });
 
 test("Questão 1 pronta permanece inalterada", async () => {
