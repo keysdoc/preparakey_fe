@@ -73,10 +73,7 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
   assert.ok(Array.isArray(data.simulados));
   assert.ok(Array.isArray(data.areas));
 
-  const questions = [
-    ...data.simulados.flatMap((exam) => exam.questions),
-    ...data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions))
-  ];
+  const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
   const ids = new Set();
 
   assert.ok(questions.length > 0);
@@ -105,7 +102,7 @@ test("somente a nova base autorizada é carregada", async () => {
   const expectedCounts = [9, 8, 9, 8, 8, 8, 8, 9, 9, 8, 8, 9, 8, 8, 7, 9];
   const questions = sessions.flatMap((session) => session.questions);
 
-  assert.equal(data.simulados.length, 0, "simulados legados ainda presentes");
+  assert.equal(data.simulados.length, 1, "deve existir somente o simulado derivado da nova base");
   assert.equal(data.areas.length, 1);
   assert.equal(sessions.length, 16, "a nova base deve conter somente as sessões 1–16");
 
@@ -128,6 +125,25 @@ test("somente a nova base autorizada é carregada", async () => {
   assert.equal(questions.length, 133);
   assert.equal(new Set(questions.map((question) => question.id)).size, 133);
   assert.ok(questions.every((question) => question.session >= 1 && question.session <= 16));
+});
+
+test("simulado consolida as 16 sessões sem duplicar o banco de questões", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const data = context.window.PREPARAKEY_QUESTIONS;
+  const exam = data.simulados[0];
+  const sessions = data.areas[0].sessions;
+  const sessionIds = new Set(exam.sessionIds);
+  const examQuestions = sessions
+    .filter((session) => sessionIds.has(session.id))
+    .flatMap((session) => session.questions);
+
+  assert.equal(exam.id, "simulado-fundamentos-1-16");
+  assert.equal(exam.available, true);
+  assert.equal(exam.questions, undefined, "o simulado deve referenciar a base, não duplicá-la");
+  assert.deepEqual(Array.from(exam.sessionIds), Array.from({ length: 16 }, (_, index) => `fund-s${index + 1}`));
+  assert.equal(examQuestions.length, 133);
+  assert.equal(new Set(examQuestions.map((question) => question.id)).size, 133);
 });
 
 test("questão de associação da sessão 16 usa somente os pares da fonte", async () => {

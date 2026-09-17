@@ -53,7 +53,9 @@ Para reaplicar toda a base:
 npm run import:knowledge -- --source "C:\Users\adm\Documents\KEYPROJETOS\PRODUTOS\PREPARATORIO\BASE\Area de Conhecimento\1. Fundamentos de gerenciamento de projetos e entrega de valor"
 ```
 
-O importador exige exatamente as pastas 1–16, valida a numeração e o gabarito de cada sessão, preserva a Questão 1 pronta quando ela corresponde à fonte e remove simulados, sessões e perguntas legadas. A base atual contém 16 sessões e 133 questões. A Questão 5 da Sessão 16 utiliza o componente de associação existente com os quatro pares declarados na fonte.
+O importador exige as pastas 1–16, valida a numeração e o gabarito de cada sessão, preserva a Questão 1 pronta quando ela corresponde à fonte e remove perguntas legadas. Arquivos `Gabarito*.txt` duplicados são aceitos somente quando o conteúdo é idêntico; versões conflitantes interrompem a importação.
+
+A base atual contém 16 sessões e 133 questões. Essas mesmas questões alimentam um simulado completo por referência às sessões, sem duplicação de conteúdo ou IDs. A Questão 5 da Sessão 16 utiliza o componente de associação existente com os quatro pares declarados na fonte.
 
 ## Autenticação e variáveis de ambiente
 

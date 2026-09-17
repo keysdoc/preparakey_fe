@@ -162,20 +162,32 @@ function parseQuestions(contents, sessionNumber) {
 async function importSession(sessionNumber) {
   const sessionDirectory = path.join(sourceRoot, String(sessionNumber));
   const sourceFiles = await readdir(sessionDirectory, { withFileTypes: true });
-  const answerFiles = sourceFiles.filter((file) => file.isFile() && /^Gabarito.*\.txt$/i.test(file.name));
+  const answerFiles = sourceFiles
+    .filter((file) => file.isFile() && /^Gabarito.*\.txt$/i.test(file.name))
+    .sort((left, right) => left.name.localeCompare(right.name, "pt-BR"));
 
-  if (answerFiles.length !== 1) {
+  if (answerFiles.length === 0) {
+    throw new Error(`Sessão ${sessionNumber}: nenhum Gabarito TXT encontrado.`);
+  }
+
+  const candidateContents = await Promise.all(
+    answerFiles.map(async (file) => ({
+      name: file.name,
+      contents: (await readFile(path.join(sessionDirectory, file.name), "utf8")).replace(/\r\n?/g, "\n")
+    }))
+  );
+  if (new Set(candidateContents.map((candidate) => candidate.contents)).size !== 1) {
     throw new Error(
-      `Sessão ${sessionNumber}: esperado um Gabarito TXT, encontrados ${answerFiles.length}.`
+      `Sessão ${sessionNumber}: Gabaritos TXT conflitantes: ${answerFiles.map((file) => file.name).join(", ")}.`
     );
   }
 
-  const sourceContents = await readFile(path.join(sessionDirectory, answerFiles[0].name), "utf8");
+  const sourceContents = candidateContents[0].contents;
   return {
     id: `fund-s${sessionNumber}`,
     number: sessionNumber,
     title: `Sessão ${sessionNumber}`,
-    questions: parseQuestions(sourceContents.replace(/\r\n?/g, "\n"), sessionNumber),
+    questions: parseQuestions(sourceContents, sessionNumber),
     available: true,
     note: ""
   };
@@ -207,7 +219,14 @@ if (JSON.stringify(comparableFields(existingQuestionOne)) !== JSON.stringify(com
 }
 
 importedSessions[0].questions[0] = existingQuestionOne;
-questionBank.simulados = [];
+questionBank.simulados = [
+  {
+    id: "simulado-fundamentos-1-16",
+    title: "Simulado — Fundamentos (Sessões 1–16)",
+    available: true,
+    sessionIds: importedSessions.map((session) => session.id)
+  }
+];
 questionBank.areas = [
   {
     id: "fundamentos",
@@ -216,7 +235,7 @@ questionBank.areas = [
   }
 ];
 questionBank.missingSessions = [];
-questionBank.generatedAt = "2026-09-16";
+questionBank.generatedAt = "2026-09-17";
 
 await writeFile(
   questionBankPath,
@@ -226,5 +245,5 @@ await writeFile(
 
 const totalQuestions = importedSessions.reduce((total, session) => total + session.questions.length, 0);
 console.log(
-  `Nova base aplicada: Questão 1 preservada, ${importedSessions.length} sessões e ${totalQuestions} questões.`
+  `Nova base aplicada: Questão 1 preservada, ${importedSessions.length} sessões e simulado com ${totalQuestions} questões.`
 );

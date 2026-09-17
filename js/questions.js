@@ -1,5 +1,29 @@
 window.PREPARAKEY_QUESTIONS = {
-  "simulados": [],
+  "simulados": [
+    {
+      "id": "simulado-fundamentos-1-16",
+      "title": "Simulado — Fundamentos (Sessões 1–16)",
+      "available": true,
+      "sessionIds": [
+        "fund-s1",
+        "fund-s2",
+        "fund-s3",
+        "fund-s4",
+        "fund-s5",
+        "fund-s6",
+        "fund-s7",
+        "fund-s8",
+        "fund-s9",
+        "fund-s10",
+        "fund-s11",
+        "fund-s12",
+        "fund-s13",
+        "fund-s14",
+        "fund-s15",
+        "fund-s16"
+      ]
+    }
+  ],
   "areas": [
     {
       "id": "fundamentos",
@@ -5000,5 +5024,5 @@ window.PREPARAKEY_QUESTIONS = {
     }
   ],
   "missingSessions": [],
-  "generatedAt": "2026-09-16"
+  "generatedAt": "2026-09-17"
 };
