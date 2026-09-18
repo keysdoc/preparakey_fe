@@ -33,6 +33,7 @@ test("manifesto PWA é válido e referencia ícones existentes", async () => {
   const manifest = JSON.parse(await read("manifest.webmanifest"));
 
   assert.equal(manifest.display, "standalone");
+  assert.equal(manifest.orientation, "any");
   assert.ok(manifest.start_url);
   assert.ok(Array.isArray(manifest.icons) && manifest.icons.length > 0);
 
@@ -40,6 +41,31 @@ test("manifesto PWA é válido e referencia ícones existentes", async () => {
     assert.match(icon.sizes, /^\d+x\d+$/);
     await assert.doesNotReject(access(path.join(projectRoot, icon.src)), icon.src);
   }
+});
+
+test("fluxo permite avançar após selecionar sem exigir verificação", async () => {
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+
+  assert.match(app, /function answerReady\(q\)/);
+  assert.match(app, /\$\('nextBtn'\)\.disabled=!ready/);
+  assert.match(app, /\$\('verifyBtn'\)\.disabled=!ready \|\| isVer/);
+  assert.match(app, /if\(!answerReady\(q\)\)return/);
+  assert.doesNotMatch(
+    app,
+    /\$\('nextBtn'\)\.onclick=.*?current\.verified.*?\$\('finishBtn'\)\.onclick/s,
+    "Avançar não pode depender do estado de verificação"
+  );
+  assert.match(app, /aria-pressed="\$\{sel\.includes\(o\.id\)\}"/);
+  assert.match(app, /role="status" aria-live="polite"/);
+  assert.match(app, /insertAdjacentElement\('afterend',initialQuizActions\)/);
+  assert.match(app, /Há questões não respondidas/);
+  assert.doesNotMatch(app, /Há questões não verificadas/);
+
+  assert.match(styles, /\.quiz-flow-actions\{[^}]*position:static/);
+  assert.match(styles, /\.quiz-flow-actions button\{[^}]*min-height:48px/);
+  assert.match(styles, /100dvh/);
+  assert.match(styles, /safe-area-inset-bottom/);
 });
 
 test("service worker armazena apenas recursos existentes", async () => {
@@ -52,6 +78,9 @@ test("service worker armazena apenas recursos existentes", async () => {
     if (asset === "./") continue;
     await assert.doesNotReject(access(path.join(projectRoot, asset.replace(/^\.\//, ""))), asset);
   }
+
+  assert.match(serviceWorker, /self\.skipWaiting\(\)/);
+  assert.match(serviceWorker, /self\.clients\.claim\(\)/);
 });
 
 test("versão do aplicativo invalida o cache da PWA", async () => {
