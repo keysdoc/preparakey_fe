@@ -25,3 +25,6 @@ html{color-scheme:dark;-webkit-text-size-adjust:100%;text-size-adjust:100%}:root
 @media(max-height:500px) and (max-width:920px){.topbar{padding-block:9px;margin-bottom:12px}.topbar h1{font-size:1.45rem}.quiz-toolbar,.quiz-container,.quiz-flow-actions{padding-block:14px}.question-text{line-height:1.5}.q-meta{margin-bottom:8px}}
 @media(prefers-contrast:more){.option,.quiz-container,.quiz-flow-actions,.selection-status{border-width:2px}.option.selected{outline:3px solid currentColor;outline-offset:2px}}
 @media(forced-colors:active){.option.selected{outline:3px solid Highlight;outline-offset:2px}.option.correct{outline:3px solid LinkText}.option.wrong{outline:3px solid Mark}.ready-pulse{outline:3px solid Highlight}}
+
+/* === PreparaKey v16.7: progressão por aprovação === */
+.study-card.locked{opacity:1;border-style:dashed;background:linear-gradient(180deg,rgba(15,23,42,.72),rgba(11,18,35,.72))}.study-card.locked .meta{color:#cbd5e1}.study-card.completed{border-color:rgba(34,197,94,.62);box-shadow:0 16px 40px rgba(34,197,94,.1)}.study-card.completed .meta{color:#bbf7d0;font-weight:800}body.light .study-card.locked{background:#f8fafc;border-color:#94a3b8}body.light .study-card.locked .meta{color:#475569}body.light .study-card.completed{border-color:#16a34a}body.light .study-card.completed .meta{color:#166534}

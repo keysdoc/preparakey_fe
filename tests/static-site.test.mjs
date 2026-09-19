@@ -93,6 +93,24 @@ test("questionário ativo persiste e navegação respeita WebView/PWA", async ()
   assert.match(styles, /@media\(forced-colors:active\)/);
 });
 
+test("progressão libera próximo simulado ou sessão somente após aprovação", async () => {
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+
+  assert.match(app, /function assessmentApproved\(item,type\)/);
+  assert.match(app, /result\.approved===true/);
+  assert.match(app, /function assessmentUnlocked\(items,index,type\)/);
+  assert.match(app, /items\.slice\(0,index\)\.every\(item=>assessmentApproved\(item,type\)\)/);
+  assert.match(app, /assessmentUnlocked\(DATA\.simulados,index,'simulado'\)/);
+  assert.match(app, /assessmentUnlocked\(allSessions,index,'sessao'\)/);
+  assert.match(app, /assessmentId:current\.assessmentId/);
+  assert.match(app, /assessmentType:current\.mode/);
+  assert.match(app, /Aprove com \$\{PASS\}% ou mais para liberar o próximo simulado/);
+  assert.match(app, /Aprove cada sessão com \$\{PASS\}% ou mais para liberar a próxima/);
+  assert.match(styles, /\.study-card\.locked/);
+  assert.match(styles, /\.study-card\.completed/);
+});
+
 test("service worker armazena apenas recursos existentes", async () => {
   const serviceWorker = await read("sw.js");
   const assetsMatch = serviceWorker.match(/const ASSETS=(\[[^;]+\])/);
