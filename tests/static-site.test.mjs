@@ -33,7 +33,10 @@ test("manifesto PWA é válido e referencia ícones existentes", async () => {
   const manifest = JSON.parse(await read("manifest.webmanifest"));
 
   assert.equal(manifest.display, "standalone");
+  assert.equal(manifest.id, "./");
+  assert.equal(manifest.lang, "pt-BR");
   assert.equal(manifest.orientation, "any");
+  assert.ok(manifest.display_override.includes("standalone"));
   assert.ok(manifest.start_url);
   assert.ok(Array.isArray(manifest.icons) && manifest.icons.length > 0);
 
@@ -66,6 +69,28 @@ test("fluxo permite avançar após selecionar sem exigir verificação", async (
   assert.match(styles, /\.quiz-flow-actions button\{[^}]*min-height:48px/);
   assert.match(styles, /100dvh/);
   assert.match(styles, /safe-area-inset-bottom/);
+});
+
+test("questionário ativo persiste e navegação respeita WebView/PWA", async () => {
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+
+  assert.match(app, /ACTIVE_QUIZ_KEY='preparakey\.activeQuiz'/);
+  assert.match(app, /function saveQuizState\(\)/);
+  assert.match(app, /function restoreQuizState\(\)/);
+  assert.match(app, /questionIds:current\.questions\.map\(q=>q\.id\)/);
+  assert.match(app, /elapsedSeconds/);
+  assert.match(app, /window\.addEventListener\('pagehide',saveQuizState\)/);
+  assert.match(app, /window\.addEventListener\('popstate'/);
+  assert.match(app, /window\.history\.pushState/);
+  assert.match(app, /aria-current/);
+  assert.match(app, /function restoreOptionFocus\(opt\)/);
+
+  assert.match(styles, /#questionario\{[^}]*max-width:1100px/);
+  assert.match(styles, /container:question-flow\/inline-size/);
+  assert.match(styles, /\.option\.selected:after\{content:'✓ Selecionada'\}/);
+  assert.match(styles, /@media\(max-height:500px\)/);
+  assert.match(styles, /@media\(forced-colors:active\)/);
 });
 
 test("service worker armazena apenas recursos existentes", async () => {

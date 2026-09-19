@@ -1,12 +1,18 @@
 {
   "name": "PreparaKey PMP",
   "short_name": "PreparaKey",
+  "id": "./",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "description": "Simulados PMP com sessões de conhecimento, feedback opcional e progresso local.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#020617",
   "theme_color": "#020617",
   "orientation": "any",
+  "categories": ["education", "productivity"],
   "icons": [
     {
       "src": "assets/icons/icon-192.png",
