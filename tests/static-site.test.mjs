@@ -111,6 +111,62 @@ test("progressão libera próximo simulado ou sessão somente após aprovação"
   assert.match(styles, /\.study-card\.completed/);
 });
 
+test("PMP - BOOK 8 contém somente as áreas 1–6 e preserva pergunta e Opção 1", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/book8.js"), context);
+  const book8 = context.window.PREPARAKEY_BOOK8;
+  const expectedTitles = [
+    "1. Fundamentos de gerenciamento de projetos e entrega de valor",
+    "2. Ambiente do projeto, contexto organizacional, governança e PMO",
+    "3. Abordagens de desenvolvimento, ciclo de vida e adaptação",
+    "4. Mentalidade, papel do gerente de projetos e liderança",
+    "5. Visão comum, liderança da equipe e conflitos",
+    "6. Iniciação do projeto e termo de abertura"
+  ];
+  const expectedCounts = [132, 148, 184, 126, 139, 55];
+
+  assert.equal(book8.title, "PMP - BOOK 8");
+  assert.equal(book8.limit, expectedTitles.at(-1));
+  assert.deepEqual(Array.from(book8.areas, (area) => area.title), expectedTitles);
+  assert.deepEqual(Array.from(book8.areas, (area) => area.questions.length), expectedCounts);
+
+  const questions = book8.areas.flatMap((area) => area.questions);
+  assert.equal(questions.length, 784);
+  assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
+
+  for (const area of book8.areas) {
+    const fingerprints = new Set();
+    assert.ok(area.number >= 1 && area.number <= 6);
+    for (const question of area.questions) {
+      assert.ok(question.question.trim(), question.id);
+      assert.ok(question.option1.trim(), question.id);
+      assert.match(question.id, new RegExp(`^book8-a${area.number}-s\\d+-q\\d+$`));
+      assert.match(question.source, new RegExp(`^${area.number}/\\d+/`));
+      const fingerprint = `${question.question}\n${question.option1}`.toLocaleLowerCase("pt-BR");
+      assert.ok(!fingerprints.has(fingerprint), `duplicata na área ${area.number}: ${question.id}`);
+      fingerprints.add(fingerprint);
+    }
+  }
+});
+
+test("biblioteca PMP - BOOK 8 usa accordion acessível e carregamento por área", async () => {
+  const html = await read("app.html");
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+
+  assert.match(html, /data-view="book8"/);
+  assert.match(html, /id="book8Tree"/);
+  assert.ok(html.indexOf("js/book8.js") < html.indexOf("js/app.js"));
+  assert.match(app, /function renderBook8\(\)/);
+  assert.match(app, /function renderBook8Questions\(area,container\)/);
+  assert.match(app, /document\.createElement\('details'\)/);
+  assert.match(app, /details\.addEventListener\('toggle'/);
+  assert.match(app, /question\.optionKind==='text'\?'Opção 1':'Opção 1 — formato interativo da fonte'/);
+  assert.match(styles, /\.book8-area>summary:focus-visible/);
+  assert.match(styles, /\.book8-question-text\{[^}]*white-space:pre-line/);
+  assert.match(styles, /@media\(max-width:640px\).*\.book8-heading/s);
+});
+
 test("service worker armazena apenas recursos existentes", async () => {
   const serviceWorker = await read("sw.js");
   const assetsMatch = serviceWorker.match(/const ASSETS=(\[[^;]+\])/);

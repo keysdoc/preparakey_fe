@@ -57,6 +57,18 @@ O importador exige as pastas 1–16, valida a numeração e o gabarito de cada s
 
 A base atual contém 16 sessões e 133 questões. Essas mesmas questões alimentam um simulado completo por referência às sessões, sem duplicação de conteúdo ou IDs. A Questão 5 da Sessão 16 utiliza o componente de associação existente com os quatro pares declarados na fonte.
 
+## Biblioteca PMP - BOOK 8
+
+A navegação **PMP Book 8** apresenta uma biblioteca independente em árvore/accordion. Somente as áreas 1–6 de `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8` são importadas; a última área autorizada é `6. Iniciação do projeto e termo de abertura`. As áreas posteriores não são lidas pelo importador nem incluídas no arquivo de dados.
+
+Para reaplicar a biblioteca a partir da fonte:
+
+```powershell
+npm run import:book8 -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8"
+```
+
+O importador percorre somente os seis nomes de pasta autorizados, ordena sessões e perguntas numericamente, lê os arquivos `Gabarito*.txt` (incluindo a grafia original `Ganbarito` existente na sessão 5.16), preserva o texto da pergunta e da primeira alternativa e remove duplicatas textuais exatas dentro da mesma área. Questões de associação e Hot Area mantêm o formato interativo declarado pela fonte sem inventar alternativas. O resultado atual contém 6 áreas e 784 perguntas.
+
 ## Autenticação e variáveis de ambiente
 
 Esta versão é uma aplicação local estática e não possui backend de autenticação. A tela inicial oferece apenas acesso local ao painel e não deve ser apresentada como uma barreira de segurança.

@@ -1,1 +1,135 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"><meta name="theme-color" content="#020617"><title>PreparaKey | Área de Conhecimento</title><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><link rel="icon" href="assets/icons/icon-192.png"><link rel="stylesheet" href="css/styles.css"></head><body><div class="app-shell"><aside class="sidebar" id="sidebar"><button class="side-brand brand-home" id="brandHomeBtn" type="button"><img src="assets/keydoc-logo.png" alt="PreparaKey logo"><div><strong>PreparaKey</strong></div></button><nav class="side-nav"><button class="nav-item active" data-view="dashboard">Dashboard</button><button class="nav-item" data-view="simulados">Simulados</button><button class="nav-item" data-view="areas">Áreas</button><button class="nav-item" data-view="questionario">Questionário</button><button class="nav-item" data-view="historico">Histórico</button><button class="nav-item" data-view="configuracoes">Configurações</button></nav><button class="ghost-btn danger" id="logoutBtn">Sair</button></aside><main class="main-content"><header class="topbar glass"><button class="icon-btn" id="menuBtn" aria-label="Abrir menu">☰</button><div><button class="eyebrow brand-link" id="topHomeBtn" type="button">PREPARAKEY</button><h1 id="pageTitle">Dashboard</h1></div><div class="top-actions"><button class="ghost-btn" id="resetProgressBtn">Limpar progresso</button><span class="user-pill">Aluno PMP</span></div></header><section id="dashboard" class="view active-view"><div class="executive-hero panel"><div><p class="eyebrow">PMP Intelligence Center</p><h2>Diagnóstico executivo de prontidão PMP</h2><p class="muted">Painel local com histórico, progresso por banco de questões e tendência de preparação.</p></div><div class="readiness-card"><span>Status inteligente</span><strong id="readinessStatus">Em progresso</strong><small id="readinessInsight">Finalize uma sessão para gerar diagnóstico.</small></div></div><div class="kpi-grid"><article class="kpi-card"><span>Questões disponíveis</span><strong id="totalQuestions">0</strong><small>Nova base de conhecimento</small></article><article class="kpi-card"><span>Índice médio</span><strong id="avgScore">0%</strong><small>Histórico consolidado</small></article><article class="kpi-card"><span>Último resultado</span><strong id="lastScore">0%</strong><small id="lastDecision">Sem avaliação</small></article><article class="kpi-card"><span>Readiness PMI</span><strong id="readiness">0%</strong><small>Benchmark interno 75%</small></article></div><div class="content-grid executive-grid"><article class="panel chart-panel large"><div class="panel-head"><div><h2>Score executivo</h2><p class="muted">Acertos consolidados x erros</p></div><span class="pill" id="approvalPill">Aguardando dados</span></div><div id="pieChart" class="svg-chart"></div></article><article class="panel chart-panel"><h2>Performance por domínio</h2><div id="barChart" class="svg-chart"></div></article><article class="panel intelligence-panel"><h2>Insights Intelligence</h2><div id="insightList" class="insight-list"></div></article></div></section><section id="simulados" class="view"><div class="section-head"><h2>Simulados completos</h2><p class="muted">Simulado completo derivado das 16 sessões da nova base.</p></div><div id="examGrid" class="cards-grid"></div></section><section id="areas" class="view"><div class="section-head"><h2>Fundamentos de Gerenciamento de Projetos</h2><p class="muted">Sessões exibidas em blocos de 6 para WebView/mobile.</p></div><div id="areaGrid" class="cards-grid"></div><div class="center-actions"><button class="secondary-btn" id="loadMoreSessionsBtn">Ver mais sessões</button></div></section><section id="questionario" class="view"><div class="quiz-toolbar panel"><div><h2 id="quizTitle">Nenhum questionário iniciado</h2><p id="quizSubtitle" class="muted">Selecione uma sessão.</p></div><div class="quiz-actions"><span id="timer" class="timer">00:00</span><button class="secondary-btn" id="prevBtn" disabled>Voltar</button><button class="secondary-btn" id="verifyBtn" disabled>Verificar</button><button class="primary-btn" id="nextBtn" disabled>Avançar</button><button class="secondary-btn" id="finishBtn" disabled>Finalizar</button></div></div><div id="quizContainer" class="quiz-container empty-state">Selecione uma área para começar.</div></section><section id="historico" class="view"><div class="section-head"><h2>Histórico</h2><p class="muted">Clique em Ver mais para revisar acertos e erros.</p></div><div id="historyList" class="history-list"></div><div id="historyDetail" class="history-detail"></div></section><section id="configuracoes" class="view"><div class="section-head"><h2>Configurações</h2></div><article class="panel settings-panel"><h3>Aparência</h3><p class="muted">Escolha entre tema escuro premium ou tema branco de alta legibilidade.</p><div class="theme-grid"><button class="theme-card" id="darkThemeBtn"><strong>Tema escuro</strong><span>Visual premium azul/navy</span></button><button class="theme-card" id="lightThemeBtn"><strong>Tema branco</strong><span>Leitura clara para estudo longo</span></button></div></article></section></main></div><script src="js/config.js"></script><script src="js/questions.js"></script><script src="js/app.js"></script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}</script></body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+  <meta name="theme-color" content="#020617">
+  <title>PreparaKey | Área de Conhecimento</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <button class="side-brand brand-home" id="brandHomeBtn" type="button">
+        <img src="assets/keydoc-logo.png" alt="PreparaKey logo">
+        <div><strong>PreparaKey</strong></div>
+      </button>
+      <nav class="side-nav">
+        <button class="nav-item active" data-view="dashboard">Dashboard</button>
+        <button class="nav-item" data-view="simulados">Simulados</button>
+        <button class="nav-item" data-view="areas">Áreas</button>
+        <button class="nav-item" data-view="book8">PMP Book 8</button>
+        <button class="nav-item" data-view="questionario">Questionário</button>
+        <button class="nav-item" data-view="historico">Histórico</button>
+        <button class="nav-item" data-view="configuracoes">Configurações</button>
+      </nav>
+      <button class="ghost-btn danger" id="logoutBtn">Sair</button>
+    </aside>
+    <main class="main-content">
+      <header class="topbar glass">
+        <button class="icon-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+        <div>
+          <button class="eyebrow brand-link" id="topHomeBtn" type="button">PREPARAKEY</button>
+          <h1 id="pageTitle">Dashboard</h1>
+        </div>
+        <div class="top-actions">
+          <button class="ghost-btn" id="resetProgressBtn">Limpar progresso</button>
+          <span class="user-pill">Aluno PMP</span>
+        </div>
+      </header>
+
+      <section id="dashboard" class="view active-view">
+        <div class="executive-hero panel">
+          <div>
+            <p class="eyebrow">PMP Intelligence Center</p>
+            <h2>Diagnóstico executivo de prontidão PMP</h2>
+            <p class="muted">Painel local com histórico, progresso por banco de questões e tendência de preparação.</p>
+          </div>
+          <div class="readiness-card">
+            <span>Status inteligente</span>
+            <strong id="readinessStatus">Em progresso</strong>
+            <small id="readinessInsight">Finalize uma sessão para gerar diagnóstico.</small>
+          </div>
+        </div>
+        <div class="kpi-grid">
+          <article class="kpi-card"><span>Questões disponíveis</span><strong id="totalQuestions">0</strong><small>Nova base de conhecimento</small></article>
+          <article class="kpi-card"><span>Índice médio</span><strong id="avgScore">0%</strong><small>Histórico consolidado</small></article>
+          <article class="kpi-card"><span>Último resultado</span><strong id="lastScore">0%</strong><small id="lastDecision">Sem avaliação</small></article>
+          <article class="kpi-card"><span>Readiness PMI</span><strong id="readiness">0%</strong><small>Benchmark interno 75%</small></article>
+        </div>
+        <div class="content-grid executive-grid">
+          <article class="panel chart-panel large">
+            <div class="panel-head"><div><h2>Score executivo</h2><p class="muted">Acertos consolidados x erros</p></div><span class="pill" id="approvalPill">Aguardando dados</span></div>
+            <div id="pieChart" class="svg-chart"></div>
+          </article>
+          <article class="panel chart-panel"><h2>Performance por domínio</h2><div id="barChart" class="svg-chart"></div></article>
+          <article class="panel intelligence-panel"><h2>Insights Intelligence</h2><div id="insightList" class="insight-list"></div></article>
+        </div>
+      </section>
+
+      <section id="simulados" class="view">
+        <div class="section-head"><h2>Simulados completos</h2><p class="muted">Simulado completo derivado das 16 sessões da nova base.</p></div>
+        <div id="examGrid" class="cards-grid"></div>
+      </section>
+
+      <section id="areas" class="view">
+        <div class="section-head"><h2>Fundamentos de Gerenciamento de Projetos</h2><p class="muted">Sessões exibidas em blocos de 6 para WebView/mobile.</p></div>
+        <div id="areaGrid" class="cards-grid"></div>
+        <div class="center-actions"><button class="secondary-btn" id="loadMoreSessionsBtn">Ver mais sessões</button></div>
+      </section>
+
+      <section id="book8" class="view">
+        <div class="section-head book8-heading">
+          <div>
+            <p class="eyebrow">Biblioteca de questões</p>
+            <h2>PMP - BOOK 8</h2>
+            <p class="muted">Áreas 1–6. Expanda uma área e selecione uma pergunta para visualizar exclusivamente sua Opção 1.</p>
+          </div>
+          <span class="pill" id="book8Summary">Carregando…</span>
+        </div>
+        <div id="book8Tree" class="book8-tree" aria-live="polite"></div>
+      </section>
+
+      <section id="questionario" class="view">
+        <div class="quiz-toolbar panel">
+          <div><h2 id="quizTitle">Nenhum questionário iniciado</h2><p id="quizSubtitle" class="muted">Selecione uma sessão.</p></div>
+          <div class="quiz-actions">
+            <span id="timer" class="timer">00:00</span>
+            <button class="secondary-btn" id="prevBtn" disabled>Voltar</button>
+            <button class="secondary-btn" id="verifyBtn" disabled>Verificar</button>
+            <button class="primary-btn" id="nextBtn" disabled>Avançar</button>
+            <button class="secondary-btn" id="finishBtn" disabled>Finalizar</button>
+          </div>
+        </div>
+        <div id="quizContainer" class="quiz-container empty-state">Selecione uma área para começar.</div>
+      </section>
+
+      <section id="historico" class="view">
+        <div class="section-head"><h2>Histórico</h2><p class="muted">Clique em Ver mais para revisar acertos e erros.</p></div>
+        <div id="historyList" class="history-list"></div>
+        <div id="historyDetail" class="history-detail"></div>
+      </section>
+
+      <section id="configuracoes" class="view">
+        <div class="section-head"><h2>Configurações</h2></div>
+        <article class="panel settings-panel">
+          <h3>Aparência</h3>
+          <p class="muted">Escolha entre tema escuro premium ou tema branco de alta legibilidade.</p>
+          <div class="theme-grid">
+            <button class="theme-card" id="darkThemeBtn"><strong>Tema escuro</strong><span>Visual premium azul/navy</span></button>
+            <button class="theme-card" id="lightThemeBtn"><strong>Tema branco</strong><span>Leitura clara para estudo longo</span></button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/book8.js"></script>
+  <script src="js/app.js"></script>
+  <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}</script>
+</body>
+</html>
