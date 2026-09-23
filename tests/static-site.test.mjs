@@ -97,74 +97,18 @@ test("progressão libera próximo simulado ou sessão somente após aprovação"
   const app = await read("js/app.js");
   const styles = await read("css/styles.css");
 
-  assert.match(app, /function assessmentApproved\(item,type\)/);
+  assert.match(app, /function assessmentApproved\(item,type,area\)/);
   assert.match(app, /result\.approved===true/);
-  assert.match(app, /function assessmentUnlocked\(items,index,type\)/);
-  assert.match(app, /items\.slice\(0,index\)\.every\(item=>assessmentApproved\(item,type\)\)/);
+  assert.match(app, /function assessmentUnlocked\(items,index,type,area\)/);
+  assert.match(app, /items\.slice\(0,index\)\.every\(item=>assessmentApproved\(item,type,area\)\)/);
   assert.match(app, /assessmentUnlocked\(DATA\.simulados,index,'simulado'\)/);
-  assert.match(app, /assessmentUnlocked\(allSessions,index,'sessao'\)/);
+  assert.match(app, /assessmentUnlocked\(allSessions,index,'sessao',area\)/);
   assert.match(app, /assessmentId:current\.assessmentId/);
   assert.match(app, /assessmentType:current\.mode/);
   assert.match(app, /Aprove com \$\{PASS\}% ou mais para liberar o próximo simulado/);
   assert.match(app, /Aprove cada sessão com \$\{PASS\}% ou mais para liberar a próxima/);
   assert.match(styles, /\.study-card\.locked/);
   assert.match(styles, /\.study-card\.completed/);
-});
-
-test("PMP - BOOK 8 contém somente as áreas 1–6 e preserva pergunta e Opção 1", async () => {
-  const context = { window: {} };
-  vm.runInNewContext(await read("js/book8.js"), context);
-  const book8 = context.window.PREPARAKEY_BOOK8;
-  const expectedTitles = [
-    "1. Fundamentos de gerenciamento de projetos e entrega de valor",
-    "2. Ambiente do projeto, contexto organizacional, governança e PMO",
-    "3. Abordagens de desenvolvimento, ciclo de vida e adaptação",
-    "4. Mentalidade, papel do gerente de projetos e liderança",
-    "5. Visão comum, liderança da equipe e conflitos",
-    "6. Iniciação do projeto e termo de abertura"
-  ];
-  const expectedCounts = [132, 148, 184, 126, 139, 55];
-
-  assert.equal(book8.title, "PMP - BOOK 8");
-  assert.equal(book8.limit, expectedTitles.at(-1));
-  assert.deepEqual(Array.from(book8.areas, (area) => area.title), expectedTitles);
-  assert.deepEqual(Array.from(book8.areas, (area) => area.questions.length), expectedCounts);
-
-  const questions = book8.areas.flatMap((area) => area.questions);
-  assert.equal(questions.length, 784);
-  assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
-
-  for (const area of book8.areas) {
-    const fingerprints = new Set();
-    assert.ok(area.number >= 1 && area.number <= 6);
-    for (const question of area.questions) {
-      assert.ok(question.question.trim(), question.id);
-      assert.ok(question.option1.trim(), question.id);
-      assert.match(question.id, new RegExp(`^book8-a${area.number}-s\\d+-q\\d+$`));
-      assert.match(question.source, new RegExp(`^${area.number}/\\d+/`));
-      const fingerprint = `${question.question}\n${question.option1}`.toLocaleLowerCase("pt-BR");
-      assert.ok(!fingerprints.has(fingerprint), `duplicata na área ${area.number}: ${question.id}`);
-      fingerprints.add(fingerprint);
-    }
-  }
-});
-
-test("biblioteca PMP - BOOK 8 usa accordion acessível e carregamento por área", async () => {
-  const html = await read("app.html");
-  const app = await read("js/app.js");
-  const styles = await read("css/styles.css");
-
-  assert.match(html, /data-view="book8"/);
-  assert.match(html, /id="book8Tree"/);
-  assert.ok(html.indexOf("js/book8.js") < html.indexOf("js/app.js"));
-  assert.match(app, /function renderBook8\(\)/);
-  assert.match(app, /function renderBook8Questions\(area,container\)/);
-  assert.match(app, /document\.createElement\('details'\)/);
-  assert.match(app, /details\.addEventListener\('toggle'/);
-  assert.match(app, /question\.optionKind==='text'\?'Opção 1':'Opção 1 — formato interativo da fonte'/);
-  assert.match(styles, /\.book8-area>summary:focus-visible/);
-  assert.match(styles, /\.book8-question-text\{[^}]*white-space:pre-line/);
-  assert.match(styles, /@media\(max-width:640px\).*\.book8-heading/s);
 });
 
 test("service worker armazena apenas recursos existentes", async () => {
@@ -212,9 +156,13 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
 
     if (question.type === "matching") {
       assert.ok(Array.isArray(question.pairs) && question.pairs.length > 0, question.id);
+      assert.equal(question.required, question.pairs.length, question.id);
+      assert.ok(question.pairs.every((pair) => pair.left && pair.right), question.id);
       continue;
     }
 
+    assert.ok(["single", "multiple"].includes(question.type), question.id);
+    assert.ok(Array.isArray(question.options) && question.options.length >= 2, question.id);
     const optionIds = new Set(question.options.map((option) => option.id));
     assert.ok(Array.isArray(question.answer) && question.answer.length > 0, question.id);
     assert.ok(question.answer.every((answer) => optionIds.has(answer)), question.id);
@@ -226,33 +174,57 @@ test("somente a nova base autorizada é carregada", async () => {
   const context = { window: {} };
   vm.runInNewContext(await read("js/questions.js"), context);
   const data = context.window.PREPARAKEY_QUESTIONS;
-  const sessions = data.areas[0].sessions;
-  const expectedCounts = [9, 8, 9, 8, 8, 8, 8, 9, 9, 8, 8, 9, 8, 8, 7, 9];
-  const questions = sessions.flatMap((session) => session.questions);
+  const expectedTitles = [
+    "1. Fundamentos de gerenciamento de projetos e entrega de valor",
+    "2. Ambiente do projeto, contexto organizacional, governança e PMO",
+    "3. Abordagens de desenvolvimento, ciclo de vida e adaptação",
+    "4. Mentalidade, papel do gerente de projetos e liderança",
+    "5. Visão comum, liderança da equipe e conflitos",
+    "6. Iniciação do projeto e termo de abertura"
+  ];
+  const expectedCounts = [132, 148, 184, 125, 137, 55];
+  const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
 
-  assert.equal(data.simulados.length, 1, "deve existir somente o simulado derivado da nova base");
-  assert.equal(data.areas.length, 1);
-  assert.equal(sessions.length, 16, "a nova base deve conter somente as sessões 1–16");
+  assert.equal(data.simulados.length, 1, "o simulado existente deve permanecer único");
+  assert.deepEqual(Array.from(data.areas, (area) => area.title), expectedTitles);
+  assert.deepEqual(
+    Array.from(data.areas, (area) => area.sessions.reduce((total, session) => total + session.questions.length, 0)),
+    expectedCounts
+  );
+  assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–6");
+  assert.equal(questions.length, 781);
 
-  for (const [index, expectedCount] of expectedCounts.entries()) {
-    const sessionNumber = index + 1;
-    const session = sessions[index];
-    assert.equal(session.number, sessionNumber, `ordem da sessão ${sessionNumber}`);
-    assert.equal(session.questions.length, expectedCount, `quantidade da sessão ${sessionNumber}`);
-    assert.deepEqual(
-      Array.from(session.questions, (question) => question.number),
-      Array.from({ length: expectedCount }, (_, questionIndex) => questionIndex + 1),
-      `numeração da sessão ${sessionNumber}`
-    );
-    assert.ok(
-      session.questions.every((question) => question.id === `fund-s${sessionNumber}-q${question.number}`),
-      `IDs da sessão ${sessionNumber}`
-    );
+  for (const [areaIndex, area] of data.areas.entries()) {
+    assert.equal(area.sessions.length, 16, `${area.title}: sessões 1–16`);
+    assert.deepEqual(Array.from(area.sessions, (session) => session.number), Array.from({ length: 16 }, (_, index) => index + 1));
+    for (const session of area.sessions) {
+      const numbers = Array.from(session.questions, (question) => question.number);
+      assert.deepEqual(numbers, [...numbers].sort((left, right) => left - right), `${session.id}: ordem das questões`);
+      assert.equal(new Set(numbers).size, numbers.length, `${session.id}: numeração duplicada`);
+      assert.ok(session.questions.every((question) => question.session === session.number));
+      const prefix = areaIndex === 0 ? "fund" : `area${areaIndex + 1}`;
+      assert.ok(session.questions.every((question) => question.id === `${prefix}-s${session.number}-q${question.number}`));
+    }
   }
 
-  assert.equal(questions.length, 133);
-  assert.equal(new Set(questions.map((question) => question.id)).size, 133);
-  assert.ok(questions.every((question) => question.session >= 1 && question.session <= 16));
+  assert.deepEqual(Array.from(data.excludedUnsupported, (item) => `${item.area}-${item.session}-${item.number}`), ["5-12-3", "5-13-7"]);
+  assert.deepEqual(Array.from(data.removedDuplicates, (item) => item.id), [
+    "fund-s8-q2",
+    "area2-s16-q6",
+    "area4-s6-q6",
+    "area6-s13-q4"
+  ]);
+  assert.ok(questions.every((question) => !String(question.source).startsWith("7.")));
+
+  const normalized = (value) => String(value ?? "").normalize("NFC").replace(/\s+/g, " ").trim();
+  const fingerprints = questions.map((question) => JSON.stringify({
+    type: question.type,
+    question: normalized(question.question),
+    options: (question.options || []).map((option) => [option.id, normalized(option.text)]),
+    pairs: (question.pairs || []).map((pair) => [normalized(pair.left), normalized(pair.right)]),
+    answer: question.answer
+  }));
+  assert.equal(new Set(fingerprints).size, questions.length, "não pode haver perguntas duplicadas");
 });
 
 test("simulado consolida as 16 sessões sem duplicar o banco de questões", async () => {
@@ -260,7 +232,7 @@ test("simulado consolida as 16 sessões sem duplicar o banco de questões", asyn
   vm.runInNewContext(await read("js/questions.js"), context);
   const data = context.window.PREPARAKEY_QUESTIONS;
   const exam = data.simulados[0];
-  const sessions = data.areas[0].sessions;
+  const sessions = data.areas.flatMap((area) => area.sessions);
   const sessionIds = new Set(exam.sessionIds);
   const examQuestions = sessions
     .filter((session) => sessionIds.has(session.id))
@@ -270,8 +242,33 @@ test("simulado consolida as 16 sessões sem duplicar o banco de questões", asyn
   assert.equal(exam.available, true);
   assert.equal(exam.questions, undefined, "o simulado deve referenciar a base, não duplicá-la");
   assert.deepEqual(Array.from(exam.sessionIds), Array.from({ length: 16 }, (_, index) => `fund-s${index + 1}`));
-  assert.equal(examQuestions.length, 133);
-  assert.equal(new Set(examQuestions.map((question) => question.id)).size, 133);
+  assert.equal(examQuestions.length, 132);
+  assert.equal(new Set(examQuestions.map((question) => question.id)).size, 132);
+});
+
+test("áreas reutilizam os cards e o questionário existentes sem sistema paralelo", async () => {
+  const html = await read("app.html");
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+  const importer = await read("scripts/import-knowledge.mjs");
+
+  assert.equal((html.match(/data-view="areas"/g) || []).length, 1);
+  assert.match(app, /areasNav\.textContent='Áreas de Conhecimento'/);
+  assert.match(app, /function renderAreas\(\)/);
+  assert.match(app, /function renderSessions\(area\)/);
+  assert.match(app, /const allSessions=area\.sessions/);
+  assert.match(app, /card\.className=`study-card/);
+  assert.match(app, /startQuiz\(assessmentTitle\(s,'sessao',area\),s\.questions,'sessao',s\.id\)/);
+  assert.match(app, /function renderQuestion\(\)/);
+  assert.match(app, /data-pair="\$\{pairIndex\}"/);
+  assert.doesNotMatch(html, /data-view="book8"|book8Tree|js\/book8\.js/);
+  assert.doesNotMatch(app, /PREPARAKEY_BOOK8|renderBook8|book8Question/);
+  assert.doesNotMatch(styles, /\.book8-/);
+  assert.match(importer, /6\. Iniciação do projeto e termo de abertura/);
+  assert.doesNotMatch(importer, /7\. Partes interessadas/);
+  assert.doesNotMatch(importer, /readdir\(sourceRoot/);
+  await assert.rejects(access(path.join(projectRoot, "js", "book8.js")));
+  await assert.rejects(access(path.join(projectRoot, "scripts", "import-book8.mjs")));
 });
 
 test("questão de associação da sessão 16 usa somente os pares da fonte", async () => {
