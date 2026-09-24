@@ -1,6 +1,6 @@
 {
   "name": "preparakey-frontend",
-  "version": "16.9.1",
+  "version": "16.10.0",
   "private": true,
   "description": "PWA estática para simulados de preparação PMP.",
   "type": "module",

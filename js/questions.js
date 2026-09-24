@@ -29314,11 +29314,9848 @@ window.PREPARAKEY_QUESTIONS = {
           "note": ""
         }
       ]
+    },
+    {
+      "id": "stakeholders-conhecimento",
+      "title": "7. Partes interessadas e transferência de conhecimento",
+      "sessions": [
+        {
+          "id": "area7-s1",
+          "number": 1,
+          "title": "Sessão 1",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO - O aplicativo que ninguém usava\n\nUma organização de serviços financeiros aprovou um projeto para desenvolver um novo aplicativo interno destinado a apoiar gerentes de relacionamento no atendimento a clientes corporativos. O objetivo declarado no termo de abertura era \"disponibilizar uma solução digital para consulta rápida de dados de clientes, histórico de interações e recomendações comerciais\".\n\nO projeto foi conduzido predominantemente de forma preditiva, com algumas demonstrações pontuais ao longo do desenvolvimento. A equipe cumpriu o cronograma, respeitou o orçamento aprovado e entregou todas as funcionalidades técnicas previstas no escopo. O patrocinador considerou o projeto bem executado, pois os marcos principais foram cumpridos e não houve estouro relevante de custo.\n\nApós três meses da implantação, porém, os dados de uso mostraram que apenas 12% dos gerentes de relacionamento utilizavam o aplicativo regularmente. Muitos usuários continuavam usando planilhas, mensagens informais e sistemas antigos. Em entrevistas posteriores, os gerentes relataram que o aplicativo não refletia bem o fluxo real de trabalho, exigia muitas etapas para registrar uma interação e não oferecia ganhos claros em relação às ferramentas existentes.\n\nA análise pós-implantação identificou alguns pontos críticos. Os usuários finais foram pouco envolvidos durante o desenho da solução. O escopo do projeto estava concentrado na entrega das funcionalidades técnicas, mas não definia adoção ou mudança de comportamento como critérios de sucesso. A governança do projeto monitorava principalmente prazo, custo, entregas concluídas e defeitos técnicos, sem KPIs relacionados a uso, adoção, satisfação dos usuários ou realização dos benefícios esperados.\n\nA organização agora pretende aprender com esse projeto antes de iniciar uma nova iniciativa digital semelhante. O PMO solicita recomendações sobre o que deveria ter sido feito de forma diferente para aumentar a probabilidade de adoção e geração de valor.\n\nNo caso dado, o que deveria ter sido feito durante o planejamento para aumentar a probabilidade de adoção do aplicativo?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Definir KPIs de adoção, envolver usuários finais e planejar ações de mudança organizacional."
+                },
+                {
+                  "id": "B",
+                  "text": "Reduzir o número de demonstrações para evitar mudanças de expectativa dos usuários."
+                },
+                {
+                  "id": "C",
+                  "text": "Delegar ao fornecedor a decisão sobre quais funcionalidades seriam mais úteis aos usuários."
+                },
+                {
+                  "id": "D",
+                  "text": "Medir apenas defeitos técnicos, pois a adoção só pode ser avaliada após a implantação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Durante a execução do caso dado, qual sinal deveria ter levado o gerente do projeto a reavaliar o alinhamento da solução com as necessidades dos usuários?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A equipe estava cumprindo os marcos do cronograma conforme planejado."
+                },
+                {
+                  "id": "B",
+                  "text": "O orçamento permanecia dentro da linha de base aprovada."
+                },
+                {
+                  "id": "C",
+                  "text": "Os usuários finais participavam pouco das demonstrações e davam pouco feedback sobre o fluxo de trabalho."
+                },
+                {
+                  "id": "D",
+                  "text": "Os defeitos técnicos estavam dentro dos limites aceitáveis de qualidade."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto de software usa uma abordagem híbrida. Ao final da primeira iteração, o gerente de projeto realiza uma demonstração com o dono do produto e outras partes interessadas importantes. Após a apresentação, o patrocinador informa que um dos clientes que usará o sistema não está satisfeito porque suas necessidades não estão sendo refletidas no produto. Atendê-lo exigirá mudanças radicais no sistema.\nQual é a causa raiz mais provável dessa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "As entregas não estão de acordo com os requisitos"
+                },
+                {
+                  "id": "B",
+                  "text": "A parte interessada está fazendo solicitações irreais"
+                },
+                {
+                  "id": "C",
+                  "text": "Os requisitos são ambíguos"
+                },
+                {
+                  "id": "D",
+                  "text": "Algumas partes interessadas não foram identificadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um projeto de implementação de software está em andamento. Durante uma reunião de entrega, o chefe do departamento de TI participa para avaliar o novo sistema. Além disso, a gerente de operações de TI será responsável pela implantação do software dentro do departamento após a entrega.\nQual é o papel da gerente de operações nesse projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ela é membro da equipe do projeto, pois usará o software após a entrega"
+                },
+                {
+                  "id": "B",
+                  "text": "Ela não é parte interessada, porque seu envolvimento começa apenas após a conclusão do projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Ela é uma parte interessada, pois será impactada diretamente pela implantação do software"
+                },
+                {
+                  "id": "D",
+                  "text": "Ela atua como patrocinadora do projeto, pois está envolvida na transição e implementação"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Um gerente de projetos está implantando melhores práticas de gerenciamento da qualidade em uma organização. O gerente da principal fábrica da empresa, responsável pela maior parte da produção, acredita que o projeto é uma perda de tempo e dinheiro e que não agregará valor à organização. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Excluí-lo das comunicações"
+                },
+                {
+                  "id": "B",
+                  "text": "Removê-lo do registro das partes interessadas"
+                },
+                {
+                  "id": "C",
+                  "text": "Identificá-lo como uma parte interessada resistente que pode impactar o projeto"
+                },
+                {
+                  "id": "D",
+                  "text": "Reunir-se com ele para explicar os benefícios do projeto"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Um projeto já passou da metade. O mais recente relatório mostra que o projeto está dentro do custo, prazo e escopo previstos. O gerente do projeto fica sabendo que o patrocinador tem reclamações sobre o projeto. Ele não entende a razão, pois o mais recente relatório de posição indica que o projeto está sendo executado de acordo com o previsto. Qual seria a melhor atitude a tomar imediatamente?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Avaliar o cronograma e o orçamento do projeto para verificar se o custo, prazo e escopo ainda estão dentro do previsto"
+                },
+                {
+                  "id": "B",
+                  "text": "Ignorar o patrocinador, uma vez que o projeto está indo bem"
+                },
+                {
+                  "id": "C",
+                  "text": "Informar à alta gerência que o projeto está indo bem"
+                },
+                {
+                  "id": "D",
+                  "text": "Encontrar-se com o patrocinador e descobrir quais são suas questões"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 7,
+              "type": "multiple",
+              "question": "Durante o trabalho em um projeto governamental, as partes interessadas pressionam o gerente do projeto a submeter-se às suas ações preferidas. O gerente de projeto deve lidar com relações complexas e cenários em constante mudança e coordenar várias partes interessadas. O que o gerente de projeto deve considerar usar como método de categorização das partes interessadas? (Escolha duas)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Priorização"
+                },
+                {
+                  "id": "B",
+                  "text": "Relevância"
+                },
+                {
+                  "id": "C",
+                  "text": "Transformação"
+                },
+                {
+                  "id": "D",
+                  "text": "Transação"
+                },
+                {
+                  "id": "E",
+                  "text": "Colaboração"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Em um projeto de construção de um aterro sanitário próximo a um loteamento residencial, foi feito um estudo ambiental, aprovado pelos órgãos competentes. Assim, o cliente e o patrocinador obtiveram todas as permissões legais para conduzir o projeto. No entanto, alguns moradores do loteamento estão preocupados, pois a água para a região é captada em local próximo ao aterro sanitário. Neste caso, o que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Continuar o projeto conforme o planejado, uma vez que todas as permissões legais foram obtidas"
+                },
+                {
+                  "id": "B",
+                  "text": "Avaliar a questão levantada pelas partes interessadas e buscar uma solução"
+                },
+                {
+                  "id": "C",
+                  "text": "Comunicar esta questão para a alta gerência da empresa e solicitar a eles que tomem as ações necessárias"
+                },
+                {
+                  "id": "D",
+                  "text": "Dar alta prioridade aos interesses de sua empresa e ao mesmo tempo tentar resolver o conflito com os moradores do loteamento"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "No meio de um projeto, o gerente de projeto identifica novas partes interessadas cujos níveis de influência são baixos. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Concentrar-se nas partes interessadas que têm alto poder e alta influência"
+                },
+                {
+                  "id": "B",
+                  "text": "Atualizar o registro das partes interessadas"
+                },
+                {
+                  "id": "C",
+                  "text": "Apresentar as partes interessadas à equipe do projeto"
+                },
+                {
+                  "id": "D",
+                  "text": "Consultar o plano de gerenciamento das comunicações para determinar como se comunicar com as novas partes interessadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 10,
+              "type": "multiple",
+              "question": "Um gerente de projeto trabalha em uma iniciativa complexa com muitas partes interessadas, prioridades concorrentes e conflitos crescentes. Ele precisa preparar uma estratégia de negociação para buscar acordos sustentáveis. Quais princípios deve seguir? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Separar as pessoas do problema, preservando o relacionamento enquanto trata objetivamente a questão."
+                },
+                {
+                  "id": "B",
+                  "text": "Concentrar-se primeiro nas questões políticas, antes de discutir dados, interesses e opções de solução."
+                },
+                {
+                  "id": "C",
+                  "text": "Focar apenas nas prioridades internas de gerenciamento, pois elas devem prevalecer sobre os interesses das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Concentrar-se nos interesses subjacentes, e não apenas nas posições declaradas pelas partes."
+                },
+                {
+                  "id": "E",
+                  "text": "Delegar todas as decisões à equipe, evitando envolvimento direto nas negociações com partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Um gerente de projeto lidera um projeto híbrido para implementar uma nova plataforma de gestão de casos em centros de atendimento regionais. O projeto combina uma implantação regional planejada em ondas com ajustes incrementais no aplicativo conforme o feedback dos centros. O piloto obteve aceitação técnica, e o patrocinador deseja acelerar a implementação completa no próximo mês.\nAnexo. Notas sobre benefícios e adoção\nItem: Resultado estratégico | Informação: Reduzir o tempo do ciclo de casos em 20%\nItem: Resultado do piloto | Informação: Tempo de ciclo reduzido em 18% em um centro\nItem: Impacto cultural | Informação: Duas regiões veem a automação como sinal de redução de postos de trabalho\nItem: Indicador de adoção | Informação: 35% dos supervisores concluíram treinamento específico para suas funções\nItem: Partes interessadas | Informação: Líderes da linha de frente foram informados após decisões de design\nQual é a melhor próxima ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Planejar a transição das preocupações culturais para operações."
+                },
+                {
+                  "id": "B",
+                  "text": "Prosseguir com a implantação completa pelo resultado do piloto."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar ao PMO um painel semanal de adoção regional."
+                },
+                {
+                  "id": "D",
+                  "text": "Atualizar o plano de adoção com líderes e supervisores."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um projeto híbrido substituirá soluções alternativas locais em três equipes regionais de operações por um fluxo de trabalho padronizado de gestão de casos assistido por IA. O projeto combina configuração iterativa da plataforma com implantação regional planejada em ondas. A configuração piloto foi concluída, mas entrevistas revelam que uma região desconfia das recomendações automatizadas e outra não possui supervisores preparados para orientar a equipe durante a transição. O patrocinador deseja iniciar a implementação no próximo mês para atingir a meta de benefícios.\nO que o gerente do projeto deve fazer a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir ao patrocinador que comunique a obrigatoriedade do novo fluxo para proteger a meta de benefícios."
+                },
+                {
+                  "id": "B",
+                  "text": "Iniciar a implementação em ondas e reforçar treinamento nas regiões com maior resistência."
+                },
+                {
+                  "id": "C",
+                  "text": "Adiar a implementação até que todas as regiões concluam as ações de preparação."
+                },
+                {
+                  "id": "D",
+                  "text": "Avaliar a prontidão regional com as partes interessadas e atualizar o plano de adoção, treinamento e suporte."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 13,
+              "type": "multiple",
+              "question": "Uma equipe de projeto híbrido testou um novo workshop de prevenção de defeitos durante as três últimas liberações. O projeto combina liberações incrementais com governança organizacional para padronização de práticas. As métricas de qualidade e o feedback das partes interessadas mostram redução de retrabalho, e o patrocinador deseja que a prática seja mantida além deste projeto. O PMO pergunta ao gerente do projeto como tornar a melhoria repetível, adotada e incorporada ao trabalho futuro.\nO que o gerente do projeto deve fazer? Selecione DUAS.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Registrar a prática no acordo de trabalho da equipe atual para uso nas próximas liberações."
+                },
+                {
+                  "id": "B",
+                  "text": "Coordenar com o PMO a implantação da prática validada, incluindo treinamento e responsabilidade pelo uso contínuo."
+                },
+                {
+                  "id": "C",
+                  "text": "Consolidar as anotações das retrospectivas no relatório final de lições aprendidas."
+                },
+                {
+                  "id": "D",
+                  "text": "Tornar a prática idêntica obrigatória para todos os projetos futuros."
+                },
+                {
+                  "id": "E",
+                  "text": "Esperar que outro projeto solicite a prática quando necessário."
+                },
+                {
+                  "id": "F",
+                  "text": "Incorporar a prática validada aos ativos de processos organizacionais com orientações de adoção."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "F"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/1/Gabarito - 7.1.txt",
+              "explanation": "",
+              "id": "area7-s1-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/1",
+              "title": "Sessão 1",
+              "session": 1
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s2",
+          "number": 2,
+          "title": "Sessão 2",
+          "questions": [
+            {
+              "number": 1,
+              "type": "matching",
+              "question": "Um gerente de projeto de uma grande empresa precisa categorizar o engajamento das partes interessadas no início de um projeto solicitado pelo conselho de diretores. As equipes de vendas e entrega são equipes internas. Arraste cada cenário de parte interessada à esquerda para o nível de engajamento correto à direita.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Fornecedores do projeto",
+                  "right": "Apoiador"
+                },
+                {
+                  "left": "Investidores que não entendem completamente os cenários de implementação do projeto",
+                  "right": "Resistente"
+                },
+                {
+                  "left": "Equipe de vendas não alinhada com as equipes de entrega",
+                  "right": "Neutro"
+                },
+                {
+                  "left": "Alta gerência",
+                  "right": "Líder"
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Durante uma retrospectiva, um membro da equipe menciona que tem dificuldades para documentar completamente certos aspectos do trabalho, pois muitas decisões e insights surgem de interações informais e da experiência adquirida ao longo do tempo. O gerente de projeto reconhece que esse é um caso de conhecimento tácito. O que o gerente de projeto deve fazer para garantir que esse conhecimento seja compartilhado dentro da equipe?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Criar um repositório centralizado onde todos os membros devem registrar diariamente o que aprenderam"
+                },
+                {
+                  "id": "B",
+                  "text": "Incentivar mentorias, discussões informais e pareamento entre membros da equipe para facilitar a transferência de conhecimento"
+                },
+                {
+                  "id": "C",
+                  "text": "Exigir que todos os membros documentem cada detalhe de seu trabalho em um manual de processos"
+                },
+                {
+                  "id": "D",
+                  "text": "Agendar reuniões formais para que os membros da equipe apresentem suas experiências individuais e insights"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto segue uma abordagem preditiva. Um membro da equipe informou que terá de deixar o cargo de engenheiro líder do projeto imediatamente e oferecerá suporte apenas quando necessário. Qual é a melhor ação a ser tomada pelo gerente de projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar ao membro da equipe que conclua todas as tarefas atribuídas"
+                },
+                {
+                  "id": "B",
+                  "text": "Escalar o problema para o patrocinador do projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Atualizar o registro das partes interessadas"
+                },
+                {
+                  "id": "D",
+                  "text": "Revisar e atualizar o plano de engajamento das partes interessadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 4,
+              "type": "multiple",
+              "question": "Quais das seguintes afirmações são verdadeiras em relação ao plano de engajamento das partes interessadas? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O plano de engajamento das partes interessadas ajuda a definir e gerenciar o fluxo de informações para as partes interessadas"
+                },
+                {
+                  "id": "B",
+                  "text": "O plano de engajamento das partes interessadas é desenvolvido analisando as necessidades, interesses e impactos potenciais das partes interessadas. Ele documenta as estratégias necessárias para promover a adesão e a execução das partes interessadas"
+                },
+                {
+                  "id": "C",
+                  "text": "O plano de engajamento das partes interessadas captura as estratégias necessárias para engajar as partes interessadas em todo o projeto"
+                },
+                {
+                  "id": "D",
+                  "text": "O plano de engajamento das partes interessadas documenta os tipos de necessidades de informações das partes interessadas, quando as informações devem ser distribuídas e como as informações serão entregues"
+                },
+                {
+                  "id": "E",
+                  "text": "O plano de engajamento das partes interessadas considera a estrutura organizacional e os requisitos das partes interessadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "C"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Um projeto enfrentou vários desafios, incluindo mudanças de pessoal e problemas de construção. Embora o gerente do projeto tenha informado consistentemente as partes interessadas sobre todas as mudanças usando os protocolos descritos no plano de comunicação, várias partes interessadas estão preocupadas com o estado atual do projeto. Como o gerente do projeto deve lidar com suas preocupações?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar um e-mail justificando sua posição"
+                },
+                {
+                  "id": "B",
+                  "text": "Tomar medidas corretivas"
+                },
+                {
+                  "id": "C",
+                  "text": "Conduzir uma reunião presencial com uma agenda clara com foco em suas preocupações específicas"
+                },
+                {
+                  "id": "D",
+                  "text": "Documentar as lições aprendidas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "O gerente de um projeto compreende a importância de identificar todas as partes interessadas relevantes, seu interesse e influência e suas necessidades e expectativas. Ele foi designado para lidar com um grande projeto de construção. Ao fazer uma análise completa das partes interessadas, identifica Roberto e Carla. Com base em suas interações e análise ele sabe que Roberto exerce muita autoridade e também tem um enorme interesse no projeto. Carla também exerce muito poder, mas é em grande parte desinteressada. O gerente do projeto decide utilizar uma grade de poder e interesse para ajudar a determinar como irá gerenciar essas partes interessadas. Qual das alternativas a seguir o gerente do projeto deve usar para lidar com essas duas partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Roberto e Carla devem ser gerenciados de perto"
+                },
+                {
+                  "id": "B",
+                  "text": "Roberto e Carla devem ser mantidos satisfeitos"
+                },
+                {
+                  "id": "C",
+                  "text": "Carla deve ser monitorada enquanto Roberto deve ser mantido satisfeito"
+                },
+                {
+                  "id": "D",
+                  "text": "Carla deve ser mantida satisfeita enquanto Roberto deve ser gerenciado de perto"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "O gerente de um projeto que vai criar muitos benefícios para a organização executora recém assumiu o projeto, porém sente um alto nível de resistência por parte das partes interessadas, desde o início do projeto. O que este gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Desenvolver uma matriz de responsabilidades que mostre claramente a responsabilidade de cada parte interessada nas várias atividades do projeto e quem necessita ser consultado e informado"
+                },
+                {
+                  "id": "B",
+                  "text": "Desenvolver um diagrama da organização, colocando cada uma das partes interessadas na posição apropriada no projeto, permitindo algumas linhas de comunicação e desabilitando outras"
+                },
+                {
+                  "id": "C",
+                  "text": "Programar uma reunião com estas partes interessadas para apresentar o projeto, discutir e estabelecer regras básicas, garantir seu engajamento e identificar questões pessoais e organizacionais"
+                },
+                {
+                  "id": "D",
+                  "text": "Inicialmente não se reunir com estas partes interessadas, buscando criar fatos consumados que vão forçar as partes interessadas a apoiar o projeto devido à falta de alternativas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "A alta direção deseja que os gerentes de projeto contribuam efetivamente para os repositórios de conhecimento organizacionais. O que o gerente de um projeto nessa organização deve fazer para esse fim?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Confirmar as abordagens para a coleta e disponibilização de conhecimento do repositório"
+                },
+                {
+                  "id": "B",
+                  "text": "Estabelecer regras estritas para proteção da propriedade intelectual"
+                },
+                {
+                  "id": "C",
+                  "text": "Promover o uso de gerenciamento de projetos"
+                },
+                {
+                  "id": "D",
+                  "text": "Assegurar que todos os planos de gerenciamento de projeto sejam desenvolvidos antes que a equipe de projetos seja formada"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Durante a fase de planejamento de um novo projeto de construção verde, o gerente do projeto identifica uma ONG ambiental importante como uma parte interessada com grande interesse, mas com influência moderada nos resultados do projeto. Dado o foco da ONG na sustentabilidade e o seu impacto potencial na percepção pública, que estratégia o gerente do projeto deve adotar para garantir um engajamento eficaz desta parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Fornecer à ONG atualizações detalhadas do projeto e solicitar feedback constante para integrar práticas sustentáveis de forma mais eficaz"
+                },
+                {
+                  "id": "B",
+                  "text": "Convidar a ONG a participar de reuniões semanais de revisão para discutir o impacto ambiental do projeto e as medidas de sustentabilidade"
+                },
+                {
+                  "id": "C",
+                  "text": "Estabelecer um canal de comunicação dedicado com a ONG para abordar uma vez por mês suas preocupações e sugestões"
+                },
+                {
+                  "id": "D",
+                  "text": "Negociar uma parceria com a ONG para aproveitar a sua experiência na promoção da sustentabilidade dentro do projeto e auxiliar na seleção da equipe"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "O gerente de um projeto e sua equipe estão desenvolvendo o plano de engajamento das partes interessadas. Um membro da equipe do projeto criou a matriz de avaliação do engajamento das partes interessadas abaixo. Qual é o elemento mais importante a ser incluído no plano de engajamento das partes interessadas?\n\nMatriz de avaliação do nível de engajamento das partes interessadas\nParte Interessada | Desinformado | Resistente | Neutro | Apoiador | Líder\nPessoa A | A | | D | |\nPessoa B | | | D | A |\nPessoa C | | | | A D |\nPessoa D | | A | | | D\nA: Atual D: Desejado",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um plano para melhorar o nível de engajamento da Pessoa A"
+                },
+                {
+                  "id": "B",
+                  "text": "Um plano de melhoria do nível de engajamento da Pessoa B"
+                },
+                {
+                  "id": "C",
+                  "text": "Uma estratégia para abordar o nível de engajamento da Pessoa C"
+                },
+                {
+                  "id": "D",
+                  "text": "Uma estratégia para melhorar o nível de engajamento da Pessoa D"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Um gerente de projeto trabalhando em um projeto híbrido identificou alguns grupos de partes interessadas no meio do projeto e começou a trabalhar com essas partes interessadas em conjunto. Sempre que ele realiza reuniões para relatar o status do projeto com essas partes interessadas, elas não participam da reunião, embora estejam sendo convidadas. Para fazer com que essas partes interessadas apoiem o projeto é muito importante para atingir os objetivos do projeto. Qual deve ser o próximo passo do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Analisar a matriz de avaliação de engajamento das partes interessadas e criar uma estratégia de engajamento, atualizando o plano de engajamento das partes interessadas"
+                },
+                {
+                  "id": "B",
+                  "text": "Revisar o registro das partes interessadas para que as partes interessadas apoiem o projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Atualizar o plano de gerenciamento das comunicações com novas estratégias de comunicação que farão com que as partes interessadas participem das reuniões"
+                },
+                {
+                  "id": "D",
+                  "text": "Orientar as partes interessadas sobre a importância de participar das reuniões e explicar o impacto no projeto devido à não participação"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Uma equipe de projeto híbrido começou a realizar pequenos experimentos de processo após repetidos atrasos nas transferências de responsabilidade (handoffs). O projeto combina ciclos iterativos de melhoria com controles organizacionais para padronizar práticas aprovadas. O patrocinador pergunta quais evidências demonstram que a equipe está incorporando a melhoria contínua ao trabalho futuro, em vez de apenas discutir ideias.\nQual evidência valida isso da melhor forma?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Backlog de melhorias com responsáveis, resultados dos experimentos e práticas incorporadas aos ativos organizacionais."
+                },
+                {
+                  "id": "B",
+                  "text": "Lista priorizada de ideias de melhoria propostas pelos membros da equipe nas retrospectivas."
+                },
+                {
+                  "id": "C",
+                  "text": "Quantidade de retrospectivas realizadas durante as duas últimas liberações."
+                },
+                {
+                  "id": "D",
+                  "text": "Registro de lições aprendidas atualizado com as ideias discutidas nas retrospectivas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/2/Gabarito - 7.2.txt",
+              "explanation": "",
+              "id": "area7-s2-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/2",
+              "title": "Sessão 2",
+              "session": 2
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s3",
+          "number": 3,
+          "title": "Sessão 3",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Um projeto de construção para uma usina nuclear reduzirá a dependência energética da região em suprimentos externos de eletricidade. O gerente do projeto recebeu apoio para o projeto de vários líderes da região. No entanto, algumas pessoas do governo querem interromper este projeto para se concentrar no desenvolvimento de fontes de energia renováveis. Quais partes interessadas o gerente do projeto deve incluir no plano de engajamento das partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Partes interessadas que discordam do projeto para gerenciar proativamente suas expectativas"
+                },
+                {
+                  "id": "B",
+                  "text": "Partes interessadas que foram identificadas e que têm necessidades e impacto potencial no projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Partes interessadas que estão apoiando o projeto para obter recursos adicionais"
+                },
+                {
+                  "id": "D",
+                  "text": "Partes interessadas que são selecionadas pelo patrocinador do projeto e têm impacto potencial no projeto"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um novo gerente de projeto está planejando um projeto de segurança da informação para uma empresa com sedes em diferentes países. Qual é a primeira etapa que o gerente de projeto deve realizar para reunir os requisitos dos clientes?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Realizar uma análise das partes interessadas para identificar como as políticas regionais podem influenciar as necessidades"
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar às partes interessadas relevantes que conduzam uma análise e cheguem a um consenso de forma independente"
+                },
+                {
+                  "id": "C",
+                  "text": "Conduzir uma oficina de revisão do escopo do projeto com as partes interessadas relevantes"
+                },
+                {
+                  "id": "D",
+                  "text": "Conduzir reuniões de planejamento de projeto com as partes interessadas relevantes de um local"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Uma empresa está instalando máquinas mais modernas e produtivas. O projeto envolve desmobilizar equipamentos antigos e instalar novos equipamentos robotizados. Ocorre que isto pode impactar o trabalho de algumas partes interessadas. Ao realizar as entrevistas para coletar os requisitos, o gerente do projeto verifica que muitas partes interessadas não estão cooperando. Isto está resultando em atraso no cronograma e o gerente do projeto está começando a ficar preocupado. Qual é a razão mais provável pela qual as partes interessadas não estão cooperando?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Os gerentes funcionais não foram envolvidos"
+                },
+                {
+                  "id": "B",
+                  "text": "O escopo de alto nível não foi bem definido"
+                },
+                {
+                  "id": "C",
+                  "text": "As restrições do projeto estão sendo coletadas com a técnica errada"
+                },
+                {
+                  "id": "D",
+                  "text": "Os interesses das partes interessadas não estão bem documentados"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Em um projeto internacional, alguns membros da equipe demonstram preocupação com a adequação de certos alimentos que serão usados em um evento, embora consultores especializados tenham dito que eles são apropriados ao contexto local. Como o gerente do projeto deve agir para preservar o apoio da equipe?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir aos consultores internacionais que convençam diretamente os membros da equipe"
+                },
+                {
+                  "id": "B",
+                  "text": "Escalar o assunto para a alta gerência"
+                },
+                {
+                  "id": "C",
+                  "text": "Conversar diretamente com os membros da equipe para orientá-los e buscar seu apoio"
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir que futuros participantes do evento orientem a equipe"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Um gerente de projeto assume um projeto que já está em execução e, ao revisar os artefatos, percebe que o registro das partes interessadas não contém qualquer informação sobre membros importantes da diretoria. Qual é a causa mais provável dessa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maria não é uma gerente de projetos competente"
+                },
+                {
+                  "id": "B",
+                  "text": "As partes interessadas mudaram com o passar do tempo"
+                },
+                {
+                  "id": "C",
+                  "text": "Este é um risco desconhecido que acaba de ocorrer"
+                },
+                {
+                  "id": "D",
+                  "text": "As partes interessadas não foram devidamente identificadas no passado"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Em um projeto para substituir bilhetes de papel por bilhetes eletrônicos, o gerente identifica um líder da área gráfica que conhece o projeto, entende seus impactos e vem criando obstáculos porque teme perder espaço na organização. Como o nível de engajamento dessa parte interessada deve ser classificado?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Desconhecido"
+                },
+                {
+                  "id": "B",
+                  "text": "Resistente"
+                },
+                {
+                  "id": "C",
+                  "text": "Neutro"
+                },
+                {
+                  "id": "D",
+                  "text": "Apoiador"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Para engajar partes interessadas recém-identificadas, o scrum master sugere convidá-las para a próxima revisão de iteração, mostrando o incremento desenvolvido e recolhendo feedback. Além desse objetivo, que outro motivo justifica sua presença nessa reunião?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Refletir sobre o desempenho da equipe"
+                },
+                {
+                  "id": "B",
+                  "text": "Priorizar histórias de usuários de alto risco para a próxima sprint"
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar novamente o backlog do lançamento"
+                },
+                {
+                  "id": "D",
+                  "text": "Discutir os planos de alto nível para a próxima sprint"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Uma parte interessada importante tem ligado diariamente para membros da equipe para reclamar de problemas da versão anterior, e isso já começou a atrasar o trabalho atual. Qual deve ser a primeira ação do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Dizer à parte interessada que pare de ligar para a equipe"
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir ao patrocinador para falar com a parte interessada"
+                },
+                {
+                  "id": "C",
+                  "text": "Marcar uma reunião face a face com a parte interessada"
+                },
+                {
+                  "id": "D",
+                  "text": "Fazer com que a equipe se reúna com a parte interessada para resolver todos os problemas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Um gerente de projeto é designado para um projeto de desenvolvimento de produto automotivo no meio da fase piloto. De acordo com o laboratório de teste, um teste de durabilidade foi concluído com bons resultados há seis semanas, mas não houve relatórios deixados pelo engenheiro de teste que deixou a organização no mês anterior. O que o gerente de projeto anterior deveria ter feito para evitar esse problema?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Construir um ambiente de engenharia em pares para que engenheiros experientes sempre trabalhassem com engenheiros juniores para auxiliar na transferência de conhecimento"
+                },
+                {
+                  "id": "B",
+                  "text": "Liderar uma oficina de discussão técnica todo mês para compartilhar tendências tecnológicas de ponta e pedir que todos os membros da equipe participassem"
+                },
+                {
+                  "id": "C",
+                  "text": "Contratar um laboratório de teste terceirizado para terceirizar todos os processos de teste e exigir que eles produzissem todos os relatórios de teste"
+                },
+                {
+                  "id": "D",
+                  "text": "Construir um repositório compartilhado para o projeto no servidor interno e pedir à equipe para criar, registrar e salvar todas as entregas do projeto no servidor"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Durante os estágios finais de um projeto de lançamento de um novo produto, o gerente de projeto recebe feedback indicando uma experiência ruim dos clientes com a interface do usuário do produto. Esse problema não foi previsto e representa um risco ao sucesso do projeto e à satisfação dos clientes. O que o gerente de projeto deve fazer para resolver a experiência ruim dos clientes antes do lançamento do produto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Prosseguir com o lançamento conforme planejado e resolver os problemas de experiência do cliente em atualizações futuras"
+                },
+                {
+                  "id": "B",
+                  "text": "Reunir feedback detalhado dos clientes e colaborar com a equipe de design para fazer as melhorias necessárias"
+                },
+                {
+                  "id": "C",
+                  "text": "Ignorar o feedback, pois representa uma minoria de clientes, e concentrar-se em estratégias de marketing para aumentar a aceitação do produto"
+                },
+                {
+                  "id": "D",
+                  "text": "Reduzir o preço do produto para compensar a má experiência da interface do usuário"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Uma equipe de projeto com experiência na abordagem de gerenciamento de projetos em cascata foi designada para seu primeiro projeto ágil. Para tornar a transição mais fácil, foi decidido manter alguns elementos da abordagem em cascata. Durante a revisão da iteração, perceberam-se diversos mal entendidos e esforços inúteis. O que o gerente de projeto deve fazer para resolver esse problema?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Não fazer nada, já que os membros da equipe estão fazendo a transição entre abordagens"
+                },
+                {
+                  "id": "B",
+                  "text": "Enviar uma solicitação de mudança para atualizar o plano de gerenciamento das comunicações"
+                },
+                {
+                  "id": "C",
+                  "text": "Manter a abordagem original em cascata"
+                },
+                {
+                  "id": "D",
+                  "text": "Trazer o assunto à tona durante a próxima retrospectiva de iteração"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um projeto ágil possui requisitos em evolução, alto risco e incerteza significativa. O gerente de projeto quer garantir que o backlog do produto reflita as necessidades atuais das partes interessadas e que as entregas sejam validadas continuamente. Com quais partes interessadas ele deve buscar maior engajamento recorrente?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Apenas a equipe de desenvolvimento, pois é responsável por produzir e testar os incrementos."
+                },
+                {
+                  "id": "B",
+                  "text": "O gerente funcional e a área de recursos humanos, pois controlam a alocação de pessoas."
+                },
+                {
+                  "id": "C",
+                  "text": "O patrocinador e representantes do cliente, pois ajudam a validar valor, prioridades e feedback sobre as entregas."
+                },
+                {
+                  "id": "D",
+                  "text": "Apenas o patrocinador, pois ele representa integralmente todas as necessidades de negócio."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Uma equipe de projeto está preparando a implantação de um novo fluxo corporativo de aquisições. O piloto técnico atendeu aos critérios de aceitação, mas as demonstrações mostram que algumas unidades de negócio dependem de aprovações informais de fornecedores. Além disso, os funcionários estão preocupados que o novo fluxo exponha práticas alternativas usadas no passado. O patrocinador precisa que a solução seja adotada para realizar as economias previstas.\nO que o gerente do projeto deve fazer em seguida?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Implantar a solução, pois o piloto técnico atendeu aos critérios de aceitação."
+                },
+                {
+                  "id": "B",
+                  "text": "Fornecer treinamento adicional no sistema para todos os usuários."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar que o patrocinador torne o uso imediato obrigatório."
+                },
+                {
+                  "id": "D",
+                  "text": "Avaliar a prontidão para adoção e adaptar o plano de mudança."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/3/Gabarito - 7.3.txt",
+              "explanation": "",
+              "id": "area7-s3-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/3",
+              "title": "Sessão 3",
+              "session": 3
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s4",
+          "number": 4,
+          "title": "Sessão 4",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Uma equipe de projeto está revisando o documento de negócios para uma sessão de final de fase e descobre que os benefícios precisam ser validados pelo patrocinador. Entretanto, o patrocinador mudou recentemente, e o novo patrocinador não parece favorável ao projeto. O que o gerente de projeto deve fazer para lidar com essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Notificar a diretoria e solicitar que ela tome providências."
+                },
+                {
+                  "id": "B",
+                  "text": "Organizar uma discussão com o patrocinador e esclarecer o documento de negócios do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Agendar uma reunião individual apenas para obter a adesão do patrocinador aos benefícios do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Identificar a mudança de gestão e adicioná-la ao registro de riscos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Nas últimas iterações, uma equipe não conseguiu cumprir os compromissos assumidos. Pelas conversas mais recentes, o gerente de projeto percebe que a equipe provavelmente também não conseguirá entregar o que foi prometido para a próxima liberação. Qual deve ser a melhor ação imediata?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Agendar uma discussão face a face com o dono do produto e a equipe para planejar o que fazer."
+                },
+                {
+                  "id": "B",
+                  "text": "Preparar um relatório detalhado da situação e compartilhá-lo com as partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Enviar um e-mail ao dono do produto informando a situação e pedir sua orientação."
+                },
+                {
+                  "id": "D",
+                  "text": "Agendar uma teleconferência com o patrocinador e o dono do produto para explicar a situação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Em um projeto de construção naval, há uma parte interessada que se opõe abertamente às metas propostas. Qual estratégia o gerente do projeto deve usar para lidar com essa parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Orientar a equipe para que não forneça informações a essa parte interessada."
+                },
+                {
+                  "id": "B",
+                  "text": "Considerar o ponto de vista da parte interessada e, se possível, fazer ajustes ao projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Enviar um presente para que a pessoa veja que o gerente é amigável."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao gerente da pessoa que fale com ela para mudar sua atitude."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Uma empresa pública, diante de um número crescente de projetos simultâneos, decide implantar um escritório de gerenciamento de projetos. Em um projeto de pequena central hidroelétrica, diante de notícias sobre possível pane no sistema energético nacional, o EGP considera eliminar algumas entregas ou acelerar atividades para concluir o projeto antes da data inicialmente prevista. Levando em conta a situação do projeto e as necessidades da organização, a melhor opção para o gerente do projeto é:",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eliminar atividades como inspeções e testes para atender à restrição de tempo."
+                },
+                {
+                  "id": "B",
+                  "text": "Reduzir a prioridade das solicitações de mudança feitas por partes interessadas influentes que se opõem ao projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Verificar se as partes interessadas, principalmente patrocinador e cliente, concordam com as mudanças no escopo do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Produzir um comunicado geral padronizado informando as mudanças para todas as partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 5,
+              "type": "multiple",
+              "question": "Um projeto ágil está em andamento há dois meses, mas algumas partes interessadas estão menos engajadas do que no início. Ainda faltam quatro meses para a conclusão prevista. O que o gerente do projeto deve fazer em relação a esse cenário? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Elaborar agora um plano de gerenciamento das partes interessadas para descobrir se o relacionamento está saudável."
+                },
+                {
+                  "id": "B",
+                  "text": "Monitorar as comunicações para verificar se as informações certas estão chegando às pessoas certas no momento certo."
+                },
+                {
+                  "id": "C",
+                  "text": "Perguntar à equipe por que o engajamento diminuiu, pois é responsabilidade dos membros da equipe gerenciar as partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Perguntar diretamente às partes interessadas se as reuniões e informações atuais são úteis e quais formatos ou técnicas poderiam mantê-las mais informadas e engajadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Em uma reunião entre gerentes de projeto, um dos participantes comenta que pretende usar a matriz de avaliação do nível de engajamento das partes interessadas. Para que essa matriz é mais útil?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Para definir o orçamento de comunicação do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Para comparar o nível atual e o nível desejado de engajamento das partes interessadas e orientar ações de ajuste."
+                },
+                {
+                  "id": "C",
+                  "text": "Para substituir o registro das partes interessadas durante todo o projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Para priorizar riscos qualitativos com base em probabilidade e impacto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 7,
+              "type": "multiple",
+              "question": "Em um projeto que envolve forte interação com órgãos públicos e representantes institucionais, o gerente do projeto precisa categorizar as partes interessadas para definir prioridades de engajamento. Quais métodos de categorização são apropriados nesse contexto? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Priorização"
+                },
+                {
+                  "id": "B",
+                  "text": "Relevância"
+                },
+                {
+                  "id": "C",
+                  "text": "Transformação"
+                },
+                {
+                  "id": "D",
+                  "text": "Transação"
+                },
+                {
+                  "id": "E",
+                  "text": "Colaboração"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Um projeto de implantação de software usa uma abordagem adaptativa. Durante o desenvolvimento, algumas partes interessadas importantes informam que estão insatisfeitas porque certas funcionalidades não estão na iteração atual. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Esperar até a próxima versão e torcer para que as expectativas sejam atendidas."
+                },
+                {
+                  "id": "B",
+                  "text": "Explicar a situação às partes interessadas, informar que as funcionalidades solicitadas serão adicionadas ao backlog e priorizadas adequadamente."
+                },
+                {
+                  "id": "C",
+                  "text": "Preparar uma solicitação formal de mudança para incluir essas funcionalidades na próxima versão."
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir ao patrocinador que resolva o problema diretamente com as partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Na metade do projeto, o patrocinador designa um inspetor para verificar a qualidade das entregas concluídas até o momento. O gerente de projeto não o conhece pessoalmente, mas ouviu que costuma ser rígido e difícil de lidar. Qual é a melhor forma de o gerente do projeto tratar essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir ao patrocinador para designar outro inspetor."
+                },
+                {
+                  "id": "B",
+                  "text": "Ignorar a designação do inspetor, pois ele é uma parte interessada externa."
+                },
+                {
+                  "id": "C",
+                  "text": "Colaborar com o inspetor e fornecer assistência quando necessário."
+                },
+                {
+                  "id": "D",
+                  "text": "Usar suas habilidades sociais para convencer o inspetor a ignorar eventuais problemas de qualidade e não reportá-los ao patrocinador."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um gerente de projeto percebe que a equipe está repetindo erros já registrados em projetos anteriores da organização. Para evitar isso, ele quer apoiar um ciclo real de melhoria contínua. O que ele deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Utilizar lições aprendidas e ajudar a garantir que os processos de melhoria contínua sejam atualizados."
+                },
+                {
+                  "id": "B",
+                  "text": "Ignorar os registros antigos, pois cada projeto deve aprender do zero."
+                },
+                {
+                  "id": "C",
+                  "text": "Concentrar-se apenas no cumprimento do cronograma atual."
+                },
+                {
+                  "id": "D",
+                  "text": "Restringir o acesso da equipe aos ativos organizacionais para evitar distrações."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Um gerente de projeto quer usar uma técnica que ajude a equipe a refletir logo após uma atividade importante, capturando o que era esperado, o que aconteceu e o que pode ser melhorado. Qual técnica melhor atende a esse objetivo?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Branch and bound."
+                },
+                {
+                  "id": "B",
+                  "text": "After-action review."
+                },
+                {
+                  "id": "C",
+                  "text": "Corrente crítica."
+                },
+                {
+                  "id": "D",
+                  "text": "COCOMO."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um gerente de projeto quer aproveitar melhor o aprendizado da equipe após eventos relevantes, sem esperar o encerramento do projeto. Ele quer uma técnica estruturada para comparar o que se esperava com o que aconteceu e identificar melhorias imediatamente. Qual técnica é a mais indicada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "After-action review."
+                },
+                {
+                  "id": "B",
+                  "text": "Curva S."
+                },
+                {
+                  "id": "C",
+                  "text": "Matriz RACI."
+                },
+                {
+                  "id": "D",
+                  "text": "Simulação de Monte Carlo."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Um gerente funcional de alto escalão entra em um projeto que já está na metade. Ele é conhecido por pressionar fortemente por aumento na quantidade de entregas, o que pode afetar expectativas, qualidade e escopo. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Identificar riscos relacionados à qualidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Identificar essa parte interessada, analisar sua influência e preparar uma estratégia de engajamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Auditar a qualidade de todas as entregas concluídas."
+                },
+                {
+                  "id": "D",
+                  "text": "Envolver a parte interessada no planejamento original do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/4/Gabarito - 7.4.txt",
+              "explanation": "",
+              "id": "area7-s4-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/4",
+              "title": "Sessão 4",
+              "session": 4
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s5",
+          "number": 5,
+          "title": "Sessão 5",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Caso de Estudo - O Patrocinador que Desapareceu\nUma empresa iniciou um projeto estratégico para substituir uma plataforma legada de atendimento ao cliente por uma solução integrada, com impacto direto em processos comerciais, operação, tecnologia e experiência do cliente. O projeto tinha forte apoio do patrocinador original, um diretor da área de negócios que participou da aprovação do caso de negócios, do termo de abertura e das principais decisões de priorização.\nDurante a execução, o patrocinador original foi promovido para um cargo regional e deixou de participar das reuniões do projeto. Um novo patrocinador foi designado, mas não recebeu uma integração formal sobre o histórico da iniciativa, os benefícios esperados, as decisões já tomadas, as restrições, os riscos e os compromissos assumidos com as áreas envolvidas. O gerente do projeto tomou conhecimento da mudança, mas assumiu que a transição entre patrocinadores seria conduzida pela liderança executiva.\nNas semanas seguintes, três decisões relevantes ficaram pendentes: aprovação de uma alteração no modelo de atendimento, confirmação de prioridade entre duas integrações críticas e liberação de uma reserva de contingência para tratar riscos técnicos. Como o novo patrocinador não tinha contexto suficiente para decidir, o projeto ficou praticamente paralisado por cinco semanas. A equipe continuou realizando atividades menores, mas as entregas principais foram atrasadas, e o fornecedor alertou que a postergação das decisões poderia gerar custos adicionais.\nAo revisar a situação, o PMO identificou que a governança do projeto dependia fortemente de uma única pessoa. Não havia um comitê diretor ativo, nem um mecanismo formal de transição de patrocinador, nem um fluxo claro para manter decisões estratégicas em andamento quando uma autoridade-chave fosse substituída. O PMO solicita ao gerente do projeto um plano de ação para recuperar o controle e reduzir a dependência de indivíduos específicos na governança do projeto.\nAo tomar conhecimento de que o patrocinador original seria substituído, o que o gerente do projeto deveria ter feito?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aguardar que a liderança executiva conduzisse a transição, pois a troca de patrocinador está fora da autoridade do gerente do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Suspender o projeto até que o novo patrocinador demonstrasse domínio completo do contexto da iniciativa."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar que a equipe continuasse executando o plano aprovado, sem envolver o novo patrocinador até surgir uma decisão crítica."
+                },
+                {
+                  "id": "D",
+                  "text": "Informar o novo patrocinador, compartilhar o caso de negócios, o termo de abertura e as atualizações de progresso, e alinhar decisões pendentes."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um desenvolvedor sênior de uma equipe ágil anuncia que sairá em duas semanas. Uma solicitação de mudança para contratar um substituto é aprovada, e o novo desenvolvedor é contratado. O gerente de projeto deseja garantir que o conhecimento seja transferido de forma eficiente e que a cadência ágil da equipe seja mantida.\nQual é o melhor curso de ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que o desenvolvedor sênior e o novo membro realizem acompanhamento do trabalho."
+                },
+                {
+                  "id": "B",
+                  "text": "Fazer com que o desenvolvedor sênior documente suas melhores práticas."
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir ao novo desenvolvedor que revise toda a documentação do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Fazer uso dos irradiadores de informação existentes."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto está na última fase, e as entregas precisam ser validadas. Uma parte interessada que deve aprovar as entregas afirma que elas são incompatíveis com suas necessidades. Os requisitos foram fornecidos por outra parte interessada que já saiu da organização. A parte interessada atual acredita que suas necessidades não foram consideradas. O que o gerente de projeto deve registrar nas lições aprendidas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A matriz de rastreabilidade dos requisitos não foi feita."
+                },
+                {
+                  "id": "B",
+                  "text": "A análise de requisitos não foi completada."
+                },
+                {
+                  "id": "C",
+                  "text": "O escopo não foi bem planejado."
+                },
+                {
+                  "id": "D",
+                  "text": "A parte interessada que deveria aprovar as entregas não foi identificada e envolvida adequadamente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo um projeto de pesquisa e desenvolvimento de um novo medicamento. O projeto é independente das operações usuais da organização, mas faz parte do planejamento estratégico da empresa. Ao preparar o plano de engajamento das partes interessadas, o gerente avalia as necessidades de comunicação.\nQuais partes interessadas devem receber maior atenção de comunicação nesse projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Cliente, patrocinador e gerentes funcionais."
+                },
+                {
+                  "id": "B",
+                  "text": "Equipe do projeto, diretoria e patrocinador."
+                },
+                {
+                  "id": "C",
+                  "text": "Equipe do projeto, cliente, usuário final e patrocinador."
+                },
+                {
+                  "id": "D",
+                  "text": "Equipe do projeto, gerentes funcionais, diretoria e cliente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Em um projeto com abordagem de desenvolvimento adaptativa, o gerente de projeto precisa definir a estratégia de engajamento das partes interessadas. Os requisitos ainda podem mudar, e o valor será entregue de forma incremental.\nQual aspecto do gerenciamento das partes interessadas é mais importante nesse contexto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Manter um registro detalhado de todas as partes interessadas e suas funções."
+                },
+                {
+                  "id": "B",
+                  "text": "Garantir engajamento contínuo e colaborativo das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Definir todos os requisitos das partes interessadas no início do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Limitar a interação com as partes interessadas para evitar mudanças frequentes no escopo."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Um gerente de projeto trabalha em um projeto ágil e as partes interessadas querem entender por que há vários pontos de contato com elas antes, durante e depois das iterações.\nQual deve ser a resposta do gerente de projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Para levantar e gerenciar mudanças, obter feedback e identificar riscos e problemas potenciais."
+                },
+                {
+                  "id": "B",
+                  "text": "Para informar as partes interessadas sobre a direção definida pela equipe de desenvolvimento."
+                },
+                {
+                  "id": "C",
+                  "text": "Para garantir que os executivos de negócios ouçam repetidamente sobre o valor da equipe."
+                },
+                {
+                  "id": "D",
+                  "text": "Para fazer com que as partes interessadas invistam mais tempo e se comprometam com o projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Ao gerenciar um projeto de reforma do salão de festas de um condomínio residencial, o gerente do projeto se depara com várias partes interessadas com objetivos conflitantes. Como foi decidido que a cozinha será aumentada, alguns moradores estão preocupados que a piscina seja reduzida. Por outro lado, há moradores que se queixam de que os usuários da piscina fazem muito barulho e desejam que a mesma seja eliminada. O que o gerente do projeto deve fazer primeiro visando compreender todas as preocupações, questões ou queixas dos moradores?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir uma descrição escrita dos problemas e submetê-los ao conselho de moradores"
+                },
+                {
+                  "id": "B",
+                  "text": "Programar uma sessão de revisão do projeto com toda a equipe do projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Buscar estabelecimento de confiança com as partes interessadas, buscando comunicação interativa"
+                },
+                {
+                  "id": "D",
+                  "text": "Envolver o patrocinador como um árbitro na situação"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 8,
+              "type": "multiple",
+              "question": "Um gerente de projeto precisa do envolvimento das partes interessadas para identificar premissas e restrições estratégicas e operacionais. No entanto, ele enfrenta dificuldades devido à falta de participação ativa dos envolvidos.\nQuais duas ações podem incentivar a participação e a colaboração? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Usar técnicas de conscientização política."
+                },
+                {
+                  "id": "B",
+                  "text": "Atuar como líder servidor."
+                },
+                {
+                  "id": "C",
+                  "text": "Utilizar reuniões com timebox."
+                },
+                {
+                  "id": "D",
+                  "text": "Usar técnicas eficazes de facilitação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 9,
+              "type": "multiple",
+              "question": "Em uma sessão de coaching com a equipe, o gerente do projeto reforça a importância de identificar partes interessadas e compreender suas necessidades, interesses e influência. Quais duas afirmações estão corretas? (Escolha duas)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Estruturas organizacionais e hierarquia, cultura, localizações geográficas, tendências globais e localizações de recursos e instalações podem impactar o poder, influência e interesse das partes interessadas no projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "As partes interessadas geralmente têm interesses conflitantes e é necessário entender os conflitos a fim de resolvê-los e gerenciar as expectativas das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "As partes interessadas podem ter o poder e a influência para causar problemas no projeto. É importante identificá-las para neutralizá-las, evitando que continuem a ter poder ou influência sobre o projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "A identificação das partes interessadas deve ser feita quando o planejamento do projeto estiver para ser concluído."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Uma equipe ágil trabalha com entregas frequentes, mas as partes interessadas estão reclamando que as demonstrações não ajudam a tomar decisões. Elas veem o incremento, mas não entendem quais decisões precisam ser tomadas nem como o feedback será usado.\nO que o facilitador deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Cancelar as demonstrações e enviar relatórios escritos após cada iteração."
+                },
+                {
+                  "id": "B",
+                  "text": "Preparar as demonstrações com foco em objetivos, decisões necessárias e feedback esperado."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir que somente a equipe técnica participe das demonstrações."
+                },
+                {
+                  "id": "D",
+                  "text": "Transformar as demonstrações em reuniões formais de aprovação de mudança."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Uma equipe de projeto está desenvolvendo uma solução com forte impacto operacional. Os usuários finais foram consultados no início, mas não participam das revisões. Ao final de várias iterações, surgem reclamações de que a solução não se encaixa no trabalho real.\nQual foi a principal falha do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Falta de envolvimento contínuo dos usuários e partes interessadas relevantes."
+                },
+                {
+                  "id": "B",
+                  "text": "Falta de documentação completa antes da primeira iteração."
+                },
+                {
+                  "id": "C",
+                  "text": "Falta de autoridade técnica da equipe de desenvolvimento."
+                },
+                {
+                  "id": "D",
+                  "text": "Uso de uma abordagem iterativa em vez de preditiva."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "No início de um projeto de conservação ambiental, uma parte interessada influente afirma que a abordagem escolhida pode não atingir as metas de impacto ambiental e ainda exceder o orçamento aprovado.\nO que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir-se com a parte interessada para compreender as preocupações, impactos percebidos e critérios de sucesso."
+                },
+                {
+                  "id": "B",
+                  "text": "Lançar imediatamente um piloto para demonstrar que a abordagem técnica funciona."
+                },
+                {
+                  "id": "C",
+                  "text": "Aumentar a frequência dos relatórios de status para mostrar mais transparência."
+                },
+                {
+                  "id": "D",
+                  "text": "Reforçar os benefícios ambientais de longo prazo para obter apoio à abordagem atual."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 13,
+              "type": "multiple",
+              "question": "Um projeto híbrido de conformidade está sendo encerrado após várias revisões de iteração terem identificado atrasos recorrentes na integração de fornecedores e critérios pouco claros para relatórios de sustentabilidade. O projeto combinou entregas iterativas com controles formais de conformidade. Projetos semelhantes estão programados para começar no próximo trimestre, e o patrocinador deseja que a organização evite repetir os mesmos problemas.\nQuais ações o gerente de projetos deve tomar? Selecione DUAS.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar o relatório final e anexá-lo ao repositório de lições aprendidas."
+                },
+                {
+                  "id": "B",
+                  "text": "Relatar apenas as lições positivas para manter a confiança."
+                },
+                {
+                  "id": "C",
+                  "text": "Aguardar os resultados completos de benefícios antes de aprovar qualquer recomendação."
+                },
+                {
+                  "id": "D",
+                  "text": "Validar causas, impactos e recomendações com as principais partes interessadas."
+                },
+                {
+                  "id": "E",
+                  "text": "Atualizar os ativos de processos organizacionais com recomendações aprovadas e responsáveis definidos."
+                },
+                {
+                  "id": "F",
+                  "text": "Adicionar todas as sugestões à linha de base do escopo do próximo projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D",
+                "E"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/5/Gabarito - 7.5.txt",
+              "explanation": "",
+              "id": "area7-s5-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/5",
+              "title": "Sessão 5",
+              "session": 5
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s6",
+          "number": 6,
+          "title": "Sessão 6",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Uma parte interessada resistente é essencial para o sucesso de um projeto estratégico. Ela tem influência sobre decisões importantes e demonstra oposição ao projeto em reuniões com outros executivos. O gerente de projeto precisa engajá-la e tentar mudar sua percepção sobre os benefícios e riscos do projeto. Que conjunto de habilidades o gerente de projeto deve usar prioritariamente?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Habilidades interpessoais."
+                },
+                {
+                  "id": "B",
+                  "text": "Habilidades administrativas de controle."
+                },
+                {
+                  "id": "C",
+                  "text": "Notificações formais às partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Julgamento especializado técnico."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Uma parte interessada importante deseja alterar funcionalidades de um lançamento. A análise do gerente de projeto mostra que as mudanças não adicionam valor funcional e podem impactar significativamente o roteiro de lançamentos e o orçamento. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aceitar as mudanças porque foram solicitadas por uma parte interessada importante, mas deixá-las com baixa prioridade."
+                },
+                {
+                  "id": "B",
+                  "text": "Aceitar as mudanças porque, em abordagens ágeis, o impacto não importa."
+                },
+                {
+                  "id": "C",
+                  "text": "Emitir imediatamente uma solicitação formal de mudança sem discutir a análise."
+                },
+                {
+                  "id": "D",
+                  "text": "Discutir a análise com a parte interessada para alinhar valor, impactos e prioridades."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 3,
+              "type": "multiple",
+              "question": "Um gerente de projeto de uma empresa de prestação de serviços se reúne com um diretor da empresa. O diretor informa que, se o projeto for implementado como planejado, sua área precisará comprar equipamentos adicionais, e esse custo não foi considerado no orçamento. O patrocinador insiste que o projeto prossiga como planejado porque o cliente será prejudicado se houver atraso. Quais afirmações são verdadeiras? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O diretor está correto, e o projeto não deve prosseguir conforme planejado até que todo o início do projeto seja refeito."
+                },
+                {
+                  "id": "B",
+                  "text": "O conflito deve ser resolvido considerando prioritariamente o valor e o impacto para o cliente."
+                },
+                {
+                  "id": "C",
+                  "text": "A identificação e análise das partes interessadas devem ocorrer o mais cedo possível no projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "O conflito deve ser resolvido automaticamente em favor do diretor."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "C"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "O gerente de um projeto está em posição-chave para influenciar o futuro das pessoas envolvidas. Sua prioridade é atingir os objetivos do projeto, mas ele também precisa garantir que a equipe observe políticas corporativas, regras de conduta e respeito à propriedade intelectual. Qual é uma responsabilidade adequada do gerente de projeto nesse contexto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Desenvolver sozinho todo o plano de gerenciamento do projeto e todos os documentos relacionados."
+                },
+                {
+                  "id": "B",
+                  "text": "Gerenciar o engajamento das partes interessadas e atuar de forma responsável dentro das políticas aplicáveis."
+                },
+                {
+                  "id": "C",
+                  "text": "Determinar formalmente a legalidade dos procedimentos da organização."
+                },
+                {
+                  "id": "D",
+                  "text": "Realizar inspeções técnicas detalhadas de todos os resultados do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Em um projeto Scrum, uma pessoa é frequentemente descrita como a \"voz do cliente\", pois representa os interesses da comunidade de partes interessadas para a equipe Scrum. Quem exerce esse papel?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Gerente de projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Dono do Produto."
+                },
+                {
+                  "id": "C",
+                  "text": "Líder da equipe de desenvolvimento."
+                },
+                {
+                  "id": "D",
+                  "text": "Scrum Master."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "O gerente de projeto se reúne com o patrocinador, que informa estar insatisfeito com o progresso de uma das principais entregas e acredita que isso pode colocar o projeto em risco. Ao revisar os dados, o gerente verifica que desempenho técnico, custo e cronograma estão dentro das tolerâncias definidas. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Comunicar ao patrocinador que os dados mostram que o projeto está dentro das tolerâncias."
+                },
+                {
+                  "id": "B",
+                  "text": "Enviar ao patrocinador um relatório demonstrando o bom desempenho do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Discutir as informações de desempenho com o patrocinador para convencê-lo de que o projeto está adequado."
+                },
+                {
+                  "id": "D",
+                  "text": "Entender a razão da preocupação do patrocinador e verificar se há riscos, expectativas ou informações não refletidas nos indicadores atuais."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "O gerente de um projeto está enfrentando desafios com uma parte interessada importante. Em projetos anteriores, essa parte interessada frequentemente alterava requisitos e criava problemas quando suas solicitações não eram atendidas. O gerente de projeto deseja reduzir riscos de conflito e aumentar a adesão dessa parte interessada. Como o gerente de projeto deve gerenciar essa parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Informar a direção sobre o histórico dessa parte interessada."
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir à parte interessada que modifique seus procedimentos."
+                },
+                {
+                  "id": "C",
+                  "text": "Envolver a parte interessada desde o início do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Adotar uma abordagem ágil para evitar conflitos com essa parte interessada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "O gerente de um projeto encontrou partes interessadas muito entusiasmadas com o projeto. Ele deseja documentar seus interesses, expectativas, poder, influência provável e informações que possam ajudar a engajá-las adequadamente durante o projeto. O que o gerente de projeto deve atualizar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Plano de gerenciamento do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Plano de gerenciamento das comunicações."
+                },
+                {
+                  "id": "C",
+                  "text": "Registro das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Termo de abertura do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Uma equipe de desenvolvimento está trabalhando em uma iteração planejada de um projeto ágil. Uma parte interessada procura o Scrum Master e pergunta por que uma funcionalidade foi removida da última sprint, quais funcionalidades estão previstas para a próxima sprint e como o dinheiro está sendo usado no projeto. Qual é o melhor curso de ação para o Scrum Master?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Orientar a parte interessada a consultar os gráficos de burndown do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Encaminhar a parte interessada aos membros da equipe para obter as informações."
+                },
+                {
+                  "id": "C",
+                  "text": "Recomendar que a parte interessada converse com o Dono do Produto."
+                },
+                {
+                  "id": "D",
+                  "text": "Fornecer as informações solicitadas durante a reunião diária."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um grupo de gerentes de projeto se reúne semanalmente para compartilhar boas práticas. Um deles explica que usou a matriz de avaliação do engajamento das partes interessadas em seu projeto. Outros colegas perguntam o que essa matriz deve mostrar. Qual é a melhor resposta?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Lista todas as partes interessadas, juntamente com seu engajamento atual e engajamento desejado."
+                },
+                {
+                  "id": "B",
+                  "text": "Lista apenas todas as partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Lista apenas as partes interessadas resistentes."
+                },
+                {
+                  "id": "D",
+                  "text": "Lista apenas as partes interessadas apoiadoras."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 11,
+              "type": "multiple",
+              "question": "Um gerente de projeto está conduzindo uma reforma residencial. Durante uma reunião, uma parte interessada pergunta por que foi escolhido papel de parede em vez de tinta. Como ele ingressou no projeto apenas durante a execução, o gerente não sabe a resposta. O que ele deve fazer? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Investigar se os outros participantes da reunião podem responder à pergunta."
+                },
+                {
+                  "id": "B",
+                  "text": "Mudar de assunto para evitar responder."
+                },
+                {
+                  "id": "C",
+                  "text": "Dizer que não sabe a resposta e que a questão é irrelevante para o tema da reunião."
+                },
+                {
+                  "id": "D",
+                  "text": "Admitir que não sabe a resposta e comprometer-se a verificar com a equipe e retornar à parte interessada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Em um projeto de implantação de sistema, uma parte interessada influente apoia publicamente o projeto, mas em reuniões privadas demonstra preocupação com perda de autonomia de sua área. O gerente de projeto precisa manter o engajamento dessa parte interessada. Qual ação é mais apropriada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ignorar a preocupação, pois a parte interessada apoia publicamente o projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Registrar a preocupação, entender seus interesses e ajustar a estratégia de engajamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar à equipe que essa parte interessada é resistente e deve ser evitada."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao patrocinador que remova essa parte interessada das decisões do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Um gerente de projeto percebe que uma parte interessada influente comparece às reuniões, mas raramente contribui. Mais tarde, em conversas informais, essa parte interessada expressa dúvidas importantes sobre a solução e sobre os benefícios esperados. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Considerar a parte interessada engajada, pois ela comparece às reuniões."
+                },
+                {
+                  "id": "B",
+                  "text": "Atualizar a análise de engajamento e ajustar a estratégia para obter participação mais efetiva."
+                },
+                {
+                  "id": "C",
+                  "text": "Remover a parte interessada das reuniões para reduzir ruído."
+                },
+                {
+                  "id": "D",
+                  "text": "Ignorar as dúvidas porque elas não foram apresentadas formalmente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo uma iniciativa com forte impacto em processos internos. Uma área afetada resiste à mudança porque acredita que perderá autonomia e controle sobre suas atividades. Qual abordagem é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ignorar a resistência, pois a mudança já foi aprovada pela direção."
+                },
+                {
+                  "id": "B",
+                  "text": "Entender as preocupações da área, envolver seus representantes e ajustar a estratégia de engajamento e comunicação."
+                },
+                {
+                  "id": "C",
+                  "text": "Remover a área afetada das decisões do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao patrocinador que imponha a mudança sem novas conversas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/6/Gabarito - 7.6.txt",
+              "explanation": "",
+              "id": "area7-s6-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/6",
+              "title": "Sessão 6",
+              "session": 6
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s7",
+          "number": 7,
+          "title": "Sessão 7",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "O gerente de projeto da divisão de consultoria foi informado de que a proposta enviada a um cliente foi aprovada pelo conselho de governança, e que o termo de abertura do projeto, contendo sua nomeação como gerente do projeto, foi aprovado. Qual atividade o gerente de projeto deve realizar a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Facilitar o planejamento da iteração."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar o backlog do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Identificar e analisar as partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Desenvolver o termo de abertura do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Ao final de uma iteração, a equipe possui um incremento de produto potencialmente liberável. O objetivo é aumentar a transparência, obter feedback curto das partes interessadas, reduzir riscos e orientar os próximos passos do produto. Quando esse incremento deve ser apresentado às partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Durante a reunião de planejamento da iteração."
+                },
+                {
+                  "id": "B",
+                  "text": "Durante a reunião de revisão da iteração."
+                },
+                {
+                  "id": "C",
+                  "text": "Durante a reunião retrospectiva da iteração."
+                },
+                {
+                  "id": "D",
+                  "text": "Durante uma reunião de aceitação separada ao final do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um gerente de projeto é contratado para conduzir um projeto para uma empresa petrolífera em Angola. A organização é grande, as unidades competem entre si e o projeto envolve prospecção em águas profundas, área na qual a empresa tem pouca experiência. O gerente anterior tinha bom relacionamento com a equipe, mas saiu por motivos pessoais. Ao assumir, o novo gerente revisa o termo de abertura, o plano de gerenciamento e as linhas de base com o patrocinador e verifica que os documentos estão atualizados. Depois, reúne a equipe para se apresentar, mas percebe que os membros estão tensos, irritados e insatisfeitos, embora a razão não esteja clara.\nQual é a explicação mais provável para essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O patrocinador não tem tido contato com a equipe, que não se sente valorizada na organização."
+                },
+                {
+                  "id": "B",
+                  "text": "Há conflitos de personalidade entre os membros da equipe."
+                },
+                {
+                  "id": "C",
+                  "text": "As partes interessadas têm expectativas diferentes sobre os objetivos do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "A estrutura funcional e a competitividade entre unidades fazem com que as pessoas tenham dificuldade de interagir."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "O gerente de um projeto de uma nova rodovia está identificando quem são as partes interessadas do projeto. O que deve ser incluído no registro das partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Os indivíduos e organizações envolvidos no projeto, ou cujos interesses possam impactar, ser impactados ou acreditar que serão impactados pelo projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Apenas as pessoas ou grupos que fornecem recursos e apoio ao projeto e são responsáveis por viabilizar seu sucesso."
+                },
+                {
+                  "id": "C",
+                  "text": "Apenas o cliente, seu agente ou representante, sucessor ou titular de direito que possa impactar o projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Qualquer pessoa que esteja trabalhando diretamente na equipe do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Um gerente de projetos trabalha em uma instituição financeira onde a segurança dos dados é crítica. Ele foi designado para investigar estações de trabalho e remover softwares instalados ilegalmente. Para implementar o projeto, precisa colaborar com todos os departamentos. Durante a execução, recebe apoio de quase todos os chefes de departamento, exceto do gerente financeiro e do gerente de RH. O gerente financeiro sempre afirma que não recebeu os e-mails e não ajuda nas dúvidas. O gerente de RH nunca responde aos e-mails, mas responde diretamente quando é encontrado no corredor.\nComo o gerente do projeto deve classificar essas partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O gerente financeiro e o gerente de RH são ambos resistentes."
+                },
+                {
+                  "id": "B",
+                  "text": "O gerente financeiro é desinformado, enquanto o gerente de RH é resistente."
+                },
+                {
+                  "id": "C",
+                  "text": "O gerente financeiro é desinformado, enquanto o gerente de RH é neutro."
+                },
+                {
+                  "id": "D",
+                  "text": "O gerente financeiro é resistente, enquanto o gerente de RH é neutro."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Um gerente de projetos atua na Secretaria de Transportes da prefeitura. O Secretário Municipal de Transportes solicita que ele providencie a licitação para adquirir novos ônibus para transportar universitários até uma universidade estadual em cidade vizinha. O gerente inclui um representante do governo estadual como parte interessada e planeja uma reunião com ele. O secretário questiona a necessidade dessa reunião.\nQual é a melhor resposta do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O representante do governo estadual conhece as necessidades dos universitários melhor do que a Secretaria de Transportes."
+                },
+                {
+                  "id": "B",
+                  "text": "O representante do governo estadual é uma parte interessada apenas porque o transporte ocorre dentro do estado."
+                },
+                {
+                  "id": "C",
+                  "text": "O filho do representante do governo estadual pode vir a ser um dos passageiros dos ônibus."
+                },
+                {
+                  "id": "D",
+                  "text": "O representante do governo estadual pode afetar o projeto negativamente se não for adequadamente engajado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "O gerente de um projeto híbrido está analisando partes interessadas. Ele identifica Mauren e Felipe. Ambos têm baixo poder e baixa autoridade, mas diferem em seu nível de interesse: Mauren tem alto interesse no projeto, enquanto Felipe demonstra baixo interesse. Ao usar uma matriz poder/interesse, como o gerente deve tratar essas duas partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ambos devem ser mantidos informados."
+                },
+                {
+                  "id": "B",
+                  "text": "Felipe deve ser monitorado e Mauren deve ser mantida informada."
+                },
+                {
+                  "id": "C",
+                  "text": "Ambos devem ser monitorados."
+                },
+                {
+                  "id": "D",
+                  "text": "Felipe deve ser mantido informado e Mauren deve ser monitorada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Um gerente de projetos está nos estágios iniciais de um projeto de automação da produção. Ele sabe que uma parte interessada importante não é favorável à automação dessa linha específica de produção. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Excluir essa parte interessada das comunicações, para que ela não possa influenciar o projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Incluir essa parte interessada em todas as comunicações, para que ela possa influenciar o projeto positivamente."
+                },
+                {
+                  "id": "C",
+                  "text": "Identificar o risco e atualizar o registro dos riscos."
+                },
+                {
+                  "id": "D",
+                  "text": "Desenvolver uma estratégia apropriada para abordar essa parte interessada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Durante uma entrega incremental final de um projeto, um usuário final informa ao líder do projeto que não está satisfeito com o resultado e pede a remoção de um membro da equipe que, segundo ele, causou o resultado desfavorável. O que o líder do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reconhecer o fato e prometer ao usuário final que o problema será resolvido."
+                },
+                {
+                  "id": "B",
+                  "text": "Informar ao usuário final que o membro é um recurso-chave e prometer que o problema será resolvido."
+                },
+                {
+                  "id": "C",
+                  "text": "Remover o membro da equipe conforme solicitado para não atrasar a aceitação."
+                },
+                {
+                  "id": "D",
+                  "text": "Discutir o problema com as partes interessadas apropriadas, compreender a causa e definir medidas para resolver a situação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Um gerente de projeto está criando o registro das partes interessadas. Ele acaba de concluir as classificações e precisa determinar os papéis prováveis. De acordo com a tabela a seguir, qual pessoa tem mais probabilidade de ser o patrocinador do projeto?\n\nREGISTRO DAS PARTES INTERESSADAS\nParte Interessada | Interna / Externa ao Projeto | Poder / Interesse | Direção da Influência\nPessoa A | Interna | Alto / Alto | Para Cima\nPessoa B | Externa | Alto / Alto | Para Cima\nPessoa C | Externa | Baixo / Alto | Para Baixo\nPessoa D | Interna | Baixo / Alto | Para o Lado",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pessoa A."
+                },
+                {
+                  "id": "B",
+                  "text": "Pessoa B."
+                },
+                {
+                  "id": "C",
+                  "text": "Pessoa C."
+                },
+                {
+                  "id": "D",
+                  "text": "Pessoa D."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "O gerente de um projeto está avaliando as partes interessadas do seu projeto atual. Há uma parte interessada em particular que liga diariamente para certificar-se de que ele será atualizado regularmente sobre o andamento do projeto. Depois de falar com as partes interessadas, o gerente do projeto descobre que não há recursos da organização da parte interessada participando do projeto e que este não faz parte do comitê diretor executivo. Como esta parte interessada deve ser classificada no que se refere a poder e interesse?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Alto poder/alto interesse: Gerenciar de perto"
+                },
+                {
+                  "id": "B",
+                  "text": "Alto poder/baixo interesse: Manter satisfeito"
+                },
+                {
+                  "id": "C",
+                  "text": "Baixo poder/baixo interesse: Monitorar"
+                },
+                {
+                  "id": "D",
+                  "text": "Baixo poder/alto interesse: Manter informado"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s8",
+          "number": 8,
+          "title": "Sessão 8",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Implantação de ERP em múltiplas unidades\n\nUm gerente de projeto está implantando um ERP em uma grande empresa de fabricação de equipamentos de ar-condicionado. A organização possui oito unidades em cinco estados, com diferenças relevantes de processos, maturidade digital, disponibilidade de equipes locais e práticas operacionais. A verba do projeto já foi aprovada, houve investimento relevante em treinamento inicial e a alta administração espera ganhos de produtividade, redução de custos e maior padronização das informações.\n\nO gerente de projeto tem experiência em implantações semelhantes, e a organização já selecionou processos e formulários padronizados para orientar o projeto. No entanto, durante as primeiras conversas, alguns gerentes regionais demonstram preocupação com impactos sobre rotinas locais, perda temporária de produtividade e mudanças nos papéis das equipes administrativas. A equipe de tecnologia acredita que a implantação pode seguir um roteiro padrão, enquanto a operação entende que cada unidade precisará de preparação específica.\n\nO patrocinador deseja acelerar a implantação para capturar benefícios ainda neste ano fiscal. A equipe do projeto planeja usar uma abordagem híbrida: os marcos principais, integrações e migração de dados serão controlados de forma mais preditiva, enquanto treinamento, ajustes operacionais e feedback dos usuários-chave serão conduzidos em ondas por unidade.\n\nO gerente do projeto precisa reduzir problemas de adoção, alinhar expectativas entre unidades, preparar o plano integrado de implantação e garantir que os benefícios esperados sejam acompanhados após a entrada em operação.\n\nO que o gerente de projeto deve fazer primeiro para reduzir a chance de problemas durante a implantação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Identificar e analisar partes interessadas importantes nas várias unidades."
+                },
+                {
+                  "id": "B",
+                  "text": "Obter conhecimento técnico sobre os equipamentos de ar-condicionado produzidos."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar novo apoio formal da alta administração antes de iniciar o planejamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Utilizar os formulários padronizados já selecionados pela organização."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/1.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto está atrasado devido a uma greve do sindicato dos trabalhadores. O sindicato afirma que deveria ter sido chamado a opinar no projeto e que seus interesses foram ignorados. O que o gerente de projeto poderia ter feito para evitar essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Identificar adequadamente os riscos."
+                },
+                {
+                  "id": "B",
+                  "text": "Planejar adequadamente as comunicações do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Identificar e analisar adequadamente as partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar envolvimento da alta gerência no momento apropriado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/2.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um gerente de projetos está conduzindo um projeto na fronteira com uma reserva indígena. Ele sabe que atender requisitos, expectativas e preocupações da comunidade local, da organização e de outras partes interessadas será essencial para evitar problemas de comunicação e aceitação. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mostrar o plano de gerenciamento do projeto à comunidade para que ela não cause problemas posteriores."
+                },
+                {
+                  "id": "B",
+                  "text": "Reportar o desempenho do projeto à medida que o projeto progredir."
+                },
+                {
+                  "id": "C",
+                  "text": "Realizar reuniões para entender necessidades, gerenciar expectativas e resolver questões com a comunidade indígena."
+                },
+                {
+                  "id": "D",
+                  "text": "Controlar o processo e se mobilizar apenas quando a comunidade causar interferência."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/4.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "O gerente de um projeto identificou algumas partes interessadas muito entusiasmadas com o projeto. Ele quer documentar seus interesses, expectativas, influência provável e possíveis contribuições para o sucesso do projeto. O que o gerente de projeto deve atualizar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Plano de gerenciamento do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Plano de gerenciamento das comunicações."
+                },
+                {
+                  "id": "C",
+                  "text": "Registro das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Termo de abertura."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/5.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Em um novo projeto, o gerente está contratando externamente alguns insumos básicos de um novo fornecedor. Se esses insumos atrasarem, o atraso impactará o projeto como um todo. O gerente quer estar preparado para acompanhar esse fornecedor e garantir interação apropriada para apoiar os interesses do projeto. Onde essa informação deve ser registrada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Registro das partes interessadas."
+                },
+                {
+                  "id": "B",
+                  "text": "Análise das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Plano de gerenciamento das aquisições."
+                },
+                {
+                  "id": "D",
+                  "text": "Documentos de licitação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/6.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Um gerente de projeto está identificando partes interessadas para uma iniciativa estratégica. A diretoria informa que uma das partes interessadas tem alto poder de influência e já conseguiu interromper outro projeto antes do planejamento detalhado. O que o gerente de projeto deve fazer em relação a essa parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Limitar o acesso às informações do projeto para reduzir a possibilidade de interferência."
+                },
+                {
+                  "id": "B",
+                  "text": "Dar acesso privilegiado a todas as informações do projeto, independentemente da necessidade de informação."
+                },
+                {
+                  "id": "C",
+                  "text": "Envolver a parte interessada desde o início, analisar suas expectativas, adaptar a comunicação e gerenciar seu engajamento de perto."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao patrocinador que remova essa parte interessada do projeto para proteger a equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/7.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Um grande projeto envolve unidades de negócio em diferentes regiões, fornecedores externos e áreas internas com interesses distintos. Dois novos membros entram na equipe e precisam compreender rapidamente quem influencia o projeto, quais são as expectativas relevantes e como interagir com as principais partes interessadas. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir que os novos membros registrem todas as questões que encontrarem no registro de questões."
+                },
+                {
+                  "id": "B",
+                  "text": "Revisar com os novos membros o registro das partes interessadas e a estratégia de engajamento associada."
+                },
+                {
+                  "id": "C",
+                  "text": "Agendar imediatamente uma reunião com todos os novos membros e todas as partes interessadas do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Enviar uma solicitação de mudança para atualizar o plano de engajamento das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/8.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Em um projeto híbrido, uma parte interessada importante solicita mudanças significativas no escopo após revisar um incremento entregue. A solicitação pode aumentar o valor do produto, mas também pode afetar prazo, custo e compromissos assumidos com outras áreas. Qual é a melhor abordagem do gerente do projeto na negociação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rejeitar a solicitação imediatamente para proteger a linha de base e evitar impacto no cronograma."
+                },
+                {
+                  "id": "B",
+                  "text": "Escutar ativamente a parte interessada, entender o valor esperado e avaliar alternativas com a equipe antes de decidir."
+                },
+                {
+                  "id": "C",
+                  "text": "Aceitar todas as mudanças solicitadas, pois feedback das partes interessadas deve prevalecer em projetos híbridos."
+                },
+                {
+                  "id": "D",
+                  "text": "Transferir a negociação ao patrocinador e evitar envolvimento direto para preservar a neutralidade do gerente do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/9.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Uma equipe experiente está desenvolvendo um sistema de controle de cargas para uma transportadora. Após uma demonstração para partes interessadas, um representante informa que um usuário operacional importante não está satisfeito, pois o fluxo entregue não atende às suas necessidades. Esse usuário não havia participado das sessões anteriores de levantamento e validação. Qual é a causa raiz mais provável do problema?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Os resultados não atendem aos requisitos porque a equipe técnica não possui experiência suficiente."
+                },
+                {
+                  "id": "B",
+                  "text": "A parte interessada está fazendo solicitações irrealistas depois de ver o produto funcionando."
+                },
+                {
+                  "id": "C",
+                  "text": "O backlog do produto não foi priorizado corretamente pelo dono do produto."
+                },
+                {
+                  "id": "D",
+                  "text": "Algumas partes interessadas relevantes não foram identificadas ou analisadas adequadamente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/10.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Um projeto possui partes interessadas de marketing, engenharia e tecnologia da informação. Durante o monitoramento do engajamento, o gerente de projetos percebe que o departamento de marketing, antes apoiador, passou a demonstrar postura neutra. Ao investigar, descobre que as comunicações do projeto são muito técnicas e que isso reduziu o interesse e a participação desse grupo. O que o gerente de projetos deve fazer a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Avaliar os estilos e necessidades de comunicação das partes interessadas de marketing."
+                },
+                {
+                  "id": "B",
+                  "text": "Fornecer treinamento técnico para o departamento de marketing antes de continuar as comunicações."
+                },
+                {
+                  "id": "C",
+                  "text": "Atualizar imediatamente o plano de comunicação com mensagens mais técnicas e detalhadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Registrar que o marketing mudou de apoiador para neutro e continuar usando o mesmo formato de comunicação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/11.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um projeto de mudança em produto está tecnicamente dentro do planejado. Um líder regional de operações informa que a mudança interromperá um processo local de suporte ao cliente que não foi discutido nas oficinas anteriores. A equipe do projeto entende que a preocupação chegou tarde, pois os requisitos já foram aprovados.\n\nO que o gerente do projeto deve fazer em seguida?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Avaliar o impacto operacional com o grupo afetado antes de decidir a resposta."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter os requisitos aprovados e tratar a preocupação na próxima fase."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar ao patrocinador que reforce o apoio ao desenho aprovado."
+                },
+                {
+                  "id": "D",
+                  "text": "Registrar a preocupação nas lições aprendidas e prosseguir com a entrega."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/12.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "O projeto de uma plataforma marítima de pesca no litoral está sendo executado. A organização nunca realizou um projeto como esse e as lições aprendidas durante o projeto estão sendo incorporadas ao repositório de conhecimento organizacional. Quando essas lições aprendidas provavelmente serão aplicadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "No final do projeto ou fase atual"
+                },
+                {
+                  "id": "B",
+                  "text": "Continuamente, durante o projeto atual"
+                },
+                {
+                  "id": "C",
+                  "text": "Em projetos ou fases futuras"
+                },
+                {
+                  "id": "D",
+                  "text": "Durante o projeto atual, porém no início de uma nova fase"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/13.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s9",
+          "number": 9,
+          "title": "Sessão 9",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Uma empresa especializada converterá um avião de passageiros em avião de carga. A equipe técnica do fornecedor já trabalhou junta muitas vezes, mas o cliente exigiu que o gerente de projeto fosse de sua própria organização. Antes de aprofundar o planejamento, qual informação o gerente de projeto deve buscar primeiro sobre essa equipe externa?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Preferências pessoais irrelevantes, como hobbies ou cor favorita dos membros."
+                },
+                {
+                  "id": "B",
+                  "text": "Objetivos, expectativas, interesses e possíveis impactos percebidos pelos membros da equipe em relação ao projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "A lista detalhada de atividades de cada pessoa antes de compreender expectativas e papéis."
+                },
+                {
+                  "id": "D",
+                  "text": "O papel de cada membro na elaboração do plano de gerenciamento, mesmo antes de analisar seu engajamento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Em um projeto híbrido, a equipe combinou entregas ágeis com controles preditivos. Apesar de o fluxo de trabalho estar funcionando, os membros dizem que não têm tempo para registrar lições aprendidas e que isso pode ficar para o encerramento. O gerente de projeto quer corrigir a situação sem criar burocracia excessiva. O que ele deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Realizar uma reunião de lições aprendidas apenas depois que cada entrega for formalmente aceita pelo cliente."
+                },
+                {
+                  "id": "B",
+                  "text": "Revisar com a equipe seus acordos de trabalho para incluir uma cadência leve e frequente de captura de lições aprendidas."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar ao dono do produto que assuma a responsabilidade de registrar as lições aprendidas da equipe."
+                },
+                {
+                  "id": "D",
+                  "text": "Contratar um recurso administrativo para registrar lições aprendidas enquanto a equipe se concentra apenas na entrega."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto de construção já passou da metade, e os relatórios indicam desempenho adequado em custo, cronograma e escopo. Mesmo assim, o gerente de projeto fica sabendo que o patrocinador está insatisfeito e tem dúvidas sérias sobre o projeto. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revisar novamente todos os indicadores de custo e cronograma antes de falar com o patrocinador."
+                },
+                {
+                  "id": "B",
+                  "text": "Ignorar a reclamação, pois os relatórios demonstram que o projeto está dentro do planejado."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar à diretoria que o projeto vai bem e que a preocupação do patrocinador não é sustentada pelos dados."
+                },
+                {
+                  "id": "D",
+                  "text": "Reunir-se com o patrocinador para entender suas preocupações, registrar as questões relevantes e alinhar expectativas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Em um projeto híbrido, algumas partes interessadas deixaram de participar das reuniões de acompanhamento. O gerente percebe que os assuntos discutidos nem sempre são relevantes para todos, e algumas pessoas dizem que não enxergam valor em participar. O que o gerente deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tornar obrigatória a participação de todas as partes interessadas em todas as reuniões."
+                },
+                {
+                  "id": "B",
+                  "text": "Transferir ao patrocinador a responsabilidade pelo engajamento das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Cancelar a maioria das reuniões para reduzir o impacto no tempo das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Revisar expectativas, necessidades de informação e canais de comunicação das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "O gerente de projeto está liderando o desenvolvimento de um novo equipamento para combate a incêndios florestais. Para compreender melhor as necessidades dos usuários finais, ele decide passar uma semana com uma brigada de combate a incêndios, observando como os equipamentos atuais são usados em campo. Qual habilidade essencial está sendo demonstrada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tomada de decisão baseada apenas em dados quantitativos"
+                },
+                {
+                  "id": "B",
+                  "text": "Gestão de riscos para antecipar todos os desafios operacionais"
+                },
+                {
+                  "id": "C",
+                  "text": "Inteligência emocional para motivar a equipe de desenvolvimento"
+                },
+                {
+                  "id": "D",
+                  "text": "Empatia para compreender as necessidades das partes interessadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Durante um projeto híbrido, o gerente de projeto percebe que algumas partes interessadas não participam das discussões relevantes, atrasam respostas e demonstram baixo interesse nas decisões do projeto. O gerente precisa aumentar o envolvimento dessas pessoas sem criar excesso de reuniões. Qual é a melhor abordagem?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Exigir a participação obrigatória de todas as partes interessadas nas reuniões diárias da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Transferir ao patrocinador toda a responsabilidade pelo engajamento das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Identificar interesses, expectativas, influência e necessidades de informação das partes interessadas e ajustar a estratégia de comunicação e engajamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Reduzir a quantidade de interações para minimizar o tempo exigido das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Durante o desenvolvimento do plano de engajamento das partes interessadas, o gerente de projeto precisa de julgamento especializado para definir estratégias eficazes para partes interessadas internas. Quem tende a ser a fonte menos adequada para fornecer esse julgamento sobre a dinâmica interna da organização executora?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Patrocinador."
+                },
+                {
+                  "id": "B",
+                  "text": "Principais partes interessadas internas identificadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Clientes externos."
+                },
+                {
+                  "id": "D",
+                  "text": "Membros da equipe do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Uma organização pública está iniciando um projeto para incentivar a piscicultura nos canais de irrigação usados por produtores de arroz. Antes de detalhar a solução, o gerente de projeto precisa identificar quem será afetado diretamente pela operação futura e quem poderá fornecer informações sobre necessidades sociais e operacionais relevantes. Qual grupo representa melhor as partes interessadas operacionais desse projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O gerente de projeto, a equipe do projeto, os produtores de arroz, o ministério e a sociedade em geral."
+                },
+                {
+                  "id": "B",
+                  "text": "Os operadores dos canais de irrigação, a equipe de manutenção, os produtores de arroz e os piscicultores que usarão a solução."
+                },
+                {
+                  "id": "C",
+                  "text": "O ministro responsável pela pasta, seus assessores jurídicos e representantes formais do governo federal."
+                },
+                {
+                  "id": "D",
+                  "text": "Todas as pessoas que trabalham no ministério, independentemente de sua relação com o projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Em um projeto ágil, o presidente da organização procura diretamente a equipe de desenvolvimento no meio da sprint e solicita novas funcionalidades para atender a uma demanda estratégica. A equipe fica insegura sobre interromper ou não o trabalho atual. Qual deve ser a melhor resposta do Scrum Master ou facilitador ágil?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que a equipe implemente imediatamente a mudança, pois a demanda veio da presidência."
+                },
+                {
+                  "id": "B",
+                  "text": "Redirecionar a solicitação ao Dono do Produto, para que seja avaliada, priorizada e tratada no backlog."
+                },
+                {
+                  "id": "C",
+                  "text": "Recusar a solicitação sem análise, para proteger a sprint de qualquer mudança externa."
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir à equipe de desenvolvimento que decida sozinha se a mudança deve entrar na sprint atual."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um gerente de projeto foi designado para um grande condomínio residencial. Há muitas partes interessadas, incluindo a incorporadora, a prefeitura, vizinhos, futuros moradores, órgãos reguladores e fornecedores. Em que momento essas partes interessadas devem ser analisadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Apenas no início do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Apenas durante o planejamento do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Apenas durante a execução do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Durante todo o projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Uma equipe híbrida está tendo dificuldade para satisfazer o cliente. A equipe afirma que o cliente muda constantemente as prioridades, enquanto o cliente afirma que a equipe não compreende suas necessidades. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir cliente, Dono do Produto e equipe para entender a divergência, alinhar expectativas e esclarecer critérios de valor"
+                },
+                {
+                  "id": "B",
+                  "text": "Contratar uma auditoria externa para avaliar as entregas e indicar quem está correto"
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir ao Dono do Produto que explique sozinho as necessidades do cliente para a equipe"
+                },
+                {
+                  "id": "D",
+                  "text": "Encaminhar imediatamente a situação ao patrocinador e solicitar intervenção formal"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um sistema de inteligência de negócios está sendo implantado com abordagem ágil. Algumas partes interessadas estão insatisfeitas porque funcionalidades que consideram importantes foram previstas apenas para uma versão futura e ainda não estão no escopo da próxima liberação. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aguardar a versão futura, pois funcionalidades fora do escopo atual não devem ser discutidas"
+                },
+                {
+                  "id": "B",
+                  "text": "Discutir as necessidades com as partes interessadas e o Dono do Produto, registrar os itens no backlog e submetê-los à priorização"
+                },
+                {
+                  "id": "C",
+                  "text": "Emitir imediatamente uma solicitação formal de mudança para incluir as funcionalidades na próxima versão"
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir ao patrocinador que assuma a comunicação com as partes interessadas insatisfeitas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Em um projeto ágil, vários itens permanecem bloqueados no quadro Kanban. A retrospectiva mostra que todos os bloqueios dependem de decisões de um chefe de departamento resistente. O gerente de projeto já tentou esclarecer o impacto e educar essa parte interessada, mas a resistência continua. O que o gerente de projeto deve fazer a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar compensação orçamentária ao chefe de departamento pelos atrasos causados."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar um radiador de informação classificando publicamente as partes interessadas conforme seu apoio ao projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Contornar permanentemente o chefe de departamento usando outras partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Analisar as partes interessadas para identificar alguém com autoridade ou influência capaz de apoiar o engajamento dessa pessoa."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Em um projeto estratégico, um membro-chave da equipe concentra grande parte do conhecimento técnico e costuma assumir tarefas críticas sozinho. Esse profissional informa que deixará o projeto em poucas semanas, e o gerente de projeto percebe que a continuidade das entregas pode ser afetada. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Redistribuir imediatamente todas as atividades do profissional entre os demais membros da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir ao RH que convença o profissional a equilibrar sua carga de trabalho até o encerramento."
+                },
+                {
+                  "id": "C",
+                  "text": "Estabelecer um mecanismo de transferência de conhecimento para reduzir a dependência e preservar a continuidade do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Oferecer incentivos para que o profissional permaneça, sem alterar a forma como o conhecimento é compartilhado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/9/Gabarito - 7.9.txt",
+              "explanation": "",
+              "id": "area7-s9-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/9",
+              "title": "Sessão 9",
+              "session": 9
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s10",
+          "number": 10,
+          "title": "Sessão 10",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Durante um projeto híbrido, o gerente de projeto percebe que algumas partes interessadas importantes deixaram de participar das revisões de entrega e raramente respondem às comunicações. A equipe acredita que isso pode gerar retrabalho, pois decisões de produto estão sendo tomadas sem feedback suficiente. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reduzir a comunicação com as partes interessadas que não estão participando, para concentrar esforço apenas em quem está engajado."
+                },
+                {
+                  "id": "B",
+                  "text": "Transferir ao patrocinador toda a responsabilidade pelo engajamento das partes interessadas ausentes."
+                },
+                {
+                  "id": "C",
+                  "text": "Entender expectativas, necessidades de informação e barreiras de participação, ajustando a estratégia de comunicação e engajamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Manter o plano de comunicação original, pois mudanças de engajamento são normais em projetos híbridos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "O gerente de um projeto ágil percebe que algumas partes interessadas estão insatisfeitas porque não compreendem o progresso real, os próximos incrementos e as decisões de prioridade. O que ele deve fazer para alinhar melhor as expectativas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Manter comunicação transparente e contínua, fornecendo visibilidade sobre progresso, prioridades, impedimentos e próximos incrementos."
+                },
+                {
+                  "id": "B",
+                  "text": "Reduzir a participação das partes interessadas para evitar interferências no trabalho da equipe."
+                },
+                {
+                  "id": "C",
+                  "text": "Modificar o escopo da iteração sem envolver a equipe para responder rapidamente às expectativas das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Transferir toda a responsabilidade de comunicação para o Dono do Produto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 3,
+              "type": "matching",
+              "question": "Durante o planejamento do engajamento das partes interessadas, o gerente de projeto compara o nível atual e o nível desejado de engajamento de cinco grupos importantes. Combine os níveis de engajamento das partes interessadas com suas descrições.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Resistente",
+                  "right": "A parte interessada não apoia o projeto e pode resistir ativamente ao engajamento."
+                },
+                {
+                  "left": "Apoiador",
+                  "right": "A parte interessada tem expectativas positivas quanto ao projeto e é solidária e engajada."
+                },
+                {
+                  "left": "Neutro",
+                  "right": "A parte interessada é neutra, não apoiando nem resistindo ao projeto, e pode ser minimamente engajada."
+                },
+                {
+                  "left": "Líder",
+                  "right": "A parte interessada está engajada ativamente no projeto e ajudando a garantir o seu sucesso."
+                },
+                {
+                  "left": "Desinformado",
+                  "right": "A parte interessada não está envolvida no projeto."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 5,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Em um projeto híbrido de automação, uma parte interessada influente começa a resistir ao projeto. O gerente de projeto suspeita que a pessoa teme que a automação reduza sua autoridade ou torne parte de seu trabalho obsoleta. Qual deve ser a primeira ação do gerente de projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Conversar com a parte interessada para compreender suas preocupações, interesses e expectativas."
+                },
+                {
+                  "id": "B",
+                  "text": "Demonstrar empatia de forma genérica e pedir cooperação até o final do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar que a automação já foi aprovada e que a resistência precisará cessar."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao patrocinador que remova a parte interessada das decisões do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 5,
+              "type": "multiple",
+              "question": "No meio da execução, uma parte interessada-chave deixa a empresa e outra pessoa assume sua função. O gerente de projeto precisa atualizar a estratégia de engajamento para refletir a nova pessoa, suas expectativas e sua influência no projeto. Quais perguntas são mais úteis nessa reunião inicial? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Você já gerenciou um projeto antes?"
+                },
+                {
+                  "id": "B",
+                  "text": "Qual é sua tolerância a risco em relação a prazo, custo e benefícios esperados?"
+                },
+                {
+                  "id": "C",
+                  "text": "Qual cargo você ocupava na empresa anterior?"
+                },
+                {
+                  "id": "D",
+                  "text": "Quais são suas preferências de comunicação e nível desejado de envolvimento?"
+                },
+                {
+                  "id": "E",
+                  "text": "Há lições aprendidas ou experiências anteriores que devemos considerar neste projeto?"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "D",
+                "E"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo a implantação de um PMO. O gerente de TI afirma publicamente que o projeto é perda de tempo e dinheiro e que o PMO não trará valor para a organização. Ele tem forte influência sobre áreas que precisarão adotar novos processos. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Excluir o gerente de TI das comunicações para evitar que influencie outras áreas."
+                },
+                {
+                  "id": "B",
+                  "text": "Remover o gerente de TI do registro das partes interessadas, pois ele não apoia o projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Registrá-lo como parte interessada influente com postura resistente e planejar uma estratégia de engajamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Substituir a comunicação planejada por uma reunião geral para defender o PMO perante toda a organização."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Em um projeto de transformação organizacional, algumas partes interessadas não participam das oficinas de alinhamento sobre metas e benefícios. A ausência delas já começa a gerar requisitos incompletos e risco de retrabalho. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Substituir as oficinas por uma técnica Delphi para coletar requisitos sem envolver diretamente as partes interessadas."
+                },
+                {
+                  "id": "B",
+                  "text": "Realizar uma sessão de brainstorming apenas com a equipe para acelerar a definição dos requisitos pendentes."
+                },
+                {
+                  "id": "C",
+                  "text": "Ajudar as partes interessadas a compreender os benefícios do projeto, suas responsabilidades e o impacto da baixa participação."
+                },
+                {
+                  "id": "D",
+                  "text": "Registrar o baixo engajamento como risco e aguardar a próxima rodada formal de coleta de requisitos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Em um projeto complexo, uma parte interessada afirma em reunião que suas necessidades não estão sendo atendidas e passa a questionar publicamente a abordagem do projeto. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Alterar imediatamente a abordagem do projeto para demonstrar resposta rápida à insatisfação."
+                },
+                {
+                  "id": "B",
+                  "text": "Analisar as expectativas da parte interessada, verificar alinhamento com os objetivos do projeto e identificar a causa do desalinhamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar que o plano já foi aprovado e que novas necessidades só poderão ser consideradas em outro projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar a situação ao patrocinador antes de conversar novamente com a parte interessada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Um projeto está no início. O escopo é bem definido, o prazo é apertado e atividades fora do caminho crítico têm pouca folga. O gerente de projeto soube que um gerente funcional influente resiste a liberar pessoas-chave para o projeto. Qual é a melhor estratégia inicial para gerenciar essa parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aceitar as condições impostas pelo gerente funcional para evitar conflito no início do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Envolver o gerente funcional no planejamento para entender restrições, negociar alternativas e buscar compromisso."
+                },
+                {
+                  "id": "C",
+                  "text": "Registrar a indisponibilidade de recursos como restrição do cronograma e seguir sem nova interação."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar imediatamente a questão ao patrocinador para obter autoridade sobre os recursos funcionais."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um projeto de implantação de ERP é longo, complexo e crítico para as operações. O patrocinador aprovou o termo de abertura e o plano, os relatórios são enviados regularmente e o projeto está dentro do prazo e do orçamento. Mesmo assim, o gerente descobre que um executivo com poder de decisão quer cancelar o projeto por considerar que o resultado será inaceitável. Qual é a causa mais provável?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Uma parte interessada crítica não foi identificada, analisada ou engajada de forma adequada."
+                },
+                {
+                  "id": "B",
+                  "text": "O termo de abertura deveria ter sido escrito pela equipe técnica, não pelo patrocinador."
+                },
+                {
+                  "id": "C",
+                  "text": "O projeto deveria estar atrasado para justificar uma intervenção executiva desse tipo."
+                },
+                {
+                  "id": "D",
+                  "text": "O patrocinador deve ter deixado de apoiar o projeto, pois relatórios regulares eliminam esse risco."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Em um projeto ágil, o gerente do projeto percebe que as partes interessadas estão formando expectativas diferentes sobre o produto porque só recebem relatórios resumidos de avanço. Qual estratégia deve ser usada para manter alinhamento contínuo sobre valor e aceitação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aguardar o final do projeto para apresentar o produto completo e evitar retrabalho durante o desenvolvimento."
+                },
+                {
+                  "id": "B",
+                  "text": "Realizar demonstrações frequentes dos incrementos, coletar feedback e ajustar o backlog conforme necessário."
+                },
+                {
+                  "id": "C",
+                  "text": "Criar um plano detalhado no início do projeto e impedir mudanças para manter estabilidade de escopo."
+                },
+                {
+                  "id": "D",
+                  "text": "Reduzir a interação com as partes interessadas para proteger a equipe de interrupções durante as iterações."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um gerente de projeto assume um empreendimento de construção de shopping centers e identifica práticas ágeis que poderiam melhorar feedback, priorização e transparência em alguns componentes do projeto. A organização, porém, tem histórico predominantemente preditivo. O que o gerente deve fazer para obter adesão das partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar o plano do projeto com as práticas ágeis propostas e aguardar comentários formais."
+                },
+                {
+                  "id": "B",
+                  "text": "Reunir as partes interessadas relevantes para explicar benefícios, limites e adaptação das práticas ao contexto do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Transferir a responsabilidade ao EGP, pois a mudança de abordagem deve ser conduzida fora do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Contratar um consultor para treinar as partes interessadas antes de discutir qualquer prática no projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Em uma revisão de iteração, o dono do produto aprova a liberação de um incremento que atende aos critérios de aceitação. Uma parte interessada importante, presente na reunião, discorda da liberação e afirma que a entrega não atende a uma expectativa de negócio que não estava explícita nos critérios. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que a equipe multifuncional decida se o incremento deve ser liberado."
+                },
+                {
+                  "id": "B",
+                  "text": "Colocar a decisão em votação entre todos os participantes da revisão."
+                },
+                {
+                  "id": "C",
+                  "text": "Facilitar o alinhamento entre o dono do produto e a parte interessada, verificando critérios de aceitação, valor esperado e impacto da divergência."
+                },
+                {
+                  "id": "D",
+                  "text": "Apoiar automaticamente a decisão do dono do produto e encerrar a discussão para proteger a cadência da equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Uma equipe participará de um treinamento técnico sobre uma nova versão de banco de dados que será usada em um projeto crítico. O gerente de projeto quer aumentar a retenção do conhecimento e garantir que a equipe consiga explicar as novas funcionalidades para outras partes interessadas. Qual ação é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que a equipe prepare uma demonstração das funcionalidades aprendidas para o projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir que a equipe registre apenas a presença no treinamento e aguarde a aplicação prática futura."
+                },
+                {
+                  "id": "C",
+                  "text": "Transferir a responsabilidade de aprendizado para o fornecedor que ministrará o treinamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Substituir o treinamento por um relatório individual sobre as mudanças técnicas da nova versão."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/10/Gabarito - 7.10.txt",
+              "explanation": "",
+              "id": "area7-s10-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/10",
+              "title": "Sessão 10",
+              "session": 10
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s11",
+          "number": 11,
+          "title": "Sessão 11",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Caso de Estudo - Aplicativo Móvel de Banco\nUm banco está desenvolvendo um aplicativo móvel voltado a clientes. O projeto é híbrido: a equipe de desenvolvimento trabalha em iterações de duas semanas, mas a entrada em operação está vinculada a um prazo regulatório fixo definido por um órgão regulador bancário, que não será alterado.\nUm Dono do Produto engajado prioriza o backlog. No meio do projeto, um diretor sênior de conformidade, que não participou da iniciação, passa a integrar o projeto e começa a levantar preocupações sobre como os dados dos clientes são tratados. Nas duas últimas iterações, a velocidade da equipe caiu de forma perceptível. Além disso, o patrocinador solicitou uma atualização de status estruturada em torno de valor de negócio, e não apenas de funcionalidades entregues.\n\nO diretor de conformidade entrou tardiamente no projeto e agora está levantando preocupações sobre o tratamento de dados dos clientes. Qual é a melhor forma de lidar com essa parte interessada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir ao Dono do Produto que adicione requisitos de conformidade ao backlog."
+                },
+                {
+                  "id": "B",
+                  "text": "Conversar com o diretor e revisar a estratégia de engajamento conforme necessário."
+                },
+                {
+                  "id": "C",
+                  "text": "Escalar ao patrocinador que uma parte interessada está interrompendo o projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Continuar com o plano atual, pois os requisitos já haviam sido acordados."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Em um projeto híbrido de desenvolvimento de produto, uma parte interessada sênior procura o gerente de projeto e exige o encerramento imediato do projeto. Ela afirma que, se o projeto continuar, buscará apoio da alta administração para interrompê-lo e responsabilizar a equipe. O gerente ainda não conhece os motivos dessa posição. O que ele deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir-se individualmente com a parte interessada para entender suas preocupações e interesses."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar imediatamente ao patrocinador que neutralize a influência da parte interessada."
+                },
+                {
+                  "id": "C",
+                  "text": "Levar o caso à alta administração para registrar formalmente a ameaça recebida."
+                },
+                {
+                  "id": "D",
+                  "text": "Informar a equipe para suspender o trabalho até que a situação política seja resolvida."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 3,
+              "type": "multiple",
+              "question": "O gerente de projeto quer fortalecer sua esfera de influência para aumentar a probabilidade de sucesso dos projetos, em vez de apenas reagir aos problemas quando surgirem. Com quais indivíduos ou grupos ele deve se engajar de forma proativa? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Membros de equipes de projetos sem relação com o trabalho atual, apenas para conhecer iniciativas paralelas."
+                },
+                {
+                  "id": "B",
+                  "text": "Fornecedores, clientes e usuários finais, pois podem influenciar requisitos, aceitação, desempenho e valor entregue."
+                },
+                {
+                  "id": "C",
+                  "text": "Patrocinadores, órgãos de governança, comitês de direção e EGP, pois influenciam direção, prioridades e apoio organizacional."
+                },
+                {
+                  "id": "D",
+                  "text": "Auditores e fiscais somente para evitar que prejudiquem o projeto durante revisões formais."
+                },
+                {
+                  "id": "E",
+                  "text": "Equipe do projeto e gerentes de recursos, pois afetam diretamente execução, capacidade, desenvolvimento e coordenação do trabalho."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "C",
+                "E"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo uma iniciativa estratégica do portfólio de despesas de capital de uma empresa química. O projeto reequipará uma linha de produção para ampliar a variedade de produtos. Para empregar melhores ferramentas e aumentar o valor do projeto, como o gerente deve envolver as partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Envolver todas as partes interessadas identificadas com o mesmo nível de esforço, independentemente de impacto, influência ou interesse."
+                },
+                {
+                  "id": "B",
+                  "text": "Fazer com que membros da equipe participem das atividades de engajamento, em vez de centralizar todo o relacionamento no gerente do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Limitar o engajamento às partes interessadas mais afetadas, usando cocriação como única técnica de decisão."
+                },
+                {
+                  "id": "D",
+                  "text": "Avaliar apenas se o engajamento das partes interessadas gera impactos positivos ou negativos para o projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Uma equipe de um projeto híbrido está tendo dificuldade para manter a satisfação do cliente. A equipe afirma que o cliente muda prioridades com frequência, enquanto o cliente diz que a equipe não entende suas necessidades. Qual deve ser a primeira ação do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir cliente, dono do produto e equipe para entender as causas do desalinhamento e ajustar a forma de colaboração."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar uma auditoria externa das entregas para confirmar se a equipe está cumprindo os padrões definidos."
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir ao dono do produto que explique sozinho as necessidades do cliente para a equipe nas próximas iterações."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar imediatamente ao patrocinador para que ele defina quais prioridades devem prevalecer."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Em um projeto em andamento, o patrocinador e um gerente da organização executora entram em conflito sobre prioridades do projeto. Ambos têm influência relevante e expectativas diferentes. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Intervir para compreender os interesses das partes, alinhar expectativas e buscar uma solução compatível com os objetivos do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Informar que todas as partes interessadas devem ter os mesmos objetivos e exigir adesão ao plano atual."
+                },
+                {
+                  "id": "C",
+                  "text": "Decidir em favor do patrocinador, pois ele fornece os recursos financeiros para o projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Decidir em favor da organização executora, pois ela realiza o trabalho e precisa permanecer satisfeita."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "No meio de um grande projeto de infraestrutura, uma das principais partes interessadas demonstra preocupação de que o projeto talvez não atenda às suas necessidades. Qual deve ser a primeira ação do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Alterar imediatamente o plano de gerenciamento do projeto para refletir as expectativas da parte interessada."
+                },
+                {
+                  "id": "B",
+                  "text": "Reunir-se com a parte interessada para compreender detalhadamente suas preocupações e expectativas."
+                },
+                {
+                  "id": "C",
+                  "text": "Explicar as restrições do projeto e informar que mudanças não poderão ser realizadas neste momento."
+                },
+                {
+                  "id": "D",
+                  "text": "Encaminhar a situação à alta administração para decidir se a preocupação deve ser considerada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Um gerente de PMO pede a um gerente de projeto que consulte informações de um projeto anterior semelhante, incluindo decisões tomadas, problemas enfrentados e lições aprendidas. Onde o gerente de projeto deve procurar essa informação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Relatórios de desempenho do projeto, pois consolidam todos os dados históricos necessários para novos projetos."
+                },
+                {
+                  "id": "B",
+                  "text": "Relatórios de andamento do projeto, pois indicam o status semanal e substituem o repositório de conhecimento."
+                },
+                {
+                  "id": "C",
+                  "text": "Repositórios de conhecimento organizacional e ativos de processos organizacionais disponíveis para projetos futuros."
+                },
+                {
+                  "id": "D",
+                  "text": "Sistema financeiro do projeto, pois contém os dados definitivos sobre desempenho, custos e aprendizado da equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Um gerente de projeto foi designado para uma iniciativa com várias partes interessadas. Algumas apoiam fortemente o projeto; outras apoiam o problema que será resolvido, mas defendem uma solução diferente. Qual atitude o gerente de projeto deve evitar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tratar a satisfação e o engajamento das partes interessadas como fatores importantes para o sucesso do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter comunicação contínua com as partes interessadas, ajustando abordagem e mensagens conforme seu interesse e influência."
+                },
+                {
+                  "id": "C",
+                  "text": "Envolver-se com as partes interessadas apenas periodicamente, pois a identificação inicial já define a comunidade relevante do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Revisar regularmente a comunidade de partes interessadas, considerando mudanças de influência, apoio, resistência e riscos ao projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 10,
+              "type": "multiple",
+              "question": "Uma equipe ágil está usando poucos documentos formais em um projeto de sistema de recursos humanos. Mesmo assim, o gerente do projeto quer garantir que os artefatos gerados sejam úteis, acessíveis e avaliados continuamente quanto à sua eficácia. Quais afirmações sobre documentos e artefatos do projeto estão corretas? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eles podem apoiar projetos futuros, especialmente ao registrar decisões, dados históricos e lições aprendidas."
+                },
+                {
+                  "id": "B",
+                  "text": "Eles podem incluir relatórios, métricas, registros, previsões, cronogramas, estruturas, logs e outros artefatos de gerenciamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Eles perdem valor automaticamente por serem armazenados eletronicamente e, por isso, devem ser descartados ao final de cada iteração."
+                },
+                {
+                  "id": "D",
+                  "text": "Eles devem permanecer disponíveis e acessíveis às pessoas que precisam usá-los para executar, controlar ou aprender com o projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B",
+                "D"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "O cliente rejeita uma entrega importante de software. Após investigar, o gerente do projeto conclui que a entrega atende aos requisitos originais, mas o cliente não sabe como usar corretamente a funcionalidade. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar uma solicitação de mudança para alterar a entrega conforme a percepção inicial do cliente."
+                },
+                {
+                  "id": "B",
+                  "text": "Orientar o cliente sobre o uso adequado da funcionalidade e confirmar novamente os critérios de aceitação."
+                },
+                {
+                  "id": "C",
+                  "text": "Forçar o cliente a aceitar a entrega, pois os requisitos originais foram atendidos."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar a situação imediatamente ao gerente de programa para que ele imponha a aceitação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "As partes interessadas de um produto ágil reclamam que alguns incrementos não representam suas reais necessidades. Ao conversar com a equipe, o gerente de projeto percebe que os desenvolvedores conhecem o objetivo geral do produto, mas não conseguem descrever claramente os diferentes perfis de usuários e suas expectativas. O que o gerente de projeto deve incentivar a equipe a usar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um termo de abertura ágil para confirmar a visão geral e os limites de atuação da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Um radiador de informações para tornar o progresso e os impedimentos mais visíveis."
+                },
+                {
+                  "id": "C",
+                  "text": "Personas de usuário para representar perfis, objetivos, necessidades e comportamentos dos usuários finais."
+                },
+                {
+                  "id": "D",
+                  "text": "Comunicação exclusivamente face a face para eliminar a necessidade de artefatos de apoio."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "O gerente de um projeto descobre que um usuário de negócios responsável por testar o produto não concluiu essa atividade. Esse usuário enviou um e-mail solicitando que um membro da equipe de desenvolvimento interrompa o trabalho planejado para ajudá-lo com um problema que poderia ter sido evitado se o teste tivesse sido feito no prazo. O usuário se reporta a uma parte interessada externa, não à equipe do projeto. A equipe também precisa que esse usuário participe de um teste futuro.\nO que o gerente do projeto deve fazer nessa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Registrar a questão e apresentá-la na próxima reunião de status para que todos entendam publicamente o problema."
+                },
+                {
+                  "id": "B",
+                  "text": "Registrar a questão e telefonar para a parte interessada apenas para explicar que o problema foi causado pelo usuário."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar uma conversa direta com a parte interessada e seu responsável, se necessário, para entender a causa, alinhar responsabilidades de teste e registrar os encaminhamentos."
+                },
+                {
+                  "id": "D",
+                  "text": "Enviar um e-mail formal para documentar o problema e incorporar a resposta no próximo relatório de desempenho."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Um projeto está implementando um novo CRM que substituirá três ferramentas legadas de vendas. Oito semanas antes da entrada em operação, o gerente do projeto descobre informalmente que a equipe de operações de vendas, principal base de usuários, está passando por uma reorganização. Dois gerentes seniores que apoiavam o projeto estão saindo, e a nova liderança sinalizou que deseja \"reavaliar prioridades\". Nada disso foi comunicado formalmente ao projeto.\nO que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revalidar diretamente todos os requisitos com a nova liderança antes de atualizar os artefatos do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Continuar a execução conforme o plano atual, pois nenhuma mudança formal foi comunicada pela governança."
+                },
+                {
+                  "id": "C",
+                  "text": "Escalar ao patrocinador e recomendar a pausa do projeto até a liderança reconfirmar as prioridades."
+                },
+                {
+                  "id": "D",
+                  "text": "Atualizar o registro das partes interessadas e reavaliar o engajamento, riscos e estratégia de comunicação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/11/Gabarito - 7.11.txt",
+              "explanation": "",
+              "id": "area7-s11-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/11",
+              "title": "Sessão 11",
+              "session": 11
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s12",
+          "number": 12,
+          "title": "Sessão 12",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Estudo de Caso: Desenvolvimento de Centro Comunitário\nUm gerente de projeto está liderando um projeto municipal de 18 meses para desenvolver um novo centro comunitário em um bairro urbano carente. O centro incluirá um salão multiuso, salas de atividades para idosos, um laboratório de aprendizagem para jovens, espaço de cuidado infantil, uma pequena clínica de conscientização em saúde, áreas externas de recreação, painéis solares e um portal online de reservas.\nNo início do projeto, o patrocinador aprovou os requisitos e o desenho da solução. O gerente do projeto usou esses requisitos aprovados como linha de base e continuou orientando a equipe com base no escopo e no desenho aprovados pelo patrocinador.\nAs principais partes interessadas incluem moradores, grupos de jovens, idosos, grupos de defesa das pessoas com deficiência, escolas locais, autoridades municipais, empresários, equipe de TI, equipe de operações das instalações e reguladores ambientais.\nDurante a execução, surgiram várias preocupações. Moradores solicitaram mais espaços para uso noturno em programas culturais. O grupo de defesa das pessoas com deficiência levantou preocupações de que a entrada proposta dificultaria o acesso de alguns usuários. As escolas locais pediram melhor integração entre o laboratório de aprendizagem e seus programas extracurriculares. Além disso, os reguladores ambientais emitiram uma nova exigência obrigatória de conformidade municipal para drenagem pluvial, aplicável antes da aprovação final da construção.\n\nO que o gerente do projeto deveria ter feito de forma diferente durante a execução para manter as partes interessadas alinhadas e reduzir a insatisfação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Continuar seguindo o desenho aprovado pelo patrocinador e aceitar apenas mudanças obrigatórias de conformidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Escalar todas as preocupações ao patrocinador para que ele decida quais solicitações aceitar."
+                },
+                {
+                  "id": "C",
+                  "text": "Aceitar as solicitações dos moradores e dos grupos locais para preservar o apoio da comunidade."
+                },
+                {
+                  "id": "D",
+                  "text": "Realizar alinhamentos periódicos, registrar preocupações e comunicar decisões com transparência."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Estudo de Caso: Desenvolvimento de Centro Comunitário\nUm gerente de projeto está liderando um projeto municipal de 18 meses para desenvolver um novo centro comunitário em um bairro urbano carente. O centro incluirá um salão multiuso, salas de atividades para idosos, um laboratório de aprendizagem para jovens, espaço de cuidado infantil, uma pequena clínica de conscientização em saúde, áreas externas de recreação, painéis solares e um portal online de reservas.\nNo início do projeto, o patrocinador aprovou os requisitos e o desenho da solução. O gerente do projeto usou esses requisitos aprovados como linha de base e continuou orientando a equipe com base no escopo e no desenho aprovados pelo patrocinador.\nAs principais partes interessadas incluem moradores, grupos de jovens, idosos, grupos de defesa das pessoas com deficiência, escolas locais, autoridades municipais, empresários, equipe de TI, equipe de operações das instalações e reguladores ambientais.\nDurante a execução, surgiram várias preocupações. Moradores solicitaram mais espaços para uso noturno em programas culturais. O grupo de defesa das pessoas com deficiência levantou preocupações de que a entrada proposta dificultaria o acesso de alguns usuários. As escolas locais pediram melhor integração entre o laboratório de aprendizagem e seus programas extracurriculares. Além disso, os reguladores ambientais emitiram uma nova exigência obrigatória de conformidade municipal para drenagem pluvial, aplicável antes da aprovação final da construção.\n\nDurante a execução, o grupo de defesa das pessoas com deficiência informa que a entrada proposta pode dificultar o acesso de alguns usuários. O desenho já havia sido aprovado pelo patrocinador. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rejeitar a preocupação, pois o desenho já foi aprovado pelo patrocinador."
+                },
+                {
+                  "id": "B",
+                  "text": "Avaliar o impacto da preocupação com as partes apropriadas antes de decidir."
+                },
+                {
+                  "id": "C",
+                  "text": "Alterar imediatamente o desenho da entrada para atender ao grupo."
+                },
+                {
+                  "id": "D",
+                  "text": "Encaminhar a decisão diretamente ao empreiteiro responsável pela obra."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Em um projeto ágil de desenvolvimento de produto, o gerente do projeto está explicando à equipe a relação entre cliente, dono do produto e equipe de desenvolvimento. Qual orientação está mais alinhada a essa abordagem?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O cliente ou seu representante define valor, prioridades e valida a experiência do usuário; a equipe define como realizará o trabalho."
+                },
+                {
+                  "id": "B",
+                  "text": "A equipe de desenvolvimento define a prioridade das funcionalidades, pois conhece melhor a solução técnica."
+                },
+                {
+                  "id": "C",
+                  "text": "O cliente determina como o trabalho técnico deve ser realizado, para garantir aderência às suas expectativas."
+                },
+                {
+                  "id": "D",
+                  "text": "A equipe de desenvolvimento escolhe quais funcionalidades serão desenvolvidas primeiro, independentemente do valor de negócio."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Durante o desenvolvimento de um produto, surgem conflitos entre partes interessadas, atrasando decisões e aprovações. O gerente do projeto percebe que algumas partes estão defendendo interesses locais em vez dos objetivos do projeto. Em qual área ele deve concentrar sua próxima ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revisar o plano integrado do projeto para comprimir o cronograma e compensar os atrasos de aprovação."
+                },
+                {
+                  "id": "B",
+                  "text": "Revisar o caso de negócios para identificar lacunas no escopo antes de envolver novamente as partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Reavaliar o engajamento das partes interessadas e ajustar estratégias específicas de comunicação e participação."
+                },
+                {
+                  "id": "D",
+                  "text": "Aumentar a frequência de relatórios de status para manter todas as partes informadas sobre o andamento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "O gerente de projeto está tendo dificuldade para obter aprovação dos requisitos porque há desacordo entre partes interessadas. O impasse está colocando o cronograma em risco. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consultar o termo de abertura para confirmar a autoridade do gerente de projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Atualizar imediatamente o registro das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Identificar a fonte do desacordo e compreender os interesses envolvidos."
+                },
+                {
+                  "id": "D",
+                  "text": "Organizar um evento de construção da equipe com todos os envolvidos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Durante a transição para Scrum, um coach ágil explica à equipe a relação entre cliente, dono do produto e equipe de desenvolvimento. Qual afirmação está mais alinhada com essa relação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A equipe de desenvolvimento define quais funcionalidades devem ser implementadas primeiro."
+                },
+                {
+                  "id": "B",
+                  "text": "O cliente determina como a equipe deve executar tecnicamente o trabalho."
+                },
+                {
+                  "id": "C",
+                  "text": "O cliente ou seu representante define valor, valida a experiência do usuário e orienta prioridades de produto."
+                },
+                {
+                  "id": "D",
+                  "text": "A equipe de desenvolvimento prioriza recursos, pois conhece melhor a solução técnica."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Durante o estágio de aceitação pelos usuários, várias pessoas reclamam que as entregas não atendem às expectativas e solicitam correções significativas. Qual é a melhor maneira de o gerente do projeto evitar esse tipo de situação em projetos futuros?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Incorporar feedback das partes interessadas ao longo do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Realizar avaliações de risco apenas antes da aceitação final."
+                },
+                {
+                  "id": "C",
+                  "text": "Aplicar técnicas de resolução de conflitos quando surgirem reclamações."
+                },
+                {
+                  "id": "D",
+                  "text": "Desenvolver bom relacionamento com os usuários no encerramento do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "A equipe de um projeto está iniciando o planejamento do engajamento das partes interessadas e quer definir quem deve identificar as partes interessadas e compreender seus requisitos, expectativas e influência no projeto. Quem deve conduzir esse trabalho?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O campeão do projeto, pois ele representa informalmente os interesses da organização."
+                },
+                {
+                  "id": "B",
+                  "text": "A equipe do projeto, com apoio do patrocinador e de outras partes interessadas relevantes."
+                },
+                {
+                  "id": "C",
+                  "text": "Os influenciadores externos, pois eles podem afetar a aceitação do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "O patrocinador do projeto, pois ele autorizou o projeto e responde pelos benefícios."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Um gerente de projeto ágil quer aumentar a abertura, a transparência e o compartilhamento de conhecimento entre a equipe e as partes interessadas. Qual ação é mais apropriada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Registrar todo o processo de trabalho em um documento detalhado para leitura individual da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Compartilhar informações relevantes apenas com um pequeno grupo executivo para evitar ruído de comunicação."
+                },
+                {
+                  "id": "C",
+                  "text": "Tornar as principais informações visíveis no espaço de trabalho da equipe e convidar partes interessadas afetadas para eventos relevantes do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Direcionar diariamente o que cada membro deve fazer para que todos aprendam observando as decisões do gerente de projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Em um projeto híbrido de desenvolvimento de software, a equipe vinha adicionando pequenas funcionalidades não solicitadas pelo cliente, consumindo capacidade e criando risco de retrabalho. Depois que as reuniões diárias de coordenação passaram a explicitar o trabalho em andamento, esse comportamento deixou de ocorrer. O que o gerente do projeto deve fazer para preservar esse aprendizado no projeto atual e em projetos futuros?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Registrar a prática no registro de lições aprendidas e compartilhar o aprendizado com a equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Levar o tema somente para a retrospectiva final do projeto, pois o problema já foi resolvido."
+                },
+                {
+                  "id": "C",
+                  "text": "Aceitar a prática de adicionar funcionalidades extras quando a equipe entender que isso aumenta o valor."
+                },
+                {
+                  "id": "D",
+                  "text": "Atualizar o plano de gerenciamento do escopo para tornar a reunião diária o único controle de escopo."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Em um projeto ágil de software, o cliente rejeita uma funcionalidade importante. Após investigar, o gerente do projeto confirma que a funcionalidade atende aos critérios de aceitação, mas o cliente não sabe como utilizá-la corretamente. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Abrir uma solicitação de mudança para redesenhar a funcionalidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Orientar o cliente sobre o uso adequado e confirmar novamente a aceitação com base nos critérios acordados."
+                },
+                {
+                  "id": "C",
+                  "text": "Exigir que o cliente aceite a funcionalidade, pois ela atende aos critérios de aceitação."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar a situação para o gerente de programa antes de falar novamente com o cliente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 12,
+              "type": "matching",
+              "question": "Um gerente de projeto está conduzindo uma análise das partes interessadas usando a matriz de poder / interesse abaixo. Ligue cada ação ao quadrante adequado.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "A",
+                  "right": "Manter Satisfeito"
+                },
+                {
+                  "left": "B",
+                  "right": "Gerenciar com atenção"
+                },
+                {
+                  "left": "C",
+                  "right": "Monitorar"
+                },
+                {
+                  "left": "D",
+                  "right": "Manter Informado"
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Um gerente funcional, que era parte interessada do projeto, delegou suas responsabilidades a outra pessoa da área funcional. O gerente do projeto percebe que essa nova parte interessada não participa das reuniões nem responde às comunicações. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revisar o plano de comunicação e o nível de engajamento esperado para essa nova parte interessada."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar que a nova parte interessada acompanhe uma parte interessada mais experiente para aprender suas responsabilidades."
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir ao gerente funcional que obrigue a nova parte interessada a participar de todas as reuniões."
+                },
+                {
+                  "id": "D",
+                  "text": "Incluir tarefas do cronograma para a nova parte interessada, tratando-a como membro da equipe do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Uma parte interessada que sempre apoiou as iniciativas da equipe passou a demonstrar menor interesse e deixou de defender o projeto em fóruns importantes. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Conversar com a parte interessada para compreender a causa da mudança de comportamento e ajustar a abordagem de engajamento."
+                },
+                {
+                  "id": "B",
+                  "text": "Considerar o plano de engajamento das partes interessadas o melhor forma de avançar."
+                },
+                {
+                  "id": "C",
+                  "text": "Aumentar a frequência dos relatórios enviados à parte interessada para mostrar o progresso do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Atualizar imediatamente o plano de engajamento das partes interessadas com uma nova estratégia de comunicação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/12/Gabarito - 7.12.txt",
+              "explanation": "",
+              "id": "area7-s12-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/12",
+              "title": "Sessão 12",
+              "session": 12
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s13",
+          "number": 13,
+          "title": "Sessão 13",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Estudo de Caso: Implementação de ERP Financeiro\nUm gerente de projeto está liderando um projeto corporativo para migrar vários sistemas financeiros desconectados para uma plataforma ERP integrada. A implantação afetará finanças, compras, operações de vendas, unidades de negócio regionais, atendimento ao cliente, conformidade, infraestrutura de TI e parceiros externos de implementação.\nA organização cresceu por meio de aquisições. Por isso, diferentes unidades de negócio seguem fluxos de aprovação, formatos de relatório, estruturas de plano de contas e modelos operacionais distintos. Alguns gerentes financeiros regionais estão resistindo ao processo padrão do ERP porque acreditam que suas práticas locais são mais rápidas e mais adequadas às necessidades dos clientes.\nO patrocinador deseja um plano de implantação em fases que reduza a interrupção operacional e garanta uma transição sem descontinuidade para os clientes. O gerente do projeto deve trabalhar de perto com o gerente de TI e a equipe de rede para confirmar sistemas legados, interfaces de dados, controles de acesso de usuários, infraestrutura de rede, integrações críticas e prontidão dos parceiros externos.\n\nAlguns gerentes financeiros regionais resistem ao processo padrão do ERP porque acreditam que suas práticas locais são mais rápidas. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Exigir adesão ao processo padrão porque a padronização foi definida pelo patrocinador."
+                },
+                {
+                  "id": "B",
+                  "text": "Ouvir as preocupações regionais e analisar impactos antes de decidir ajustes."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir exceções regionais para evitar atrasos na implantação."
+                },
+                {
+                  "id": "D",
+                  "text": "Escalar a resistência ao patrocinador para que ele imponha a decisão."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo um projeto grande em seus estágios iniciais. Ele envolve o cliente no planejamento, mas um gerente sênior reclama que essa participação consome tempo. Qual resposta do gerente de projeto é mais apropriada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O envolvimento do cliente nesse momento pode economizar tempo e dinheiro durante a execução."
+                },
+                {
+                  "id": "B",
+                  "text": "O cliente paga as contas e precisa ser mantido satisfeito, independentemente do processo."
+                },
+                {
+                  "id": "C",
+                  "text": "A contribuição do cliente ajuda a desenvolver um plano de gerenciamento do projeto mais realista e alinhado às expectativas."
+                },
+                {
+                  "id": "D",
+                  "text": "O envolvimento do cliente serve apenas para cumprir o processo de gerenciamento das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um membro altamente qualificado da equipe aceitou uma proposta externa e deixará o projeto em breve. Um novo profissional será integrado para assumir responsabilidades críticas. O que o gerente de projeto deve fazer para manter o desempenho do projeto durante a transição?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Compartilhar todos os documentos do projeto com o novo membro da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Promover treinamento cruzado e mentoria para acelerar a transferência de conhecimento."
+                },
+                {
+                  "id": "C",
+                  "text": "Motivar o novo membro da equipe a executar as atividades com rapidez."
+                },
+                {
+                  "id": "D",
+                  "text": "Registrar um risco e pedir ao novo membro que defina sozinho sua mitigação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Algumas partes interessadas importantes estão insatisfeitas com a abordagem ágil adotada no desenvolvimento de software. Elas afirmam que não conseguem entender suficientemente o que a equipe está fazendo e questionam a eficiência do método. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Substituir imediatamente a abordagem ágil por uma abordagem preditiva para aumentar a previsibilidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir que a equipe se reúna com todas as partes interessadas para defender a abordagem adotada."
+                },
+                {
+                  "id": "C",
+                  "text": "Reunir-se com as principais partes interessadas para compreender suas preocupações e necessidades de informação."
+                },
+                {
+                  "id": "D",
+                  "text": "Informar que a abordagem ágil é sempre a melhor forma de desenvolver software em ambientes incertos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Durante um projeto híbrido de desenvolvimento de produto, uma parte interessada sênior exige que o projeto seja encerrado imediatamente e ameaça acionar a alta administração caso isso não aconteça. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Agendar imediatamente uma reunião com o patrocinador para solicitar o encerramento formal do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Relatar a parte interessada à alta administração por comportamento inadequado."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar a equipe para interromper o trabalho até que a ameaça seja resolvida."
+                },
+                {
+                  "id": "D",
+                  "text": "Reunir-se individualmente com a parte interessada para entender suas preocupações e a causa da oposição."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Um gerente de projeto supervisiona o desenvolvimento de uma nova unidade de saúde. A equipe tem dificuldade para entender aspectos críticos do escopo, e um especialista sênior da sede estará disponível por apenas uma semana. O que o gerente de projeto deve fazer para aproveitar melhor essa disponibilidade?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Conduzir uma reunião com o especialista para que o gerente explique os desafios da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Discutir individualmente com o especialista os problemas de escopo e depois repassar as conclusões."
+                },
+                {
+                  "id": "C",
+                  "text": "Organizar sessões de treinamento e esclarecimento conduzidas pelo especialista para a equipe."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar que o especialista revise a documentação do projeto sem envolver diretamente a equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Um projeto de desenvolvimento de software será conduzido usando Scrum. Durante o planejamento do engajamento das partes interessadas, o gerente de projeto quer garantir que o nível de influência das partes interessadas sobre o produto seja analisado e categorizado. Qual é o melhor curso de ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar uma solicitação de mudança para atualizar o registro das partes interessadas."
+                },
+                {
+                  "id": "B",
+                  "text": "Esperar até a primeira revisão de iteração para observar quais partes interessadas comparecem."
+                },
+                {
+                  "id": "C",
+                  "text": "Sugerir que o Dono do Produto use uma matriz de poder e influência para apoiar o engajamento e a priorização."
+                },
+                {
+                  "id": "D",
+                  "text": "Fazer a análise sozinho usando apenas um organograma hierárquico da organização."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Durante uma fase crítica, partes interessadas relevantes não participaram de uma reunião usada para confirmar alinhamento estratégico e benefícios esperados. Como resultado, seu feedback não foi considerado e surgiram conflitos no processo de tomada de decisão. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Iniciar uma conversa direta para compreender as preocupações das partes interessadas e tratar o conflito."
+                },
+                {
+                  "id": "B",
+                  "text": "Enviar um resumo detalhado da reunião e solicitar comentários por escrito das partes ausentes."
+                },
+                {
+                  "id": "C",
+                  "text": "Conduzir uma análise formal de riscos sobre a falta de contribuição das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Desenvolver um plano de contingência para possíveis atrasos ou mudanças no projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 9,
+              "type": "multiple",
+              "question": "Duas partes interessadas-chave viajam com frequência e acessam o projeto apenas em horários esporádicos. Outra parte interessada tem agenda restrita e não consegue participar de reuniões longas. O gerente de projeto quer manter interação regular, direta e bidirecional com essas pessoas, sem sobrecarregar suas agendas.\nQuais ações são mais adequadas para esse contexto? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Usar videoconferências curtas para discutir pontos relevantes e permitir esclarecimentos imediatos."
+                },
+                {
+                  "id": "B",
+                  "text": "Enviar apenas memorandos por e-mail, evitando qualquer interação síncrona com as partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Substituir as interações por mensagens instantâneas unidirecionais enviadas ao final de cada semana."
+                },
+                {
+                  "id": "D",
+                  "text": "Realizar reuniões breves de alinhamento, com pauta objetiva e foco nos temas que exigem engajamento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um projeto desenvolverá software de forma incremental para uma rede de revendedores. O treinamento e o marketing serão planejados de forma mais preditiva, mas o gerente de projeto quer que os revendedores forneçam feedback regular durante o desenvolvimento do produto, sem interromper suas atividades comerciais.\nQual é a melhor abordagem?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Convidar os revendedores para demonstrações periódicas do incremento do software por videoconferência."
+                },
+                {
+                  "id": "B",
+                  "text": "Colocar os revendedores fisicamente junto à equipe de desenvolvimento durante todo o projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar que os revendedores participem das retrospectivas de iteração para avaliar o produto."
+                },
+                {
+                  "id": "D",
+                  "text": "Coletar todos os requisitos no início e desenvolver uma EAP detalhada para impedir mudanças posteriores."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 11,
+              "type": "multiple",
+              "question": "O gerente de projeto deseja identificar ativos de processos organizacionais que podem influenciar o engajamento das partes interessadas. Ele precisa distinguir esses ativos de fatores ambientais externos ao projeto.\nQuais itens são exemplos de ativos de processos organizacionais relevantes para esse objetivo? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Requisitos e padrões de comunicação da organização."
+                },
+                {
+                  "id": "B",
+                  "text": "Relatórios frequentes de custos de outro projeto sem relação com as partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Legislação aplicável ao setor do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Informações históricas e lições aprendidas de projetos anteriores."
+                },
+                {
+                  "id": "E",
+                  "text": "Procedimentos organizacionais de controle de mudanças e gestão de questões."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D",
+                "E"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 12,
+              "type": "multiple",
+              "question": "Um gerente de projeto está liderando uma implementação de trabalho remoto. Após as primeiras reuniões, ele percebe que algumas partes interessadas têm capacidade muito maior do que a prevista para influenciar decisões, apoiar ou resistir à implantação.\nQuais artefatos ou técnicas devem ser usados para registrar e classificar essa influência? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Matriz de poder/influência."
+                },
+                {
+                  "id": "B",
+                  "text": "Matriz RACI."
+                },
+                {
+                  "id": "C",
+                  "text": "Plano de engajamento das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Registro das partes interessadas."
+                },
+                {
+                  "id": "E",
+                  "text": "Matriz de avaliação do nível de engajamento das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 13,
+              "type": "single",
+              "question": "Durante uma das entregas incrementais finais de um projeto híbrido, um usuário final informa ao líder do projeto que não está satisfeito com o resultado e pede a substituição de um membro da equipe, alegando que ele está contribuindo para um resultado desfavorável. O líder do projeto ainda não ouviu a equipe nem analisou as evidências da situação.\nO que o líder do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reconhecer a reclamação e prometer ao usuário final que o membro será substituído."
+                },
+                {
+                  "id": "B",
+                  "text": "Informar ao usuário final que o profissional é essencial e que a solicitação não será considerada."
+                },
+                {
+                  "id": "C",
+                  "text": "Remover o membro da equipe para preservar a aceitação da entrega incremental."
+                },
+                {
+                  "id": "D",
+                  "text": "Discutir o problema com as partes envolvidas, compreender a causa e definir uma ação apropriada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q13",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 14,
+              "type": "single",
+              "question": "Durante uma iteração, a equipe de um projeto ágil identifica um impedimento que pode atrasar o lançamento. Em uma retrospectiva, a equipe propõe uma solução técnica e começa a implementá-la. Depois, o dono do produto informa que a solução reduz o valor de uma funcionalidade prioritária e pede retrabalho. O que o gerente do projeto deveria ter feito para evitar essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que o dono do produto participasse de todas as reuniões diárias para aprovar decisões técnicas da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter interação frequente com o dono do produto para alinhar prioridades, impactos no backlog e valor antes de mudanças relevantes."
+                },
+                {
+                  "id": "C",
+                  "text": "Usar sua autoridade para proteger a decisão da equipe, pois soluções identificadas na retrospectiva devem ser implementadas sem interferência externa."
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir financiamento adicional ao patrocinador antes de permitir que a equipe atuasse sobre o impedimento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q14",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 15,
+              "type": "multiple",
+              "question": "Um projeto híbrido está substituindo um fluxo de trabalho de integração de clientes. A configuração da plataforma principal segue marcos preditivos, enquanto incrementos de experiência do usuário são entregues a cada três semanas. No último projeto, as preocupações das partes interessadas surgiram apenas durante os testes de aceitação, causando retrabalho significativo.\nQuais ações o gerente de projeto deve implementar para criar ciclos de feedback eficazes? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Manter um registro de preocupações visível, com responsáveis, metas de resposta e revisão recorrente."
+                },
+                {
+                  "id": "B",
+                  "text": "Coletar todas as preocupações das partes interessadas durante os testes de aceitação finais."
+                },
+                {
+                  "id": "C",
+                  "text": "Realizar revisões com as partes interessadas a cada incremento antes que as linhas de base de configuração sejam bloqueadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Limitar o feedback ao líder de negócios para proteger a velocidade da equipe."
+                },
+                {
+                  "id": "E",
+                  "text": "Substituir as revisões intermediárias por um relatório de status mensal aprovado pelo patrocinador."
+                },
+                {
+                  "id": "F",
+                  "text": "Enviar todas as preocupações diretamente para o comitê de controle de mudanças."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "C"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/13/Gabarito 7.13.txt",
+              "explanation": "",
+              "id": "area7-s13-q15",
+              "source": "7. Partes interessadas e transferência de conhecimento/13",
+              "title": "Sessão 13",
+              "session": 13
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s14",
+          "number": 14,
+          "title": "Sessão 14",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Durante uma fase crítica de um projeto de pesquisa ambiental conduzido remotamente, um analista-chave deixa a equipe. Um novo profissional é alocado, mas ainda não conhece o contexto técnico, as restrições ambientais nem as decisões já tomadas. Há documentação extensa, mas a curva de aprendizagem precisa ser curta. Qual medida deve ser priorizada pelo gerente de projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Fazer o novo membro acompanhar um profissional experiente em atividades reais do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar que o novo membro leia toda a documentação antes de participar das atividades."
+                },
+                {
+                  "id": "C",
+                  "text": "Agendar uma sequência de webinars gerais sobre as tecnologias usadas no projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Realizar um workshop amplo sobre a complexidade do projeto com todos os membros da equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Em um projeto ágil, a velocidade da equipe diminuiu porque as histórias que exigem validação jurídica ficam paradas por vários dias aguardando parecer de uma área externa. A equipe já sinalizou o impedimento em reuniões diárias, mas não tem autoridade para priorizar a resposta do departamento jurídico. O que o gerente de projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Atualizar o plano do projeto para refletir o atraso e aguardar a próxima revisão executiva."
+                },
+                {
+                  "id": "B",
+                  "text": "Reforçar que equipes ágeis são autogerenciáveis e devem resolver seus próprios impedimentos."
+                },
+                {
+                  "id": "C",
+                  "text": "Trabalhar com o departamento jurídico para entender a causa da demora e acordar uma forma de agilizar o feedback necessário."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar que a equipe elabore um plano formal de recuperação antes de envolver partes externas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Durante a iniciação de um projeto, o gerente de projeto identifica um gerente funcional de nível médio como parte interessada importante. Esse gerente será afetado por mudanças no processo de trabalho, mas ainda não conhece o projeto. Qual é o melhor curso de ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Envolver essa parte interessada o mais cedo possível, explicando o propósito do projeto e buscando compreender suas expectativas."
+                },
+                {
+                  "id": "B",
+                  "text": "Aguardar que a parte interessada descubra o projeto por meio dos canais formais da organização."
+                },
+                {
+                  "id": "C",
+                  "text": "Informá-la apenas quando o planejamento detalhado estiver concluído, para evitar discussões prematuras."
+                },
+                {
+                  "id": "D",
+                  "text": "Comunicar a parte interessada somente na execução, quando as mudanças começarem a afetar sua área."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Durante a execução de um projeto híbrido, algumas partes interessadas mudaram suas expectativas, passaram a se mostrar insatisfeitas e solicitaram ser incluídas em todas as comunicações formais do projeto. O gerente de projeto ainda não sabe se essa necessidade decorre de falta de informação, perda de confiança ou mudança real de influência dessas partes interessadas. Qual deve ser a melhor próxima ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Atualizar imediatamente o plano de gerenciamento das comunicações para incluir essas partes interessadas em todos os relatórios formais."
+                },
+                {
+                  "id": "B",
+                  "text": "Registrar a solicitação como requisito de produto, pois a necessidade de comunicação altera diretamente o escopo da entrega."
+                },
+                {
+                  "id": "C",
+                  "text": "Conversar com as partes interessadas para entender a causa da insatisfação, revisar sua classificação e ajustar a estratégia de engajamento conforme necessário."
+                },
+                {
+                  "id": "D",
+                  "text": "Encaminhar a solicitação ao patrocinador para que ele decida se essas partes interessadas devem participar das comunicações formais."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "Durante a revisão da última iteração, o cliente reclama que várias funcionalidades esperadas não estão presentes. A equipe afirma que cada incremento atendeu aos critérios de aceitação definidos pelo representante de negócio que vinha aprovando as entregas. Os indicadores de custo e prazo estão favoráveis. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Explicar ao cliente que o projeto pode ser encerrado, pois os critérios de aceitação de cada incremento foram atendidos."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar uma mudança formal para ampliar orçamento e prazo antes de qualquer nova conversa."
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir à equipe que implemente as funcionalidades faltantes, já que os indicadores de desempenho estão favoráveis."
+                },
+                {
+                  "id": "D",
+                  "text": "Investigar a lacuna de entendimento entre cliente, representante de negócio e equipe, e negociar uma solução."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 7,
+              "type": "multiple",
+              "question": "No meio da implantação de uma atualização de infraestrutura de TI, o gerente de projeto identifica lacunas de conhecimento entre membros recém-integrados à equipe. O prazo é apertado e o orçamento já está totalmente alocado, inviabilizando treinamento externo. Quais ações o gerente de projeto deve tomar em seguida? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Identificar quais lacunas de conhecimento estão afetando responsabilidades críticas do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Transferir definitivamente todas as atividades críticas para os membros mais experientes da equipe."
+                },
+                {
+                  "id": "C",
+                  "text": "Pausar o projeto para solicitar reabertura do orçamento e contratar treinamento emergencial."
+                },
+                {
+                  "id": "D",
+                  "text": "Criar pares de mentoria entre profissionais experientes e membros recém-integrados para aprendizado no trabalho."
+                },
+                {
+                  "id": "E",
+                  "text": "Solicitar que os novos membros estudem por conta própria, fora do horário de trabalho e sem apoio do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Nos estágios finais de um projeto de infraestrutura, descobre-se que relatórios abrangentes sobre avaliações estruturais críticas, feitos por um engenheiro-chave que já saiu da empresa, não foram documentados nem compartilhados com a equipe. Para mitigar esse risco em projetos futuros, o que deveria ter sido implementado durante o ciclo de vida do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um programa de treinamento cruzado para que membros da equipe pudessem desempenhar funções uns dos outros durante ausências."
+                },
+                {
+                  "id": "B",
+                  "text": "Sessões mensais de troca de conhecimento para que engenheiros discutissem desafios e soluções do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Consultores externos para supervisionar todas as fases críticas de teste e revisar descobertas."
+                },
+                {
+                  "id": "D",
+                  "text": "Um sistema integrado de informações e repositório de conhecimento para registrar e compartilhar informações críticas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 9,
+              "type": "multiple",
+              "question": "Um grande projeto de infraestrutura está afetando o bairro onde será executado. Moradores demonstram resistência, e essa oposição pode atrasar licenças, acessos e atividades críticas. Quais ações o gerente do projeto deve realizar? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar uma comunicação formal pedindo que os moradores não interfiram no projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Analisar a situação para compreender as causas da resistência da comunidade."
+                },
+                {
+                  "id": "C",
+                  "text": "Organizar uma reunião com representantes do bairro para ouvir preocupações e buscar cooperação"
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao prefeito que use sua autoridade para impedir manifestações contrárias ao projeto."
+                },
+                {
+                  "id": "E",
+                  "text": "Pedir ao cliente que estenda o prazo antes de conversar com a comunidade."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "C"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um projeto híbrido de produto está preparando a próxima versão de lançamento. O patrocinador afirma que as lições anteriores foram documentadas, mas raramente utilizadas. O gerente do projeto analisa o trecho mais recente da retrospectiva.\nTrecho da retrospectiva/lições aprendidas\n- Padrão observado: o feedback do cliente chegou após o início do trabalho.\n- Impacto: o retrabalho consumiu 18% da capacidade da iteração.\n- Ideia da equipe: realizar refinamento com representante do cliente antes do planejamento.\n- Responsável: não definido.\nO que o gerente do projeto deve fazer em seguida?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar ao PMO a atualização imediata dos ativos organizacionais."
+                },
+                {
+                  "id": "B",
+                  "text": "Exigir aprovação formal do cliente antes de cada planejamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Registrar a lição aprendida e revisá-la no encerramento do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Implementar um experimento com responsável definido e atualizar os ativos se validado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 11,
+              "type": "multiple",
+              "question": "Durante uma reunião virtual, o gerente do projeto percebe que a fala de um membro da equipe está prejudicada por ruído ambiente e pede que ele desligue um ventilador para melhorar a comunicação. Esse julgamento foi feito com base na experiência prática do gerente, sem consultar um procedimento formal. Que tipos de conhecimento estão sendo usados? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Conhecimento explícito."
+                },
+                {
+                  "id": "B",
+                  "text": "Conhecimento implícito."
+                },
+                {
+                  "id": "C",
+                  "text": "Conhecimento codificado."
+                },
+                {
+                  "id": "D",
+                  "text": "Conhecimento tácito."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "D"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Estudo de Caso: Implementação de CRM e Chatbot com IA\nUm gerente de projeto está liderando um projeto híbrido para implementar uma plataforma de atendimento ao cliente em uma organização varejista. O projeto envolve a integração de um chatbot com IA, a atualização do sistema de CRM e o treinamento das equipes de atendimento ao cliente.\nNo meio da execução, a equipe relata atrasos causados por requisitos pouco claros e mudanças frequentes solicitadas por diferentes partes interessadas. Além disso, membros remotos da equipe não estão participando ativamente das cerimônias de sprint, gerando lacunas de comunicação e desalinhamento sobre prioridades e critérios de aceite.\nO grupo de partes interessadas inclui a alta administração, equipes de atendimento ao cliente, fornecedores de TI e consultores externos. Algumas partes interessadas estão altamente engajadas, enquanto outras resistem à mudança por preocupação com impacto em seus empregos. O gerente do projeto observa que os indicadores de desempenho estão piorando e que a taxa de defeitos está aumentando.\nPara enfrentar esses desafios, o gerente do projeto precisa melhorar a comunicação, gerenciar expectativas das partes interessadas e garantir alinhamento entre requisitos em evolução, objetivos do projeto, qualidade da entrega e adoção da nova solução.\n\nAlgumas equipes de atendimento resistem à nova plataforma por medo de que o chatbot com IA reduza seus empregos. Qual é a melhor resposta inicial do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Comunicar que a decisão executiva já foi tomada e que a adoção será obrigatória."
+                },
+                {
+                  "id": "B",
+                  "text": "Remover as partes resistentes das sessões de treinamento para evitar influência negativa."
+                },
+                {
+                  "id": "C",
+                  "text": "Reduzir o escopo do chatbot para eliminar preocupações com impacto nos empregos."
+                },
+                {
+                  "id": "D",
+                  "text": "Engajar as equipes para entender preocupações e ajustar a abordagem de mudança."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s15",
+          "number": 15,
+          "title": "Sessão 15",
+          "questions": [
+            {
+              "number": 1,
+              "type": "multiple",
+              "question": "Durante a iniciação de um projeto estratégico, o gerente de projeto precisa identificar e categorizar partes interessadas usando ferramentas de representação de dados. Quais técnicas podem apoiar essa análise? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Modelo de relevância."
+                },
+                {
+                  "id": "B",
+                  "text": "Cubo de partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Direção de influência."
+                },
+                {
+                  "id": "D",
+                  "text": "Brainwriting."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B",
+                "C"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um gerente de projeto acaba de assumir um projeto e identifica um problema técnico que pode afetar uma entrega importante. Antes de propor uma solução ou escalar a situação, ele quer verificar se a organização já enfrentou algo semelhante. O que deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Examinar imediatamente se existe uma solução alternativa."
+                },
+                {
+                  "id": "B",
+                  "text": "Escalar o problema para a equipe de infraestrutura técnica."
+                },
+                {
+                  "id": "C",
+                  "text": "Consultar o repositório de lições aprendidas e conhecimento organizacional."
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir ao patrocinador que decida como o problema deve ser tratado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 3,
+              "type": "multiple",
+              "question": "No meio de um projeto, o gerente percebe que o engajamento de algumas partes interessadas está diminuindo. Ele precisa medir a satisfação e a percepção dessas partes interessadas sobre o produto e sobre a experiência de participação no projeto. Quais ferramentas ou técnicas podem apoiar essa medição? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pontuação líquida de promotores."
+                },
+                {
+                  "id": "B",
+                  "text": "Pesquisa curta de satisfação ou gráfico de humor para um grupo específico de partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Matriz de poder/interesse."
+                },
+                {
+                  "id": "D",
+                  "text": "Estrutura analítica dos riscos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "No meio de um projeto, o gerente identifica que uma divisão operacional relevante não foi envolvida de forma adequada no planejamento nem nas revisões de execução. Como resultado, essa divisão está insatisfeita porque as entregas não se ajustam bem aos seus fluxos de trabalho. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Alterar imediatamente o escopo para incorporar todos os pontos levantados pela divisão operacional."
+                },
+                {
+                  "id": "B",
+                  "text": "Rever o mapeamento de partes interessadas e a estratégia de comunicação e engajamento para entender por que o feedback foi omitido."
+                },
+                {
+                  "id": "C",
+                  "text": "Realizar uma auditoria geral de conformidade para verificar se todas as políticas organizacionais foram seguidas."
+                },
+                {
+                  "id": "D",
+                  "text": "Elaborar um plano de resposta para integrar as necessidades operacionais sem envolver novamente a divisão afetada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 5,
+              "type": "multiple",
+              "question": "O gerente de um projeto identificou as partes interessadas, obteve informações de contato, avaliou interesse, influência, poder, impacto e prioridade de engajamento. Quais afirmações são verdadeiras sobre esse trabalho? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "As informações devem ser documentadas em artefatos apropriados, como o registro das partes interessadas."
+                },
+                {
+                  "id": "B",
+                  "text": "Algumas informações devem ser tratadas com cuidado, pois podem ser sensíveis ou não devem ser disponibilizadas a todos."
+                },
+                {
+                  "id": "C",
+                  "text": "A grade poder/interesse contém todas as informações necessárias sobre cada parte interessada."
+                },
+                {
+                  "id": "D",
+                  "text": "A análise pode considerar atributos como influência, poder, interesse, impacto, urgência, legitimidade e direção de influência."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B",
+                "D"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 6,
+              "type": "single",
+              "question": "O gerente de projeto está preparando o termo de abertura de uma iniciativa para automatizar uma operação. O patrocinador orienta que o gerente de operações da área afetada seja envolvido, mas esse gerente resiste porque acredita que a automação poderá causar demissões em seu departamento. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir ao patrocinador uma justificativa adicional para o projeto antes de conversar novamente com a área de operações."
+                },
+                {
+                  "id": "B",
+                  "text": "Apresentar imediatamente uma análise de custo-benefício para provar que a automação é a melhor decisão."
+                },
+                {
+                  "id": "C",
+                  "text": "Registrar um risco de atraso devido à resistência da área de operações e aguardar orientação do patrocinador."
+                },
+                {
+                  "id": "D",
+                  "text": "Conversar com o gerente de operações para compreender suas preocupações, explicar o caso de negócios e discutir os benefícios esperados."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Durante o planejamento de um projeto de automação, o gerente de projeto percebe que várias partes interessadas resistem à iniciativa porque acreditam que perderão seus empregos após a implantação. O que o gerente de projeto deve fazer para tratar a situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Desconsiderar as partes interessadas contrárias, pois a decisão de executar o projeto já foi tomada."
+                },
+                {
+                  "id": "B",
+                  "text": "Usar estilo autocrático para reduzir discussões e acelerar a execução do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Entender as preocupações, planejar comunicação adequada e definir estratégia de engajamento para essas partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Recusar-se a gerenciar o projeto enquanto houver possibilidade de impacto sobre empregos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Após a demonstração de uma entrega, algumas partes interessadas discordam sobre se o resultado atende às necessidades do projeto. O gerente de projeto ainda não sabe se a divergência decorre de requisito ambíguo, expectativa não alinhada ou interpretação diferente do critério de aceite. Qual deve ser a melhor próxima ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir as partes interessadas relevantes para compreender as divergências e buscar alinhamento sobre a entrega."
+                },
+                {
+                  "id": "B",
+                  "text": "Atualizar imediatamente o registro de riscos para incluir a discordância como ameaça ao projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Pedir à equipe que refaça a entrega antes de discutir o assunto com as partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Encerrar a discussão usando apenas a interpretação do gerente de projeto sobre o documento de requisitos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Durante um projeto ágil, o patrocinador deseja contribuir ativamente para o sucesso da iniciativa, mas também quer preservar a autonomia da equipe. A equipe já possui um Dono do Produto responsável pela priorização do backlog.\nQual é a forma mais adequada de atuação do patrocinador?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revisar tecnicamente as entregas da iteração."
+                },
+                {
+                  "id": "B",
+                  "text": "Participar das reuniões diárias para acompanhar o progresso."
+                },
+                {
+                  "id": "C",
+                  "text": "Apoiar os objetivos estratégicos e garantir recursos."
+                },
+                {
+                  "id": "D",
+                  "text": "Priorizar o backlog e distribuir tarefas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Na fase final de um projeto de desenvolvimento de software, a equipe identifica um defeito que atrasará o lançamento em uma semana. O atraso afeta uma data pública comunicada a clientes e patrocinadores. Qual deve ser a melhor próxima ação do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Informar que o defeito será corrigido em dois ou três dias e pressionar a equipe para compensar o atraso."
+                },
+                {
+                  "id": "B",
+                  "text": "Comunicar às partes interessadas o impacto real, apresentar opções e manter transparência sobre o plano de correção."
+                },
+                {
+                  "id": "C",
+                  "text": "Registrar a situação como lição aprendida e aguardar a confirmação da nova data pela equipe técnica."
+                },
+                {
+                  "id": "D",
+                  "text": "Submeter imediatamente uma solicitação de mudança ao comitê, sem conversar antes com as partes interessadas afetadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "Em um projeto ágil, o Dono do Produto raramente participa das demonstrações. Como resultado, as revisões são remarcadas, decisões de aceite atrasam e a equipe recebe feedback tarde demais. O gerente de projeto percebe que essa ausência está afetando a entrega de valor. O que deveria ter sido feito para evitar essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Definir que qualquer incremento será considerado pronto se atender aos critérios técnicos da equipe."
+                },
+                {
+                  "id": "B",
+                  "text": "Acordar previamente com o Dono do Produto e as partes interessadas o modelo de governança, cadência de revisões, responsabilidades de aceite e disponibilidade esperada."
+                },
+                {
+                  "id": "C",
+                  "text": "Nomear informalmente outro Dono do Produto para aceitar as entregas nas demonstrações."
+                },
+                {
+                  "id": "D",
+                  "text": "Planejar auditorias externas para expor a falta de participação ao patrocinador."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Uma organização está se preparando para implementar uma nova plataforma de fluxo de trabalho após um projeto-piloto bem-sucedido. A implementação será feita em ondas, com ajustes incrementais no fluxo conforme o feedback regional. Dois departamentos com forte autonomia local deixaram de enviar funcionários para as sessões de adoção, alegando que a plataforma padronizará o trabalho de maneiras que ignoram práticas regionais de atendimento ao cliente. O patrocinador quer que o gerente do projeto \"insista mais\" para que o prazo de entrega dos benefícios não seja perdido.\n\nO que o gerente do projeto deve fazer a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Avaliar uma solicitação de mudança para excluir temporariamente esses departamentos da implementação."
+                },
+                {
+                  "id": "B",
+                  "text": "Continuar a implementação com base no sucesso do piloto e monitorar a adoção desses departamentos."
+                },
+                {
+                  "id": "C",
+                  "text": "Facilitar workshops com os departamentos afetados para entender preocupações e ajustar as ações de adoção."
+                },
+                {
+                  "id": "D",
+                  "text": "Pedir ao patrocinador que comunique a obrigatoriedade da participação para proteger o prazo de benefícios."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/15/Gabarito - 7.15.txt",
+              "explanation": "",
+              "id": "area7-s15-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/15",
+              "title": "Sessão 15",
+              "session": 15
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area7-s16",
+          "number": 16,
+          "title": "Sessão 16",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Um projeto híbrido busca reduzir o tempo que técnicos de atendimento levam para resolver problemas de clientes por meio de chat online. A equipe técnica acredita que a solução é uma correção no sistema, enquanto representantes de atendimento afirmam que o processo de atendimento é a principal causa. O patrocinador considera que os representantes estão interferindo no projeto, e a tensão entre as partes interessadas está aumentando. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Analisar interesses, influência, contribuições e impactos dos representantes de atendimento e demais partes interessadas envolvidas."
+                },
+                {
+                  "id": "B",
+                  "text": "Facilitar imediatamente uma reunião da equipe técnica para criar um termo de nomeação da equipe."
+                },
+                {
+                  "id": "C",
+                  "text": "Reunir-se com o patrocinador para decidir se os representantes de atendimento devem ser removidos."
+                },
+                {
+                  "id": "D",
+                  "text": "Retirar os representantes de atendimento do registro das partes interessadas para reduzir conflitos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q1",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Uma equipe entrega funcionalidades a um cliente ao final de cada iteração. O cliente é convidado para as revisões, mas frequentemente não está disponível, o que atrasa feedback e aumenta retrabalho. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Incluir o cliente em todas as atividades diárias da equipe para garantir orientação constante."
+                },
+                {
+                  "id": "B",
+                  "text": "Planejar com antecedência, alinhar disponibilidade e definir a melhor forma de revisar incrementos com o cliente."
+                },
+                {
+                  "id": "C",
+                  "text": "Exigir que o cliente esclareça todos os requisitos no início de cada iteração."
+                },
+                {
+                  "id": "D",
+                  "text": "Manter as revisões dependentes da disponibilidade eventual do cliente, pois feedback tardio é inevitável."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "O gerente de projeto recebe reclamações de usuários sobre uma nova funcionalidade recém-entregue. A equipe afirma que a funcionalidade foi construída conforme a especificação escrita, mas os usuários dizem que ela não resolve o problema operacional real. O que o gerente do projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Solicitar que a equipe corrija imediatamente a funcionalidade conforme a opinião dos usuários."
+                },
+                {
+                  "id": "B",
+                  "text": "Facilitar uma conversa com usuários, Dono do Produto e equipe para compreender a necessidade real e ajustar o backlog."
+                },
+                {
+                  "id": "C",
+                  "text": "Informar aos usuários que a especificação aprovada foi seguida e que qualquer alteração será rejeitada."
+                },
+                {
+                  "id": "D",
+                  "text": "Abrir uma solicitação de mudança para substituir a funcionalidade sem análise adicional."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 4,
+              "type": "multiple",
+              "question": "Um gerente de projeto foi designado para liderar um projeto estratégico. Após receber o termo de abertura, ele começa a identificar e categorizar partes interessadas usando ferramentas de representação de dados. Quais ferramentas são apropriadas para esse propósito? (Escolha três.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Modelo de relevância."
+                },
+                {
+                  "id": "B",
+                  "text": "Matriz de poder e interesse."
+                },
+                {
+                  "id": "C",
+                  "text": "Matriz de avaliação do engajamento das partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Diagrama de rede do cronograma."
+                },
+                {
+                  "id": "E",
+                  "text": "Gráfico de controle."
+                },
+                {
+                  "id": "F",
+                  "text": "Estrutura analítica dos riscos."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A",
+                "B",
+                "C"
+              ],
+              "required": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q4",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 5,
+              "type": "single",
+              "question": "Em um projeto de atualização de software para um cliente, o gerente do projeto percebe baixo engajamento do cliente nas revisões de sprint. Apesar disso, a equipe concluiu um protótipo funcional pronto para avaliação. Qual deve ser a primeira ação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Enviar um relatório de progresso detalhado por e-mail, destacando a conclusão do protótipo."
+                },
+                {
+                  "id": "B",
+                  "text": "Implantar o protótipo diretamente para os usuários finais e coletar comentários depois."
+                },
+                {
+                  "id": "C",
+                  "text": "Agendar uma revisão apenas com os líderes técnicos para refinar o protótipo antes de envolver o cliente."
+                },
+                {
+                  "id": "D",
+                  "text": "Organizar uma revisão de iteração com o cliente para inspecionar o protótipo e obter feedback ativo."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 6,
+              "type": "multiple",
+              "question": "Um projeto ágil recentemente concluído, que abrangeu vários países durante dois anos, levou a grande insatisfação das principais partes interessadas. Elas alegam que o projeto demorou muito e não cumpriu todas as promessas.\nQue ações o gerente de projeto deveria ter tomado para evitar esse resultado? (Escolha duas.)",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Garantir que mudanças no escopo do projeto não pudessem ser feitas depois que o plano fosse aprovado."
+                },
+                {
+                  "id": "B",
+                  "text": "Envolver as partes interessadas ao longo do projeto realizando reuniões de revisão de iteração."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir que os clientes alterassem o escopo conforme necessário à medida que o projeto avançava."
+                },
+                {
+                  "id": "D",
+                  "text": "Implementar um processo de gerenciamento de mudanças exigindo uma solicitação de mudança por escrito para qualquer ajuste no produto."
+                },
+                {
+                  "id": "E",
+                  "text": "Garantir que os clientes se comunicassem apenas com o gerente do projeto e não com a equipe."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B",
+                "C"
+              ],
+              "required": 2,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q6",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 7,
+              "type": "single",
+              "question": "Um gerente de projeto está supervisionando um projeto com melhorias iterativas em um serviço existente e trabalha com um backlog de produto priorizado pelo Dono do Produto. Apesar disso, o Dono do Produto expressa preocupações à alta gerência de que a direção do projeto não está alinhada às expectativas.\nQual iniciativa o gerente de projeto deveria ter empreendido?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Instituir um plano abrangente de engajamento das partes interessadas para garantir que todas as vozes fossem ouvidas e integradas ao planejamento do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Adotar uma abordagem mais flexível às metodologias de gerenciamento de projetos para acomodar as expectativas das partes interessadas em mudança."
+                },
+                {
+                  "id": "C",
+                  "text": "Aprimorar o treinamento da equipe sobre os aspectos técnicos e comerciais do projeto para garantir compreensão mais profunda das metas."
+                },
+                {
+                  "id": "D",
+                  "text": "Organizar revisões regulares dos incrementos com o Dono do Produto e conduzir retrospectivas da equipe para fechar o ciclo de feedback."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q7",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 8,
+              "type": "single",
+              "question": "Como parte de um projeto de toda a empresa para aprimorar a segurança de TI, o gerente de projeto agenda uma série de webinars educacionais para funcionários. Um líder de um departamento ainda não coberto na implementação inicial expressa interesse em participar de uma das primeiras sessões.\nQue ação o gerente de projeto deve tomar para melhor apoiar as metas da iniciativa e envolver as partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Limitar a participação no webinar apenas aos departamentos programados para as fases iniciais da implementação."
+                },
+                {
+                  "id": "B",
+                  "text": "Sugerir que o líder do departamento espere por uma sessão personalizada específica para as necessidades do seu departamento."
+                },
+                {
+                  "id": "C",
+                  "text": "Incentivar o líder do departamento a participar de um próximo webinar para obter insights iniciais e preparar sua equipe."
+                },
+                {
+                  "id": "D",
+                  "text": "Fornecer versões gravadas dos webinars exclusivamente para os participantes das fases iniciais de implementação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q8",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 9,
+              "type": "single",
+              "question": "Durante o projeto de um evento esportivo, partes interessadas importantes não estão se engajando conforme o esperado, o que pode levar a atrasos na organização do evento. O que o gerente do projeto deve fazer para aumentar o engajamento das partes interessadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Utilizar uma combinação de comunicação ativa e passiva."
+                },
+                {
+                  "id": "B",
+                  "text": "Concentrar-se na percepção indireta das preocupações das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Realizar troca interativa de informações com as partes interessadas."
+                },
+                {
+                  "id": "D",
+                  "text": "Buscar apenas a participação ativa das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q9",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 10,
+              "type": "single",
+              "question": "Um projeto para instalar 120 aparelhos de ar condicionado em um prédio corporativo envolverá muitas partes interessadas, pois cada escritório terá pelo menos um aparelho instalado. Qual é o melhor curso de ação para lidar com essa situação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir ao patrocinador do projeto para representar todas as partes interessadas."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar uma forma eficaz de identificar e definir as necessidades de cada parte interessada."
+                },
+                {
+                  "id": "C",
+                  "text": "Classificar as partes interessadas e trabalhar apenas com aquelas que têm alto poder e alto interesse."
+                },
+                {
+                  "id": "D",
+                  "text": "Informar à alta gerência que o projeto deve ser dividido em subprojetos e gerenciado como programa."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q10",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 11,
+              "type": "single",
+              "question": "O gerente do projeto foi nomeado no meio de um projeto. Durante a transição com o gerente anterior, ele fica sabendo que o cliente não está satisfeito com o desempenho do projeto, embora o projeto esteja dentro das linhas de base aprovadas. Qual deve ser o próximo passo do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Convocar uma reunião com a equipe do projeto."
+                },
+                {
+                  "id": "B",
+                  "text": "Convocar uma reunião com o cliente."
+                },
+                {
+                  "id": "C",
+                  "text": "Analisar o plano de gerenciamento dos riscos."
+                },
+                {
+                  "id": "D",
+                  "text": "Consultar o plano de gerenciamento das comunicações."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q11",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 12,
+              "type": "single",
+              "question": "Um projeto está implementando um novo sistema de software. Durante a execução, usuários de vários departamentos questionam a necessidade da mudança e afirmam que o novo sistema prejudicará seus processos atuais.\nO que o gerente do projeto deveria ter feito no início para reduzir essa resistência?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pedir à liderança que converse apenas com departamentos historicamente resistentes a mudanças."
+                },
+                {
+                  "id": "B",
+                  "text": "Aceitar o projeto somente depois de garantir que a cultura organizacional já estivesse pronta para mudanças."
+                },
+                {
+                  "id": "C",
+                  "text": "Engajar partes interessadas em diferentes níveis para entender preocupações, esclarecer a mudança e alinhar expectativas."
+                },
+                {
+                  "id": "D",
+                  "text": "Criar apenas um plano de comunicações com canais e frequência de mensagens para todas as partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/16/Gabarito - 7.16.txt",
+              "explanation": "",
+              "id": "area7-s16-q12",
+              "source": "7. Partes interessadas e transferência de conhecimento/16",
+              "title": "Sessão 16",
+              "session": 16
+            }
+          ],
+          "available": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "planejamento-integrado",
+      "title": "8. Planejamento integrado do projeto",
+      "sessions": [
+        {
+          "id": "area8-s1",
+          "number": 1,
+          "title": "Sessão 1",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Portal de autoatendimento para clientes\nUma empresa de serviços está implementando um portal de autoatendimento para clientes. O objetivo estratégico declarado é reduzir o volume de chamadas repetidas para a central de suporte, melhorar a experiência digital e diminuir custos operacionais. O projeto é híbrido: alguns componentes de integração com sistemas internos e controles de conformidade seguem planejamento mais preditivo, enquanto as funcionalidades do portal serão entregues em versões incrementais, com feedback de usuários-piloto.\nO patrocinador assumiu publicamente o compromisso de lançar o portal neste trimestre e deseja incluir todos os recursos inicialmente planejados: consulta de solicitações, atualização cadastral, abertura de chamados, chatbot, notificações automáticas e acompanhamento de status. O orçamento aprovado é fixo, e a reserva disponível é limitada. A equipe de suporte ao cliente afirma que o principal benefício esperado é reduzir em 20% as chamadas repetidas em até seis meses após o lançamento.\nEntretanto, ainda não há linha de base formal para o volume atual de chamadas repetidas, nenhum indicador-chave de desempenho foi aprovado, e não foi definido quem será responsável por acompanhar os benefícios após a transição para a operação. A área de Compliance informa que qualquer versão pública do portal deve obter consentimento auditável dos clientes para tratamento de dados, com evidências rastreáveis antes da entrada em produção. A equipe de produto acredita que uma versão menor, mas em conformidade, poderia gerar feedback útil e permitir validação inicial dos benefícios.\nO gerente do projeto precisa equilibrar o compromisso público, o orçamento fixo, as restrições de conformidade, a necessidade de medir benefícios e a entrega incremental de valor.\n\nNo caso, o patrocinador insiste em lançar todos os recursos no trimestre, mas a equipe informa que isso consumiria toda a reserva disponível e deixaria pouco tempo para evidências de consentimento auditável. A equipe de produto propõe lançar primeiro consulta de solicitações, abertura de chamados e consentimento auditável, deixando chatbot e notificações automáticas para uma versão posterior.\nO que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Autorizar a entrega de todos os recursos, pois o compromisso público já foi assumido pelo patrocinador."
+                },
+                {
+                  "id": "B",
+                  "text": "Remover o chatbot e notificações do escopo definitivo para preservar o orçamento aprovado."
+                },
+                {
+                  "id": "C",
+                  "text": "Consolidar um plano integrado que demonstre como a versão proposta preserva conformidade."
+                },
+                {
+                  "id": "D",
+                  "text": "Planejar somente os controles de Compliance e tratar funcionalidades de portal depois da entrada em produção."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/1/Gabarito - 8.1.txt",
+              "explanation": "",
+              "id": "area8-s1-q1",
+              "source": "8. Planejamento integrado do projeto/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 2,
+              "type": "matching",
+              "question": "Um gerente de projeto está planejando três iniciativas diferentes dentro da mesma organização. O PMO exige governança mínima comum, mas permite adaptar artefatos e controles conforme risco, incerteza, criticidade regulatória e abordagem de desenvolvimento.\n\nArraste cada iniciativa para o foco de planejamento mais adequado.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Projeto A",
+                  "right": "Plano integrado preditivo com linha de base formal"
+                },
+                {
+                  "left": "Projeto B",
+                  "right": "Plano híbrido com marcos preditivos e backlog adaptativo"
+                },
+                {
+                  "left": "Projeto C",
+                  "right": "Plano adaptativo com revisão e aprendizado frequente"
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 3,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/1/Gabarito - 8.1.txt",
+              "explanation": "",
+              "id": "area8-s1-q2",
+              "source": "8. Planejamento integrado do projeto/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto híbrido para modernizar canais digitais possui uma frente regulatória com data fixa, integrações com fornecedores e incrementos adaptativos de experiência do usuário. O patrocinador quer aprovar o plano, mas ainda não há conexão clara entre marcos regulatórios, dependências técnicas e ciclos de feedback.\nComplete a lacuna selecionando a opção mais adequada na lista.\nAntes da aprovação, o gerente do projeto deve consolidar um plano integrado de gerenciamento e entrega que torne visíveis [os currículos da equipe e os contratos encerrados / todos os custos pagos e as respectivas notas fiscais / currículos da equipe e contratos encerrados / dependências, restrições, critérios de aceite e ciclos de feedback / lições aprendidas e questões levantadas pelas partes interessadas]",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "os currículos da equipe e os contratos encerrados"
+                },
+                {
+                  "id": "B",
+                  "text": "todos os custos pagos e as respectivas notas fiscais"
+                },
+                {
+                  "id": "C",
+                  "text": "dependências, restrições, critérios de aceite e ciclos de feedback"
+                },
+                {
+                  "id": "D",
+                  "text": "lições aprendidas e questões levantadas pelas partes interessadas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/1/Gabarito - 8.1.txt",
+              "explanation": "",
+              "id": "area8-s1-q3",
+              "source": "8. Planejamento integrado do projeto/1",
+              "title": "Sessão 1",
+              "session": 1
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Uma organização está iniciando um projeto de transformação digital para reduzir retrabalho em processos internos. Antes de detalhar cronograma e orçamento, o gerente de projeto conduz uma sessão colaborativa para alinhar problema, objetivos, partes interessadas, entregas principais, hipóteses, restrições, riscos, benefícios esperados e indicadores de sucesso.\nA ferramenta mais adequada para consolidar essas informações iniciais de forma visual e integrada é ________________.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "o plano de gerenciamento das comunicações."
+                },
+                {
+                  "id": "B",
+                  "text": "o canvas de projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "o registro das mudanças."
+                },
+                {
+                  "id": "D",
+                  "text": "a matriz de probabilidade e impacto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/1/Gabarito - 8.1.txt",
+              "explanation": "",
+              "id": "area8-s1-q4",
+              "source": "8. Planejamento integrado do projeto/1",
+              "title": "Sessão 1",
+              "session": 1
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s2",
+          "number": 2,
+          "title": "Sessão 2",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Transição de plataforma de atendimento ao cliente\nUm projeto híbrido está encerrando a fase de implantação de uma nova plataforma de atendimento ao cliente. A entrega técnica principal foi concluída e a plataforma já passou pelos testes funcionais planejados. O patrocinador deseja encerrar formalmente a fase em duas semanas para liberar especialistas técnicos para outro projeto estratégico.\nA nova plataforma substitui ferramentas antigas usadas pela central de atendimento e deve apoiar três benefícios esperados: reduzir chamados recorrentes de configuração, diminuir o tempo médio de resolução e melhorar a rastreabilidade dos atendimentos. A equipe técnica criou parte da documentação e configurou um repositório de conhecimento, mas a operação ainda não domina todos os procedimentos de suporte.\nDurante os primeiros testes de transição, surgiram chamados recorrentes sobre configuração, dúvidas sobre papéis operacionais, lacunas em procedimentos de escalonamento e pendências de documentação mínima. A equipe de operações afirma que consegue assumir a plataforma, mas ainda depende dos especialistas do projeto para resolver incidentes mais complexos. O gerente do projeto também identifica que os indicadores de benefícios serão acompanhados após o encerramento da fase, mas ainda não há confirmação formal sobre responsáveis, fonte de dados e frequência de reporte.\nO gerente do projeto precisa recomendar se a fase pode ser encerrada, quais pendências precisam ser tratadas antes da transição e como preservar a realização dos benefícios esperados sem manter a equipe do projeto indefinidamente.\n\nAntes de encerrar a fase, o gerente do projeto identifica que as pendências de documentação, treinamento, papéis operacionais e critérios de suporte estão sendo tratadas em listas separadas por equipes diferentes.\nQual ação melhor preserva a coerência do plano de transição?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Permitir que cada equipe conclua sua lista e informe o status separadamente."
+                },
+                {
+                  "id": "B",
+                  "text": "Integrar pendências, responsáveis, critérios de aceite e marcos de transição."
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar apenas a documentação técnica, pois ela sustenta a operação futura."
+                },
+                {
+                  "id": "D",
+                  "text": "Encerrar a fase e mover todas as pendências para a operação resolver."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/2/Gabarito - 8.2.txt",
+              "explanation": "",
+              "id": "area8-s2-q1",
+              "source": "8. Planejamento integrado do projeto/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "O patrocinador de um projeto solicita o uso de uma abordagem adaptativa em que o trabalho de curto prazo seja detalhado, enquanto o trabalho futuro permaneça em nível mais alto e vá sendo detalhado à medida que mais informações surgirem. Que técnica o gerente do projeto deve utilizar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Listas de marcos"
+                },
+                {
+                  "id": "B",
+                  "text": "Componentes do planejamento"
+                },
+                {
+                  "id": "C",
+                  "text": "Padrões de diagrama de rede"
+                },
+                {
+                  "id": "D",
+                  "text": "Planejamento em ondas sucessivas"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/2/Gabarito - 8.2.txt",
+              "explanation": "",
+              "id": "area8-s2-q2",
+              "source": "8. Planejamento integrado do projeto/2",
+              "title": "Sessão 2",
+              "session": 2
+            },
+            {
+              "number": 3,
+              "type": "matching",
+              "question": "Associe cada contexto de projeto ao foco de planejamento mais adequado.\n\nProjeto A: substituição de equipamento industrial com escopo contratual fechado, aprovação regulatória e forte dependência de fornecedores.\nProjeto B: aplicativo digital com requisitos emergentes, alto feedback de usuários e entregas frequentes.\nProjeto C: modernização de processo interno com marcos fixos, mas funcionalidades priorizadas por valor ao longo do projeto.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Projeto B: aplicativo digital com requisitos emergentes, alto feedback de usuários e entregas frequentes.",
+                  "right": "Plano adaptativo com backlog, ciclos curtos de feedback e revisões frequentes."
+                },
+                {
+                  "left": "Projeto C: modernização de processo interno com marcos fixos, mas funcionalidades priorizadas por valor ao longo do projeto.",
+                  "right": "Plano híbrido com marcos formais e entrega incremental priorizada por valor."
+                },
+                {
+                  "left": "Projeto A: substituição de equipamento industrial com escopo contratual fechado, aprovação regulatória e forte dependência de fornecedores.",
+                  "right": "Plano preditivo com linha de base, controles formais, aquisições e conformidade."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 3,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/2/Gabarito - 8.2.txt",
+              "explanation": "",
+              "id": "area8-s2-q3",
+              "source": "8. Planejamento integrado do projeto/2",
+              "title": "Sessão 2",
+              "session": 2
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s3",
+          "number": 3,
+          "title": "Sessão 3",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Nova experiência de integração de clientes\nUm projeto híbrido está implementando uma nova experiência de integração de clientes para uma empresa de serviços financeiros. A visão aprovada afirma que o projeto deve \"reduzir o tempo de integração em 30%, mantendo as evidências de conformidade necessárias\". O patrocinador considera essa iniciativa estratégica, pois o tempo atual de integração causa abandono de clientes e retrabalho operacional.\nO projeto combina fluxos de trabalho diferentes. A validação de identidade, a retenção de evidências e os registros de auditoria seguem controles regulatórios formais. Já as telas de autoatendimento, mensagens de orientação ao cliente e recursos de produtividade operacional serão refinados por meio de versões, com feedback de usuários-piloto e equipes internas.\nNas últimas semanas, surgiram interpretações conflitantes da visão. O líder de UX está priorizando autoatendimento completo, com redução máxima de etapas manuais. O líder de conformidade bloqueia designs que reduzem revisão manual sem evidência substitutiva suficiente. A equipe de operações solicita recursos de produtividade para reduzir retrabalho interno. Como resultado, decisões recentes ficaram inconsistentes: algumas favorecem velocidade, outras favorecem controle regulatório e outras favorecem eficiência interna.\nA próxima reunião de planejamento estratégico será em uma semana. O gerente do projeto precisa preparar uma recomendação que ajude as partes interessadas a tomar decisões coerentes com a visão, os critérios de sucesso e as restrições de conformidade.\n\nNo caso dado, antes da reunião de planejamento estratégico, qual evidência melhor demonstra que o plano está integrado?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um plano que conecte critérios de valor, evidências de conformidade, dependências e ciclos de feedback."
+                },
+                {
+                  "id": "B",
+                  "text": "Uma lista de funcionalidades solicitadas por UX, conformidade e operações."
+                },
+                {
+                  "id": "C",
+                  "text": "Um cronograma com datas de entrega para todas as telas de autoatendimento."
+                },
+                {
+                  "id": "D",
+                  "text": "Um relatório de status mostrando que as reuniões de planejamento ocorreram."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/3/Gabarito - 8.3.txt",
+              "explanation": "",
+              "id": "area8-s3-q1",
+              "source": "8. Planejamento integrado do projeto/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 2,
+              "type": "matching",
+              "question": "Associe cada situação ao artefato ou foco de planejamento mais adequado.\n\nProjeto A: iniciativa regulada com escopo contratual estável, múltiplos fornecedores e auditorias obrigatórias.\nProjeto B: produto digital com requisitos emergentes e necessidade de validação frequente com usuários.\nProjeto C: projeto híbrido com marcos executivos fixos, mas funcionalidades priorizadas por valor.\nProjeto D: projeto com várias equipes, dependências críticas e necessidade de integrar planos.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Projeto B: produto digital com requisitos emergentes e necessidade de validação frequente com usuários.",
+                  "right": "Destino 1: Backlog priorizado e cadência de revisão frequente."
+                },
+                {
+                  "left": "Projeto D: projeto com várias equipes, dependências críticas e necessidade de integrar planos.",
+                  "right": "Destino 2: Plano de gerenciamento do projeto integrado e plano de entrega."
+                },
+                {
+                  "left": "Projeto A: iniciativa regulada com escopo contratual estável, múltiplos fornecedores e auditorias obrigatórias.",
+                  "right": "Destino 3: Plano integrado do projeto com linhas de base e governança formal."
+                },
+                {
+                  "left": "Projeto C: projeto híbrido com marcos executivos fixos, mas funcionalidades priorizadas por valor.",
+                  "right": "Destino 4: Plano híbrido com marcos formais e entregas incrementais."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/3/Gabarito - 8.3.txt",
+              "explanation": "",
+              "id": "area8-s3-q2",
+              "source": "8. Planejamento integrado do projeto/3",
+              "title": "Sessão 3",
+              "session": 3
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projetos está gerenciando um projeto preditivo em uma empresa organizada no modelo matricial forte. O patrocinador, o gerente funcional e o gerente de projeto estão discutindo o plano de gerenciamento do projeto e o que é necessário para sua criação, pois o gerente funcional está sem recursos. Quem deve ter a incumbência de criar o plano de gerenciamento do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O gerente do projeto"
+                },
+                {
+                  "id": "B",
+                  "text": "A equipe do projeto"
+                },
+                {
+                  "id": "C",
+                  "text": "Quem executa o trabalho do projeto"
+                },
+                {
+                  "id": "D",
+                  "text": "O patrocinador do projeto"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/3/Gabarito - 8.3.txt",
+              "explanation": "",
+              "id": "area8-s3-q3",
+              "source": "8. Planejamento integrado do projeto/3",
+              "title": "Sessão 3",
+              "session": 3
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s4",
+          "number": 4,
+          "title": "Sessão 4",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Uma organização tem muitos projetos e, em geral, os gerentes de projeto gerenciam mais de um projeto simultaneamente. Um gerente já cuidava de dois projetos quando foi alocado para um terceiro. Ele acredita que esse novo projeto pode ser semelhante a outro realizado na empresa no ano anterior, mas não tem certeza. O que ele deve fazer para obter a informação de que precisa?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Encontrar o gerente do projeto anterior e solicitar auxílio."
+                },
+                {
+                  "id": "B",
+                  "text": "Obter registros históricos e orientação junto ao Escritório de Gerenciamento de Projetos."
+                },
+                {
+                  "id": "C",
+                  "text": "Aprofundar o planejamento do novo projeto para ver se ocorrerão problemas."
+                },
+                {
+                  "id": "D",
+                  "text": "Consultar as partes interessadas para verificar se aprovam o escopo."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/4/Gabarito - 8.4.txt",
+              "explanation": "",
+              "id": "area8-s4-q1",
+              "source": "8. Planejamento integrado do projeto/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 2,
+              "type": "matching",
+              "question": "Associe cada situação ao foco de planejamento mais adequado.\n\nProjeto A: contrato de engenharia com escopo estável, marcos regulatórios e fornecedores críticos.\nProjeto B: produto digital com requisitos emergentes e validação frequente com usuários.\nProjeto C: projeto híbrido com linha de base para marcos executivos e backlog para funcionalidades.\nProjeto D: programa interno com dependências, riscos compartilhados e decisões integradas.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Projeto B: produto digital com requisitos emergentes e validação frequente com usuários.",
+                  "right": "Destino 1: Planejamento adaptativo com backlog, ciclos curtos e feedback frequente."
+                },
+                {
+                  "left": "Projeto D: programa interno com dependências, riscos compartilhados e decisões integradas.",
+                  "right": "Destino 2: Plano de gerenciamento do projeto integrado e plano de entrega."
+                },
+                {
+                  "left": "Projeto A: contrato de engenharia com escopo estável, marcos regulatórios e fornecedores críticos.",
+                  "right": "Destino 3: Planejamento preditivo com linhas de base, aquisições e conformidade."
+                },
+                {
+                  "left": "Projeto C: projeto híbrido com linha de base para marcos executivos e backlog para funcionalidades.",
+                  "right": "Destino 4: Planejamento híbrido com marcos formais e priorização incremental."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/4/Gabarito - 8.4.txt",
+              "explanation": "",
+              "id": "area8-s4-q2",
+              "source": "8. Planejamento integrado do projeto/4",
+              "title": "Sessão 4",
+              "session": 4
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Uma equipe de projeto está avaliando diferentes alternativas para resolver um problema de otimização combinatória que envolve múltiplas restrições e grande número de combinações possíveis. O gerente quer usar uma técnica moderna citada no PMBOK® 8a edição para explorar soluções de forma eficiente. Qual técnica melhor se ajusta a esse cenário?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Branch and bound."
+                },
+                {
+                  "id": "B",
+                  "text": "Gráfico de Gantt."
+                },
+                {
+                  "id": "C",
+                  "text": "Matriz RACI."
+                },
+                {
+                  "id": "D",
+                  "text": "Reunião diária de coordenação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/4/Gabarito - 8.4.txt",
+              "explanation": "",
+              "id": "area8-s4-q3",
+              "source": "8. Planejamento integrado do projeto/4",
+              "title": "Sessão 4",
+              "session": 4
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s5",
+          "number": 5,
+          "title": "Sessão 5",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Encerramento da fase de implantação\nUm projeto híbrido está encerrando a fase de implantação de uma nova solução de atendimento ao cliente. A funcionalidade principal foi aceita pelo Dono do Produto, e os testes funcionais planejados foram concluídos. O patrocinador quer encerrar formalmente a fase em duas semanas para liberar a equipe técnica para outro projeto prioritário.\nA solução substituirá procedimentos manuais usados pela operação de atendimento. Os benefícios esperados incluem redução do tempo de resposta, menor retrabalho em chamados recorrentes e maior rastreabilidade dos incidentes críticos. Parte da solução foi entregue de forma incremental, com feedback de usuários internos, enquanto os controles de segurança e integração seguiram planejamento mais preditivo.\nApesar do aceite da funcionalidade principal, a operação informa que ainda há dúvidas sobre suporte, papéis pós-implantação, procedimentos para incidentes críticos e critérios de escalonamento. Alguns supervisores entendem que o suporte inicial continuará com a equipe do projeto; outros acreditam que a operação já deve assumir integralmente a solução. A documentação mínima foi criada, mas ainda não foi validada em situações práticas de suporte.\nO gerente do projeto precisa decidir se recomenda o encerramento da fase, quais pendências precisam ser tratadas antes da transição e como preservar a capacidade de sustentar os benefícios esperados após a liberação da equipe do projeto.\n\nCom relação ao caso, antes da reunião de encerramento, o gerente do projeto identifica que as pendências estão dispersas: a equipe técnica mantém uma lista de defeitos residuais, a operação mantém dúvidas de suporte, e o fornecedor mantém itens de configuração ainda não confirmados.\nQual ação melhor apoia uma transição controlada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Integrar as pendências em um plano de transição com responsáveis e critérios de aceite."
+                },
+                {
+                  "id": "B",
+                  "text": "Encerrar a fase e permitir que cada área resolva sua lista no próprio ritmo."
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar defeitos técnicos e tratar dúvidas operacionais durante a sustentação."
+                },
+                {
+                  "id": "D",
+                  "text": "Solicitar ao patrocinador que escolha quais pendências impedem o encerramento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/5/Gabarito - 8.5.txt",
+              "explanation": "",
+              "id": "area8-s5-q1",
+              "source": "8. Planejamento integrado do projeto/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "O gerente de um projeto de desenvolvimento de sistemas para cliente externo informa que a empresa usa uma abordagem híbrida. O projeto será planejado de modo preditivo, enquanto o desenvolvimento utilizará uma abordagem orientada a mudanças. O plano de gerenciamento do projeto já foi iniciado, e cronograma e orçamento estão sendo desenvolvidos. O cliente reclama que nada está sendo feito no projeto.\nQual é a melhor resposta do gerente de projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Reunir-se com o cliente e explicar que é necessário desenvolver orçamento e cronograma antes de avançar para os trabalhos planejados."
+                },
+                {
+                  "id": "B",
+                  "text": "Parar o trabalho imediatamente e conversar com o departamento jurídico."
+                },
+                {
+                  "id": "C",
+                  "text": "Deixar de elaborar cronograma e orçamento e iniciar imediatamente o desenvolvimento."
+                },
+                {
+                  "id": "D",
+                  "text": "Informar ao cliente que o contrato será rescindido, pois a metodologia híbrida da empresa deve ser seguida."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/5/Gabarito - 8.5.txt",
+              "explanation": "",
+              "id": "area8-s5-q2",
+              "source": "8. Planejamento integrado do projeto/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 3,
+              "type": "matching",
+              "question": "Uma organização está planejando projetos complexos com múltiplas restrições de recursos, prazos e custos. A equipe de planejamento avalia técnicas de otimização para apoiar a escolha de alternativas.\nAssocie cada situação à técnica mais adequada.\n\nSituação A: Número limitado de alternativas discretas; é preciso encontrar a melhor combinação eliminando opções inviáveis durante a busca.\nSituação B: Muitas combinações possíveis de cronograma e recursos; a equipe quer explorar soluções aproximadas em amplo espaço de alternativas.\nSituação C: Comparar opções de entrega considerando valor, risco, dependências e restrições antes de recomendar uma abordagem integrada.\nSituação D: Alinhar visualmente objetivos, entregas, riscos, premissas e benefícios esperados com as partes interessadas.",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Situação C: Comparar opções de entrega considerando valor, risco, dependências e restrições antes de recomendar uma abordagem integrada.",
+                  "right": "Análise multicritério."
+                },
+                {
+                  "left": "Situação A: Número limitado de alternativas discretas; é preciso encontrar a melhor combinação eliminando opções inviáveis durante a busca.",
+                  "right": "Ramificação e delimitação."
+                },
+                {
+                  "left": "Situação D: Alinhar visualmente objetivos, entregas, riscos, premissas e benefícios esperados com as partes interessadas.",
+                  "right": "Canvas de Projeto."
+                },
+                {
+                  "left": "Situação B: Muitas combinações possíveis de cronograma e recursos; a equipe quer explorar soluções aproximadas em amplo espaço de alternativas.",
+                  "right": "Algoritmos genéticos."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/5/Gabarito - 8.5.txt",
+              "explanation": "",
+              "id": "area8-s5-q3",
+              "source": "8. Planejamento integrado do projeto/5",
+              "title": "Sessão 5",
+              "session": 5
+            },
+            {
+              "number": 4,
+              "type": "matching",
+              "question": "Uma equipe está iniciando o planejamento integrado de um projeto de transformação operacional. O patrocinador pediu uma visão visual e colaborativa que conecte problema, objetivos, partes interessadas, entregas, premissas, restrições, riscos e benefícios esperados.\n\nAssocie cada elemento do Canvas de Projeto ao seu melhor uso.\nEntregas principais\nPremissas, restrições e riscos iniciais\nProblema ou oportunidade\nObjetivos e benefícios esperados",
+              "options": [],
+              "pairs": [
+                {
+                  "left": "Entregas principais",
+                  "right": "Define os principais resultados que o projeto deve produzir."
+                },
+                {
+                  "left": "Premissas, restrições e riscos iniciais",
+                  "right": "Mostra condições, limites e incertezas que influenciam o planejamento."
+                },
+                {
+                  "left": "Problema ou oportunidade",
+                  "right": "Explica por que o projeto deve existir e qual situação precisa ser resolvida ou explorada."
+                },
+                {
+                  "left": "Objetivos e benefícios esperados",
+                  "right": "Conecta o projeto ao valor que a organização pretende alcançar."
+                }
+              ],
+              "answer": [
+                "Combine os Itens"
+              ],
+              "required": 4,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/5/Gabarito - 8.5.txt",
+              "explanation": "",
+              "id": "area8-s5-q4",
+              "source": "8. Planejamento integrado do projeto/5",
+              "title": "Sessão 5",
+              "session": 5
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s6",
+          "number": 6,
+          "title": "Sessão 6",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Um projeto híbrido envolve uma entrega física com prazo contratual fixo e uma solução digital cujos requisitos ainda evoluem. As equipes estão planejando separadamente: a equipe de infraestrutura usa marcos preditivos, enquanto a equipe digital organiza o backlog por valor. O patrocinador percebe risco de desalinhamento entre dependências, entregas, decisões e critérios de aceite.\nQual ação do gerente de projeto é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Criar um plano integrado que conecte marcos preditivos, backlog adaptativo, dependências, critérios e governança."
+                },
+                {
+                  "id": "B",
+                  "text": "Deixar cada equipe planejar isoladamente, pois abordagens de desenvolvimento diferentes não devem ser integradas."
+                },
+                {
+                  "id": "C",
+                  "text": "Converter todo o projeto para ágil, eliminando marcos fixos e controles contratuais."
+                },
+                {
+                  "id": "D",
+                  "text": "Congelar o backlog digital para que todo o projeto siga a mesma lógica preditiva."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/6/Gabarito - 8.6.txt",
+              "explanation": "",
+              "id": "area8-s6-q1",
+              "source": "8. Planejamento integrado do projeto/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Uma empresa de telecomunicações foi adquirida por uma organização internacional. O projeto em andamento será ampliado para incluir novas unidades, equipes de Cingapura e Seul, novas dependências técnicas e expectativas adicionais das partes interessadas. Qual deve ser a principal preocupação do gerente de projeto nesse momento?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Delegar a coordenação às equipes internacionais, pois elas já participaram de projeto similar."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter o plano original sem alterações para preservar estabilidade."
+                },
+                {
+                  "id": "C",
+                  "text": "Integrar escopo, pessoas, comunicações, riscos, governança e expectativas das partes interessadas no novo contexto do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Reportar apenas a mudança ao patrocinador e aguardar novas instruções formais."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/6/Gabarito - 8.6.txt",
+              "explanation": "",
+              "id": "area8-s6-q2",
+              "source": "8. Planejamento integrado do projeto/6",
+              "title": "Sessão 6",
+              "session": 6
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Uma empresa foi contratada para desenvolver um sistema como parte de um programa de modernização do cliente. Durante o projeto, a empresa cliente foi adquirida por um concorrente, que decidiu revisar a documentação do programa e dos projetos em andamento. O revisor pede ao gerente do projeto os documentos sob sua responsabilidade. Qual documento o gerente de projeto deve apresentar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Relatórios de inspeção e auditoria do processo de seleção do vendedor"
+                },
+                {
+                  "id": "B",
+                  "text": "Plano de gerenciamento do projeto de desenvolvimento do sistema"
+                },
+                {
+                  "id": "C",
+                  "text": "Documentos financeiros, notas fiscais e registros de pagamentos da aquisição"
+                },
+                {
+                  "id": "D",
+                  "text": "Propostas recebidas pelo comprador durante o processo de seleção da empresa contratada"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/6/Gabarito - 8.6.txt",
+              "explanation": "",
+              "id": "area8-s6-q3",
+              "source": "8. Planejamento integrado do projeto/6",
+              "title": "Sessão 6",
+              "session": 6
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s7",
+          "number": 7,
+          "title": "Sessão 7",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Portal híbrido, fornecedores e integração de pagamentos\nUm projeto híbrido está planejando o desenvolvimento de um novo portal para clientes. O portal terá funcionalidades adaptativas, refinadas com feedback dos usuários, mas alguns componentes precisam seguir controles mais formais. A integração de pagamentos será desenvolvida por um fornecedor externo, a data de lançamento está vinculada a um compromisso regulatório e a área de segurança exige comprovação antes da entrada em operação.\nA política organizacional determina sourcing competitivo para contratações acima do limite orçamentário aprovado. A área de compras informa que qualquer contato com fornecedores deve preservar isonomia, critérios claros de avaliação e rastreabilidade. O Dono do Produto deseja iniciar conversas informais com fornecedores conhecidos para ganhar tempo e refinar rapidamente as opções técnicas.\nO gerente do projeto precisa planejar a aquisição sem comprometer o prazo regulatório, a segurança da solução, a transparência do processo de sourcing e a integração com o backlog do produto.\n\nApós a contratação, o fornecedor informa que uma mudança solicitada no backlog pelo Dono do Produto altera a interface de pagamento e exige esforço adicional. A equipe interna considera a mudança útil para a experiência do cliente, mas ela pode afetar custo, prazo e evidências de segurança.\nO que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Permitir a mudança no backlog, pois a experiência do cliente é refinada de forma adaptativa."
+                },
+                {
+                  "id": "B",
+                  "text": "Solicitar que o fornecedor implemente a mudança e negocie o custo ao final da iteração."
+                },
+                {
+                  "id": "C",
+                  "text": "Avaliar o impacto integrado da mudança antes de decidir o caminho de aprovação."
+                },
+                {
+                  "id": "D",
+                  "text": "Rejeitar a mudança porque contratos de fornecedor não devem ser alterados durante a execução."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/7/Gabarito - 8.7.txt",
+              "explanation": "",
+              "id": "area8-s7-q1",
+              "source": "8. Planejamento integrado do projeto/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto híbrido envolve implantação de infraestrutura, migração de dados e desenvolvimento de funcionalidades digitais. Cada frente preparou seu próprio plano, mas o gerente do projeto percebe que há dependências cruzadas não tratadas, critérios de aceite inconsistentes e atividades que não parecem contribuir para o valor de negócio esperado.\nQual deve ser a próxima ação do gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar e revisar os planos com a equipe, verificando dependências e lacunas."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter os planos separados, pois cada frente conhece melhor seu próprio trabalho."
+                },
+                {
+                  "id": "C",
+                  "text": "Levar ao patrocinador, pois este é quem deve escolher qual plano deve prevalecer sobre os demais."
+                },
+                {
+                  "id": "D",
+                  "text": "Congelar a parte que contém o backlog digital, para que todas as frentes sigam o plano de infraestrutura."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/7/Gabarito - 8.7.txt",
+              "explanation": "",
+              "id": "area8-s7-q2",
+              "source": "8. Planejamento integrado do projeto/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projetos é alocado em um projeto emergencial para montar um hospital de campanha. O patrocinador solicita que, antes de iniciar, ele apresente os métodos de execução do trabalho, documente dependências e interações entre processos, determine como a linha de base de medição de desempenho será mantida e como serão tomadas decisões pendentes. O que o gerente do projeto deve fazer para atender a essa solicitação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Informar que esses itens estarão no backlog, que ainda não pode ser determinado."
+                },
+                {
+                  "id": "B",
+                  "text": "Produzir um plano de gerenciamento do escopo."
+                },
+                {
+                  "id": "C",
+                  "text": "Garantir que esses itens estejam incluídos no termo de abertura."
+                },
+                {
+                  "id": "D",
+                  "text": "Preparar um plano de gerenciamento do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/7/Gabarito - 8.7.txt",
+              "explanation": "",
+              "id": "area8-s7-q3",
+              "source": "8. Planejamento integrado do projeto/7",
+              "title": "Sessão 7",
+              "session": 7
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "O gerente de projetos está conduzindo um projeto híbrido e deseja garantir um planejamento contínuo para melhor adaptação às mudanças. Qual abordagem ele deve adotar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Criar um plano detalhado no início do projeto e segui-lo rigorosamente."
+                },
+                {
+                  "id": "B",
+                  "text": "Revisar e ajustar o planejamento regularmente, incorporando feedback das partes interessadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar ao patrocinador do projeto que defina todas as mudanças no planejamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Reduzir o tempo gasto no planejamento para se concentrar na execução."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/7/Gabarito - 8.7.txt",
+              "explanation": "",
+              "id": "area8-s7-q4",
+              "source": "8. Planejamento integrado do projeto/7",
+              "title": "Sessão 7",
+              "session": 7
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s8",
+          "number": 8,
+          "title": "Sessão 8",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Implantação de ERP em múltiplas unidades\nUm gerente de projeto está implantando um ERP em uma grande empresa de fabricação de equipamentos de ar-condicionado. A organização possui oito unidades em cinco estados, com diferenças relevantes de processos, maturidade digital, disponibilidade de equipes locais e práticas operacionais. A verba do projeto já foi aprovada, houve investimento relevante em treinamento inicial e a alta administração espera ganhos de produtividade, redução de custos e maior padronização das informações.\nO gerente de projeto tem experiência em implantações semelhantes, e a organização já selecionou processos e formulários padronizados para orientar o projeto. No entanto, durante as primeiras conversas, alguns gerentes regionais demonstram preocupação com impactos sobre rotinas locais, perda temporária de produtividade e mudanças nos papéis das equipes administrativas. A equipe de tecnologia acredita que a implantação pode seguir um roteiro padrão, enquanto a operação entende que cada unidade precisará de preparação específica.\nO patrocinador deseja acelerar a implantação para capturar benefícios ainda neste ano fiscal. A equipe do projeto planeja usar uma abordagem híbrida: os marcos principais, integrações e migração de dados serão controlados de forma mais preditiva, enquanto treinamento, ajustes operacionais e feedback dos usuários-chave serão conduzidos em ondas por unidade.\nO gerente do projeto precisa reduzir problemas de adoção, alinhar expectativas entre unidades, preparar o plano integrado de implantação e garantir que os benefícios esperados sejam acompanhados após a entrada em operação.\n\nAo preparar a implantação do projeto do caso, a equipe de tecnologia propõe aplicar o mesmo roteiro em todas as unidades. A operação alerta que algumas unidades possuem dependências locais, janelas operacionais restritas e diferentes níveis de prontidão dos usuários. O patrocinador quer um plano que permita avançar sem perder controle.\nQual abordagem de planejamento é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aplicar o roteiro padrão em todas as unidades para preservar comparabilidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Permitir que cada unidade defina sua própria implantação sem coordenação central."
+                },
+                {
+                  "id": "C",
+                  "text": "Iniciar pela unidade mais simples e definir o restante do plano depois da entrada em operação."
+                },
+                {
+                  "id": "D",
+                  "text": "Criar um plano integrado que combine marcos comuns, ondas por unidade e critérios de prontidão."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/8/Gabarito - 8.8.txt",
+              "explanation": "",
+              "id": "area8-s8-q1",
+              "source": "8. Planejamento integrado do projeto/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um gerente de projeto está conduzindo um projeto híbrido. O início e o encerramento seguirão uma abordagem preditiva, enquanto parte da execução usará práticas de Scrum. No início do projeto, ele precisa documentar como o projeto será executado, monitorado, controlado e encerrado. Qual documento deve ser criado?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Backlog de lançamento."
+                },
+                {
+                  "id": "B",
+                  "text": "Plano de gerenciamento do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Manifesto Ágil."
+                },
+                {
+                  "id": "D",
+                  "text": "Plano de engajamento das partes interessadas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/8/Gabarito - 8.8.txt",
+              "explanation": "",
+              "id": "area8-s8-q2",
+              "source": "8. Planejamento integrado do projeto/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projeto está participando do desenvolvimento do termo de abertura de um projeto híbrido. Logo no início, ele identifica várias restrições que precisarão ser acompanhadas e atualizadas conforme mudarem ao longo do projeto. Onde essas restrições devem ser documentadas?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Visão do produto."
+                },
+                {
+                  "id": "B",
+                  "text": "Backlog de iteração."
+                },
+                {
+                  "id": "C",
+                  "text": "Registro de riscos."
+                },
+                {
+                  "id": "D",
+                  "text": "Registro de premissas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/8/Gabarito - 8.8.txt",
+              "explanation": "",
+              "id": "area8-s8-q3",
+              "source": "8. Planejamento integrado do projeto/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Em um projeto híbrido, a equipe discute qual nível de documentação deve ser produzido. Parte da equipe quer documentar tudo em detalhes, enquanto outra parte quer evitar qualquer documentação para manter velocidade. Como o gerente de projeto deve abordar essa questão?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Criar documentação detalhada para todas as atividades, independentemente da necessidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Evitar qualquer documentação para manter a equipe focada apenas na entrega."
+                },
+                {
+                  "id": "C",
+                  "text": "Equilibrar a documentação necessária, garantindo que informações essenciais sejam registradas e úteis."
+                },
+                {
+                  "id": "D",
+                  "text": "Deixar a documentação a cargo do patrocinador do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/8/Gabarito - 8.8.txt",
+              "explanation": "",
+              "id": "area8-s8-q4",
+              "source": "8. Planejamento integrado do projeto/8",
+              "title": "Sessão 8",
+              "session": 8
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s9",
+          "number": 9,
+          "title": "Sessão 9",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "Ao preparar o plano, a equipe identifica dependências entre obra, licenças, fornecedores, sistemas de ponto de venda, treinamento e comunicação de lançamento. Cada frente possui seu próprio cronograma, mas algumas entregas dependem de aprovações e liberações de outras áreas.\n\nQual abordagem de planejamento é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Permitir que cada frente execute seu cronograma e reporte progresso separadamente."
+                },
+                {
+                  "id": "B",
+                  "text": "Priorizar a comunicação de lançamento para preservar a data anunciada ao público."
+                },
+                {
+                  "id": "C",
+                  "text": "Aguardar a conclusão da obra para detalhar treinamento, sistemas e fornecedores."
+                },
+                {
+                  "id": "D",
+                  "text": "Criar um plano integrado com dependências, responsáveis, marcos e critérios de prontidão."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/9/1.png; Gabarito - 8.9.png",
+              "explanation": "",
+              "id": "area8-s9-q1",
+              "source": "8. Planejamento integrado do projeto/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto desenvolverá um dispositivo médico conectado. A submissão regulatória exige evidências, datas e responsáveis definidos, enquanto o aplicativo de apoio ao usuário ainda depende de feedback de profissionais de saúde. O PMO quer aplicar o mesmo planejamento preditivo a todo o trabalho, e a equipe digital defende trabalhar sem controles formais.\n\nQual decisão é mais adequada no planejamento?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aplicar planejamento preditivo completo a todo o trabalho para manter a governança uniforme."
+                },
+                {
+                  "id": "B",
+                  "text": "Definir um plano integrado híbrido, com controles para a trilha regulatória e ciclos adaptativos para o aplicativo."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir que cada frente escolha sua própria cadência e reporte resultados no final do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Adiar o planejamento do aplicativo até que a submissão regulatória esteja concluída."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/9/2.png; Gabarito - 8.9.png",
+              "explanation": "",
+              "id": "area8-s9-q2",
+              "source": "8. Planejamento integrado do projeto/9",
+              "title": "Sessão 9",
+              "session": 9
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto de desenvolvimento de um sistema operacional para equipamentos comerciais terá requisitos que serão detalhados ao longo do trabalho. Algumas funcionalidades estão claras para a próxima liberação, mas outras dependem de feedback do mercado e de decisões técnicas futuras. Como o gerente de projeto deve conduzir o planejamento?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aguardar até que todas as informações estejam disponíveis para só então iniciar o planejamento detalhado."
+                },
+                {
+                  "id": "B",
+                  "text": "Aplicar planejamento em ondas sucessivas, detalhando o trabalho próximo e mantendo o trabalho futuro em nível mais alto até que haja informação suficiente."
+                },
+                {
+                  "id": "C",
+                  "text": "Planejar todas as fases sucessivas com o mesmo nível de detalhe, evitando revisões posteriores do plano."
+                },
+                {
+                  "id": "D",
+                  "text": "Refazer integralmente o planejamento a cada fase, descartando os resultados das fases anteriores."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/9/3.png; Gabarito - 8.9.png",
+              "explanation": "",
+              "id": "area8-s9-q3",
+              "source": "8. Planejamento integrado do projeto/9",
+              "title": "Sessão 9",
+              "session": 9
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s10",
+          "number": 10,
+          "title": "Sessão 10",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Expansão logística em ambiente externo instável\nUm projeto híbrido de expansão logística está sendo planejado para ampliar a capacidade de distribuição de uma empresa varejista em uma região metropolitana. O projeto inclui contratação de transportadoras, adequação de um centro de cross-docking, implantação de novos roteiros de entrega, integração com sistemas de rastreamento e treinamento das equipes operacionais.\nO patrocinador espera reduzir atrasos de entrega, aumentar a previsibilidade das rotas e melhorar a experiência dos clientes. No entanto, o ambiente externo está instável. Nas últimas semanas, surgiram notícias sobre uma nova restrição municipal para circulação de caminhões em horários de pico, possível reajuste tarifário de um fornecedor crítico e uma exigência ambiental ainda em discussão para veículos de entrega urbana.\nA equipe recebe essas informações de forma informal, por notícias, contatos com fornecedores e conversas com associações locais. Porém, ainda não há critério claro sobre o que deve ser monitorado, quem deve acompanhar cada sinal externo, quando escalar o tema e como essas informações devem afetar o planejamento. A operação quer começar rapidamente a implantação das novas rotas, enquanto compras deseja concluir negociações com fornecedores antes de qualquer ajuste.\nO gerente do projeto precisa estruturar a iniciação e o planejamento integrado, mantendo atenção ao ambiente externo e preparando a execução sem reagir de forma desordenada a cada notícia informal.\nNas últimas semanas, surgiram notícias sobre uma nova restrição municipal para circulação de caminhões, possível reajuste tarifário de um fornecedor crítico e uma exigência ambiental ainda em discussão. A equipe recebe essas informações de forma informal, mas não há critério claro sobre o que deve ser monitorado ou escalonado.\n\nAo preparar o plano, a operação quer iniciar novas rotas rapidamente, compras deseja concluir contratos antes de qualquer mudança e tecnologia informa que o sistema de rastreamento precisará de ajustes para refletir restrições de circulação. As informações externas ainda estão evoluindo.\nQual abordagem de planejamento é mais adequada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Priorizar contratos de transporte e ajustar sistemas e rotas após a implantação."
+                },
+                {
+                  "id": "B",
+                  "text": "Congelar o desenho das rotas até que todas as regras externas estejam publicadas."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir que cada área avance com seu próprio plano e reporte progresso semanalmente."
+                },
+                {
+                  "id": "D",
+                  "text": "Consolidar um plano integrado com dependências, premissas, gatilhos e alternativas."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/10/Gabarito - 8.10.txt",
+              "explanation": "",
+              "id": "area8-s10-q1",
+              "source": "8. Planejamento integrado do projeto/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto corporativo combina três frentes: adequação regulatória, implantação de infraestrutura e evolução de um portal digital. A frente regulatória tem datas fixas e evidências obrigatórias; a infraestrutura depende de fornecedores; e o portal digital será ajustado conforme feedback dos usuários. Cada frente preparou seu próprio plano, mas surgiram conflitos entre marcos, dependências e critérios de aceite.\nQual ação é mais adequada para o gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar os planos com as equipes, alinhando dependências, marcos e critérios de aceite."
+                },
+                {
+                  "id": "B",
+                  "text": "Permitir que cada frente mantenha seu próprio plano, desde que envie relatórios semanais."
+                },
+                {
+                  "id": "C",
+                  "text": "Aplicar a mesma abordagem preditiva a todas as frentes para simplificar o controle."
+                },
+                {
+                  "id": "D",
+                  "text": "Aguardar a conclusão da frente regulatória antes de planejar o portal digital."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/10/Gabarito - 8.10.txt",
+              "explanation": "",
+              "id": "area8-s10-q2",
+              "source": "8. Planejamento integrado do projeto/10",
+              "title": "Sessão 10",
+              "session": 10
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um projeto híbrido de construção de uma planta industrial iniciou com definições de engenharia em alto nível. À medida que o projeto avança, a equipe precisa detalhar entregas, atualizar desenhos, incorporar ajustes aprovados e registrar informações \"conforme construído\" sem perder o controle das linhas de base. Qual conceito melhor orienta essa forma de detalhamento do trabalho?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Elaboração progressiva, pois os detalhes aumentam conforme novas informações confiáveis ficam disponíveis."
+                },
+                {
+                  "id": "B",
+                  "text": "Evolução contínua, pois o escopo pode mudar livremente sem controle formal das entregas."
+                },
+                {
+                  "id": "C",
+                  "text": "Planejamento preditivo completo, pois todos os detalhes devem ser definidos antes da execução."
+                },
+                {
+                  "id": "D",
+                  "text": "Refinamento técnico informal, pois as alterações de campo dispensam atualização dos artefatos do projeto."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/10/Gabarito - 8.10.txt",
+              "explanation": "",
+              "id": "area8-s10-q3",
+              "source": "8. Planejamento integrado do projeto/10",
+              "title": "Sessão 10",
+              "session": 10
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s11",
+          "number": 11,
+          "title": "Sessão 11",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO - Dispositivo\nUm gerente de projetos trabalha para uma empresa que está lançando um novo dispositivo para casa inteligente projetado para melhorar a eficiência energética. O produto visa ajudar os consumidores a reduzir seu consumo de energia, ajustando automaticamente o aquecimento, o resfriamento e a iluminação com base na ocupação e na hora do dia. O gerente de projetos recebeu um orçamento de US$ 500.000 e um prazo de seis meses para concluir o projeto.\nA equipe do projeto é composta por engenheiros, profissionais de marketing e vendas. Uma análise de mercado recente mostra crescente demanda por produtos ecológicos, mas a concorrência é acirrada, com várias marcas já estabelecidas. A empresa estabeleceu a meta de atingir 10% de participação de mercado no primeiro ano de lançamento.\nA equipe de engenharia identificou desafios técnicos, incluindo compatibilidade com sistemas de casa inteligente existentes e manutenção da privacidade do usuário e segurança dos dados. A equipe de marketing precisa criar uma campanha que destaque os recursos exclusivos do produto e responda às preocupações dos consumidores com privacidade. A equipe de vendas está focada em parcerias com varejistas e plataformas online para ampliar os canais de distribuição.\n\nCom base no cenário, como o gerente de projetos deve priorizar os principais desafios do lançamento?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Priorizar a campanha de marketing, pois a demanda por produtos ecológicos já confirma a viabilidade técnica do produto."
+                },
+                {
+                  "id": "B",
+                  "text": "Priorizar recursos técnicos avançados, mesmo que privacidade, segurança dos dados e canais de distribuição sejam tratados depois."
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar privacidade, segurança dos dados e compatibilidade técnica, alinhando marketing e vendas à proposta de valor do lançamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Priorizar os canais de distribuição, pois atingir varejistas e plataformas online garante a meta de participação de mercado."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/11/Gabarito - 8.11.txt",
+              "explanation": "",
+              "id": "area8-s11-q1",
+              "source": "8. Planejamento integrado do projeto/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto combina implantação de infraestrutura, integração com fornecedores e desenvolvimento adaptativo de funcionalidades digitais. Cada frente preparou seu planejamento separadamente, mas surgiram conflitos entre datas, dependências e critérios de aceite.\nComplete a lacuna selecionando a opção mais adequada na lista.\nPara reduzir conflitos entre as frentes, o gerente do projeto deve consolidar um [relatório de encerramento / registro de benefícios / plano integrado de gerenciamento e entrega / termo de aceitação]. Esse trabalho deve tornar visíveis dependências e critérios de aceite.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "relatório de encerramento"
+                },
+                {
+                  "id": "B",
+                  "text": "registro de benefícios"
+                },
+                {
+                  "id": "C",
+                  "text": "plano integrado de gerenciamento e entrega"
+                },
+                {
+                  "id": "D",
+                  "text": "termo de aceitação"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/11/Gabarito - 8.11.txt",
+              "explanation": "",
+              "id": "area8-s11-q2",
+              "source": "8. Planejamento integrado do projeto/11",
+              "title": "Sessão 11",
+              "session": 11
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projetos foi designado para liderar um projeto ágil. A equipe é composta por profissionais experientes em abordagens ágeis, que trabalham juntos há muito tempo e conhecem bem o produto. Nesse ambiente, qual abordagem o gerente do projeto deve adotar para integrar o trabalho do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Desenvolver sozinho um plano detalhado de gerenciamento do projeto que determine como todas as atividades serão integradas."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar condições para que a equipe determine como planos, componentes técnicos e entregas devem ser integrados."
+                },
+                {
+                  "id": "C",
+                  "text": "Solicitar aprovação para contratar um especialista externo em integração, mesmo sem evidência de lacuna de competência."
+                },
+                {
+                  "id": "D",
+                  "text": "Considerar que o gerenciamento da integração não se aplica em ambientes ágeis autogerenciados."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/11/Gabarito - 8.11.txt",
+              "explanation": "",
+              "id": "area8-s11-q3",
+              "source": "8. Planejamento integrado do projeto/11",
+              "title": "Sessão 11",
+              "session": 11
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s12",
+          "number": 12,
+          "title": "Sessão 12",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO - Renovação Automática de Medicamentos\n\nUma rede nacional de farmácias aprovou uma iniciativa para lançar um serviço digital de renovação automática de medicamentos de uso contínuo. O objetivo de negócio é aumentar a retenção de clientes, reduzir filas nas lojas físicas e melhorar a conveniência para pacientes recorrentes. A diretoria estabeleceu uma meta inicial de aumentar em 8% a recompra de medicamentos recorrentes no primeiro ano e reduzir em 15% o volume de atendimentos presenciais relacionados a renovações simples.\n\nO projeto tem orçamento inicial aprovado de R$ 1.200.000 e prazo de oito meses para o lançamento nacional. O patrocinador, porém, pediu que um piloto em duas capitais seja realizado em quatro meses para testar aceitação do serviço. A equipe de produto propõe começar com uma versão mínima que permita cadastro do cliente, lembrete de renovação e retirada programada na loja. A área comercial quer incluir entrega em domicílio desde o primeiro piloto, pois acredita que isso aumentaria a atratividade da campanha. A área de operações alerta que a entrega em domicílio depende de contratos logísticos ainda não negociados.\n\nHá também restrições regulatórias e de privacidade. A área jurídica informa que o serviço deve tratar dados pessoais e dados sensíveis de saúde, exigindo consentimento adequado, rastreabilidade das autorizações e controles de acesso. A equipe de tecnologia afirma que os sistemas atuais de cadastro e estoque podem ser integrados, mas há incerteza sobre a qualidade dos dados de clientes antigos. O PMO solicitou um plano integrado que conecte o piloto, as integrações técnicas, a campanha comercial, a validação regulatória e a preparação das lojas participantes.\n\nDurante a iniciação, algumas áreas interpretam o sucesso de forma diferente. A diretoria enfatiza retenção e redução de filas; comercial enfatiza adesão ao serviço; operações enfatiza redução de retrabalho nas lojas; jurídico enfatiza conformidade e privacidade. O gerente do projeto precisa estruturar o trabalho sem perder a meta de aprendizado rápido do piloto.\n\nQual abordagem de planejamento é mais adequada para o projeto citado no caso?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Planejar primeiro toda a solução nacional e iniciar o piloto somente após a conclusão de todos os contratos logísticos."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar um plano integrado híbrido, conectando piloto, integrações, validação regulatória, campanha e preparação das lojas."
+                },
+                {
+                  "id": "C",
+                  "text": "Permitir que cada área mantenha seu próprio plano, desde que envie relatórios semanais ao PMO."
+                },
+                {
+                  "id": "D",
+                  "text": "Conduzir todo o trabalho de forma adaptativa, deixando privacidade e contratos para decisões próximas ao lançamento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/12/caso-1.png; 1.png; Gabarito - 8.12.png",
+              "explanation": "",
+              "id": "area8-s12-q1",
+              "source": "8. Planejamento integrado do projeto/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um projeto híbrido para modernizar uma plataforma de serviços possui três frentes: migração de dados, desenvolvimento de novas funcionalidades e adequação regulatória. Cada frente preparou seu próprio plano, mas surgiram conflitos entre datas, critérios de aceite e dependências técnicas. A equipe regulatória alerta que algumas evidências precisam estar prontas antes dos testes integrados.\n\nQual ação é mais adequada para o gerente do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar os planos com as equipes, alinhando dependências, marcos e critérios de aceite."
+                },
+                {
+                  "id": "B",
+                  "text": "Manter os planos separados, desde que cada frente reporte seu progresso semanalmente."
+                },
+                {
+                  "id": "C",
+                  "text": "Aplicar a mesma cadência adaptativa a todas as frentes para simplificar o acompanhamento."
+                },
+                {
+                  "id": "D",
+                  "text": "Aguardar a conclusão da migração de dados antes de planejar testes e evidências regulatórias."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/12/2.png; Gabarito - 8.12.png",
+              "explanation": "",
+              "id": "area8-s12-q2",
+              "source": "8. Planejamento integrado do projeto/12",
+              "title": "Sessão 12",
+              "session": 12
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projeto está liderando um projeto de desenvolvimento de software usando uma abordagem híbrida. Durante a execução, o patrocinador é substituído. Ao ser informado de que as entregas estão sendo produzidas em uma abordagem híbrida, o novo patrocinador pede evidências formais dessa decisão. Como o gerente de projeto deve atender à solicitação?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Explicar verbalmente ao novo patrocinador o que é uma abordagem híbrida e por que ela foi escolhida."
+                },
+                {
+                  "id": "B",
+                  "text": "Orientar o patrocinador a falar diretamente com a equipe para entender como o produto está sendo desenvolvido."
+                },
+                {
+                  "id": "C",
+                  "text": "Apresentar somente o termo de abertura do projeto, pois ele autoriza formalmente a iniciativa."
+                },
+                {
+                  "id": "D",
+                  "text": "Apresentar o plano de gerenciamento do projeto e os artefatos que descrevem a abordagem de desenvolvimento e entrega."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/12/3.png; Gabarito - 8.12.png",
+              "explanation": "",
+              "id": "area8-s12-q3",
+              "source": "8. Planejamento integrado do projeto/12",
+              "title": "Sessão 12",
+              "session": 12
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s13",
+          "number": 13,
+          "title": "Sessão 13",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Energia de reserva em hospital\nUm hospital privado está modernizando sua infraestrutura crítica antes da inauguração de uma nova ala de atendimento intensivo. O projeto é híbrido: a infraestrutura elétrica principal segue marcos preditivos de engenharia, aquisição e instalação, enquanto os painéis digitais de monitoramento de energia e alertas operacionais são configurados em incrementos com validações frequentes da equipe de operações.\nO escopo aprovado inclui a substituição do sistema de energia de reserva por geradores a diesel de alta capacidade. O objetivo principal é garantir resiliência em emergências, manter funcionamento de equipamentos críticos durante falhas de energia e atender aos requisitos de segurança hospitalar. A data de inauguração da nova ala foi anunciada publicamente e o patrocinador está preocupado com qualquer atraso.\nNo meio da implementação, a prefeitura publica requisitos imediatos de relatórios de emissões para grandes sistemas a diesel. O hospital poderá continuar usando geradores a diesel, mas deverá implementar monitoramento adicional, envio periódico de relatórios ambientais e procedimentos de conformidade operacional. Ao mesmo tempo, a prefeitura anuncia um desconto por tempo limitado para projetos que adotem armazenamento em baterias como parte da solução de energia de reserva, reduzindo emissões operacionais.\nA equipe de engenharia informa que manter os geradores a diesel com monitoramento de emissões é tecnicamente viável e tem menor impacto no cronograma. Porém, essa opção aumenta custos de conformidade e manutenção operacional. A alternativa com baterias reduziria emissões e poderia receber o desconto, mas exigiria revisão de projeto, nova análise de resiliência, validação com operações clínicas e possível ajuste nos contratos de fornecimento.\nA reserva de contingência do projeto cobre apenas um ajuste significativo. O patrocinador deseja proteger a data de inauguração. A equipe de operações exige que a solução preserve resiliência para emergências. A área de conformidade alerta que o hospital não pode entrar em operação sem atender aos novos requisitos ambientais. O gerente do projeto precisa avaliar opções, preservar valor, manter conformidade e evitar decisões unilaterais que comprometam segurança, orçamento ou cronograma.\n\nO patrocinador insiste em manter a data de inauguração, enquanto operações afirma que a solução não pode reduzir a capacidade de resposta a emergências. Com base no caso, qual evidência melhor apoia uma recomendação integrada ao comitê de mudanças?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Uma comparação das opções com impacto em prazo, orçamento, conformidade, emissões e resiliência."
+                },
+                {
+                  "id": "B",
+                  "text": "A preferência do patrocinador pela data de inauguração previamente anunciada."
+                },
+                {
+                  "id": "C",
+                  "text": "A confirmação de que a equipe de engenharia consegue instalar os geradores no prazo original."
+                },
+                {
+                  "id": "D",
+                  "text": "O valor do desconto oferecido pela prefeitura para armazenamento em baterias."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/13/Gabarito - 8.13.txt",
+              "explanation": "",
+              "id": "area8-s13-q1",
+              "source": "8. Planejamento integrado do projeto/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Estudo de Caso: Implementação de ERP Financeiro\nUm gerente de projeto está liderando um projeto corporativo para migrar vários sistemas financeiros desconectados para uma plataforma ERP integrada. A implantação afetará finanças, compras, operações de vendas, unidades de negócio regionais, atendimento ao cliente, conformidade, infraestrutura de TI e parceiros externos de implementação.\nA organização cresceu por meio de aquisições. Por isso, diferentes unidades de negócio seguem fluxos de aprovação, formatos de relatório, estruturas de plano de contas e modelos operacionais distintos. Alguns gerentes financeiros regionais estão resistindo ao processo padrão do ERP porque acreditam que suas práticas locais são mais rápidas e mais adequadas às necessidades dos clientes.\nO patrocinador deseja um plano de implantação em fases que reduza a interrupção operacional e garanta uma transição sem descontinuidade para os clientes. O gerente do projeto deve trabalhar de perto com o gerente de TI e a equipe de rede para confirmar sistemas legados, interfaces de dados, controles de acesso de usuários, infraestrutura de rede, integrações críticas e prontidão dos parceiros externos.\n\nO que o gerente do projeto deve fazer primeiro ao preparar o plano de implantação do ERP?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Permitir que cada unidade de negócio defina sua própria sequência de implantação."
+                },
+                {
+                  "id": "B",
+                  "text": "Pedir ao gerente de TI que finalize primeiro o plano técnico de migração."
+                },
+                {
+                  "id": "C",
+                  "text": "Implantar primeiro nas unidades regionais com maior resistência para reduzir oposição."
+                },
+                {
+                  "id": "D",
+                  "text": "Revisar objetivos de negócio, necessidades das partes interessadas e riscos da implantação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/13/Gabarito - 8.13.txt",
+              "explanation": "",
+              "id": "area8-s13-q2",
+              "source": "8. Planejamento integrado do projeto/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projeto está coordenando o planejamento de lançamento de um novo portal do cliente. O patrocinador deseja uma data definida, mas o lançamento depende de uma API de fornecedor, de uma janela fixa para testes de segurança e do congelamento da migração de dados.\nQual evidência melhor valida se o plano de lançamento suporta um compromisso de cronograma realista e coordenado?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Gráfico de velocidade frequente do trabalho planejado."
+                },
+                {
+                  "id": "B",
+                  "text": "E-mail do patrocinador aprovando a data de lançamento preferencial."
+                },
+                {
+                  "id": "C",
+                  "text": "Plano de lançamento vinculado a dependências, capacidade, restrições e responsáveis confirmados."
+                },
+                {
+                  "id": "D",
+                  "text": "Contagem de histórias atribuídas a cada iteração."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/13/Gabarito - 8.13.txt",
+              "explanation": "",
+              "id": "area8-s13-q3",
+              "source": "8. Planejamento integrado do projeto/13",
+              "title": "Sessão 13",
+              "session": 13
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um projeto tem as seguintes características no planejamento:\n• O escopo do projeto foi decomposto\n• Todas as atividades foram decompostas\nO que o gerente de projeto deve fazer a seguir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Criar o termo de abertura do projeto"
+                },
+                {
+                  "id": "B",
+                  "text": "Fazer um estudo de viabilidade"
+                },
+                {
+                  "id": "C",
+                  "text": "Criar um orçamento de projeto"
+                },
+                {
+                  "id": "D",
+                  "text": "Adquirir a equipe do projeto"
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/13/Gabarito - 8.13.txt",
+              "explanation": "",
+              "id": "area8-s13-q4",
+              "source": "8. Planejamento integrado do projeto/13",
+              "title": "Sessão 13",
+              "session": 13
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s14",
+          "number": 14,
+          "title": "Sessão 14",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Modernização energética de edifícios\nUma organização nacional aprovou uma iniciativa para modernizar 40 edifícios administrativos com controles inteligentes de energia. O objetivo estratégico é reduzir o consumo energético, melhorar a sustentabilidade operacional e demonstrar compromisso público com metas ambientais. O patrocinador deseja apresentar o plano integrado de gerenciamento do projeto aos executivos na próxima semana.\nO projeto combina componentes com características diferentes. A substituição de painéis elétricos, sensores de segurança e integrações com sistemas prediais existentes precisa atender a normas técnicas, requisitos de segurança e regras de conformidade. Essas atividades exigem aprovações formais, inspeções e janelas de intervenção previamente autorizadas pelos responsáveis pelos edifícios.\nAo mesmo tempo, há recursos experimentais de economia de energia, como algoritmos de ajuste automático de iluminação, controle de climatização baseado em ocupação e painéis digitais de recomendação para gestores prediais. A equipe ainda não sabe quais desses recursos produzirão maior economia em cada tipo de edifício. Alguns prédios têm sistemas antigos, outros já possuem automação parcial, e os dados históricos de consumo variam em qualidade.\nA equipe ainda não separou claramente as restrições fixas de segurança e conformidade dos elementos experimentais. Também não foram definidos os indicadores que comprovarão os benefícios de sustentabilidade, como redução de consumo, economia financeira, emissões evitadas, conforto dos usuários ou estabilidade operacional. O patrocinador pede ao gerente de projeto que escolha ainda hoje entre uma abordagem preditiva ou adaptativa. Os executivos querem uma decisão rápida, mas o PMO alerta que o plano integrado precisa justificar a abordagem escolhida, as métricas de valor, os critérios de controle e as evidências esperadas de sustentabilidade.\n\nO patrocinador pede ao gerente de projeto que escolha imediatamente uma abordagem preditiva ou adaptativa para todo o projeto. Qual é a intervenção imediata mais apropriada?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Iniciar a entrega iterativa para todo o trabalho, pois a economia de energia é incerta."
+                },
+                {
+                  "id": "B",
+                  "text": "Criar um cronograma mestre preditivo, pois segurança e conformidade exigem controle prévio."
+                },
+                {
+                  "id": "C",
+                  "text": "Facilitar uma sessão de planejamento para identificar restrições, incertezas, medidas de valor e evidências de sustentabilidade."
+                },
+                {
+                  "id": "D",
+                  "text": "Apresentar a escolha aos executivos, pois as partes interessadas têm expectativas conflitantes."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/14/Gabarito - 8.14.txt",
+              "explanation": "",
+              "id": "area8-s14-q1",
+              "source": "8. Planejamento integrado do projeto/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Durante a preparação do plano do caso, o patrocinador pergunta se o projeto está pronto para aprovação executiva. As equipes informam que as atividades técnicas foram listadas, mas ainda não há vínculo claro entre cada grupo de entregas, restrições de conformidade, indicadores de sustentabilidade e responsáveis pelas evidências.\nO que melhor demonstra prontidão para aprovar o plano integrado?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Uma lista completa de atividades técnicas separada por edifício e equipe executora."
+                },
+                {
+                  "id": "B",
+                  "text": "Uma apresentação executiva destacando economia potencial e inovação tecnológica."
+                },
+                {
+                  "id": "C",
+                  "text": "Um cronograma de alto nível com a data final desejada pelo patrocinador."
+                },
+                {
+                  "id": "D",
+                  "text": "Um plano que conecte entregas, restrições, dependências, métricas de benefício, evidências e responsáveis."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/14/Gabarito - 8.14.txt",
+              "explanation": "",
+              "id": "area8-s14-q2",
+              "source": "8. Planejamento integrado do projeto/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Uma organização está iniciando um projeto para implantar uma plataforma de análise avançada que usará dados de várias áreas de negócio. A solução é nova para o ambiente tecnológico da empresa, e algumas áreas já pedem integrações específicas. Antes de avançar na configuração técnica, o que o gerente do projeto deve enfatizar?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Avaliar primeiro a compatibilidade da plataforma com todos os sistemas legados e a adaptabilidade dos usuários."
+                },
+                {
+                  "id": "B",
+                  "text": "Compreender as necessidades de negócio, os objetivos esperados e os critérios de valor das áreas principais."
+                },
+                {
+                  "id": "C",
+                  "text": "Fazer consultas amplas sobre tecnologias futuras para garantir que a plataforma não fique obsoleta."
+                },
+                {
+                  "id": "D",
+                  "text": "Redesenhar fluxos de trabalho multifuncionais para reduzir interrupções durante a implantação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/14/Gabarito - 8.14.txt",
+              "explanation": "",
+              "id": "area8-s14-q3",
+              "source": "8. Planejamento integrado do projeto/14",
+              "title": "Sessão 14",
+              "session": 14
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Em um projeto de implantação de um novo sistema de TI, o gerente de projeto descobre no meio do ano fiscal que vários aprimoramentos críticos financiados pelo orçamento atual não serão concluídos no prazo. Esses aprimoramentos foram iniciados por solicitações de mudança aprovadas e são importantes para o sucesso do projeto. O que o gerente de projeto deve fazer primeiro?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Revisar o escopo do projeto para identificar atividades que possam ser comprimidas no cronograma."
+                },
+                {
+                  "id": "B",
+                  "text": "Trabalhar com a equipe para avaliar as entregas e priorizar os aprimoramentos mais críticos para o valor do projeto."
+                },
+                {
+                  "id": "C",
+                  "text": "Envolver imediatamente as partes interessadas para negociar prorrogação de prazo e redução de expectativas."
+                },
+                {
+                  "id": "D",
+                  "text": "Comunicar ao departamento financeiro que os cronogramas dos aprimoramentos serão ajustados."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/14/Gabarito - 8.14.txt",
+              "explanation": "",
+              "id": "area8-s14-q4",
+              "source": "8. Planejamento integrado do projeto/14",
+              "title": "Sessão 14",
+              "session": 14
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s15",
+          "number": 15,
+          "title": "Sessão 15",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Substituição de sistema de faturamento\nUma empresa de serviços regulados aprovou um projeto para substituir seu sistema de faturamento de clientes. O sistema atual apresenta alto custo de manutenção, baixa flexibilidade para novos produtos e dificuldade de integração com canais digitais. O caso de negócio aprovado prevê redução de custos operacionais, maior rastreabilidade de auditoria e melhoria da experiência do cliente no portal de autoatendimento.\nO projeto possui dois fluxos principais de trabalho. O primeiro envolve a migração do faturamento regulado, conversão de dados, trilhas de auditoria, controles de reconciliação e evidências obrigatórias para a revisão de conformidade. Esses elementos são bem definidos, têm critérios formais de aceitação e precisam cumprir um prazo regulatório fixo. A sequência de conversão de dados também é conhecida: extração, saneamento, reconciliação, migração piloto, validação financeira e migração final.\nO segundo fluxo envolve novos recursos do portal do cliente, incluindo visualização de faturas, contestação de cobranças, histórico de consumo e notificações personalizadas. A área de produto acredita que esses recursos podem reduzir chamadas para a central de atendimento e aumentar a satisfação dos clientes, mas ainda há suposições de usabilidade não comprovadas. O patrocinador deseja que a primeira funcionalidade utilizável pelo cliente seja entregue em até quatro meses, para que a organização comece a obter feedback real antes da data regulatória final.\nA equipe de conformidade exige evidências auditáveis, rastreabilidade das decisões e validação formal antes do lançamento regulado. A equipe de produto quer feedback mensal das partes interessadas e dos usuários-piloto. O departamento financeiro deseja previsões mensais de gastos e uso controlado das reservas, pois parte do orçamento depende de liberações progressivas. O gerente do projeto precisa recomendar uma abordagem de entrega, coordenar execução, manter visibilidade de status e garantir que o projeto não sacrifique conformidade nem valor ao cliente.\n\nNo caso, a equipe de conformidade e a equipe de produto prepararam planos separados. O plano de conformidade mostra marcos regulatórios e evidências de auditoria. O plano do portal mostra incrementos mensais de funcionalidades. No entanto, ainda não há conexão clara entre migração de dados, validação financeira, funcionalidades do portal, critérios de aceitação e decisões de lançamento.\nO que o gerente do projeto deve fazer para preparar um plano integrado confiável?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar dependências, marcos regulatórios, incrementos do portal e responsáveis em um plano integrado."
+                },
+                {
+                  "id": "B",
+                  "text": "Permitir que cada fluxo mantenha seu plano separado, desde que envie relatórios semanais ao patrocinador."
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar o plano de conformidade e tratar o portal depois da migração final dos dados."
+                },
+                {
+                  "id": "D",
+                  "text": "Substituir os marcos regulatórios por revisões mensais do backlog para manter a abordagem consistente."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/15/Gabarito - 8.15.txt",
+              "explanation": "",
+              "id": "area8-s15-q1",
+              "source": "8. Planejamento integrado do projeto/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "Um gerente de projeto está integrando o planejamento de um projeto preditivo de implantação de infraestrutura. As áreas técnicas já produziram estimativas, premissas, riscos, requisitos de qualidade, recursos necessários e marcos contratuais. O patrocinador pede uma visão integrada para confirmar se o plano é coerente antes da aprovação. O que o gerente do projeto deve fazer?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Consolidar os componentes do plano de gerenciamento do projeto, verificando dependências, lacunas, restrições e coerência entre escopo, cronograma, custos, recursos, riscos e qualidade."
+                },
+                {
+                  "id": "B",
+                  "text": "Aprovar separadamente cada plano subsidiário, pois a integração ocorrerá naturalmente durante a execução."
+                },
+                {
+                  "id": "C",
+                  "text": "Priorizar apenas o cronograma, pois ele determina se os demais componentes do projeto serão necessários."
+                },
+                {
+                  "id": "D",
+                  "text": "Substituir os planos subsidiários por um relatório executivo resumido para reduzir documentação."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/15/Gabarito - 8.15.txt",
+              "explanation": "",
+              "id": "area8-s15-q2",
+              "source": "8. Planejamento integrado do projeto/15",
+              "title": "Sessão 15",
+              "session": 15
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Um gerente de projeto está gerenciando um portal híbrido para clientes. Os marcos de infraestrutura são preditivos, enquanto os recursos voltados para o usuário são planejados iterativamente.\n\nInformações do plano integrado:\n• Versão de conformidade fixa: 30 de junho.\n• Linhas de base controladas: escopo, custo e datas dos marcos.\n• Governança: quaisquer impactos na linha de base exigem aprovação do CCB.\n• Trabalho adaptativo: o backlog pode ser reordenado dentro da capacidade de lançamento aprovada.\n• Capacidade de lançamento atual: 45 pontos de história.\n• O backlog já comprometido equivale a 45 pontos de história.\n\nUm novo fato ocorreu: A API de identidade foi descontinuada e a sua substituição é obrigatória para login. A estimativa para fazer isso é de +30 pontos de história e +US$ 35.000 para suporte do fornecedor.\n\nO que o gerente de projeto deve fazer em seguida para manter o plano integrado válido?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Adicionar horas extras para que o backlog comprometido permaneça inalterado."
+                },
+                {
+                  "id": "B",
+                  "text": "Registrar a alteração da API como risco para revisão posterior."
+                },
+                {
+                  "id": "C",
+                  "text": "Redefinir a linha de base do escopo e do custo e depois notificar o CCB buscando aprovação da mudança."
+                },
+                {
+                  "id": "D",
+                  "text": "Concluir a análise de impacto, enviar a solicitação de mudança e refinar o plano de lançamento."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "D"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/15/Gabarito - 8.15.txt",
+              "explanation": "",
+              "id": "area8-s15-q3",
+              "source": "8. Planejamento integrado do projeto/15",
+              "title": "Sessão 15",
+              "session": 15
+            }
+          ],
+          "available": true,
+          "note": ""
+        },
+        {
+          "id": "area8-s16",
+          "number": 16,
+          "title": "Sessão 16",
+          "questions": [
+            {
+              "number": 1,
+              "type": "single",
+              "question": "CASO DE ESTUDO — Plataforma de faturamento\nUma empresa regulamentada está substituindo sua plataforma de faturamento de clientes. O projeto é híbrido: a conversão de dados, a reconciliação financeira, as evidências de auditoria e os controles regulatórios seguem marcos preditivos; já as melhorias de portal e relatórios para clientes são refinadas em incrementos, com feedback mensal de usuários internos e representantes de atendimento.\nO marco de conformidade regulatória está previsto para ocorrer em três semanas. Para entrar em produção, a solução precisa demonstrar trilha de auditoria completa para transações de faturamento, retenção de dados conforme regras regulatórias, reconciliação financeira aprovada e evidências dos testes de segurança. O comitê diretivo acompanha esse marco de perto, pois a organização assumiu compromisso formal com o regulador.\nDurante os testes de integração, a equipe descobre que um componente fornecido por terceiro não consegue gerar o log de auditoria obrigatório para a entrada em produção. A correção para atender às exigências regulatórias adicionará US$ 40.000 ao custo e atrasará o marco de conformidade regulatória em sete dias úteis. O contrato do fornecedor ainda está sendo analisado para verificar se há responsabilidade pela correção ou possibilidade de reembolso.\nAs regras de governança do projeto estabelecem que impactos em conformidade e atrasos em marcos superiores a cinco dias úteis devem ser comunicados ao comitê diretivo. Alterações no escopo, prazo, custo ou linha de base exigem revisão pelo controle de mudanças. O patrocinador está pressionando para preservar a data de lançamento, enquanto a área de conformidade afirma que não aceitará entrada em produção sem evidências auditáveis.\n\nAntes de apresentar a recomendação ao comitê diretivo, qual evidência é mais importante para demonstrar que o plano integrado continua viável?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um plano integrado atualizado com impactos no projeto como um todo."
+                },
+                {
+                  "id": "B",
+                  "text": "Uma lista de tarefas técnicas restantes, ordenada pela equipe de desenvolvimento."
+                },
+                {
+                  "id": "C",
+                  "text": "Um relatório informando que a maior parte das funcionalidades do portal foi aceita pelos usuários."
+                },
+                {
+                  "id": "D",
+                  "text": "Uma mensagem do patrocinador confirmando que a data de lançamento continua desejada."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "A"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/16/Gabarito - 8.16.txt",
+              "explanation": "",
+              "id": "area8-s16-q1",
+              "source": "8. Planejamento integrado do projeto/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 2,
+              "type": "single",
+              "question": "A equipe acaba de concluir o plano de gerenciamento do projeto para uma iniciativa híbrida. O gerente do projeto pede a um membro da equipe que agende uma reunião para apresentar e obter aprovação do plano finalizado. O membro pergunta quem deve ser convidado. Como o gerente do projeto deve responder?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Convide apenas o cliente, pois o projeto usa práticas ágeis."
+                },
+                {
+                  "id": "B",
+                  "text": "Consulte políticas, procedimentos e ativos de processos organizacionais aplicáveis para identificar as partes interessadas necessárias."
+                },
+                {
+                  "id": "C",
+                  "text": "Convide somente o patrocinador e a equipe do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "Use o diagrama de rede do cronograma para identificar os participantes da reunião."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/16/Gabarito - 8.16.txt",
+              "explanation": "",
+              "id": "area8-s16-q2",
+              "source": "8. Planejamento integrado do projeto/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 3,
+              "type": "single",
+              "question": "Durante um projeto ágil, uma das partes interessadas pergunta como o planejamento será conduzido ao longo do projeto. Ela está acostumada a projetos tradicionais, em que o planejamento ocorre no início e permanece mais estável.\nO que o gerente do projeto deveria responder?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "O planejamento não é necessário em projetos ágeis, pois a equipe responde às mudanças conforme elas surgem."
+                },
+                {
+                  "id": "B",
+                  "text": "O planejamento ocorre apenas no início do projeto para definir os requisitos e o escopo antes da execução."
+                },
+                {
+                  "id": "C",
+                  "text": "O planejamento ocorre continuamente, com previsões baseadas nas iterações e ajustes ao longo do ciclo de vida do projeto."
+                },
+                {
+                  "id": "D",
+                  "text": "O planejamento é realizado apenas uma vez, mas de forma flexível para acomodar mudanças futuras."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/16/Gabarito - 8.16.txt",
+              "explanation": "",
+              "id": "area8-s16-q3",
+              "source": "8. Planejamento integrado do projeto/16",
+              "title": "Sessão 16",
+              "session": 16
+            },
+            {
+              "number": 4,
+              "type": "single",
+              "question": "Um gerente de projeto está preparando o plano para um portal híbrido de clientes. A interface de conformidade deve atender a uma data de auditoria fixa e a um limite orçamentário, enquanto a experiência do usuário é incerta e será refinada por meio de versões. Antes que o patrocinador aprove o plano, qual evidência melhor valida se o plano de gerenciamento do projeto integrado se adequa à complexidade, incerteza, objetivos de valor e restrições do projeto?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um relatório de status mostrando que as oficinas de planejamento foram concluídas no prazo."
+                },
+                {
+                  "id": "B",
+                  "text": "Um backlog com estimativas para os principais recursos solicitados do portal."
+                },
+                {
+                  "id": "C",
+                  "text": "Um plano integrado que conecte linhas de base, critérios de aceitação, riscos e ciclos de feedback."
+                },
+                {
+                  "id": "D",
+                  "text": "Um conjunto padronizado de modelos de escopo, cronograma, custo, qualidade e risco."
+                }
+              ],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "area": "8. Planejamento integrado do projeto",
+              "domain": "",
+              "reference": "PMP - BOOK 8/8. Planejamento integrado do projeto/16/Gabarito - 8.16.txt",
+              "explanation": "",
+              "id": "area8-s16-q4",
+              "source": "8. Planejamento integrado do projeto/16",
+              "title": "Sessão 16",
+              "session": 16
+            }
+          ],
+          "available": true,
+          "note": ""
+        }
+      ]
     }
   ],
   "missingSessions": [],
-  "generatedAt": "2026-09-23",
-  "contentSource": "PMP - BOOK 8, áreas 1–6",
+  "generatedAt": "2026-09-24",
+  "contentSource": "PMP - BOOK 8, áreas 1–8",
   "excludedUnsupported": [
     {
       "skipped": "hot-area",
@@ -29331,6 +39168,24 @@ window.PREPARAKEY_QUESTIONS = {
       "area": 5,
       "session": 13,
       "number": 7
+    },
+    {
+      "skipped": "hot-area",
+      "area": 7,
+      "session": 7,
+      "number": 3
+    },
+    {
+      "skipped": "hot-area",
+      "area": 7,
+      "session": 8,
+      "number": 3
+    },
+    {
+      "skipped": "hot-area",
+      "area": 7,
+      "session": 14,
+      "number": 5
     }
   ],
   "removedDuplicates": [

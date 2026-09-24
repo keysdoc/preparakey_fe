@@ -43,7 +43,7 @@ O artefato de produção é gerado em `dist/`. Não há `typecheck` separado por
 
 ## Importação das áreas de conhecimento
 
-A fonte exclusiva das perguntas é `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`. O importador usa uma lista explícita das áreas 1–6 e termina em `6. Iniciação do projeto e termo de abertura`; nenhuma pasta posterior é lida.
+A fonte exclusiva das perguntas é `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`. O importador usa uma lista explícita das áreas 1–8 e termina em `8. Planejamento integrado do projeto`; nenhuma pasta posterior é lida.
 
 Para reaplicar toda a base:
 
@@ -51,11 +51,13 @@ Para reaplicar toda a base:
 npm run import:knowledge -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8"
 ```
 
-O importador exige 16 sessões por área, valida numeração, alternativas, associações e gabaritos, e preserva os objetos existentes da primeira área quando correspondem à fonte. Arquivos de gabarito duplicados são aceitos somente quando o conteúdo é idêntico; versões conflitantes interrompem a importação.
+O importador exige 16 sessões por área, valida numeração, alternativas, associações e gabaritos, e preserva os objetos existentes da primeira área quando correspondem à fonte. Arquivos de gabarito duplicados são aceitos somente quando o conteúdo é idêntico; versões conflitantes interrompem a importação. As sessões 7/8, 8/9 e 8/12 existem apenas em imagens e possuem transcrições explícitas protegidas pelos hashes SHA-256 das imagens e dos respectivos gabaritos.
 
-A base ativa contém seis áreas, 96 sessões e 781 questões compatíveis com os componentes existentes (`single`, `multiple` e `matching`). Quatro repetições integrais da fonte são removidas, mantendo a primeira ocorrência. Os dois itens `Hot Area` (área 5, sessões 12/questão 3 e 13/questão 7) são registrados em `excludedUnsupported`, mas não entram no fluxo: a fonte não fornece alternativas textuais e o produto não possui um componente de seleção por região; nenhum conteúdo substituto é inventado.
+A base ativa contém oito áreas, 128 sessões e 1.043 questões compatíveis com os componentes existentes (`single`, `multiple` e `matching`). Quatro repetições integrais da fonte são removidas, mantendo a primeira ocorrência. Os cinco itens `Hot Area` (5/12/3, 5/13/7, 7/7/3, 7/8/3 e 7/14/5) são registrados em `excludedUnsupported`, mas não entram no fluxo: a fonte não fornece alternativas textuais e o produto não possui um componente de seleção por região; nenhum conteúdo substituto é inventado.
 
 O simulado existente permanece único e referencia somente as 16 sessões da primeira área, sem copiar perguntas. “Áreas de Conhecimento” reutiliza os cards de área/sessão e o mesmo questionário da aplicação.
+
+O planejamento integrado desta entrega, incluindo escopo, qualidade, riscos, dependências e pendências externas, está em [`docs/planejamento-integrado.md`](docs/planejamento-integrado.md).
 
 ## Autenticação e variáveis de ambiente
 
@@ -76,9 +78,11 @@ O workflow `.github/workflows/ci.yml` roda em todo `push` e `pull_request`. Ele:
 
 Qualquer falha encerra o job com erro.
 
+Para diagnosticar uma falha, execute primeiro `npm ci` e depois o mesmo comando da etapa indicada no log. Falhas no importador devem ser tratadas na fonte ou nos contratos explícitos; não altere totais ou hashes apenas para contornar a validação. Falhas de cache/build podem ser reproduzidas com `npm run build`, que recria `dist/` do zero.
+
 ## Deploy
 
-O workflow `.github/workflows/deploy.yml` publica em GitHub Pages somente quando a variável de repositório `ENABLE_GITHUB_PAGES` é `true` e o workflow `CI` termina com sucesso para um `push` na branch `main`. O deploy faz checkout exato do commit validado, instala dependências sem cache privilegiado, refaz o build e publica `dist/`.
+O workflow `.github/workflows/deploy.yml` publica em GitHub Pages somente quando a variável de repositório `ENABLE_GITHUB_PAGES` é `true` e o workflow `CI` termina com sucesso para um `push` na branch `main`. Pull requests e pushes em outras branches executam apenas CI. O deploy faz checkout exato do commit validado, instala dependências sem cache privilegiado, refaz o build e publica `dist/`.
 
 Não são necessários secrets. O workflow usa apenas o `GITHUB_TOKEN` efêmero com permissões mínimas de Pages e OIDC.
 

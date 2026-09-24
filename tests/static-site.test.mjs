@@ -180,9 +180,11 @@ test("somente a nova base autorizada é carregada", async () => {
     "3. Abordagens de desenvolvimento, ciclo de vida e adaptação",
     "4. Mentalidade, papel do gerente de projetos e liderança",
     "5. Visão comum, liderança da equipe e conflitos",
-    "6. Iniciação do projeto e termo de abertura"
+    "6. Iniciação do projeto e termo de abertura",
+    "7. Partes interessadas e transferência de conhecimento",
+    "8. Planejamento integrado do projeto"
   ];
-  const expectedCounts = [132, 148, 184, 125, 137, 55];
+  const expectedCounts = [132, 148, 184, 125, 137, 55, 207, 55];
   const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
 
   assert.equal(data.simulados.length, 1, "o simulado existente deve permanecer único");
@@ -191,8 +193,8 @@ test("somente a nova base autorizada é carregada", async () => {
     Array.from(data.areas, (area) => area.sessions.reduce((total, session) => total + session.questions.length, 0)),
     expectedCounts
   );
-  assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–6");
-  assert.equal(questions.length, 781);
+  assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–8");
+  assert.equal(questions.length, 1043);
 
   for (const [areaIndex, area] of data.areas.entries()) {
     assert.equal(area.sessions.length, 16, `${area.title}: sessões 1–16`);
@@ -207,14 +209,20 @@ test("somente a nova base autorizada é carregada", async () => {
     }
   }
 
-  assert.deepEqual(Array.from(data.excludedUnsupported, (item) => `${item.area}-${item.session}-${item.number}`), ["5-12-3", "5-13-7"]);
+  assert.deepEqual(Array.from(data.excludedUnsupported, (item) => `${item.area}-${item.session}-${item.number}`), [
+    "5-12-3",
+    "5-13-7",
+    "7-7-3",
+    "7-8-3",
+    "7-14-5"
+  ]);
   assert.deepEqual(Array.from(data.removedDuplicates, (item) => item.id), [
     "fund-s8-q2",
     "area2-s16-q6",
     "area4-s6-q6",
     "area6-s13-q4"
   ]);
-  assert.ok(questions.every((question) => !String(question.source).startsWith("7.")));
+  assert.ok(questions.every((question) => !/^9\./.test(String(question.source))));
 
   const normalized = (value) => String(value ?? "").normalize("NFC").replace(/\s+/g, " ").trim();
   const fingerprints = questions.map((question) => JSON.stringify({
@@ -246,6 +254,23 @@ test("simulado consolida as 16 sessões sem duplicar o banco de questões", asyn
   assert.equal(new Set(examQuestions.map((question) => question.id)).size, 132);
 });
 
+test("sessões exclusivamente em imagem preservam conteúdo e gabarito verificados", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const data = context.window.PREPARAKEY_QUESTIONS;
+  const areaSevenSessionEight = data.areas[6].sessions[7];
+  const areaEightSessionNine = data.areas[7].sessions[8];
+  const areaEightSessionTwelve = data.areas[7].sessions[11];
+
+  assert.equal(areaSevenSessionEight.questions.length, 12, "Hot Area 7-8-3 não deve entrar no fluxo");
+  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.number), [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
+  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.answer[0]), ["A", "C", "C", "C", "A", "C", "B", "B", "D", "A", "A", "C"]);
+  assert.deepEqual(Array.from(areaEightSessionNine.questions, (question) => question.answer[0]), ["D", "B", "B"]);
+  assert.deepEqual(Array.from(areaEightSessionTwelve.questions, (question) => question.answer[0]), ["B", "A", "D"]);
+  assert.match(areaEightSessionTwelve.questions[0].question, /Renovação Automática de Medicamentos/);
+  assert.ok(areaEightSessionNine.questions.every((question) => question.reference.includes("Gabarito - 8.9.png")));
+});
+
 test("áreas reutilizam os cards e o questionário existentes sem sistema paralelo", async () => {
   const html = await read("app.html");
   const app = await read("js/app.js");
@@ -264,8 +289,8 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
   assert.doesNotMatch(html, /data-view="book8"|book8Tree|js\/book8\.js/);
   assert.doesNotMatch(app, /PREPARAKEY_BOOK8|renderBook8|book8Question/);
   assert.doesNotMatch(styles, /\.book8-/);
-  assert.match(importer, /6\. Iniciação do projeto e termo de abertura/);
-  assert.doesNotMatch(importer, /7\. Partes interessadas/);
+  assert.match(importer, /8\. Planejamento integrado do projeto/);
+  assert.doesNotMatch(importer, /folder:\s*"9\./);
   assert.doesNotMatch(importer, /readdir\(sourceRoot/);
   await assert.rejects(access(path.join(projectRoot, "js", "book8.js")));
   await assert.rejects(access(path.join(projectRoot, "scripts", "import-book8.mjs")));
