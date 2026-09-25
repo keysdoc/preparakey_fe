@@ -277,8 +277,8 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
   const styles = await read("css/styles.css");
   const importer = await read("scripts/import-knowledge.mjs");
 
-  assert.equal((html.match(/data-view="areas"/g) || []).length, 1);
-  assert.match(app, /areasNav\.textContent='Áreas de Conhecimento'/);
+  assert.equal((html.match(/class="nav-item app-nav"[^>]*data-view="areas"/g) || []).length, 1);
+  assert.equal((html.match(/class="mobile-nav-item app-nav"[^>]*data-view="areas"/g) || []).length, 1);
   assert.match(app, /function renderAreas\(\)/);
   assert.match(app, /function renderSessions\(area\)/);
   assert.match(app, /const allSessions=area\.sessions/);
@@ -294,6 +294,56 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
   assert.doesNotMatch(importer, /readdir\(sourceRoot/);
   await assert.rejects(access(path.join(projectRoot, "js", "book8.js")));
   await assert.rejects(access(path.join(projectRoot, "scripts", "import-book8.mjs")));
+});
+
+test("blueprint documenta a arquitetura e os contratos reais do frontend", async () => {
+  const blueprint = await read("docs/frontend-blueprint.md");
+
+  assert.match(blueprint, /PWA estática, local-first/);
+  assert.match(blueprint, /#dashboard/);
+  assert.match(blueprint, /#simulados/);
+  assert.match(blueprint, /#areas/);
+  assert.match(blueprint, /#questionario/);
+  assert.match(blueprint, /#historico/);
+  assert.match(blueprint, /#configuracoes/);
+  assert.match(blueprint, /preparakey\.activeQuiz/);
+  assert.match(blueprint, /Avançar.*funciona com ou sem verificação/);
+  assert.match(blueprint, /Não há gráficos por domínio/);
+});
+
+test("dashboard usa apenas indicadores derivados do histórico real", async () => {
+  const html = await read("app.html");
+  const app = await read("js/app.js");
+
+  assert.match(html, /Taxa de aprovação/);
+  assert.match(html, /Evolução recente/);
+  assert.match(app, /approved\/hist\.length\*100/);
+  assert.match(app, /function drawTrend\(hist\)/);
+  assert.match(app, /hist\.slice\(0,6\)\.reverse\(\)/);
+  assert.doesNotMatch(app, /\['Pessoas'/);
+  assert.doesNotMatch(app, /\['Processo'/);
+  assert.doesNotMatch(app, /\['Negócio'/);
+  assert.doesNotMatch(app, /score\|\|0\)-4/);
+});
+
+test("shell adaptativo expõe navegação, progresso e estados acessíveis", async () => {
+  const html = await read("app.html");
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+
+  assert.match(html, /class="skip-link"/);
+  assert.match(html, /id="sidebarBackdrop"/);
+  assert.match(html, /id="bottomNav"/);
+  assert.match(html, /id="quizProgress"/);
+  assert.match(html, /aria-controls="sidebar"/);
+  assert.match(app, /function setSidebar\(open\)/);
+  assert.match(app, /event\.key==='Escape'/);
+  assert.match(app, /\$\('quizProgress'\)\.value=progress/);
+  assert.match(app, /requestAnimationFrame\(\(\)=>window\.requestAnimationFrame/);
+  assert.match(styles, /\.bottom-nav\{/);
+  assert.match(styles, /env\(safe-area-inset-bottom\)/);
+  assert.match(styles, /@media\(max-width:360px\)/);
+  assert.match(styles, /@media\(max-height:520px\)/);
 });
 
 test("questão de associação da sessão 16 usa somente os pares da fonte", async () => {

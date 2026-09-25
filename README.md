@@ -59,6 +59,8 @@ O simulado existente permanece único e referencia somente as 16 sessões da pri
 
 O planejamento integrado desta entrega, incluindo escopo, qualidade, riscos, dependências e pendências externas, está em [`docs/planejamento-integrado.md`](docs/planejamento-integrado.md).
 
+O inventário completo de telas, rotas, componentes, estados, persistência, fluxos e decisões responsivas está em [`docs/frontend-blueprint.md`](docs/frontend-blueprint.md). O dashboard usa somente dados efetivamente registrados no histórico: média, último resultado, taxa de aprovação e evolução recente. Nenhuma métrica por domínio é estimada.
+
 ## Autenticação e variáveis de ambiente
 
 Esta versão é uma aplicação local estática e não possui backend de autenticação. A tela inicial oferece apenas acesso local ao painel e não deve ser apresentada como uma barreira de segurança.
