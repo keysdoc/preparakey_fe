@@ -6,11 +6,11 @@ Este documento consolida o planejamento verificável no repositório para a entr
 
 - Produto: PWA estática em HTML, CSS e JavaScript, sem framework, backend, banco de dados ou migrações.
 - Conteúdo: `PMP - BOOK 8`, áreas 1–8, com 16 sessões por área.
-- Base ativa: 1.043 questões; tipos suportados `single`, `multiple` e `matching`.
+- Base ativa: 1.048 questões; tipos suportados `single`, `multiple`, `matching` e `image_hotspot`.
 - Navegação: os fluxos existentes de **Áreas de Conhecimento** e **Simulados** compartilham o mesmo questionário em `js/app.js`.
 - Aprovação: 75%, configurada em `js/config.js`; a próxima sessão/simulado só é liberada após aprovação.
 - Persistência: progresso local no navegador, sem sincronização remota.
-- Fora do escopo desta entrega: áreas 9 e posteriores, criação de um novo componente de pergunta, autenticação real, backend, banco de dados e suporte a seleção visual `Hot Area`.
+- Fora do escopo desta entrega: publicação das áreas 9 e posteriores, autenticação real, backend e banco de dados.
 
 Evidências: `app.html`, `js/app.js`, `js/config.js`, `js/questions.js`, `scripts/import-knowledge.mjs` e `tests/static-site.test.mjs`.
 
@@ -22,7 +22,7 @@ O importador valida estrutura, numeração, alternativas, associações, respost
 
 | Área/sessão | Fonte | Tratamento |
 | --- | --- | --- |
-| 7/8 | 13 imagens de questão + gabarito | transcrição explícita; hashes SHA-256 impedem uso após alteração da fonte; questão 3 `Hot Area` excluída |
+| 7/8 | 13 imagens de questão + gabarito | transcrição explícita; hashes SHA-256 impedem uso após alteração da fonte; questão 3 recriada como hotspot acessível |
 | 8/9 | 3 imagens de questão + gabarito | transcrição explícita e protegida por SHA-256 |
 | 8/12 | caso, 3 imagens de questão + gabarito | caso e questões transcritos explicitamente e protegidos por SHA-256 |
 
@@ -53,13 +53,13 @@ As associações cujo TXT não representa os pares de forma inequívoca possuem 
 6. Enviar a revisão para `main`; o CI valida o commit.
 7. O CD publica o mesmo SHA somente quando `ENABLE_GITHUB_PAGES=true` e o ambiente Pages está disponível.
 
-Aceite técnico: 8 áreas, 128 sessões, 1.043 questões ativas, 4 duplicatas integrais registradas, 5 itens `Hot Area` excluídos, testes e build aprovados, e nenhum conteúdo de área 9 ou posterior.
+Aceite técnico: 8 áreas, 128 sessões, 1.048 questões ativas, 4 duplicatas integrais registradas, 5 itens `Hot Area` recuperados, 2 tabelas de consulta estruturadas, testes e build aprovados, e nenhum conteúdo de área 9 ou posterior publicado.
 
 ## Riscos, premissas e pendências externas
 
 - **Hospedagem:** o repositório não contém infraestrutura alternativa ao GitHub Pages. A variável `ENABLE_GITHUB_PAGES` deve permanecer ausente até o Pages estar autorizado e configurado.
 - **Conteúdo-fonte:** os screenshots não estão no Git. A reimportação depende do caminho local documentado; qualquer mudança nas sessões por imagem exige revisão manual e atualização deliberada dos hashes.
-- **Hot Area:** cinco questões exigem interação por região de imagem, inexistente no produto. Elas estão registradas, mas fora do fluxo; implementar esse tipo requer requisito e componente próprios.
+- **Conteúdo posterior:** a área 9 possui material nas sessões 1–4, mas não integra a base aprovada de áreas 1–8; as sessões 3 e 4 dependem somente de imagens. As áreas 10–22 estão vazias. A auditoria detalhada está em `docs/content-audit.md`.
 - **Governança:** orçamento, datas, responsáveis, homologação e aprovação editorial não são evidenciados no repositório.
 - **Persistência:** o progresso é local ao navegador. Sincronização entre dispositivos depende de backend ainda não definido.
 

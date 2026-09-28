@@ -43,7 +43,10 @@ Não há roteador externo. A navegação usa hashes e `history.pushState`, prese
 
 - `app-shell`: estrutura persistente com sidebar, topbar, conteúdo e navegação móvel.
 - `study-card`: card reutilizado por áreas, sessões e simulados; contém status e CTA.
-- `quiz-container`: pergunta, metadados, opções, associação e feedback.
+- `quiz-container`: pergunta, metadados, opções, associações, materiais de apoio, hotspots e feedback.
+- `support-table`: tabela semântica e rolável somente quando a imagem-fonte contém material de consulta.
+- `hotspot-canvas`: diagrama responsivo com zonas acionáveis por toque, mouse ou teclado; não publica capturas da interface antiga.
+- `matching-grid`: associação por arrastar/soltar ou por toque em duas etapas, preservando o seletor nativo como alternativa acessível.
 - `quiz-flow-actions`: ações naturais abaixo das opções. `Avançar` depende apenas da seleção; `Verificar` é opcional.
 - `kpi-card`, `chart-panel`, `insight-list`: indicadores derivados exclusivamente do histórico real.
 - `history-item` e `history-detail`: resumo e revisão da tentativa.
@@ -121,6 +124,8 @@ O frontend não envia esses dados para terceiros. Limpar progresso remove histó
 - link “pular para o conteúdo”, foco visível e fechamento do drawer por `Escape`;
 - estados selecionado/correto/incorreto com texto e símbolo, não apenas cor;
 - regiões de status para progresso e feedback;
+- tabelas com cabeçalhos, legendas e região rolável identificada;
+- hotspots com botões nativos, IDs estáveis e retorno textual de seleção/correção;
 - alvos de toque mínimos de 48 px;
 - suporte a contraste forçado e redução de movimento;
 - `100dvh`/`100svh`, `viewport-fit=cover` e `env(safe-area-inset-*)` para PWA/WebView.
@@ -129,5 +134,5 @@ O frontend não envia esses dados para terceiros. Limpar progresso remove histó
 
 - Não há login remoto ou sincronização entre dispositivos.
 - Não há gráficos por domínio porque o histórico atual não armazena domínio agregado por tentativa.
-- Não há filtros, exportação, tabelas ou modais: esses fluxos não existem no produto atual e não foram inventados.
+- Não há filtros, exportação ou modais: esses fluxos não existem no produto atual e não foram inventados. Tabelas aparecem somente como material didático comprovado pela fonte.
 - O alerta nativo de conclusão e a confirmação de limpeza são preservados por fazerem parte do comportamento existente.

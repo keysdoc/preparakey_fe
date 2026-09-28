@@ -1,6 +1,6 @@
 {
   "name": "preparakey-frontend",
-  "version": "16.11.0",
+  "version": "16.12.0",
   "private": true,
   "description": "PWA estática para simulados de preparação PMP.",
   "type": "module",
@@ -10,6 +10,7 @@
   "packageManager": "npm@10.9.8",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
     "import:knowledge": "node scripts/import-knowledge.mjs",
     "lint": "eslint . --max-warnings=0",
     "security": "node scripts/security-check.mjs",

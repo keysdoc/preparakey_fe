@@ -161,6 +161,18 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
       continue;
     }
 
+    if (question.type === "image_hotspot") {
+      assert.ok(question.visual?.kind, question.id);
+      assert.ok(Array.isArray(question.visual.zones) && question.visual.zones.length >= 4, question.id);
+      const zoneIds = new Set(question.visual.zones.map((zone) => zone.id));
+      assert.equal(zoneIds.size, question.visual.zones.length, question.id);
+      assert.ok(question.visual.zones.every((zone) => zone.id && zone.label), question.id);
+      assert.ok(Array.isArray(question.answer) && question.answer.length === 1, question.id);
+      assert.ok(question.answer.every((answer) => zoneIds.has(answer)), question.id);
+      assert.equal(question.required, 1, question.id);
+      continue;
+    }
+
     assert.ok(["single", "multiple"].includes(question.type), question.id);
     assert.ok(Array.isArray(question.options) && question.options.length >= 2, question.id);
     const optionIds = new Set(question.options.map((option) => option.id));
@@ -184,7 +196,7 @@ test("somente a nova base autorizada é carregada", async () => {
     "7. Partes interessadas e transferência de conhecimento",
     "8. Planejamento integrado do projeto"
   ];
-  const expectedCounts = [132, 148, 184, 125, 137, 55, 207, 55];
+  const expectedCounts = [132, 148, 184, 125, 139, 55, 210, 55];
   const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
 
   assert.equal(data.simulados.length, 1, "o simulado existente deve permanecer único");
@@ -194,7 +206,7 @@ test("somente a nova base autorizada é carregada", async () => {
     expectedCounts
   );
   assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–8");
-  assert.equal(questions.length, 1043);
+  assert.equal(questions.length, 1048);
 
   for (const [areaIndex, area] of data.areas.entries()) {
     assert.equal(area.sessions.length, 16, `${area.title}: sessões 1–16`);
@@ -209,12 +221,15 @@ test("somente a nova base autorizada é carregada", async () => {
     }
   }
 
-  assert.deepEqual(Array.from(data.excludedUnsupported, (item) => `${item.area}-${item.session}-${item.number}`), [
-    "5-12-3",
-    "5-13-7",
-    "7-7-3",
-    "7-8-3",
-    "7-14-5"
+  assert.deepEqual(Array.from(data.excludedUnsupported), []);
+  assert.deepEqual(Array.from(data.recoveredVisualQuestions), [
+    "area5-s12-q3",
+    "area5-s13-q7",
+    "area7-s2-q10",
+    "area7-s7-q3",
+    "area7-s7-q11",
+    "area7-s8-q3",
+    "area7-s14-q5"
   ]);
   assert.deepEqual(Array.from(data.removedDuplicates, (item) => item.id), [
     "fund-s8-q2",
@@ -262,9 +277,10 @@ test("sessões exclusivamente em imagem preservam conteúdo e gabarito verificad
   const areaEightSessionNine = data.areas[7].sessions[8];
   const areaEightSessionTwelve = data.areas[7].sessions[11];
 
-  assert.equal(areaSevenSessionEight.questions.length, 12, "Hot Area 7-8-3 não deve entrar no fluxo");
-  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.number), [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
-  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.answer[0]), ["A", "C", "C", "C", "A", "C", "B", "B", "D", "A", "A", "C"]);
+  assert.equal(areaSevenSessionEight.questions.length, 13, "Hot Area 7-8-3 deve usar o componente visual");
+  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.number), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
+  assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.answer[0]), ["A", "C", "phase-4", "C", "C", "A", "C", "B", "B", "D", "A", "A", "C"]);
+  assert.equal(areaSevenSessionEight.questions[2].type, "image_hotspot");
   assert.deepEqual(Array.from(areaEightSessionNine.questions, (question) => question.answer[0]), ["D", "B", "B"]);
   assert.deepEqual(Array.from(areaEightSessionTwelve.questions, (question) => question.answer[0]), ["B", "A", "D"]);
   assert.match(areaEightSessionTwelve.questions[0].question, /Renovação Automática de Medicamentos/);
@@ -294,6 +310,50 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
   assert.doesNotMatch(importer, /readdir\(sourceRoot/);
   await assert.rejects(access(path.join(projectRoot, "js", "book8.js")));
   await assert.rejects(access(path.join(projectRoot, "scripts", "import-book8.mjs")));
+});
+
+test("materiais visuais usam HTML acessível sem publicar capturas completas", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("js/questions.js"), context);
+  const data = context.window.PREPARAKEY_QUESTIONS;
+  const app = await read("js/app.js");
+  const styles = await read("css/styles.css");
+  const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
+  const visual = questions.filter((question) => question.type === "image_hotspot");
+  const tables = questions.filter((question) => question.support?.type === "table");
+
+  assert.equal(visual.length, 5);
+  assert.equal(tables.length, 2);
+  assert.ok(visual.every((question) => question.audit?.confidence === "high" && question.audit.reviewRequired === false));
+  assert.ok(tables.every((question) => question.audit?.confidence === "high" && question.audit.reviewRequired === false));
+  assert.ok(questions.every((question) => !question.image), "capturas completas não devem ser publicadas como questão");
+
+  assert.match(app, /function renderSupport\(q\)/);
+  assert.match(app, /<table class="support-table">/);
+  assert.match(app, /function renderHotspot\(q,isVer,sel\)/);
+  assert.match(app, /role="group" aria-label=/);
+  assert.match(app, /draggable="true"/);
+  assert.match(app, /toque na opção e depois no destino/);
+  assert.match(styles, /\.hotspot-canvas/);
+  assert.match(styles, /\.support-table-wrap/);
+  assert.match(styles, /@media\(max-width:620px\)/);
+  assert.match(styles, /@media\(forced-colors:active\)/);
+});
+
+test("auditoria de conteúdo mantém inventário e rastreabilidade verificáveis", async () => {
+  const report = await read("docs/content-audit.md");
+  const rows = (await read("docs/content-audit.csv")).trim().split(/\r?\n/);
+  const auditScript = await read("scripts/audit-content.mjs");
+
+  assert.equal(rows.length, 1049, "cabeçalho mais uma linha por questão ativa");
+  assert.match(report, /1432 arquivos/);
+  assert.match(report, /1048 questões/);
+  assert.match(report, /5 hotspots e 2 tabelas/);
+  assert.match(report, /Área 9 — Comunicações e relatórios/);
+  assert.match(report, /Áreas 10–22/);
+  assert.match(report, /PERUNTAS A PADRONIZAR WEB\/15\.png/);
+  assert.match(auditScript, /sha256/);
+  assert.match(auditScript, /reviewRequired/);
 });
 
 test("blueprint documenta a arquitetura e os contratos reais do frontend", async () => {

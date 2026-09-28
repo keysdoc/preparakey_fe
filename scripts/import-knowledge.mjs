@@ -26,7 +26,7 @@ const areas = [
   { number: 7, id: "stakeholders-conhecimento", prefix: "area7", folder: "7. Partes interessadas e transferência de conhecimento" },
   { number: 8, id: "planejamento-integrado", prefix: "area8", folder: "8. Planejamento integrado do projeto" }
 ];
-const expectedActiveCounts = [132, 148, 184, 125, 137, 55, 207, 55];
+const expectedActiveCounts = [132, 148, 184, 125, 139, 55, 210, 55];
 const matchingOverrides = new Map([
   ["3-12-3", {
     hash: "ca71255c0090cd929c44a49ad17828b2b5b744d4f2c0b278d9c603b8b7910fbf",
@@ -98,11 +98,114 @@ const matchingOverrides = new Map([
     ]
   }]
 ]);
-const hotAreaHashes = new Map([
-  ["5-12-3", "37d3e2f740461c6230520710e4fa740b3f6b1b1060f4dddd673f00e739cf9e6c"],
-  ["5-13-7", "682982be60648d7d1da8c1957531e730422eec05d0ab1db04d23a49b0bee5769"],
-  ["7-7-3", "9217fdfba9af11241ad03c0031493d046d209f5b2f00a04008e1065fabd35882"],
-  ["7-14-5", "51984d97a78c209d5df051fce05b537703105e2e921a5f9c770711892b40e874"]
+const hotAreaOverrides = new Map([
+  ["5-12-3", {
+    sourceHash: "37d3e2f740461c6230520710e4fa740b3f6b1b1060f4dddd673f00e739cf9e6c",
+    sourceImage: "3.png",
+    sourceImageHash: "1868fcc69e083a8a3e6285a9253273e0e94a7d9b9c7016b865bead6f76d77be8",
+    answerImage: "Gabarito - 5.12.png",
+    answerImageHash: "7df8956185a5a3bf72b8c8013c79103262a2ee2a17127ca82810c8f1d5e1446b",
+    answer: "stage-2",
+    visual: {
+      kind: "tuckman-curve",
+      title: "Curva de eficácia da equipe ao longo do tempo",
+      xLabel: "Tempo",
+      yLabel: "Eficácia da equipe",
+      zones: [
+        { id: "stage-1", label: "Primeira etapa", shortLabel: "1" },
+        { id: "stage-2", label: "Segunda etapa", shortLabel: "2" },
+        { id: "stage-3", label: "Terceira etapa", shortLabel: "3" },
+        { id: "stage-4", label: "Quarta etapa", shortLabel: "4" },
+        { id: "stage-5", label: "Etapa final", shortLabel: "5" }
+      ]
+    }
+  }],
+  ["5-13-7", {
+    sourceHash: "682982be60648d7d1da8c1957531e730422eec05d0ab1db04d23a49b0bee5769",
+    sourceImage: "7.png",
+    sourceImageHash: "ea2e753bf7817f8b20712c8a9a36ac5ab5c1cf1465d4735560910c6e776678a0",
+    answerImage: "Gabarito - 5.13.png",
+    answerImageHash: "66bbf11100c0b15368934264943f37097ed813aa08738502ef99a15eec606cf5",
+    answer: "B",
+    visual: {
+      kind: "conflict-matrix",
+      title: "Matriz de abordagem de conflitos",
+      xLabel: "Satisfazer as preocupações da equipe",
+      yLabel: "Satisfazer suas próprias preocupações",
+      zones: [
+        { id: "A", label: "Área A", shortLabel: "A", position: "top-left" },
+        { id: "B", label: "Área B", shortLabel: "B", position: "top-right" },
+        { id: "C", label: "Área C", shortLabel: "C", position: "center" },
+        { id: "D", label: "Área D", shortLabel: "D", position: "bottom-left" },
+        { id: "E", label: "Área E", shortLabel: "E", position: "bottom-right" }
+      ]
+    }
+  }],
+  ["7-7-3", {
+    sourceHash: "9217fdfba9af11241ad03c0031493d046d209f5b2f00a04008e1065fabd35882",
+    sourceImage: "3.png",
+    sourceImageHash: "859d030f68454f6f3fce81c8ecc68249e24f16a517d3b1096c07d81aea317184",
+    answerImage: "Gabarito - 7.7.png",
+    answerImageHash: "f0222952b19523a9ef97feab1d662d5004c5361ed1e32f1c40c2d8ca5758b271",
+    answer: "high-high",
+    visual: {
+      kind: "power-interest",
+      title: "Matriz de poder e interesse",
+      xLabel: "Interesse: baixo para alto",
+      yLabel: "Poder: baixo para alto",
+      zones: [
+        { id: "high-low", label: "Alto poder e baixo interesse", shortLabel: "Alto / Baixo", position: "top-left" },
+        { id: "high-high", label: "Alto poder e alto interesse", shortLabel: "Alto / Alto", position: "top-right" },
+        { id: "low-low", label: "Baixo poder e baixo interesse", shortLabel: "Baixo / Baixo", position: "bottom-left" },
+        { id: "low-high", label: "Baixo poder e alto interesse", shortLabel: "Baixo / Alto", position: "bottom-right" }
+      ]
+    }
+  }],
+  ["7-14-5", {
+    sourceHash: "51984d97a78c209d5df051fce05b537703105e2e921a5f9c770711892b40e874",
+    sourceImage: "5.png",
+    sourceImageHash: "d2f2e8495264d3a105e950f35fe2eb78883a18d3d11b5428f78dc7fa0d595da9",
+    answerImage: "Gabarito - 7.14.png",
+    answerImageHash: "320a054b8ea9b04d41576e292200ed754a3e77d5c4efa65ca5d28645ba698057",
+    answer: "C",
+    visual: {
+      kind: "power-interest",
+      title: "Matriz de poder e interesse",
+      xLabel: "Interesse: baixo para alto",
+      yLabel: "Poder: baixo para alto",
+      zones: [
+        { id: "A", label: "Quadrante A", shortLabel: "A", position: "top-left" },
+        { id: "B", label: "Quadrante B", shortLabel: "B", position: "top-right" },
+        { id: "C", label: "Quadrante C", shortLabel: "C", position: "bottom-left" },
+        { id: "D", label: "Quadrante D", shortLabel: "D", position: "bottom-right" }
+      ]
+    }
+  }]
+]);
+const supportOverrides = new Map([
+  ["7-2-10", {
+    sourceImage: "10.png",
+    sourceImageHash: "316ade48e872035c8f16b12b814cfa3d43db5bb1e2c13b72ce749de64e304edd",
+    prompt: "O gerente de um projeto e sua equipe estão desenvolvendo o plano de engajamento das partes interessadas. Um membro da equipe do projeto criou a matriz de avaliação do engajamento das partes interessadas abaixo. Qual é o elemento mais importante a ser incluído no plano de engajamento das partes interessadas?",
+    support: {
+      type: "table",
+      caption: "Matriz de avaliação do nível de engajamento das partes interessadas",
+      columns: ["Parte interessada", "Desinformado", "Resistente", "Neutro", "Apoiador", "Líder"],
+      rows: [["Pessoa A", "A", "", "D", "", ""], ["Pessoa B", "", "", "D", "A", ""], ["Pessoa C", "", "", "", "A D", ""], ["Pessoa D", "", "A", "", "", "D"]],
+      note: "A: Atual · D: Desejado"
+    }
+  }],
+  ["7-7-11", {
+    sourceImage: "11.png",
+    sourceImageHash: "1a5d93af6bfa54f52ea0ba159caa924a843db15408858dfc4aaa21a7310afa25",
+    prompt: "Um gerente de projeto está criando o registro das partes interessadas. Ele acaba de concluir as classificações e precisa determinar os papéis prováveis. De acordo com a tabela a seguir, qual pessoa tem mais probabilidade de ser o patrocinador do projeto?",
+    support: {
+      type: "table",
+      caption: "Registro das partes interessadas",
+      columns: ["Parte interessada", "Interna / Externa ao projeto", "Poder / Interesse", "Direção da influência"],
+      rows: [["Pessoa A", "Interna", "Alto / Alto", "Para cima"], ["Pessoa B", "Externa", "Alto / Alto", "Para cima"], ["Pessoa C", "Externa", "Baixo / Alto", "Para baixo"], ["Pessoa D", "Interna", "Baixo / Alto", "Para o lado"]]
+    }
+  }]
 ]);
 const imageSessionOverrides = new Map([
   ["7-8", {
@@ -145,7 +248,30 @@ const imageSessionOverrides = new Map([
         ],
         answer: "C"
       },
-      { number: 3, skipped: "hot-area" },
+      {
+        number: 3,
+        type: "image_hotspot",
+        question: "Em um projeto preditivo, o gerente apresenta a estrutura genérica do ciclo de vida do projeto. Ele explica que, ao longo do projeto, a capacidade das partes interessadas influenciarem as características finais do produto tende a mudar. Em que momento essa capacidade normalmente é menor? Clique na área adequada.",
+        answer: "phase-4",
+        sourceFiles: ["3.png"],
+        visual: {
+          kind: "lifecycle-curve",
+          title: "Capacidade de influência ao longo do ciclo de vida",
+          xLabel: "Tempo",
+          yLabel: "Influência das partes interessadas",
+          zones: [
+            { id: "phase-1", label: "Primeiro trecho", shortLabel: "1" },
+            { id: "phase-2", label: "Segundo trecho", shortLabel: "2" },
+            { id: "phase-3", label: "Terceiro trecho", shortLabel: "3" },
+            { id: "phase-4", label: "Trecho final", shortLabel: "4" }
+          ]
+        },
+        audit: {
+          recoveredFrom: ["3.png", "Gabarito - 7.8.png"],
+          confidence: "high",
+          reviewRequired: false
+        }
+      },
       {
         number: 4,
         question: "Um gerente de projetos está conduzindo um projeto na fronteira com uma reserva indígena. Ele sabe que atender requisitos, expectativas e preocupações da comunidade local, da organização e de outras partes interessadas será essencial para evitar problemas de comunicação e aceitação. O que o gerente de projeto deve fazer?",
@@ -423,6 +549,36 @@ function parseMatching(block, areaNumber, sessionNumber, questionNumber) {
   return { question, pairs };
 }
 
+function baseQuestion(area, sessionNumber, number, sourceFileName) {
+  return {
+    number,
+    area: area.folder,
+    domain: "",
+    reference: `PMP - BOOK 8/${area.folder}/${sessionNumber}/${sourceFileName}`,
+    explanation: "",
+    id: `${area.prefix}-s${sessionNumber}-q${number}`,
+    source: `${area.folder}/${sessionNumber}`,
+    title: `Sessão ${sessionNumber}`,
+    session: sessionNumber
+  };
+}
+
+function applySupportOverride(question, sourceKey) {
+  const override = supportOverrides.get(sourceKey);
+  if (!override) return question;
+  return {
+    ...question,
+    question: override.prompt,
+    support: override.support,
+    audit: {
+      recoveredFrom: [override.sourceImage],
+      sourceImageHash: override.sourceImageHash,
+      confidence: "high",
+      reviewRequired: false
+    }
+  };
+}
+
 function parseQuestions(contents, area, sessionNumber, sourceFileName) {
   const answerKeyIndex = contents.search(/^GABARITO\s*$/im);
   if (answerKeyIndex === -1) throw new Error(`Área ${area.number}, sessão ${sessionNumber}: marcador GABARITO ausente.`);
@@ -457,10 +613,27 @@ function parseQuestions(contents, area, sessionNumber, sourceFileName) {
 
     if (!answerEntry) throw new Error(`Área ${area.number}, sessão ${sessionNumber}, questão ${number}: resposta ausente.`);
     if (answerEntry.type === "hot-area") {
-      if (hotAreaHashes.get(sourceKey) !== hash(block)) {
+      const override = hotAreaOverrides.get(sourceKey);
+      if (!override || override.sourceHash !== hash(block)) {
         throw new Error(`Área ${area.number}, sessão ${sessionNumber}, questão ${number}: Hot Area inesperada ou alterada.`);
       }
-      return { skipped: "hot-area", area: area.number, session: sessionNumber, number };
+      return {
+        ...baseQuestion(area, sessionNumber, number, sourceFileName),
+        type: "image_hotspot",
+        question: block,
+        options: [],
+        pairs: [],
+        answer: [override.answer],
+        required: 1,
+        visual: override.visual,
+        audit: {
+          recoveredFrom: [override.sourceImage, override.answerImage],
+          sourceImageHash: override.sourceImageHash,
+          answerImageHash: override.answerImageHash,
+          confidence: "high",
+          reviewRequired: false
+        }
+      };
     }
 
     let type;
@@ -500,7 +673,7 @@ function parseQuestions(contents, area, sessionNumber, sourceFileName) {
       required = answer.length;
     }
 
-    return {
+    return applySupportOverride({
       number,
       type,
       question,
@@ -516,8 +689,20 @@ function parseQuestions(contents, area, sessionNumber, sourceFileName) {
       source: `${area.folder}/${sessionNumber}`,
       title: `Sessão ${sessionNumber}`,
       session: sessionNumber
-    };
+    }, sourceKey);
   });
+}
+
+async function verifyQuestionAssets(questions, sessionDirectory) {
+  for (const question of questions) {
+    const files = question.audit?.recoveredFrom || [];
+    const hashes = [question.audit?.sourceImageHash, question.audit?.answerImageHash].filter(Boolean);
+    for (const [index, expectedHash] of hashes.entries()) {
+      const fileName = files[index];
+      const actualHash = hash(await readFile(path.join(sessionDirectory, fileName)));
+      if (actualHash !== expectedHash) throw new Error(`${question.id}: imagem-fonte ${fileName} foi alterada.`);
+    }
+  }
 }
 
 async function importSession(area, sessionNumber) {
@@ -535,20 +720,18 @@ async function importSession(area, sessionNumber) {
 
     const answerFileName = Object.keys(imageOverride.hashes).find((fileName) => /^Gabarito/i.test(fileName));
     const questions = imageOverride.questions.map((entry) => {
-      if (entry.skipped === "hot-area") {
-        return { skipped: entry.skipped, area: area.number, session: sessionNumber, number: entry.number };
-      }
-
       const sourceQuestionFiles = entry.sourceFiles || [`${entry.number}.png`];
       const referenceFiles = [...sourceQuestionFiles, answerFileName].filter(Boolean).join("; ");
       return {
         number: entry.number,
-        type: "single",
+        type: entry.type || "single",
         question: entry.question,
-        options: entry.options.map((text, index) => ({ id: String.fromCharCode(65 + index), text })),
+        options: (entry.options || []).map((text, index) => ({ id: String.fromCharCode(65 + index), text })),
         pairs: [],
         answer: [entry.answer],
         required: 1,
+        visual: entry.visual,
+        audit: entry.audit,
         area: area.folder,
         domain: "",
         reference: `PMP - BOOK 8/${area.folder}/${sessionNumber}/${referenceFiles}`,
@@ -585,11 +768,13 @@ async function importSession(area, sessionNumber) {
   }
 
   const source = candidateContents[0];
+  const questions = parseQuestions(source.contents, area, sessionNumber, source.name);
+  await verifyQuestionAssets(questions, sessionDirectory);
   return {
     id: `${area.prefix}-s${sessionNumber}`,
     number: sessionNumber,
     title: `Sessão ${sessionNumber}`,
-    questions: parseQuestions(source.contents, area, sessionNumber, source.name),
+    questions,
     available: true,
     note: ""
   };
@@ -613,7 +798,6 @@ const comparableFields = (question) => ({
 });
 
 const importedAreas = [];
-const skippedHotAreas = [];
 const skippedDuplicates = [];
 const seenFingerprints = new Map();
 
@@ -624,11 +808,6 @@ for (const area of areas) {
   for (const session of sessions) {
     const activeQuestions = [];
     for (const entry of session.questions) {
-      if (entry.skipped === "hot-area") {
-        skippedHotAreas.push(entry);
-        continue;
-      }
-
       const fingerprint = questionFingerprint(entry);
       if (seenFingerprints.has(fingerprint)) {
         skippedDuplicates.push({ id: entry.id, duplicateOf: seenFingerprints.get(fingerprint) });
@@ -660,13 +839,14 @@ if (JSON.stringify(activeCounts) !== JSON.stringify(expectedActiveCounts)) {
 
 questionBank.areas = importedAreas;
 questionBank.missingSessions = [];
-questionBank.generatedAt = "2026-09-24";
+questionBank.generatedAt = "2026-09-28";
 questionBank.contentSource = "PMP - BOOK 8, áreas 1–8";
-questionBank.excludedUnsupported = skippedHotAreas;
+questionBank.excludedUnsupported = [];
+questionBank.recoveredVisualQuestions = importedAreas.flatMap((area) => area.sessions.flatMap((session) => session.questions.filter((question) => question.visual || question.support).map((question) => question.id)));
 questionBank.removedDuplicates = skippedDuplicates;
 
 await writeFile(questionBankPath, `window.PREPARAKEY_QUESTIONS = ${JSON.stringify(questionBank, null, 2)};\n`, "utf8");
 
 const totalQuestions = activeCounts.reduce((total, count) => total + count, 0);
 console.log(`Base aplicada no fluxo existente: ${importedAreas.length} áreas, ${importedAreas.length * sessionNumbers.length} sessões e ${totalQuestions} questões compatíveis.`);
-console.log(`Duplicatas integrais removidas: ${skippedDuplicates.length}. Hot Area sem componente compatível: ${skippedHotAreas.length}.`);
+console.log(`Duplicatas integrais removidas: ${skippedDuplicates.length}. Questões visuais recuperadas: ${questionBank.recoveredVisualQuestions.length}.`);

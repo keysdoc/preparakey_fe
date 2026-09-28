@@ -25708,6 +25708,68 @@ window.PREPARAKEY_QUESTIONS = {
               "session": 12
             },
             {
+              "number": 3,
+              "area": "5. Visão comum, liderança da equipe e conflitos",
+              "domain": "",
+              "reference": "PMP - BOOK 8/5. Visão comum, liderança da equipe e conflitos/12/Gabarito - 5.12.txt",
+              "explanation": "",
+              "id": "area5-s12-q3",
+              "source": "5. Visão comum, liderança da equipe e conflitos/12",
+              "title": "Sessão 12",
+              "session": 12,
+              "type": "image_hotspot",
+              "question": "Um gerente de projeto substituiu temporariamente outro gerente que está doente. Ao conhecer a equipe, percebe que os membros não colaboram bem, discutem decisões técnicas com frequência e o ambiente se tornou contraproducente.\n\nOnde está essa equipe na escada de Tuckman? (Clique na área correta da imagem.)",
+              "options": [],
+              "pairs": [],
+              "answer": [
+                "stage-2"
+              ],
+              "required": 1,
+              "visual": {
+                "kind": "tuckman-curve",
+                "title": "Curva de eficácia da equipe ao longo do tempo",
+                "xLabel": "Tempo",
+                "yLabel": "Eficácia da equipe",
+                "zones": [
+                  {
+                    "id": "stage-1",
+                    "label": "Primeira etapa",
+                    "shortLabel": "1"
+                  },
+                  {
+                    "id": "stage-2",
+                    "label": "Segunda etapa",
+                    "shortLabel": "2"
+                  },
+                  {
+                    "id": "stage-3",
+                    "label": "Terceira etapa",
+                    "shortLabel": "3"
+                  },
+                  {
+                    "id": "stage-4",
+                    "label": "Quarta etapa",
+                    "shortLabel": "4"
+                  },
+                  {
+                    "id": "stage-5",
+                    "label": "Etapa final",
+                    "shortLabel": "5"
+                  }
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "3.png",
+                  "Gabarito - 5.12.png"
+                ],
+                "sourceImageHash": "1868fcc69e083a8a3e6285a9253273e0e94a7d9b9c7016b865bead6f76d77be8",
+                "answerImageHash": "7df8956185a5a3bf72b8c8013c79103262a2ee2a17127ca82810c8f1d5e1446b",
+                "confidence": "high",
+                "reviewRequired": false
+              }
+            },
+            {
               "number": 4,
               "type": "single",
               "question": "Em um projeto de software, dois desenvolvedores influentes discordam sobre reutilizar um componente de um projeto anterior. Um deles argumenta que a reutilização acelerará a entrega; o outro afirma que o componente não atende às necessidades atuais e pode gerar retrabalho. Como um dos desenvolvedores costuma ter muita influência na equipe, há pressão para aceitar sua proposta rapidamente. O que o gerente do projeto deve fazer?",
@@ -26148,6 +26210,73 @@ window.PREPARAKEY_QUESTIONS = {
               "source": "5. Visão comum, liderança da equipe e conflitos/13",
               "title": "Sessão 13",
               "session": 13
+            },
+            {
+              "number": 7,
+              "area": "5. Visão comum, liderança da equipe e conflitos",
+              "domain": "",
+              "reference": "PMP - BOOK 8/5. Visão comum, liderança da equipe e conflitos/13/Gabarito - 5.13.txt",
+              "explanation": "",
+              "id": "area5-s13-q7",
+              "source": "5. Visão comum, liderança da equipe e conflitos/13",
+              "title": "Sessão 13",
+              "session": 13,
+              "type": "image_hotspot",
+              "question": "Um conflito entre o gerente de projeto e a equipe já existe há algum tempo. O conflito impacta negativamente o moral da equipe e prejudica os objetivos do projeto. Para resolver o conflito, o gerente de projeto mapeia o desejo de satisfazer as preocupações das partes no gráfico abaixo. Com base no mapa, o gerente de projeto decide resolver o conflito de uma vez por todas. Onde o gerente de projeto provavelmente mapeou o desejo de satisfazer as preocupações dos membros da equipe versus o desejo de satisfazer suas próprias preocupações?",
+              "options": [],
+              "pairs": [],
+              "answer": [
+                "B"
+              ],
+              "required": 1,
+              "visual": {
+                "kind": "conflict-matrix",
+                "title": "Matriz de abordagem de conflitos",
+                "xLabel": "Satisfazer as preocupações da equipe",
+                "yLabel": "Satisfazer suas próprias preocupações",
+                "zones": [
+                  {
+                    "id": "A",
+                    "label": "Área A",
+                    "shortLabel": "A",
+                    "position": "top-left"
+                  },
+                  {
+                    "id": "B",
+                    "label": "Área B",
+                    "shortLabel": "B",
+                    "position": "top-right"
+                  },
+                  {
+                    "id": "C",
+                    "label": "Área C",
+                    "shortLabel": "C",
+                    "position": "center"
+                  },
+                  {
+                    "id": "D",
+                    "label": "Área D",
+                    "shortLabel": "D",
+                    "position": "bottom-left"
+                  },
+                  {
+                    "id": "E",
+                    "label": "Área E",
+                    "shortLabel": "E",
+                    "position": "bottom-right"
+                  }
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "7.png",
+                  "Gabarito - 5.13.png"
+                ],
+                "sourceImageHash": "ea2e753bf7817f8b20712c8a9a36ac5ab5c1cf1465d4735560910c6e776678a0",
+                "answerImageHash": "66bbf11100c0b15368934264943f37097ed813aa08738502ef99a15eec606cf5",
+                "confidence": "high",
+                "reviewRequired": false
+              }
             },
             {
               "number": 8,
@@ -30152,7 +30281,7 @@ window.PREPARAKEY_QUESTIONS = {
             {
               "number": 10,
               "type": "single",
-              "question": "O gerente de um projeto e sua equipe estão desenvolvendo o plano de engajamento das partes interessadas. Um membro da equipe do projeto criou a matriz de avaliação do engajamento das partes interessadas abaixo. Qual é o elemento mais importante a ser incluído no plano de engajamento das partes interessadas?\n\nMatriz de avaliação do nível de engajamento das partes interessadas\nParte Interessada | Desinformado | Resistente | Neutro | Apoiador | Líder\nPessoa A | A | | D | |\nPessoa B | | | D | A |\nPessoa C | | | | A D |\nPessoa D | | A | | | D\nA: Atual D: Desejado",
+              "question": "O gerente de um projeto e sua equipe estão desenvolvendo o plano de engajamento das partes interessadas. Um membro da equipe do projeto criou a matriz de avaliação do engajamento das partes interessadas abaixo. Qual é o elemento mais importante a ser incluído no plano de engajamento das partes interessadas?",
               "options": [
                 {
                   "id": "A",
@@ -30183,7 +30312,62 @@ window.PREPARAKEY_QUESTIONS = {
               "id": "area7-s2-q10",
               "source": "7. Partes interessadas e transferência de conhecimento/2",
               "title": "Sessão 2",
-              "session": 2
+              "session": 2,
+              "support": {
+                "type": "table",
+                "caption": "Matriz de avaliação do nível de engajamento das partes interessadas",
+                "columns": [
+                  "Parte interessada",
+                  "Desinformado",
+                  "Resistente",
+                  "Neutro",
+                  "Apoiador",
+                  "Líder"
+                ],
+                "rows": [
+                  [
+                    "Pessoa A",
+                    "A",
+                    "",
+                    "D",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Pessoa B",
+                    "",
+                    "",
+                    "D",
+                    "A",
+                    ""
+                  ],
+                  [
+                    "Pessoa C",
+                    "",
+                    "",
+                    "",
+                    "A D",
+                    ""
+                  ],
+                  [
+                    "Pessoa D",
+                    "",
+                    "A",
+                    "",
+                    "",
+                    "D"
+                  ]
+                ],
+                "note": "A: Atual · D: Desejado"
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "10.png"
+                ],
+                "sourceImageHash": "316ade48e872035c8f16b12b814cfa3d43db5bb1e2c13b72ce749de64e304edd",
+                "confidence": "high",
+                "reviewRequired": false
+              }
             },
             {
               "number": 11,
@@ -32302,6 +32486,67 @@ window.PREPARAKEY_QUESTIONS = {
               "session": 7
             },
             {
+              "number": 3,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/7/Gabarito - 7.7.txt",
+              "explanation": "",
+              "id": "area7-s7-q3",
+              "source": "7. Partes interessadas e transferência de conhecimento/7",
+              "title": "Sessão 7",
+              "session": 7,
+              "type": "image_hotspot",
+              "question": "Um gerente de projeto foi designado para um grande projeto de construção. Ao realizar uma análise completa das partes interessadas, ele identifica Roberto e conclui que Roberto deve ser gerenciado de perto. Dada a matriz de poder e interesse abaixo, selecione a área onde Roberto está posicionado.",
+              "options": [],
+              "pairs": [],
+              "answer": [
+                "high-high"
+              ],
+              "required": 1,
+              "visual": {
+                "kind": "power-interest",
+                "title": "Matriz de poder e interesse",
+                "xLabel": "Interesse: baixo para alto",
+                "yLabel": "Poder: baixo para alto",
+                "zones": [
+                  {
+                    "id": "high-low",
+                    "label": "Alto poder e baixo interesse",
+                    "shortLabel": "Alto / Baixo",
+                    "position": "top-left"
+                  },
+                  {
+                    "id": "high-high",
+                    "label": "Alto poder e alto interesse",
+                    "shortLabel": "Alto / Alto",
+                    "position": "top-right"
+                  },
+                  {
+                    "id": "low-low",
+                    "label": "Baixo poder e baixo interesse",
+                    "shortLabel": "Baixo / Baixo",
+                    "position": "bottom-left"
+                  },
+                  {
+                    "id": "low-high",
+                    "label": "Baixo poder e alto interesse",
+                    "shortLabel": "Baixo / Alto",
+                    "position": "bottom-right"
+                  }
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "3.png",
+                  "Gabarito - 7.7.png"
+                ],
+                "sourceImageHash": "859d030f68454f6f3fce81c8ecc68249e24f16a517d3b1096c07d81aea317184",
+                "answerImageHash": "f0222952b19523a9ef97feab1d662d5004c5361ed1e32f1c40c2d8ca5758b271",
+                "confidence": "high",
+                "reviewRequired": false
+              }
+            },
+            {
               "number": 4,
               "type": "single",
               "question": "Um gerente de projeto é contratado para conduzir um projeto para uma empresa petrolífera em Angola. A organização é grande, as unidades competem entre si e o projeto envolve prospecção em águas profundas, área na qual a empresa tem pouca experiência. O gerente anterior tinha bom relacionamento com a equipe, mas saiu por motivos pessoais. Ao assumir, o novo gerente revisa o termo de abertura, o plano de gerenciamento e as linhas de base com o patrocinador e verifica que os documentos estão atualizados. Depois, reúne a equipe para se apresentar, mas percebe que os membros estão tensos, irritados e insatisfeitos, embora a razão não esteja clara.\nQual é a explicação mais provável para essa situação?",
@@ -32556,7 +32801,7 @@ window.PREPARAKEY_QUESTIONS = {
             {
               "number": 11,
               "type": "single",
-              "question": "Um gerente de projeto está criando o registro das partes interessadas. Ele acaba de concluir as classificações e precisa determinar os papéis prováveis. De acordo com a tabela a seguir, qual pessoa tem mais probabilidade de ser o patrocinador do projeto?\n\nREGISTRO DAS PARTES INTERESSADAS\nParte Interessada | Interna / Externa ao Projeto | Poder / Interesse | Direção da Influência\nPessoa A | Interna | Alto / Alto | Para Cima\nPessoa B | Externa | Alto / Alto | Para Cima\nPessoa C | Externa | Baixo / Alto | Para Baixo\nPessoa D | Interna | Baixo / Alto | Para o Lado",
+              "question": "Um gerente de projeto está criando o registro das partes interessadas. Ele acaba de concluir as classificações e precisa determinar os papéis prováveis. De acordo com a tabela a seguir, qual pessoa tem mais probabilidade de ser o patrocinador do projeto?",
               "options": [
                 {
                   "id": "A",
@@ -32587,7 +32832,51 @@ window.PREPARAKEY_QUESTIONS = {
               "id": "area7-s7-q11",
               "source": "7. Partes interessadas e transferência de conhecimento/7",
               "title": "Sessão 7",
-              "session": 7
+              "session": 7,
+              "support": {
+                "type": "table",
+                "caption": "Registro das partes interessadas",
+                "columns": [
+                  "Parte interessada",
+                  "Interna / Externa ao projeto",
+                  "Poder / Interesse",
+                  "Direção da influência"
+                ],
+                "rows": [
+                  [
+                    "Pessoa A",
+                    "Interna",
+                    "Alto / Alto",
+                    "Para cima"
+                  ],
+                  [
+                    "Pessoa B",
+                    "Externa",
+                    "Alto / Alto",
+                    "Para cima"
+                  ],
+                  [
+                    "Pessoa C",
+                    "Externa",
+                    "Baixo / Alto",
+                    "Para baixo"
+                  ],
+                  [
+                    "Pessoa D",
+                    "Interna",
+                    "Baixo / Alto",
+                    "Para o lado"
+                  ]
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "11.png"
+                ],
+                "sourceImageHash": "1a5d93af6bfa54f52ea0ba159caa924a843db15408858dfc4aaa21a7310afa25",
+                "confidence": "high",
+                "reviewRequired": false
+              }
             },
             {
               "number": 12,
@@ -32702,6 +32991,61 @@ window.PREPARAKEY_QUESTIONS = {
               "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/2.png; Gabarito - 7.8.png",
               "explanation": "",
               "id": "area7-s8-q2",
+              "source": "7. Partes interessadas e transferência de conhecimento/8",
+              "title": "Sessão 8",
+              "session": 8
+            },
+            {
+              "number": 3,
+              "type": "image_hotspot",
+              "question": "Em um projeto preditivo, o gerente apresenta a estrutura genérica do ciclo de vida do projeto. Ele explica que, ao longo do projeto, a capacidade das partes interessadas influenciarem as características finais do produto tende a mudar. Em que momento essa capacidade normalmente é menor? Clique na área adequada.",
+              "options": [],
+              "pairs": [],
+              "answer": [
+                "phase-4"
+              ],
+              "required": 1,
+              "visual": {
+                "kind": "lifecycle-curve",
+                "title": "Capacidade de influência ao longo do ciclo de vida",
+                "xLabel": "Tempo",
+                "yLabel": "Influência das partes interessadas",
+                "zones": [
+                  {
+                    "id": "phase-1",
+                    "label": "Primeiro trecho",
+                    "shortLabel": "1"
+                  },
+                  {
+                    "id": "phase-2",
+                    "label": "Segundo trecho",
+                    "shortLabel": "2"
+                  },
+                  {
+                    "id": "phase-3",
+                    "label": "Terceiro trecho",
+                    "shortLabel": "3"
+                  },
+                  {
+                    "id": "phase-4",
+                    "label": "Trecho final",
+                    "shortLabel": "4"
+                  }
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "3.png",
+                  "Gabarito - 7.8.png"
+                ],
+                "confidence": "high",
+                "reviewRequired": false
+              },
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/8/3.png; Gabarito - 7.8.png",
+              "explanation": "",
+              "id": "area7-s8-q3",
               "source": "7. Partes interessadas e transferência de conhecimento/8",
               "title": "Sessão 8",
               "session": 8
@@ -35858,6 +36202,67 @@ window.PREPARAKEY_QUESTIONS = {
               "source": "7. Partes interessadas e transferência de conhecimento/14",
               "title": "Sessão 14",
               "session": 14
+            },
+            {
+              "number": 5,
+              "area": "7. Partes interessadas e transferência de conhecimento",
+              "domain": "",
+              "reference": "PMP - BOOK 8/7. Partes interessadas e transferência de conhecimento/14/Gabarito - 7.14.txt",
+              "explanation": "",
+              "id": "area7-s14-q5",
+              "source": "7. Partes interessadas e transferência de conhecimento/14",
+              "title": "Sessão 14",
+              "session": 14,
+              "type": "image_hotspot",
+              "question": "Em um projeto de construção, o gerente do projeto concluiu a análise das partes interessadas usando a matriz de poder e interesse apresentada. Carla tem baixo poder sobre o projeto e baixo interesse nos resultados atuais.\n\nClique no quadrante que representa a classificação correta de Carla na matriz.",
+              "options": [],
+              "pairs": [],
+              "answer": [
+                "C"
+              ],
+              "required": 1,
+              "visual": {
+                "kind": "power-interest",
+                "title": "Matriz de poder e interesse",
+                "xLabel": "Interesse: baixo para alto",
+                "yLabel": "Poder: baixo para alto",
+                "zones": [
+                  {
+                    "id": "A",
+                    "label": "Quadrante A",
+                    "shortLabel": "A",
+                    "position": "top-left"
+                  },
+                  {
+                    "id": "B",
+                    "label": "Quadrante B",
+                    "shortLabel": "B",
+                    "position": "top-right"
+                  },
+                  {
+                    "id": "C",
+                    "label": "Quadrante C",
+                    "shortLabel": "C",
+                    "position": "bottom-left"
+                  },
+                  {
+                    "id": "D",
+                    "label": "Quadrante D",
+                    "shortLabel": "D",
+                    "position": "bottom-right"
+                  }
+                ]
+              },
+              "audit": {
+                "recoveredFrom": [
+                  "5.png",
+                  "Gabarito - 7.14.png"
+                ],
+                "sourceImageHash": "d2f2e8495264d3a105e950f35fe2eb78883a18d3d11b5428f78dc7fa0d595da9",
+                "answerImageHash": "320a054b8ea9b04d41576e292200ed754a3e77d5c4efa65ca5d28645ba698057",
+                "confidence": "high",
+                "reviewRequired": false
+              }
             },
             {
               "number": 6,
@@ -39154,40 +39559,9 @@ window.PREPARAKEY_QUESTIONS = {
     }
   ],
   "missingSessions": [],
-  "generatedAt": "2026-09-24",
+  "generatedAt": "2026-09-28",
   "contentSource": "PMP - BOOK 8, áreas 1–8",
-  "excludedUnsupported": [
-    {
-      "skipped": "hot-area",
-      "area": 5,
-      "session": 12,
-      "number": 3
-    },
-    {
-      "skipped": "hot-area",
-      "area": 5,
-      "session": 13,
-      "number": 7
-    },
-    {
-      "skipped": "hot-area",
-      "area": 7,
-      "session": 7,
-      "number": 3
-    },
-    {
-      "skipped": "hot-area",
-      "area": 7,
-      "session": 8,
-      "number": 3
-    },
-    {
-      "skipped": "hot-area",
-      "area": 7,
-      "session": 14,
-      "number": 5
-    }
-  ],
+  "excludedUnsupported": [],
   "removedDuplicates": [
     {
       "id": "fund-s8-q2",
@@ -39205,5 +39579,14 @@ window.PREPARAKEY_QUESTIONS = {
       "id": "area6-s13-q4",
       "duplicateOf": "area6-s8-q3"
     }
+  ],
+  "recoveredVisualQuestions": [
+    "area5-s12-q3",
+    "area5-s13-q7",
+    "area7-s2-q10",
+    "area7-s7-q3",
+    "area7-s7-q11",
+    "area7-s8-q3",
+    "area7-s14-q5"
   ]
 };
