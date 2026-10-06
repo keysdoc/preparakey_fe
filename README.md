@@ -44,7 +44,7 @@ O artefato de produção é gerado em `dist/`. Não há `typecheck` separado por
 
 ## Importação das áreas de conhecimento
 
-A fonte exclusiva das perguntas é `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`. O importador usa uma lista explícita das áreas 1–8 e termina em `8. Planejamento integrado do projeto`; nenhuma pasta posterior é lida.
+A fonte exclusiva das perguntas é `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`. O importador usa uma lista explícita das áreas 1–12 e termina em `12. Cronograma, estimativas, capacidade e fluxo`; nenhuma pasta posterior é lida.
 
 Para reaplicar toda a base:
 
@@ -52,9 +52,9 @@ Para reaplicar toda a base:
 npm run import:knowledge -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8"
 ```
 
-O importador exige 16 sessões por área, valida numeração, alternativas, associações e gabaritos, e preserva os objetos existentes da primeira área quando correspondem à fonte. Arquivos de gabarito duplicados são aceitos somente quando o conteúdo é idêntico; versões conflitantes interrompem a importação. As sessões 7/8, 8/9 e 8/12 existem apenas em imagens e possuem transcrições explícitas protegidas pelos hashes SHA-256 das imagens e dos respectivos gabaritos.
+O importador exige 16 sessões por área, valida numeração, alternativas, associações e gabaritos, e preserva os objetos existentes da primeira área quando correspondem à fonte. Arquivos de gabarito duplicados são aceitos somente quando o conteúdo é idêntico; versões conflitantes interrompem a importação. As sessões 7/8, 8/9, 8/12, 9/3, 9/4 e 9/11 existem apenas em imagens e possuem transcrições explícitas protegidas pelos hashes SHA-256 das imagens e dos respectivos gabaritos.
 
-A base ativa contém oito áreas, 128 sessões e 1.048 questões compatíveis com os componentes existentes (`single`, `multiple`, `matching` e `image_hotspot`). Quatro repetições integrais da fonte são removidas, mantendo a primeira ocorrência. Os cinco itens `Hot Area` (5/12/3, 5/13/7, 7/7/3, 7/8/3 e 7/14/5) foram recuperados das imagens de questão e de gabarito, protegidos por SHA-256 e reconstruídos como diagramas HTML/CSS acessíveis. As matrizes 7/2/10 e 7/7/11 foram convertidas em tabelas HTML semânticas. Capturas completas, interface antiga e marcações de correção não são publicadas.
+A base ativa contém doze áreas, 192 sessões e 1.644 questões compatíveis com os componentes existentes (`single`, `multiple`, `matching` e `image_hotspot`). Treze repetições integrais da fonte são removidas, mantendo a primeira ocorrência. Os sete itens `Hot Area` foram recuperados das imagens de questão e de gabarito, protegidos por SHA-256 e reconstruídos como diagramas HTML/CSS acessíveis; as matrizes 7/2/10 e 7/7/11 foram convertidas em tabelas HTML semânticas, e os gráficos/casos visuais das áreas 9 foram recriados como SVG/HTML acessível. Capturas completas, interface antiga e marcações de correção não são publicadas.
 
 A auditoria reproduzível de todas as pastas da fonte, incluindo a correspondência por hash das imagens em `PERUNTAS A PADRONIZAR WEB`, pode ser refeita com:
 
@@ -62,7 +62,7 @@ A auditoria reproduzível de todas as pastas da fonte, incluindo a correspondên
 npm run audit:content -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK 8"
 ```
 
-O relatório consolidado está em [`docs/content-audit.md`](docs/content-audit.md), e a tabela linha a linha das questões publicadas está em [`docs/content-audit.csv`](docs/content-audit.csv). A área 9 é inventariada, mas continua fora do produto porque a base aprovada permanece limitada às áreas 1–8; as áreas 10–22 estão vazias na fonte.
+O relatório consolidado está em [`docs/content-audit.md`](docs/content-audit.md), e a tabela linha a linha das questões publicadas está em [`docs/content-audit.csv`](docs/content-audit.csv). A área 13 contém apenas imagens sem TXT/gabarito validável e as áreas 14–22 estão vazias; todas permanecem fora do produto pelo limite explícito em 12.
 
 O simulado existente permanece único e referencia somente as 16 sessões da primeira área, sem copiar perguntas. “Áreas de Conhecimento” reutiliza os cards de área/sessão e o mesmo questionário da aplicação.
 

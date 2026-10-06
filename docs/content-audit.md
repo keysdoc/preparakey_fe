@@ -1,14 +1,14 @@
 # Auditoria de conteúdo — PMP Book 8
 
-Gerado em 28/09/2026 pelo script reproduzível `npm run audit:content`. A tabela linha a linha das 1048 questões publicadas está em [content-audit.csv](./content-audit.csv).
+Gerado em 28/09/2026 pelo script reproduzível `npm run audit:content`. A tabela linha a linha das 1644 questões publicadas está em [content-audit.csv](./content-audit.csv).
 
 ## Escopo e resultado
 
 - Fonte auditada: `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`.
-- Inventário integral: **1432 arquivos** (**1303 PNG** e **129 TXT**) em todas as pastas encontradas.
-- Base publicada: **8 áreas**, **128 sessões** e **1048 questões**.
+- Inventário integral: **2240 arquivos** (**2051 PNG** e **189 TXT**) em todas as pastas encontradas.
+- Base publicada: **12 áreas**, **192 sessões** e **1644 questões**.
 - Tipos publicados: image_hotspot, matching, multiple_choice, multiple_selection.
-- Recuperações visuais verificadas: **7** (5 hotspots e 2 tabelas de consulta).
+- Recuperações visuais verificadas: **11** (7 hotspots e 2 tabelas de consulta).
 - Questões ativas pendentes de revisão humana: **0**.
 - Questões sem captura numerada correspondente: **1** (fund-s2-q2). O conteúdo desses itens está completo no TXT e não cita imagem de apoio.
 
@@ -24,11 +24,11 @@ Gerado em 28/09/2026 pelo script reproduzível `npm run audit:content`. A tabela
 | 6. Iniciação do projeto e termo de abertura | 93 | 77 | 16 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
 | 7. Partes interessadas e transferência de conhecimento | 247 | 231 | 16 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
 | 8. Planejamento integrado do projeto | 98 | 83 | 15 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
-| 9. Comunicações e relatórios | 54 | 52 | 2 | 1, 2, 3, 4 |
-| 10. Escopo, requisitos, backlog e aceitação | 0 | 0 | 0 | — |
-| 11. Qualidade incorporada a processos e entregas | 0 | 0 | 0 | — |
-| 12. Cronograma, estimativas, capacidade e fluxo | 0 | 0 | 0 | — |
-| 13. Recursos físicos, virtuais e de equipe | 0 | 0 | 0 | — |
+| 9. Comunicações e relatórios | 226 | 212 | 14 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| 10. Escopo, requisitos, backlog e aceitação | 190 | 174 | 16 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| 11. Qualidade incorporada a processos e entregas | 174 | 158 | 16 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| 12. Cronograma, estimativas, capacidade e fluxo | 160 | 144 | 16 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| 13. Recursos físicos, virtuais e de equipe | 112 | 112 | 0 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
 | 14. Finanças, custos e orçamento | 0 | 0 | 0 | — |
 | 15. Gerenciamento do valor agregado e desempenho financeiro | 0 | 0 | 0 | — |
 | 16. Riscos e análise de incertezas | 0 | 0 | 0 | — |
@@ -51,17 +51,30 @@ Gerado em 28/09/2026 pelo script reproduzível `npm run audit:content`. A tabela
 | area7-s7-q11 | 11.png | tabela HTML semântica | high |
 | area7-s8-q3 | 3.png + Gabarito - 7.8.png | hotspot `lifecycle-curve` | high |
 | area7-s14-q5 | 5.png + Gabarito - 7.14.png | hotspot `power-interest` | high |
+| area9-s3-q4 | 4.png | gráfico SVG semântico | high |
+| area9-s11-q1 | 1.png + 2.png | caso de estudo HTML | high |
+| area10-s3-q4 | 4.png + Gabarito - 10.3.png | hotspot `mvp-sequences` | high |
+| area11-s1-q4 | 4.png + Gabarito - 11.1.png | hotspot `scatter-grid` | high |
 
-Os hotspots foram recriados com zonas de resposta estáveis, identificadas por ID, sem copiar a interface antiga ou expor a marcação do gabarito. As tabelas são conteúdo de consulta e, por isso, não foram transformadas em células de resposta.
+Os hotspots foram recriados com zonas de resposta estáveis, identificadas por ID, sem copiar a interface antiga ou expor a marcação do gabarito. Tabelas, casos e gráficos são conteúdo de consulta e, por isso, não foram transformados em células de resposta.
 
 ## Duplicatas e imagens especiais
 
-Duplicatas integrais removidas da base ativa: **4**.
+Duplicatas integrais removidas da base ativa: **13**.
 
 - `fund-s8-q2` duplica `fund-s3-q2`.
 - `area2-s16-q6` duplica `area2-s12-q8`.
 - `area4-s6-q6` duplica `area4-s5-q4`.
 - `area6-s13-q4` duplica `area6-s8-q3`.
+- `area11-s16-q1` duplica `area11-s15-q1`.
+- `area11-s16-q2` duplica `area11-s15-q2`.
+- `area11-s16-q3` duplica `area11-s15-q3`.
+- `area11-s16-q4` duplica `area11-s15-q4`.
+- `area11-s16-q5` duplica `area11-s15-q5`.
+- `area11-s16-q6` duplica `area11-s15-q6`.
+- `area11-s16-q7` duplica `area11-s15-q7`.
+- `area11-s16-q8` duplica `area11-s15-q8`.
+- `area11-s16-q9` duplica `area11-s15-q9`.
 
 As **15** imagens de `PERUNTAS A PADRONIZAR WEB` foram comparadas por SHA-256, não por posição. Todas possuem correspondência byte a byte na árvore original; portanto, não constituem novas questões ou imagens órfãs:
 
@@ -83,13 +96,12 @@ As **15** imagens de `PERUNTAS A PADRONIZAR WEB` foram comparadas por SHA-256, n
 
 ## Pendências reais fora da base publicada
 
-- **Área 9 — Comunicações e relatórios:** 54 arquivos (52 PNG e 2 TXT), com conteúdo apenas nas sessões 1, 2, 3, 4. Ela permanece fora da publicação porque a base vigente e o importador validado abrangem explicitamente as áreas 1–8; as sessões 3 e 4 dependem apenas de imagens e exigem transcrição e validação próprias antes de qualquer ampliação de escopo.
-- **Áreas 10–22:** 13 pastas encontradas, todas sem arquivos de conteúdo. Não há texto, alternativa ou gabarito a publicar sem invenção.
-- Nenhuma das limitações acima reduz a fidelidade das 1048 questões ativas.
+- **Área 13 e demais áreas posteriores:** 13. Recursos físicos, virtuais e de equipe (112 arquivos, 112 PNG e 0 TXT); 9 pastas adicionais estão vazias. Todo esse conteúdo permanece fora do fluxo por limite explícito em 12; não há importação sem texto/gabarito validável.
+- Nenhuma das limitações acima reduz a fidelidade das 1644 questões ativas.
 
 ## Regras de rastreabilidade
 
-- O importador valida hashes SHA-256 das sete recuperações visuais antes de gerar o banco.
+- O importador valida hashes SHA-256 das imagens recuperadas antes de gerar o banco.
 - Cada questão visual contém `audit.recoveredFrom`, confiança e sinalizador de revisão.
 - IDs visuais, pares, zonas e respostas são validados nos testes automatizados.
 - Capturas completas não são copiadas para o pacote público; somente conteúdo didático confirmado é representado em HTML/CSS.

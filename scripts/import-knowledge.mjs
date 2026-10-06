@@ -24,10 +24,23 @@ const areas = [
   { number: 5, id: "lideranca-equipe", prefix: "area5", folder: "5. Visão comum, liderança da equipe e conflitos" },
   { number: 6, id: "iniciacao-projeto", prefix: "area6", folder: "6. Iniciação do projeto e termo de abertura" },
   { number: 7, id: "stakeholders-conhecimento", prefix: "area7", folder: "7. Partes interessadas e transferência de conhecimento" },
-  { number: 8, id: "planejamento-integrado", prefix: "area8", folder: "8. Planejamento integrado do projeto" }
+  { number: 8, id: "planejamento-integrado", prefix: "area8", folder: "8. Planejamento integrado do projeto" },
+  { number: 9, id: "comunicacoes-relatorios", prefix: "area9", folder: "9. Comunicações e relatórios" },
+  { number: 10, id: "escopo-requisitos", prefix: "area10", folder: "10. Escopo, requisitos, backlog e aceitação" },
+  { number: 11, id: "qualidade-entregas", prefix: "area11", folder: "11. Qualidade incorporada a processos e entregas" },
+  { number: 12, id: "cronograma-fluxo", prefix: "area12", folder: "12. Cronograma, estimativas, capacidade e fluxo" }
 ];
-const expectedActiveCounts = [132, 148, 184, 125, 139, 55, 210, 55];
+const expectedActiveCounts = [132, 148, 184, 125, 139, 55, 210, 55, 189, 154, 127, 126];
 const matchingOverrides = new Map([
+  ["9-8-10", {
+    hash: "a54abfbec1488a82faf1d73c04257dac1bc1627f2f2587e74e460d23d0dcaaa3",
+    pairs: [
+      ["Processo de escalação", "Estabelecido no Plano de Gerenciamento das Comunicações"],
+      ["Ameaças fora do escopo do projeto", "Excedem a autoridade do gerente de projeto"],
+      ["Estrutura da organização", "Ativos de processos organizacionais (APOs)"],
+      ["Procedimentos de escalação", "Caminho claro estabelecido para escalonamento de decisão"]
+    ]
+  }],
   ["3-12-3", {
     hash: "ca71255c0090cd929c44a49ad17828b2b5b744d4f2c0b278d9c603b8b7910fbf",
     pairs: [
@@ -99,6 +112,45 @@ const matchingOverrides = new Map([
   }]
 ]);
 const hotAreaOverrides = new Map([
+  ["10-3-4", {
+    sourceHash: "ed0e200cc8eb510868fbbc8e735c9e92452a1db06aff8edd452a646690948a35",
+    sourceImage: "4.png",
+    sourceImageHash: "b6f555fb00aede905bf2d9dfc5f5a2e6adc04317fac5404a5584b8d49cf10764",
+    answerImage: "Gabarito - 10.3.png",
+    answerImageHash: "54a09801b9a17f2743f782787ebd482c82cd1f17bdac392515ad71a3e2a7414f",
+    answer: "sequence-3",
+    visual: {
+      kind: "mvp-sequences",
+      title: "Sequências possíveis para construir um produto mínimo viável",
+      xLabel: "Evolução das entregas",
+      yLabel: "Sequência selecionável",
+      zones: [
+        { id: "sequence-1", label: "Sequência 1", shortLabel: "Sequência 1", position: "sequence-1", stages: ["Etapa 1", "Etapa 2", "Etapa 3", "Etapa 4"] },
+        { id: "sequence-2", label: "Sequência 2", shortLabel: "Sequência 2", position: "sequence-2", stages: ["Etapa 1", "Etapa 2", "Etapa 3", "Etapa 4"] },
+        { id: "sequence-3", label: "Sequência 3", shortLabel: "Sequência 3", position: "sequence-3", stages: ["Etapa 1", "Etapa 2", "Etapa 3", "Etapa 4"] }
+      ]
+    }
+  }],
+  ["11-1-4", {
+    sourceHash: "9438e1184d885f84b3e8784235d90e81e2490639144cf99b693e5b10bb777e5e",
+    sourceImage: "4.png",
+    sourceImageHash: "b774cb3c68e65891ee67f1cc1ecc5ca64c8532da034e7b07febabb225a69dac8",
+    answerImage: "Gabarito - 11.1.png",
+    answerImageHash: "f05b3f1697c17bb503485c6683976c8bb6a4a98dbb30aa74317a1e9c1c6fe8de",
+    answer: "B",
+    visual: {
+      kind: "scatter-grid",
+      title: "Relação entre temperatura da máquina e defeitos por lote",
+      xLabel: "Temperatura",
+      yLabel: "Defeitos",
+      zones: [
+        { id: "A", label: "Gráfico A — dispersão sem correlação", shortLabel: "A", position: "plot-a", trend: "dispersão sem correlação" },
+        { id: "B", label: "Gráfico B — correlação positiva", shortLabel: "B", position: "plot-b", trend: "correlação positiva" },
+        { id: "C", label: "Gráfico C — correlação negativa", shortLabel: "C", position: "plot-c", trend: "correlação negativa" },
+        { id: "D", label: "Gráfico D — concentração vertical", shortLabel: "D", position: "plot-d", trend: "concentração vertical" }
+      ]
+    }
+  }],
   ["5-12-3", {
     sourceHash: "37d3e2f740461c6230520710e4fa740b3f6b1b1060f4dddd673f00e739cf9e6c",
     sourceImage: "3.png",
@@ -208,6 +260,97 @@ const supportOverrides = new Map([
   }]
 ]);
 const imageSessionOverrides = new Map([
+  ["9-11", {
+    hashes: {
+      "1.png": "b24aa30c6b361db0ce90a493276f8d993cb28623723f053f403965c18e5abc0e",
+      "2.png": "597242ea0ddb96b7ebb087ee73fd320abf26cf9d93de820619ce51a47eb4dd07",
+      "3.png": "06cc287d96ad11827bdc6697c002ac66796a20f1e2d118810f8f2f3bc6137ab1",
+      "4.png": "eac3ad4ad1df7569830482bb825183038fae72d8bc01d90696c5dd889b02ec74",
+      "5.png": "27cdc4c921415118c50e3e23b96babd2078f1648561ad83b36f6bd0a623d36d6",
+      "6.png": "c56b3fe2224de11fbf86da34a8f9dd4bbb082fd23c33689141b2c3a92464a372",
+      "7.png": "1f8080571a27d5613bf4fb8f08d8fb452e0520af88d05150b6f265c00ae2d2bc",
+      "8.png": "91416f7009125c6405c2b5de2aeb2a00f8c0175648627766b4e4fe3c83e89d73",
+      "9.png": "3df98573f528808c35ce168de76a473b2ead81fee246f44047be5d03534c7772",
+      "10.png": "f735024653e88328bff4a1f93809e09b1a0fbbf117b937870d6d9a6c451689df",
+      "11.png": "f7c679fbbd58ea68b2b1983441af343c3273529b613946422b886b6eab6caea9",
+      "12.png": "bda725a80bc53df4a53ce85ad51241decd35862b28d11869950496202b1c0918",
+      "Gabarito - 9.11.png": "94907c21a3d8100a414a1986db5c76dee69bb8d94ad08a277409f1d383b38c80"
+    },
+    questions: [
+      { number: 1, question: "Com base no caso, a equipe de marketing quer anunciar que o dispositivo ‘aprende automaticamente os hábitos dos usuários’, mas a equipe de engenharia alerta que isso pode aumentar preocupações com privacidade e segurança dos dados. O prazo de lançamento é curto e a concorrência já possui marcas estabelecidas no mercado. O que o gerente de projetos deve fazer primeiro?", options: ["Aprovar a mensagem de marketing para diferenciar o produto rapidamente da concorrência.", "Solicitar que a equipe de engenharia remova os recursos de automação para reduzir riscos de privacidade.", "Facilitar o alinhamento entre engenharia, marketing e responsáveis por privacidade sobre a mensagem e os requisitos de dados.", "Adiar toda a campanha de lançamento até que o produto esteja totalmente validado em produção."], answer: "C", sourceFiles: ["1.png", "2.png"], support: { type: "case", caption: "Caso de estudo — Dispositivo", paragraphs: ["Um gerente de projetos trabalha para uma empresa que está lançando um novo dispositivo para casa inteligente projetado para melhorar a eficiência energética. O produto visa ajudar os consumidores a reduzir seu consumo de energia, ajustando automaticamente o aquecimento, o resfriamento e a iluminação com base na ocupação e na hora do dia. O gerente de projetos recebeu um orçamento de US$ 500.000 e um prazo de seis meses para concluir o projeto.", "A equipe do projeto é composta por engenheiros, profissionais de marketing e vendas. Uma análise de mercado recente mostra crescente demanda por produtos ecológicos, mas a concorrência é acirrada, com várias marcas já estabelecidas. A empresa estabeleceu a meta de atingir 10% de participação de mercado no primeiro ano de lançamento.", "A equipe de engenharia identificou desafios técnicos, incluindo compatibilidade com sistemas de casa inteligente existentes e manutenção da privacidade do usuário e segurança dos dados. A equipe de marketing precisa criar uma campanha que destaque os recursos exclusivos do produto e responda às preocupações dos consumidores com privacidade. A equipe de vendas está focada em parcerias com varejistas e plataformas online para ampliar os canais de distribuição."] } },
+      { number: 2, question: "Em um projeto ágil, a equipe está sofrendo atrasos recorrentes durante as iterações por falhas de comunicação sobre trabalho concluído, próximos passos e impedimentos. O que o gerente do projeto deve fazer?", options: ["Atualizar formalmente o plano de gerenciamento das comunicações antes de permitir novas iterações.", "Compartilhar o gráfico de burndown com a equipe e solicitar que cada membro interprete a tendência.", "Estabelecer ou reforçar reuniões diárias curtas para sincronizar trabalho, identificar impedimentos e alinhar próximos passos.", "Aguardar a retrospectiva para discutir o tema, evitando interferir durante a iteração em andamento."], answer: "C" },
+      { number: 3, question: "O gerente de projeto envia semanalmente um relatório de entregas importantes para um grupo de partes interessadas. Uma parte interessada crítica informa que não está recebendo esses relatórios e já solicitou o envio várias vezes. O que o gerente de projeto deve fazer?", options: ["Ouvir a parte interessada, verificar a necessidade de informação e ajustar a abordagem de comunicação e engajamento se necessário.", "Explicar que os relatórios já estão sendo enviados ao grupo definido e manter o plano original.", "Negociar a retirada dessa parte interessada da lista de acompanhamento para evitar novas reclamações.", "Solicitar à alta direção que defina se a parte interessada deve ou não receber o relatório."], answer: "A" },
+      { number: 4, question: "Um gerente de projeto foi designado para um projeto de infraestrutura com equipe distribuída em vários países e fusos horários. A maioria dos membros nunca se encontrará presencialmente, mas precisará colaborar para cumprir entregas interdependentes. O que o gerente do projeto deve fazer para favorecer a colaboração remota?", options: ["Solicitar ao patrocinador a revisão do termo de abertura para incluir orçamento adicional para viagens presenciais.", "Criar um grupo informal em rede social para que a equipe se comunique sem necessidade de planejamento adicional.", "Registrar a distância geográfica como risco e definir uma resposta de contingência para cada fuso horário.", "Planejar métodos, canais, cadência e regras de comunicação para permitir interação virtual eficaz entre os membros."], answer: "D" },
+      { number: 5, question: "Em um projeto com prazos agressivos, a equipe está estressada. O gerente de projeto conduz uma reunião para motivar a equipe e comunicar mudanças recém-aprovadas, mas percebe que os participantes não estão atentos e parecem não compreender a mensagem. O que ele deve fazer?", options: ["Ajustar a forma de comunicação, observar sinais não verbais, confirmar entendimento e adaptar a mensagem ao público.", "Abandonar recursos de comunicação não verbal e concentrar-se apenas na comunicação verbal formal.", "Encerrar a reunião e solicitar que a equipe leia a documentação aprovada sem discussão adicional.", "Usar autoridade formal para exigir atenção e reforçar que as mudanças já foram aprovadas."], answer: "A" },
+      { number: 6, question: "O gerente de projetos está liderando um projeto com partes interessadas distribuídas globalmente. Nas últimas semanas, ele percebeu que alguns patrocinadores regionais não receberam informações essenciais no momento adequado, enquanto outros receberam detalhes excessivos. O que o gerente de projeto deve fazer primeiro para melhorar a comunicação?", options: ["Revisar o plano de gerenciamento das comunicações e ajustar canais, frequência, formato e responsáveis conforme as necessidades das partes interessadas.", "Aumentar a frequência das reuniões gerais para garantir que todas as partes interessadas recebam informações detalhadas regularmente.", "Criar um grupo único de mensagens instantâneas para compartilhar todas as atualizações em tempo real com todas as partes interessadas.", "Delegar a comunicação aos líderes funcionais e concentrar-se apenas nos aspectos técnicos e de entrega do projeto."], answer: "A" },
+      { number: 7, question: "Um gerente de projeto montou uma equipe com perfis culturais, técnicos e comportamentais bastante diversos. Ele quer criar uma comunicação receptiva e reduzir ruídos de interpretação desde o início. O que ele deve fazer?", options: ["Garantir que toda mensagem seja detalhada e enviada pelo mesmo canal para todos os destinatários.", "Adaptar a forma de comunicar às características, necessidades e contexto dos diferentes interlocutores.", "Solicitar que a equipe prepare sozinha o plano de comunicação antes das primeiras interações.", "Limitar a comunicação a informações operacionais para evitar interpretações subjetivas."], answer: "B" },
+      { number: 8, question: "Após uma fusão corporativa, a principal parte interessada de um projeto crítico é substituída. A nova executiva reclama que não sabia de um atraso já comunicado às demais partes interessadas por e-mail semanal. Como o gerente do projeto deve abordar a situação?", options: ["Conversar com a nova parte interessada para entender suas necessidades de informação e atualizar a estratégia de comunicação e engajamento.", "Enviar evidências de que os relatórios semanais foram encaminhados conforme o plano de comunicação existente.", "Pedir que a nova parte interessada revise os relatórios anteriores antes da próxima reunião executiva.", "Compartilhar o plano de comunicação atual e manter o processo sem alterações para preservar consistência."], answer: "A" },
+      { number: 9, question: "O gerente de um projeto em uma empresa de software está liderando equipes ágeis virtuais separadas por muitos fusos horários. Durante as reuniões, muitos membros não se sentem à vontade para falar, não ligam as câmeras e as reuniões diárias ficam longas. O problema é agravado pela troca constante de câmera quando cada pessoa fala, pois a equipe usa quadros físicos em locais diferentes. Como o gerente de projeto deve resolver isso? (Escolha duas.)", options: ["Facilitar uma reunião com todos os membros da equipe para definir, em conjunto, diretrizes de reunião no termo de nomeação da equipe.", "Usar um quadro Kanban para discutir a posição do projeto na reunião de revisão da iteração.", "Pedir aos membros da equipe que não levantem impedimentos durante as reuniões diárias.", "Permitir que apenas os membros que fizeram progresso possam falar.", "Usar um quadro Kanban virtual."], answer: ["A", "E"] },
+      { number: 10, question: "No refeitório da empresa, o gerente de projeto ouve uma parte interessada fazer comentários irônicos sobre a linguagem usada no relatório de status. Essa parte interessada recebe o relatório, mas raramente interage formalmente com o projeto. Qual deve ser a melhor próxima ação do gerente de projeto?", options: ["Conversar em particular com a parte interessada para entender sua necessidade de informação e ajustar a comunicação quando apropriado.", "Pedir ao departamento de relações públicas que reformule os relatórios para torná-los mais atraentes.", "Retirar essa parte interessada da lista de distribuição dos relatórios e comunicar-se somente quando houver solicitação direta.", "Atualizar o termo de abertura para proibir comentários informais sobre comunicações do projeto."], answer: "A" },
+      { number: 11, question: "O plano de gerenciamento das comunicações foi aprovado. Depois disso, uma parte interessada-chave solicita receber informações sobre problemas identificados nos testes de qualidade. Os testes representam apenas uma parte pequena do plano de qualidade, mas os problemas podem afetar a aceitação das entregas. O que o gerente do projeto deve fazer?", options: ["Recusar a solicitação, pois o plano de comunicações já foi aprovado e não deve ser alterado durante a execução.", "Enviar todos os detalhes técnicos dos testes para a parte interessada sem avaliar relevância, frequência ou confidencialidade.", "Confirmar a necessidade de informação, fornecer os dados relevantes conforme o plano e ajustar a comunicação se necessário.", "Solicitar que a parte interessada obtenha autorização do patrocinador antes de receber qualquer informação de qualidade."], answer: "C" }
+    ]
+  }],
+  ["9-3", {
+    hashes: {
+      "1.png": "1662ae53b8d31853c8389c29b09814711266c62d4d02d180429cbbc7ad83911d",
+      "2.png": "da35a78f85d4105e2378ea8196ccc22f7a3073c6b5c51bbfc8a4c7826d236e3c",
+      "3.png": "e3a0e8896f10293b590096356cb20354dc0eb4de78308ad5c0ba3abc6366a7c4",
+      "4.png": "c095477c4774b5cdc6b01f162ad6d38665450632cff4c020fe9962cd124bd9fb",
+      "5.png": "28c59eaebd945ec0e5584f3593f66cd122336b2df57eb1e72e704dae6a12bf5a",
+      "6.png": "e965be8b02c1e3756831d33588aafc76fc638dc327fd2c15ab7ef7713f5e5414",
+      "7.png": "161bbc902054e4b3a98b0556279972ba0b98f756e57af47ff672b0c8dc41e353",
+      "8.png": "4507324b6232aec99a9b55d3b07dcac27a0b406c0b3acf06bcf99cf151d2fd67",
+      "9.png": "ae1163d0d16f8cbbbcc617e902e10d180ad928e70c98af4010e2b5543d479dfa",
+      "10.png": "d0d12262255bec0370d08b6d5cebed399c1c6a1b0ce3f44f2f8cb7952dcfb28d",
+      "11.png": "34897d97c27cf8e61e229f6d7c1647d9de4f8dab158a88a0de2e8ad56bacbc4f",
+      "Gabarito.png": "ace9726d16945f61c67088c7cd340df70e2b3b4ac7edc61028906b9bd00cd1b6"
+    },
+    questions: [
+      { number: 1, question: "Uma equipe de projeto está realizando reuniões de produção de sardinha. Qual é uma boa razão para cancelar uma reunião?", options: ["Uma parte interessada importante tem outra reunião.", "O gerente funcional tem uma reunião no mesmo horário.", "A agenda foi publicada, mas não foi lida.", "Não houve tempo para preparar o material."], answer: "A" },
+      { number: 2, question: "Um gerente de projeto está se preparando para trabalhar com uma equipe em um país africano. Antes de deslocar a equipe, o que ele deve fazer?", options: ["Educar a equipe sobre as leis locais.", "Ensinar à equipe as gírias locais.", "Pesquisar as diferenças culturais.", "Desenvolver o plano de gerenciamento das comunicações."], answer: "C" },
+      { number: 3, question: "Um projeto híbrido de uma barragem será executado no verão. A equipe local informa que, por costumes locais, não se deve usar shorts. Que orientação o gerente do projeto deve dar à equipe?", options: ["Usar shorts, pois não existe uma lei que proíba seu uso.", "Buscar aprovação do patrocinador.", "Buscar aprovação do cliente.", "Não usar shorts, respeitando os costumes locais."], answer: "D" },
+      { number: 4, question: "Observe o gráfico de burndown. Qual afirmação é verdadeira?", options: ["O gráfico mostra os story points concluídos.", "Durante a iteração foram concluídos mais story points do que o planejado.", "A equipe planejou 14 story points para a iteração, e todos foram concluídos.", "Restaram 3 story points inacabados ao final."], answer: "D", support: { type: "burndown", caption: "Gráfico de burndown da iteração", planned: 14, remaining: 3 } },
+      { number: 5, question: "Um gerente de projeto recém-contratado precisa comunicar expectativas a uma nova equipe. Qual deve ser sua primeira ação?", options: ["Realizar uma reunião de início do projeto e solicitar feedback.", "Enviar um e-mail para todos.", "Conversar individualmente com cada membro.", "Ligar para o cliente."], answer: "A" },
+      { number: 6, question: "As mensagens chegam à equipe, mas o gerente não tem certeza de que foram compreendidas. Como verificar se a comunicação foi eficaz?", options: ["Obter feedback.", "Reduzir os filtros.", "Eliminar as barreiras.", "Usar mais de um método de comunicação."], answer: "A" },
+      { number: 7, question: "Em uma reunião diária de um projeto adaptativo, o que NÃO deve fazer parte da reunião?", options: ["O que cada membro fez ontem.", "O que cada membro fará hoje.", "A resolução dos problemas identificados.", "Problemas e impedimentos."], answer: "C" },
+      { number: 8, question: "Durante uma reunião de início do projeto, o gerente quer aumentar o envolvimento e a conexão com o público. O que deve fazer?", options: ["Apontar para o teto.", "Manter contato visual.", "Acenar com as mãos.", "Manter a postura ereta."], answer: "B" },
+      { number: 9, question: "Um patrocinador exigente quer receber todas as atualizações e conhecer o trabalho futuro. Qual é a melhor abordagem de comunicação?", options: ["Enviar um relatório abrangente mensalmente.", "Realizar uma reunião presencial mensal.", "Reunir-se uma ou duas vezes por semana e permitir que o patrocinador participe da reunião diária.", "Realizar uma reunião quinzenal e dar acesso ao software do projeto."], answer: "C" },
+      { number: 10, question: "Um PMO precisa enviar uma comunicação escrita ao presidente. Antes de definir o formato, o canal e os detalhes, qual é o primeiro passo?", options: ["Definir o público.", "Estabelecer o objetivo.", "Decidir o formato geral.", "Planejar a estratégia."], answer: "B" },
+      { number: 11, question: "Membros remotos da equipe não conseguem colaborar, embora estejam no mesmo fuso horário. Qual é o próximo passo?", options: ["Implementar ferramentas.", "Examinar as necessidades, barreiras, horários, protocolos e tecnologia da equipe virtual.", "Corrigir as regras sem investigar a causa.", "Analisar o desempenho individual."], answer: "B" }
+    ]
+  }],
+  ["9-4", {
+    hashes: {
+      "1.png": "d4aaf7213df68cb63664846baafec2eb6da8595622cfd5aa4108d8f3cdf1fc41",
+      "2.png": "72d4f948bb0164d1ed3139b7df2162a9d772421775f7064c41912c80f35d5a1a",
+      "3.png": "946c85e279685bc61f79638e16e859d6743693591ba1f1d8beb1afcf5f74c4ae",
+      "4.png": "4c4fad345fcb8f229d5bb44f81c71353fcc3e265386498da4a4e2518dcedff5f",
+      "5.png": "54868535d3cf7dba6b78045862be8231bb046bbe77a2659694d4377de28e1c79",
+      "6.png": "757f9800fb0c9b50932d5119bd6477c286611cb1d2e44f42c858f669c825d9d1",
+      "7.png": "8fb86d06ebd8f2b1f45f026b14cfe1ac0bf77198c2bed1efdc03cef001d37de3",
+      "8.png": "a7bb3fdd8c56c882133bacf1b71925ebc0ea40c8dcee79185257fc9fe478053f",
+      "9.png": "ec82a0867370c8b625bc59a095a9ab1184b27a1729bc47524b93c280fb13d38d",
+      "10.png": "f3d9bed32fbb7db2b40a4d276cad9b11d9c0a61e27aa1dfd9b9d3635c93ea7e9",
+      "11.png": "f51e111b705620eb3328c9d0cedae03423dd802094f25c6645675bfbba238a39",
+      "12.png": "b561a0df1c781e9a475974595c5001cfe9c4e0a23a893fe55736b995abb3ee32",
+      "caso-1.png": "1ac4f26c0676948eb830e5152b8a4d80f99901c1efac351cb95d2edc76e1c376",
+      "Gabarito.png": "8ccf92186340ca3ca9fa20a15bfc465fa51aba7cb3529d6851c5ec0ae51c8d11"
+    },
+    questions: [
+      { number: 1, question: "O patrocinador solicita um status objetivo sobre a entrega crítica. O gerente do projeto sabe que a produtividade caiu, mas também sabe que expor publicamente os conflitos técnicos pode piorar o clima de confiança. Como o gerente do projeto deve comunicar a situação?", options: ["Relatar que a equipe está com dificuldades de colaboração e citar os principais envolvidos.", "Informar tendências, impactos e ações de remoção de impedimentos sem expor indivíduos.", "Comunicar que não há problema relevante enquanto a equipe não registrar impedimentos formais.", "Enviar ao patrocinador todos os comentários informais recebidos dos membros da equipe."], answer: "B", sourceFiles: ["1.png", "caso-1.png"] },
+      { number: 2, question: "O gerente de projeto está planejando as comunicações de um projeto conduzido em ambiente ágil, no qual os requisitos são ambíguos e as partes interessadas precisam fornecer feedback frequente. Qual prática é mais adequada?", options: ["Planejar comunicações frequentes, transparentes e rápidas, com artefatos visuais e feedback regular das partes interessadas.", "Limitar as interações com partes interessadas a revisões formais ao final de cada fase.", "Evitar publicar artefatos visuais para impedir questionamentos durante a execução.", "Centralizar toda comunicação no gerente de projeto, reduzindo interações diretas entre equipe e partes interessadas."], answer: "A" },
+      { number: 3, question: "A complexidade de certos projetos decorre da necessidade de lidar com entregas variáveis, recursos limitados e ambientes turbulentos. Nesses contextos, os requisitos tendem a ser menos definidos e mais ambíguos. Para aumentar a efetividade da comunicação em um projeto desse tipo, o que um gerente de projeto usando abordagem ágil deve fazer?", options: ["Comunicar-se com base em um plano rígido.", "Comunicar-se com frequência.", "Comunicar-se digitalmente de forma ad hoc.", "Comunicar-se apenas diariamente."], answer: "B" },
+      { number: 4, question: "Um projeto está atrasado por causa de problemas técnicos imprevistos. A equipe identificou uma solução, mas sua implementação exigirá tempo e recursos adicionais. Ao mesmo tempo, o patrocinador está cada vez mais ansioso com os atrasos e pediu uma atualização. O que o gerente do projeto deve fazer a seguir?", options: ["Atualizar o patrocinador sobre a solução técnica identificada e o impacto esperado no cronograma e no orçamento.", "Implementar a solução imediatamente para tentar recuperar o cronograma antes de informar o patrocinador.", "Revisar o plano de gerenciamento do projeto para identificar áreas onde tempo e custos possam ser economizados.", "Agendar uma reunião com o patrocinador para discutir possíveis mudanças de escopo e cronograma, sem antes apresentar a situação atual."], answer: "A" },
+      { number: 5, question: "Um gerente de projeto está liderando uma equipe com membros distribuídos em diferentes países. Além das barreiras culturais, a equipe parece desconectada, o que está gerando vários casos de retrabalho. O que o gerente do projeto poderia fazer para melhorar a comunicação dentro da equipe?", options: ["Colaborar com a alta administração para agrupar a equipe.", "Solicitar à equipe que use apenas e-mails para comunicação, a fim de evitar mal-entendidos.", "Realizar reuniões diárias curtas com todos os membros da equipe para sincronizar o que cada um está fazendo.", "Oferecer treinamento aos membros da equipe sobre como superar barreiras culturais."], answer: "C" },
+      { number: 6, question: "Uma empresa está expandindo sua linha de softwares empresariais por meio de vários novos projetos. Você é o gerente de um desses projetos, atualmente em execução. O patrocinador valoriza soluções tecnológicas, mas está preocupado com o risco de o software não atender aos requisitos definidos. Um membro da equipe relata que a arquitetura do sistema é muito complexa e representa um risco para a implementação. O cliente está insatisfeito por não ter sido informado sobre esse risco, mas mantém a exigência de um cronograma rigoroso. O que o gerente de projeto deve fazer primeiro?", options: ["Discutir com a equipe do projeto como simplificar a arquitetura do sistema, determinar a melhor alternativa e atualizar o plano do projeto.", "Consultar o plano de gerenciamento das comunicações e atualizar o registro dos riscos.", "Contratar um especialista para analisar a complexidade da arquitetura do sistema e avaliar as recomendações com a equipe do projeto.", "Enviar um e-mail às partes interessadas detalhando o problema e marcar uma reunião com a equipe do projeto."], answer: "B" },
+      { number: 7, question: "Em um projeto digital com múltiplos fluxos de trabalho, o gerente quer tornar o status do trabalho visível em tempo real para facilitar coordenação, reduzir ambiguidade e acelerar decisões. Qual prática é mais adequada?", options: ["Controles visuais.", "Ocultar detalhes operacionais para evitar ruído.", "Consolidar todas as informações apenas em relatórios mensais.", "Transferir toda a comunicação para o patrocinador."], answer: "A" },
+      { number: 8, question: "Uma equipe ágil quer melhorar a cadência e a transparência do trabalho. O gerente de projeto sugere um evento curto, frequente, focado na coordenação do que será feito, impedimentos e alinhamento do dia. Como esse evento é melhor descrito?", options: ["Reunião de coordenação diária.", "Reunião de encerramento.", "Reunião de auditoria.", "Revisão de contrato."], answer: "A" },
+      { number: 9, question: "Em um projeto digital, o gerente quer tornar visível o andamento do trabalho para que equipe e partes interessadas consigam entender rapidamente gargalos, prioridades e progresso. Qual prática moderna do PMBOK® 8ª edição mais se alinha a esse objetivo?", options: ["Controles visuais.", "Solicitação formal de mudança.", "Linha de base de custo.", "Cronograma em rede."], answer: "A" },
+      { number: 10, question: "O gerente de um projeto quer usar técnicas modernas de geração de ideias para ampliar o repertório da equipe na análise de soluções. Ele procura uma técnica que permita coletar ideias de forma colaborativa e também assíncrona, útil para equipes distribuídas. Qual opção melhor atende a isso?", options: ["Brain-netting.", "Método do caminho crítico.", "EVM.", "Contrato de preço fixo."], answer: "A" },
+      { number: 11, question: "Em um projeto com equipes distribuídas, o gerente percebe que ideias valiosas deixam de surgir nas reuniões ao vivo porque parte do time se sente menos à vontade para falar. Ele quer adotar uma técnica que permita contribuição mais ampla e colaborativa, inclusive assíncrona. Qual técnica melhor atende a isso?", options: ["Brain-netting.", "Método do caminho crítico.", "Curva S.", "Contrato por tempo e material."], answer: "A" },
+      { number: 12, question: "Em um projeto estratégico com muitas áreas envolvidas, o gerente de projeto percebe que há desalinhamento entre equipe, patrocinador e áreas usuárias. Ele passa boa parte de sua rotina em reuniões, conversas, negociação de expectativas, esclarecimento de decisões e distribuição de informações. Qual entendimento é mais adequado sobre o papel da comunicação nesse contexto?", options: ["A comunicação deve ser tratada como atividade central do gerente de projeto, pois sustenta alinhamento, engajamento e tomada de decisão.", "A comunicação deve priorizar relatórios formais para reduzir excesso de interação.", "A comunicação deve ser conduzida pela área de comunicação corporativa.", "A comunicação deve ocorrer quando houver problema formal registrado."], answer: "A" }
+    ]
+  }],
   ["7-8", {
     hashes: {
       "1.png": "a48d11e77d5ca82c820aa843b085e4583371566bfb22d4957dd4706498a2a541",
@@ -722,16 +865,23 @@ async function importSession(area, sessionNumber) {
     const questions = imageOverride.questions.map((entry) => {
       const sourceQuestionFiles = entry.sourceFiles || [`${entry.number}.png`];
       const referenceFiles = [...sourceQuestionFiles, answerFileName].filter(Boolean).join("; ");
+      const answer = Array.isArray(entry.answer) ? entry.answer : [entry.answer];
+      const type = entry.type || (answer.length > 1 ? "multiple" : "single");
       return {
         number: entry.number,
-        type: entry.type || "single",
+        type,
         question: entry.question,
         options: (entry.options || []).map((text, index) => ({ id: String.fromCharCode(65 + index), text })),
         pairs: [],
-        answer: [entry.answer],
-        required: 1,
+        answer,
+        required: answer.length,
         visual: entry.visual,
-        audit: entry.audit,
+        support: entry.support,
+        audit: entry.audit || {
+          recoveredFrom: sourceQuestionFiles,
+          confidence: "high",
+          reviewRequired: false
+        },
         area: area.folder,
         domain: "",
         reference: `PMP - BOOK 8/${area.folder}/${sessionNumber}/${referenceFiles}`,
@@ -754,7 +904,7 @@ async function importSession(area, sessionNumber) {
   }
 
   const answerFiles = sourceFiles
-    .filter((file) => file.isFile() && /^Ga(?:b|nb)arito.*\.txt$/i.test(file.name))
+    .filter((file) => file.isFile() && /^(?:Ga(?:b|nb)arito|Gabarto).*\.txt$/i.test(file.name))
     .sort((left, right) => left.name.localeCompare(right.name, "pt-BR"));
 
   if (answerFiles.length === 0) throw new Error(`Área ${area.number}, sessão ${sessionNumber}: nenhum Gabarito TXT encontrado.`);
@@ -840,7 +990,7 @@ if (JSON.stringify(activeCounts) !== JSON.stringify(expectedActiveCounts)) {
 questionBank.areas = importedAreas;
 questionBank.missingSessions = [];
 questionBank.generatedAt = "2026-09-28";
-questionBank.contentSource = "PMP - BOOK 8, áreas 1–8";
+questionBank.contentSource = "PMP - BOOK 8, áreas 1–12";
 questionBank.excludedUnsupported = [];
 questionBank.recoveredVisualQuestions = importedAreas.flatMap((area) => area.sessions.flatMap((session) => session.questions.filter((question) => question.visual || question.support).map((question) => question.id)));
 questionBank.removedDuplicates = skippedDuplicates;

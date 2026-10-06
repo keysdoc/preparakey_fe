@@ -163,7 +163,7 @@ test("banco de questões possui IDs e respostas consistentes", async () => {
 
     if (question.type === "image_hotspot") {
       assert.ok(question.visual?.kind, question.id);
-      assert.ok(Array.isArray(question.visual.zones) && question.visual.zones.length >= 4, question.id);
+      assert.ok(Array.isArray(question.visual.zones) && question.visual.zones.length >= (question.visual.kind === "mvp-sequences" ? 3 : 4), question.id);
       const zoneIds = new Set(question.visual.zones.map((zone) => zone.id));
       assert.equal(zoneIds.size, question.visual.zones.length, question.id);
       assert.ok(question.visual.zones.every((zone) => zone.id && zone.label), question.id);
@@ -194,9 +194,13 @@ test("somente a nova base autorizada é carregada", async () => {
     "5. Visão comum, liderança da equipe e conflitos",
     "6. Iniciação do projeto e termo de abertura",
     "7. Partes interessadas e transferência de conhecimento",
-    "8. Planejamento integrado do projeto"
+    "8. Planejamento integrado do projeto",
+    "9. Comunicações e relatórios",
+    "10. Escopo, requisitos, backlog e aceitação",
+    "11. Qualidade incorporada a processos e entregas",
+    "12. Cronograma, estimativas, capacidade e fluxo"
   ];
-  const expectedCounts = [132, 148, 184, 125, 139, 55, 210, 55];
+  const expectedCounts = [132, 148, 184, 125, 139, 55, 210, 55, 189, 154, 127, 126];
   const questions = data.areas.flatMap((area) => area.sessions.flatMap((session) => session.questions));
 
   assert.equal(data.simulados.length, 1, "o simulado existente deve permanecer único");
@@ -205,8 +209,8 @@ test("somente a nova base autorizada é carregada", async () => {
     Array.from(data.areas, (area) => area.sessions.reduce((total, session) => total + session.questions.length, 0)),
     expectedCounts
   );
-  assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–8");
-  assert.equal(questions.length, 1048);
+  assert.equal(data.contentSource, "PMP - BOOK 8, áreas 1–12");
+  assert.equal(questions.length, 1644);
 
   for (const [areaIndex, area] of data.areas.entries()) {
     assert.equal(area.sessions.length, 16, `${area.title}: sessões 1–16`);
@@ -229,15 +233,28 @@ test("somente a nova base autorizada é carregada", async () => {
     "area7-s7-q3",
     "area7-s7-q11",
     "area7-s8-q3",
-    "area7-s14-q5"
+    "area7-s14-q5",
+    "area9-s3-q4",
+    "area9-s11-q1",
+    "area10-s3-q4",
+    "area11-s1-q4"
   ]);
   assert.deepEqual(Array.from(data.removedDuplicates, (item) => item.id), [
     "fund-s8-q2",
     "area2-s16-q6",
     "area4-s6-q6",
-    "area6-s13-q4"
+    "area6-s13-q4",
+    "area11-s16-q1",
+    "area11-s16-q2",
+    "area11-s16-q3",
+    "area11-s16-q4",
+    "area11-s16-q5",
+    "area11-s16-q6",
+    "area11-s16-q7",
+    "area11-s16-q8",
+    "area11-s16-q9"
   ]);
-  assert.ok(questions.every((question) => !/^9\./.test(String(question.source))));
+  assert.ok(questions.every((question) => !/^13\./.test(String(question.source))));
 
   const normalized = (value) => String(value ?? "").normalize("NFC").replace(/\s+/g, " ").trim();
   const fingerprints = questions.map((question) => JSON.stringify({
@@ -276,6 +293,9 @@ test("sessões exclusivamente em imagem preservam conteúdo e gabarito verificad
   const areaSevenSessionEight = data.areas[6].sessions[7];
   const areaEightSessionNine = data.areas[7].sessions[8];
   const areaEightSessionTwelve = data.areas[7].sessions[11];
+  const areaNineSessionThree = data.areas[8].sessions[2];
+  const areaNineSessionFour = data.areas[8].sessions[3];
+  const areaNineSessionEleven = data.areas[8].sessions[10];
 
   assert.equal(areaSevenSessionEight.questions.length, 13, "Hot Area 7-8-3 deve usar o componente visual");
   assert.deepEqual(Array.from(areaSevenSessionEight.questions, (question) => question.number), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
@@ -285,6 +305,11 @@ test("sessões exclusivamente em imagem preservam conteúdo e gabarito verificad
   assert.deepEqual(Array.from(areaEightSessionTwelve.questions, (question) => question.answer[0]), ["B", "A", "D"]);
   assert.match(areaEightSessionTwelve.questions[0].question, /Renovação Automática de Medicamentos/);
   assert.ok(areaEightSessionNine.questions.every((question) => question.reference.includes("Gabarito - 8.9.png")));
+  assert.deepEqual(Array.from(areaNineSessionThree.questions, (question) => question.answer[0]), ["A", "C", "D", "D", "A", "A", "C", "B", "C", "B", "B"]);
+  assert.equal(areaNineSessionThree.questions[3].support?.type, "burndown");
+  assert.equal(areaNineSessionFour.questions.length, 12);
+  assert.equal(areaNineSessionEleven.questions[0].support?.type, "case");
+  assert.deepEqual(Array.from(areaNineSessionEleven.questions[8].answer), ["A", "E"]);
 });
 
 test("áreas reutilizam os cards e o questionário existentes sem sistema paralelo", async () => {
@@ -306,7 +331,8 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
   assert.doesNotMatch(app, /PREPARAKEY_BOOK8|renderBook8|book8Question/);
   assert.doesNotMatch(styles, /\.book8-/);
   assert.match(importer, /8\. Planejamento integrado do projeto/);
-  assert.doesNotMatch(importer, /folder:\s*"9\./);
+  assert.match(importer, /12\. Cronograma, estimativas, capacidade e fluxo/);
+  assert.doesNotMatch(importer, /folder:\s*"13\./);
   assert.doesNotMatch(importer, /readdir\(sourceRoot/);
   await assert.rejects(access(path.join(projectRoot, "js", "book8.js")));
   await assert.rejects(access(path.join(projectRoot, "scripts", "import-book8.mjs")));
@@ -322,7 +348,7 @@ test("materiais visuais usam HTML acessível sem publicar capturas completas", a
   const visual = questions.filter((question) => question.type === "image_hotspot");
   const tables = questions.filter((question) => question.support?.type === "table");
 
-  assert.equal(visual.length, 5);
+  assert.equal(visual.length, 7);
   assert.equal(tables.length, 2);
   assert.ok(visual.every((question) => question.audit?.confidence === "high" && question.audit.reviewRequired === false));
   assert.ok(tables.every((question) => question.audit?.confidence === "high" && question.audit.reviewRequired === false));
@@ -336,6 +362,8 @@ test("materiais visuais usam HTML acessível sem publicar capturas completas", a
   assert.match(app, /toque na opção e depois no destino/);
   assert.match(styles, /\.hotspot-canvas/);
   assert.match(styles, /\.support-table-wrap/);
+  assert.match(styles, /\.hotspot-sequence-grid/);
+  assert.match(styles, /\.hotspot-scatter-grid/);
   assert.match(styles, /@media\(max-width:620px\)/);
   assert.match(styles, /@media\(forced-colors:active\)/);
 });
@@ -345,12 +373,12 @@ test("auditoria de conteúdo mantém inventário e rastreabilidade verificáveis
   const rows = (await read("docs/content-audit.csv")).trim().split(/\r?\n/);
   const auditScript = await read("scripts/audit-content.mjs");
 
-  assert.equal(rows.length, 1049, "cabeçalho mais uma linha por questão ativa");
-  assert.match(report, /1432 arquivos/);
-  assert.match(report, /1048 questões/);
-  assert.match(report, /5 hotspots e 2 tabelas/);
-  assert.match(report, /Área 9 — Comunicações e relatórios/);
-  assert.match(report, /Áreas 10–22/);
+  assert.equal(rows.length, 1645, "cabeçalho mais uma linha por questão ativa");
+  assert.match(report, /2240 arquivos/);
+  assert.match(report, /1644 questões/);
+  assert.match(report, /7 hotspots e 2 tabelas/);
+  assert.match(report, /9\. Comunicações e relatórios/);
+  assert.match(report, /Área 13 e demais áreas posteriores/);
   assert.match(report, /PERUNTAS A PADRONIZAR WEB\/15\.png/);
   assert.match(auditScript, /sha256/);
   assert.match(auditScript, /reviewRequired/);

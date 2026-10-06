@@ -53,7 +53,7 @@ function questionType(question) {
 
 function alternativesComplete(question) {
   if (question.type === "matching") return question.pairs?.length > 0 && question.pairs.every((pair) => pair.left && pair.right);
-  if (question.type === "image_hotspot") return question.visual?.zones?.length >= 4 && question.visual.zones.every((zone) => zone.id && zone.label);
+  if (question.type === "image_hotspot") return question.visual?.zones?.length >= (question.visual.kind === "mvp-sequences" ? 3 : 4) && question.visual.zones.every((zone) => zone.id && zone.label);
   return question.options?.length >= 2 && question.options.every((option) => option.id && option.text);
 }
 
@@ -160,8 +160,8 @@ for (const file of specialFiles) {
 
 const duplicateRows = bank.removedDuplicates || [];
 const recovered = activeQuestions.filter(({ question }) => question.visual || question.support).map(({ question }) => question);
-const pendingArea = inventory.find((entry) => entry.name.startsWith("9."));
-const emptyAreas = inventory.filter((entry) => numericPrefix(entry.name) >= 10 && numericPrefix(entry.name) <= 22 && entry.files === 0);
+const emptyAreas = inventory.filter((entry) => numericPrefix(entry.name) >= 13 && numericPrefix(entry.name) <= 22 && entry.files === 0);
+const outOfScopeAreas = inventory.filter((entry) => numericPrefix(entry.name) >= 13 && numericPrefix(entry.name) <= 22 && entry.files > 0);
 const totalPng = inventory.reduce((total, entry) => total + entry.png, 0);
 const totalTxt = inventory.reduce((total, entry) => total + entry.txt, 0);
 
@@ -196,9 +196,9 @@ ${inventory.map((entry) => `| ${entry.name.replaceAll("|", "\\|")} | ${entry.fil
 
 | ID | Origem comprovada | Implementação | Confiança |
 |---|---|---|---|
-${recovered.map((question) => `| ${question.id} | ${(question.audit?.recoveredFrom || []).join(" + ")} | ${question.type === "image_hotspot" ? `hotspot \`${question.visual.kind}\`` : "tabela HTML semântica"} | ${question.audit?.confidence || "alta"} |`).join("\n")}
+${recovered.map((question) => `| ${question.id} | ${(question.audit?.recoveredFrom || []).join(" + ")} | ${question.type === "image_hotspot" ? `hotspot \`${question.visual.kind}\`` : question.support?.type === "table" ? "tabela HTML semântica" : question.support?.type === "case" ? "caso de estudo HTML" : "gráfico SVG semântico"} | ${question.audit?.confidence || "alta"} |`).join("\n")}
 
-Os hotspots foram recriados com zonas de resposta estáveis, identificadas por ID, sem copiar a interface antiga ou expor a marcação do gabarito. As tabelas são conteúdo de consulta e, por isso, não foram transformadas em células de resposta.
+Os hotspots foram recriados com zonas de resposta estáveis, identificadas por ID, sem copiar a interface antiga ou expor a marcação do gabarito. Tabelas, casos e gráficos são conteúdo de consulta e, por isso, não foram transformados em células de resposta.
 
 ## Duplicatas e imagens especiais
 
@@ -212,13 +212,12 @@ ${specialMappings.map((item) => `- \`${item.file}\` → ${item.matches.length ? 
 
 ## Pendências reais fora da base publicada
 
-- **Área 9 — Comunicações e relatórios:** ${pendingArea?.files || 0} arquivos (${pendingArea?.png || 0} PNG e ${pendingArea?.txt || 0} TXT), com conteúdo apenas nas sessões ${pendingArea?.nonemptySessions || "—"}. Ela permanece fora da publicação porque a base vigente e o importador validado abrangem explicitamente as áreas 1–8; as sessões 3 e 4 dependem apenas de imagens e exigem transcrição e validação próprias antes de qualquer ampliação de escopo.
-- **Áreas 10–22:** ${emptyAreas.length} pastas encontradas, todas sem arquivos de conteúdo. Não há texto, alternativa ou gabarito a publicar sem invenção.
+- **Área 13 e demais áreas posteriores:** ${outOfScopeAreas.map((entry) => `${entry.name} (${entry.files} arquivos, ${entry.png} PNG e ${entry.txt} TXT)`).join(", ") || "nenhuma pasta com arquivos"}; ${emptyAreas.length} pastas adicionais estão vazias. Todo esse conteúdo permanece fora do fluxo por limite explícito em 12; não há importação sem texto/gabarito validável.
 - Nenhuma das limitações acima reduz a fidelidade das ${auditRows.length} questões ativas.
 
 ## Regras de rastreabilidade
 
-- O importador valida hashes SHA-256 das sete recuperações visuais antes de gerar o banco.
+- O importador valida hashes SHA-256 das imagens recuperadas antes de gerar o banco.
 - Cada questão visual contém \`audit.recoveredFrom\`, confiança e sinalizador de revisão.
 - IDs visuais, pares, zonas e respostas são validados nos testes automatizados.
 - Capturas completas não são copiadas para o pacote público; somente conteúdo didático confirmado é representado em HTML/CSS.
@@ -229,7 +228,7 @@ await writeFile(path.join(docsDirectory, "content-audit.csv"), csvContents, "utf
 await writeFile(path.join(docsDirectory, "content-audit.md"), `${markdown}\n`, "utf8");
 
 if (specialMappings.some((item) => item.matches.length === 0)) throw new Error("Há imagens de padronização sem correspondência na fonte.");
-if (auditRows.some((row) => row[3] !== "Sim" || row[4] !== "Sim" || row[5] !== "Sim")) throw new Error("Há questões ativas incompletas ou sem gabarito verificável.");
+if (auditRows.some((row) => row[3] !== "Sim" || row[4] !== "Sim" || row[5] !== "Sim")) throw new Error(`Há questões ativas incompletas ou sem gabarito verificável: ${auditRows.filter((row) => row[3] !== "Sim" || row[4] !== "Sim" || row[5] !== "Sim").map((row) => row[0]).join(", ")}`);
 if (activeIds.size !== auditRows.length) throw new Error("Há IDs duplicados na base ativa.");
 
 console.log(`Auditoria concluída: ${allSourceFiles.length} arquivos-fonte, ${auditRows.length} questões ativas e ${recovered.length} recuperações visuais.`);
