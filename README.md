@@ -93,13 +93,19 @@ Para diagnosticar uma falha, execute primeiro `npm ci` e depois o mesmo comando 
 
 ## Deploy
 
-O workflow `.github/workflows/deploy.yml` publica em GitHub Pages somente quando a variável de repositório `ENABLE_GITHUB_PAGES` é `true` e o workflow `CI` termina com sucesso para um `push` na branch `main`. Pull requests e pushes em outras branches executam apenas CI. O deploy faz checkout exato do commit validado, instala dependências sem cache privilegiado, refaz o build e publica `dist/`.
+### Netlify (produção)
 
-Não são necessários secrets. O workflow usa apenas o `GITHUB_TOKEN` efêmero com permissões mínimas de Pages e OIDC.
+O site de produção é [https://prepkey.netlify.app](https://prepkey.netlify.app), ligado à branch `main` do repositório `keysdoc/preparakey_fe` pela integração nativa Git do Netlify. A configuração versionada em `netlify.toml` fixa Node.js 24/npm 10.9.8, audita as dependências, executa `npm run check` e publica exclusivamente o artefato `dist/`. Assim, auditoria, lint, verificação de segredos, testes, validação dos workflows e build precisam passar antes da publicação.
 
-Antes do primeiro deploy, configure o repositório no GitHub em **Settings > Pages > Build and deployment > Source > GitHub Actions** e crie `ENABLE_GITHUB_PAGES=true` em **Settings > Secrets and variables > Actions > Variables**. Depois de configurado, cada CI aprovado em `main` inicia o deploy automaticamente. Para repetir manualmente um deploy, abra a execução concluída do workflow **Deploy** no GitHub Actions e selecione **Re-run jobs**; isso reutiliza um commit cujo CI já passou.
+Pushes em `main` geram deploy de produção. Pull requests podem gerar Deploy Previews pela integração do Netlify. Não há credenciais no repositório: a autorização entre GitHub e Netlify é administrada pela instalação Git do site. O `NETLIFY_SITE_ID`, quando usado para comandos administrativos ou deploys manuais, deve permanecer cadastrado como secret e nunca ser incluído nos arquivos públicos.
 
-O plano atual da conta não permite GitHub Pages enquanto este repositório for privado. Até que o plano seja alterado, outro provedor seja escolhido ou a visibilidade seja modificada com autorização explícita, mantenha `ENABLE_GITHUB_PAGES` ausente; o job de deploy ficará marcado como ignorado e nenhuma publicação será simulada.
+Para diagnosticar uma falha, abra **Netlify > prepkey > Deploys**, identifique a primeira etapa com erro e reproduza localmente com `npm ci` e `npm run check`. Um deploy manual de recuperação, somente por operador autenticado, pode ser feito depois de um build validado com `netlify deploy --dir dist --prod --site <NETLIFY_SITE_ID>`.
+
+### GitHub Pages (espelho)
+
+O workflow `.github/workflows/deploy.yml` também publica um espelho em GitHub Pages quando a variável de repositório `ENABLE_GITHUB_PAGES` é `true` e o workflow `CI` termina com sucesso para um `push` na branch `main`. Pull requests e pushes em outras branches executam apenas CI. Esse deploy faz checkout exato do commit validado, instala dependências, refaz o build e publica `dist/` usando apenas o `GITHUB_TOKEN` efêmero com permissões mínimas de Pages e OIDC.
+
+Para repetir o espelho manualmente, abra a execução concluída do workflow **Deploy** no GitHub Actions e selecione **Re-run jobs**; isso reutiliza um commit cujo CI já passou.
 
 ## Publicação
 
