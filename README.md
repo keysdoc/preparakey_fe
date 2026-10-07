@@ -64,7 +64,7 @@ npm run audit:content -- --source "C:\Users\adm\Documents\Screenshots\PMP - BOOK
 
 O relatório consolidado está em [`docs/content-audit.md`](docs/content-audit.md), e a tabela linha a linha das questões publicadas está em [`docs/content-audit.csv`](docs/content-audit.csv). A área 13 contém apenas imagens sem TXT/gabarito validável e as áreas 14–22 estão vazias; todas permanecem fora do produto pelo limite explícito em 12.
 
-O simulado existente permanece único e referencia somente as 16 sessões da primeira área, sem copiar perguntas. “Áreas de Conhecimento” reutiliza os cards de área/sessão e o mesmo questionário da aplicação.
+O simulado existente permanece único e referencia somente as 16 sessões da primeira área, sem copiar perguntas. “Áreas de Conhecimento” reutiliza os cards de área/sessão e o mesmo questionário da aplicação. A lista mostra inicialmente cinco áreas e oferece o controle acessível “Exibir mais/Exibir menos” quando houver áreas adicionais.
 
 O planejamento integrado desta entrega, incluindo escopo, qualidade, riscos, dependências e pendências externas, está em [`docs/planejamento-integrado.md`](docs/planejamento-integrado.md).
 

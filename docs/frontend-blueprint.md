@@ -42,7 +42,7 @@ Não há roteador externo. A navegação usa hashes e `history.pushState`, prese
 ## Componentes e responsabilidades
 
 - `app-shell`: estrutura persistente com sidebar, topbar, conteúdo e navegação móvel.
-- `study-card`: card reutilizado por áreas, sessões e simulados; contém status e CTA.
+- `study-card`: card reutilizado por áreas, sessões e simulados; contém status e CTA. Na visão de áreas, cinco cards são exibidos inicialmente e o botão semântico `toggleAreasBtn` expande/recolhe os demais sem alterar os dados ou o estado selecionado.
 - `quiz-container`: pergunta, metadados, opções, associações, materiais de apoio, hotspots e feedback.
 - `support-table`: tabela semântica e rolável somente quando a imagem-fonte contém material de consulta.
 - `hotspot-canvas`: diagrama responsivo com zonas acionáveis por toque, mouse ou teclado; não publica capturas da interface antiga.

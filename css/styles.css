@@ -295,4 +295,6 @@ body.light .match-token-bank{background:#f8fafc}
   .hotspot-zone.correct{outline:3px solid LinkText}.hotspot-zone.wrong{outline:3px solid Mark}
 }
 
+.center-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+
 @media(prefers-reduced-motion:reduce){.hotspot-zone{transition:none!important}}

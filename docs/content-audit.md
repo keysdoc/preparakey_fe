@@ -1,10 +1,11 @@
 # Auditoria de conteúdo — PMP Book 8
 
-Gerado em 28/09/2026 pelo script reproduzível `npm run audit:content`. A tabela linha a linha das 1644 questões publicadas está em [content-audit.csv](./content-audit.csv).
+Gerado pelo script reproduzível `npm run audit:content`. A tabela linha a linha das 1644 questões publicadas está em [content-audit.csv](./content-audit.csv).
 
 ## Escopo e resultado
 
 - Fonte auditada: `C:\Users\adm\Documents\Screenshots\PMP - BOOK 8`.
+- Escopo autorizado, áreas 1–12: **2113 arquivos processados** (**1924 PNG** e **189 TXT**).
 - Inventário integral: **2240 arquivos** (**2051 PNG** e **189 TXT**) em todas as pastas encontradas.
 - Base publicada: **12 áreas**, **192 sessões** e **1644 questões**.
 - Tipos publicados: image_hotspot, matching, multiple_choice, multiple_selection.

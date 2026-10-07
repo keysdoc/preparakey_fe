@@ -111,6 +111,37 @@ test("progressão libera próximo simulado ou sessão somente após aprovação"
   assert.match(styles, /\.study-card\.completed/);
 });
 
+test("lista de áreas exibe cinco itens e permite expandir sem perder a seleção", async () => {
+  const html = await read("app.html");
+  const app = await read("js/app.js");
+  const displayedSource = app.match(/function displayedAreas\(areas,expanded,limit=5\)\{return expanded\?areas:areas\.slice\(0,limit\)\}/)?.[0];
+  const toggleSource = app.match(/function canToggleAreas\(areas,limit=5\)\{return areas\.length>limit\}/)?.[0];
+
+  assert.ok(displayedSource, "função de limite das áreas ausente");
+  assert.ok(toggleSource, "função de disponibilidade do controle ausente");
+  const displayedAreas = vm.runInNewContext(`(${displayedSource})`);
+  const canToggleAreas = vm.runInNewContext(`(${toggleSource})`);
+
+  for (const count of [1, 5]) {
+    const areas = Array.from({ length: count }, (_, index) => index + 1);
+    assert.deepEqual(Array.from(displayedAreas(areas, false)), areas);
+    assert.equal(canToggleAreas(areas), false);
+  }
+
+  for (const count of [6, 12]) {
+    const areas = Array.from({ length: count }, (_, index) => index + 1);
+    assert.deepEqual(Array.from(displayedAreas(areas, false)), [1, 2, 3, 4, 5]);
+    assert.deepEqual(Array.from(displayedAreas(areas, true)), areas);
+    assert.equal(canToggleAreas(areas), true);
+  }
+
+  assert.match(html, /id="toggleAreasBtn"[^>]*aria-controls="areaGrid"[^>]*aria-expanded="false"[^>]*hidden>Exibir mais/);
+  assert.match(app, /toggleAreasBtn\.textContent=areasExpanded\?'Exibir menos':'Exibir mais'/);
+  assert.match(app, /toggleAreasBtn\.setAttribute\('aria-expanded',String\(areasExpanded\)\)/);
+  assert.match(app, /renderAreas\(\{preserveExpansion:true,preserveSelection:true\}\)/);
+  assert.match(app, /if\(!preserveSelection\)selectedAreaId=null/);
+});
+
 test("service worker armazena apenas recursos existentes", async () => {
   const serviceWorker = await read("sw.js");
   const assetsMatch = serviceWorker.match(/const ASSETS=(\[[^;]+\])/);
@@ -320,7 +351,7 @@ test("áreas reutilizam os cards e o questionário existentes sem sistema parale
 
   assert.equal((html.match(/class="nav-item app-nav"[^>]*data-view="areas"/g) || []).length, 1);
   assert.equal((html.match(/class="mobile-nav-item app-nav"[^>]*data-view="areas"/g) || []).length, 1);
-  assert.match(app, /function renderAreas\(\)/);
+  assert.match(app, /function renderAreas\(/);
   assert.match(app, /function renderSessions\(area\)/);
   assert.match(app, /const allSessions=area\.sessions/);
   assert.match(app, /card\.className=`study-card/);
@@ -374,6 +405,7 @@ test("auditoria de conteúdo mantém inventário e rastreabilidade verificáveis
   const auditScript = await read("scripts/audit-content.mjs");
 
   assert.equal(rows.length, 1645, "cabeçalho mais uma linha por questão ativa");
+  assert.match(report, /2113 arquivos processados/);
   assert.match(report, /2240 arquivos/);
   assert.match(report, /1644 questões/);
   assert.match(report, /7 hotspots e 2 tabelas/);

@@ -164,6 +164,11 @@ const emptyAreas = inventory.filter((entry) => numericPrefix(entry.name) >= 13 &
 const outOfScopeAreas = inventory.filter((entry) => numericPrefix(entry.name) >= 13 && numericPrefix(entry.name) <= 22 && entry.files > 0);
 const totalPng = inventory.reduce((total, entry) => total + entry.png, 0);
 const totalTxt = inventory.reduce((total, entry) => total + entry.txt, 0);
+const publishedAreaNames = new Set(bank.areas.map((area) => area.title));
+const scopedInventory = inventory.filter((entry) => publishedAreaNames.has(entry.name));
+const scopedFiles = scopedInventory.reduce((total, entry) => total + entry.files, 0);
+const scopedPng = scopedInventory.reduce((total, entry) => total + entry.png, 0);
+const scopedTxt = scopedInventory.reduce((total, entry) => total + entry.txt, 0);
 
 const header = [
   "ID da questão", "arquivo de texto", "imagem relacionada", "texto completo?", "alternativas completas?",
@@ -174,11 +179,12 @@ const csvContents = `\uFEFF${[header, ...auditRows].map((row) => row.map(csv).jo
 
 const markdown = `# Auditoria de conteúdo — PMP Book 8
 
-Gerado em 28/09/2026 pelo script reproduzível \`npm run audit:content\`. A tabela linha a linha das ${auditRows.length} questões publicadas está em [content-audit.csv](./content-audit.csv).
+Gerado pelo script reproduzível \`npm run audit:content\`. A tabela linha a linha das ${auditRows.length} questões publicadas está em [content-audit.csv](./content-audit.csv).
 
 ## Escopo e resultado
 
 - Fonte auditada: \`${sourceRoot}\`.
+- Escopo autorizado, áreas 1–12: **${scopedFiles} arquivos processados** (**${scopedPng} PNG** e **${scopedTxt} TXT**).
 - Inventário integral: **${allSourceFiles.length} arquivos** (**${totalPng} PNG** e **${totalTxt} TXT**) em todas as pastas encontradas.
 - Base publicada: **${bank.areas.length} áreas**, **${bank.areas.reduce((total, area) => total + area.sessions.length, 0)} sessões** e **${auditRows.length} questões**.
 - Tipos publicados: ${[...new Set(activeQuestions.map(({ question }) => questionType(question)))].sort().join(", ")}.
